@@ -1,3 +1,8 @@
+! Title: Anifiltrs
+! Expires: 1 days
+! Homepage: https://github.com/Karmesinrot/Anifiltrs
+! Description: Personal filters for anime streaming
+
 ! DAG ---------------------------------------------------------
 @@||discordapp.com/api/gateway$xmlhttprequest,domain=9anime.to
 @@||discordapp.com/api/gateway$xmlhttprequest,domain=9anime.is
