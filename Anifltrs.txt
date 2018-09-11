@@ -1,0 +1,16 @@
+! DAG ---------------------------------------------------------
+@@||discordapp.com/api/gateway$xmlhttprequest,domain=9anime.to
+@@||discordapp.com/api/gateway$xmlhttprequest,domain=9anime.is
+@@||discordapp.com/api/gateway$xmlhttprequest,domain=9anime.ru
+@@||discordapp.com/api/gateway$xmlhttprequest,domain=9anime.ch
+@@||gateway.discord.gg/?encoding=json&v=6$websocket,domain=9anime.to
+@@||gateway.discord.gg/?encoding=json&v=6$websocket,domain=9anime.is
+@@||gateway.discord.gg/?encoding=json&v=6$websocket,domain=9anime.ru
+@@||gateway.discord.gg/?encoding=json&v=6$websocket,domain=9anime.ch
+@@||discordapp.com^
+@@||gateway.discord.gg^
+
+! 9Anime Episode list
+@@||9anime.to/sw.js$script,first-party
+@@||www1.9anime.to/assets/min/frontend/all.js?8255033a$script,domain=www1.9anime.to
+@@||9anime.to/assets/min/frontend/all.js?8255033a$script,first-party
