@@ -17,5 +17,5 @@
 
 ! 9Anime Episode list
 @@||9anime.to/sw.js$script,first-party
-@@||www1.9anime.to/assets/min/frontend/all.js?8255033a$script,domain=www1.9anime.to
+@@||9anime.to/assets/min/frontend/all.js$script,first-party
 @@||9anime.to/assets/min/frontend/all.js?8255033a$script,first-party
