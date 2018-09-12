@@ -15,6 +15,13 @@
 @@||discordapp.com^
 @@||gateway.discord.gg^
 
+! KAL ---------------------------------------------------------
+@@||www.google.com/s2/favicons?domain=www.crunchyroll.com$image,domain=kissanime.ru
+@@||www.google.com/s2/favicons?domain=www2.gogoanime.tv$image,domain=kissanime.ru
+@@||www.google.com/s2/favicons?domain=www7.9anime.is$image,domain=kissanime.ru
+@@||www.google.com/s2/favicons?domain=kissanime.ru$image,domain=kissanime.ru
+@@||www.google.com/s2/favicons?domain=www.masterani.me$image,domain=kissanime.ru
+
 ! 9Anime Episode list
 @@||9anime.to/sw.js$script,first-party
 @@||9anime.to/assets/min/frontend/all.js$script,first-party
