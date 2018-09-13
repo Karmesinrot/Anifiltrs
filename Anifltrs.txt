@@ -28,3 +28,16 @@
 @@||www.google.com/s2/favicons?domain=kissmanga.com$image,domain=kissmanga.com
 @@||myanimelist.cdn-dena.com/*$image,domain=kissmanga.com
 
+!9anime Cosmetic Filters
+!removes adframes and warning message
+www1.9anime.to##.alert-primary.alert
+www1.9anime.to##div.text-center.widget:nth-of-type(7) > div
+www1.9anime.to##.hidden-sm.hidden-xs.alert-warning.alert
+www1.9anime.to##div.mgid:nth-child(1)
+www1.9anime.to##div.crop:nth-child(3)
+www1.9anime.to##.widget.crop.text-center.bebi
+www1.9anime.to##.widget.crop.text-center
+
+!Kissanime Cosmetic Filter
+!removes the annoying "Blocking ads on KissAnime could lead to suspension/ban" msg
+kissanime.ru##div.rightBox:nth-of-type(1)
