@@ -28,7 +28,3 @@
 @@||www.google.com/s2/favicons?domain=kissmanga.com$image,domain=kissmanga.com
 @@||myanimelist.cdn-dena.com/*$image,domain=kissmanga.com
 
-! 9Anime Episode list
-@@||9anime.to/sw.js$script,first-party
-@@||9anime.to/assets/min/frontend/all.js$script,first-party
-@@||9anime.to/assets/min/frontend/all.js?8255033a$script,first-party
