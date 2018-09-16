@@ -17,7 +17,7 @@
 
 ! KAL ---------------------------------------------------------
 !To counter favicons and images broken by easylist
-@@||raw.githubusercontent.com/lolamtisch/KissAnimeList/master/Screenshots/2fhq9cL.gif$image,domain=kissmanga.com
+@@||raw.githubusercontent.com/lolamtisch/KissAnimeList/master/Screenshots/*$image,domain=kissmanga.com
 @@||www.google.com/s2/favicons?domain=www.crunchyroll.com$image,domain=kissanime.ru
 @@||www.google.com/s2/favicons?domain=www2.gogoanime.tv$image,domain=kissanime.ru
 @@||www.google.com/s2/favicons?domain=9anime.to$image,domain=kissanime.ru
@@ -41,3 +41,7 @@ www1.9anime.to##.widget.crop.text-center
 !Kissanime Cosmetic Filter
 !removes the annoying "Blocking ads on KissAnime could lead to suspension/ban" msg
 kissanime.ru##div.rightBox:nth-of-type(1)
+
+!MyAnimeList Cosmetic Filters
+!Removes MAL Privacy Policy statement mask when not logged in
+myanimelist.net##.root
