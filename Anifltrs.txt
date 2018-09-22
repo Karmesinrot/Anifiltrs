@@ -4,14 +4,8 @@
 ! Description: Personal filters for anime streaming
 
 ! DAG ---------------------------------------------------------
-@@||discordapp.com/api/gateway$xmlhttprequest,domain=9anime.to
-@@||discordapp.com/api/gateway$xmlhttprequest,domain=9anime.is
-@@||discordapp.com/api/gateway$xmlhttprequest,domain=9anime.ru
-@@||discordapp.com/api/gateway$xmlhttprequest,domain=9anime.ch
-@@||gateway.discord.gg/?encoding=json&v=6$websocket,domain=9anime.to
-@@||gateway.discord.gg/?encoding=json&v=6$websocket,domain=9anime.is
-@@||gateway.discord.gg/?encoding=json&v=6$websocket,domain=9anime.ru
-@@||gateway.discord.gg/?encoding=json&v=6$websocket,domain=9anime.ch
+@@||discordapp.com/api/gateway$xmlhttprequest,domain=9anime.*
+@@||gateway.discord.gg/?encoding=json&v=6$websocket,domain=9anime.*
 @@||discordapp.com^
 @@||gateway.discord.gg^
 
@@ -19,28 +13,25 @@
 !To counter favicons and images broken by easylist
 @@||www.google.com/s2/favicons?domain=www.crunchyroll.com$image,domain=kissanime.ru
 @@||www.google.com/s2/favicons?domain=www2.gogoanime.tv$image,domain=kissanime.ru
-@@||www.google.com/s2/favicons?domain=www*.9anime.*$image,domain=kissanime.ru
-@@||www.google.com/s2/favicons?domain=9anime.$image,domain=kissanime.ru
+@@||www.google.com/s2/favicons?domain=9anime.*$image,domain=kissanime.ru
 @@||www.google.com/s2/favicons?domain=kissanime.ru$image,domain=kissanime.ru
 @@||www.google.com/s2/favicons?domain=www.masterani.me$image,domain=kissanime.ru
 @@||raw.githubusercontent.com/lolamtisch/KissAnimeList/master/Screenshots/$image,domain=kissmanga.com
 @@||www.google.com/s2/favicons?domain=mangadex.org$image,domain=kissmanga.com
 @@||www.google.com/s2/favicons?domain=kissmanga.com$image,domain=kissmanga.com
-@@||myanimelist.cdn-dena.com/$image,domain=kissmanga.com
+@@||myanimelist.cdn-dena.com^$image,domain=kissmanga.com
 
 !9anime Cosmetic Filters
 !removes adframes and warning message
-www1.9anime.to,9anime.to,www4.9anime.is##.alert-primary.alert
-www1.9anime.to,9anime.to,www4.9anime.is##div.text-center.widget:nth-of-type(7) > div
-www1.9anime.to,9anime.to,www4.9anime.is##.hidden-sm.hidden-xs.alert-warning.alert
-www1.9anime.to,9anime.to,www4.9anime.is##div.mgid:nth-child(1)
-www1.9anime.to,9anime.to,www4.9anime.is##div.crop:nth-child(3)
-www1.9anime.to,9anime.to,www4.9anime.is##.widget.crop.text-center.bebi
-www1.9anime.to,9anime.to,www4.9anime.is##.widget.crop.text-center
+9anime.*##div.text-center.widget:nth-of-type(7) > div
+9anime.*##.hidden-sm.hidden-xs.alert-warning.alert
+9anime.*##div.mgid:nth-child(1)
+9anime.*##div.crop:nth-child(3)
+9anime.*##.widget.crop.text-center
 
 !Kissanime Cosmetic Filter
 !removes the annoying "Blocking ads on KissAnime could lead to suspension/ban" msg
-kissanime.ru##div.rightBox:nth-of-type(1)
+kissanime.ru##div.rightBox:nth-child(1) > div:nth-child(2) > div:nth-child(2) > p:nth-child(1):has-text(Blocking ads)
 
 !MyAnimeList Cosmetic Filters
 !Mal Privacy Policy statement mask when not logged in
