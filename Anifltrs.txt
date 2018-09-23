@@ -14,6 +14,7 @@
 @@||www.google.com/s2/favicons?domain=www.crunchyroll.com$image,domain=kissanime.ru
 @@||www.google.com/s2/favicons?domain=www2.gogoanime.tv$image,domain=kissanime.ru
 @@||www.google.com/s2/favicons?domain=9anime.*$image,domain=kissanime.ru
+@@||www.google.com/s2/favicons?domain=www*.9anime.*$image,domain=kissanime.ru
 @@||www.google.com/s2/favicons?domain=kissanime.ru$image,domain=kissanime.ru
 @@||www.google.com/s2/favicons?domain=www.masterani.me$image,domain=kissanime.ru
 @@||raw.githubusercontent.com/lolamtisch/KissAnimeList/master/Screenshots/$image,domain=kissmanga.com
