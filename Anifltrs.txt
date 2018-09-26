@@ -14,7 +14,6 @@
 @@||www.google.com/s2/favicons?domain=www.crunchyroll.com$image,domain=kissanime.ru
 @@||www.google.com/s2/favicons?domain=www2.gogoanime.tv$image,domain=kissanime.ru
 @@||www.google.com/s2/favicons?domain=9anime.*$image,domain=kissanime.ru
-@@||www.google.com/s2/favicons?domain=www*.9anime.*$image,domain=kissanime.ru
 @@||www.google.com/s2/favicons?domain=kissanime.ru$image,domain=kissanime.ru
 @@||www.google.com/s2/favicons?domain=www.masterani.me$image,domain=kissanime.ru
 @@||raw.githubusercontent.com/lolamtisch/KissAnimeList/master/Screenshots/$image,domain=kissmanga.com
@@ -32,8 +31,12 @@
 
 !Kissanime Cosmetic Filter
 !removes the annoying "Blocking ads on KissAnime could lead to suspension/ban" msg
-kissanime.ru##div.rightBox:nth-child(1) > div:nth-child(2) > div:nth-child(2) > p:nth-child(1):has-text(Blocking ads)
+kissanime.ru##div.rightBox:nth-of-type(1):has-text(suspension/ban)
 
 !MyAnimeList Cosmetic Filters
 !Mal Privacy Policy statement mask when not logged in
 myanimelist.net##.root
+
+!kissmanga Cosmetic Filters
+!Remove annoying message to disable adblocker
+kissmanga.com##div.rightBox:nth-of-type(1):has-text(not compatible with Adblock/uBlock)
