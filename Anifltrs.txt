@@ -10,7 +10,7 @@
 @@||gateway.discord.gg^
 
 ! KAL ---------------------------------------------------------
-!To counter favicons and images broken by easylist
+! To counter favicons and images broken by easylist
 @@||www.google.com/s2/favicons?domain=www.crunchyroll.com$image,domain=kissanime.ru
 @@||www.google.com/s2/favicons?domain=www2.gogoanime.tv$image,domain=kissanime.ru
 @@||www.google.com/s2/favicons?domain=9anime.*$image,domain=kissanime.ru
@@ -21,34 +21,38 @@
 @@||www.google.com/s2/favicons?domain=kissmanga.com$image,domain=kissmanga.com
 @@||myanimelist.cdn-dena.com^$image,domain=kissmanga.com
 
-!9anime Cosmetic Filters
-!removes adframes and warning message
+! 9anime Cosmetic Filters
+! removes adframes and warning message
 9anime.*##div.text-center.widget:nth-of-type(7) > div
 9anime.*##.hidden-sm.hidden-xs.alert-warning.alert
 9anime.*##div.mgid:nth-child(1)
 9anime.*##div.crop:nth-child(3)
 9anime.*##.widget.crop.text-center
 
-!Kissanime Cosmetic Filter
-!removes the annoying "Blocking ads on KissAnime could lead to suspension/ban" msg
+! Kissanime Cosmetic Filter
+! removes the annoying "Blocking ads on KissAnime could lead to suspension/ban" msg
 kissanime.ru##div.rightBox:nth-of-type(1):has-text(suspension/ban)
 
-!MyAnimeList Cosmetic Filters
-!Mal Privacy Policy statement mask when not logged in
+! MyAnimeList Cosmetic Filters
+! Mal Privacy Policy statement mask when not logged in
 myanimelist.net##.root
 
-!kissmanga Cosmetic Filters
-!Remove annoying message to disable adblocker
+! kissmanga Cosmetic Filters
+! Remove annoying message to disable adblocker
 kissmanga.com##div.rightBox:nth-of-type(1):has-text(not compatible with Adblock/uBlock)
 
-!kissanime
+! kissanime
 kissanime.ru##script:inject(abort-current-inline-script.js, $, elem.hide)
 ! Block Adblock detection script(redundant if used with a custom userscript)
 kissanime.ru##+js(setTimeout-defuser.js, YANMKABFYWRW)
 ! Blocking xml request in the case of AdBlocker being detected, thus leading to a ban
 ||kissanime.ru/*/TemporaryBlockZ^$xmlhttprequest
 
-!kissanime Servers
+! kissanime Servers
 ! unhide beta and alpha servers
 kissanime.ru###my_video_1:style(display: block !important;)
 kissanime.ru###my_video_1_html5_api:style(display: block !important;)
+
+! kissmanga Blocking
+! Blocks xhr request that leads to "Fake Maintenance" Page
+||kissmanga.com/Special/TemporaryBlockZ$xmlhttprequest,first-party,important
