@@ -28,6 +28,8 @@
 9anime.*##div.mgid:nth-child(1)
 9anime.*##div.crop:nth-child(3)
 9anime.*##.widget.crop.text-center
+! 9anime community statement
+9anime.*##.alert-primary.alert:has-text(We need the community help, please click here to read)
 
 ! Kissanime Cosmetic Filter
 ! removes the annoying "Blocking ads on KissAnime could lead to suspension/ban" msg
