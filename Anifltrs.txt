@@ -62,3 +62,6 @@ kissanime.ru###my_video_1_html5_api:style(display: block !important;)
 ||kissmanga.com/Special/TemporaryBlockZ$xmlhttprequest,first-party,important
 ! Kissmanga counter images null after xhr block request
 kissmanga.com###divImage:style(display: block !important;)
+
+! Dubbedanime.net
+dubbedanime.net##.text-center.alert-info.alert:has-text(Hide the Annoying Ads!)
