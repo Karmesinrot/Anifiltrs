@@ -1,0 +1,9 @@
+! Title: Kiss sites Blacklist
+! Expires: 7 days
+! Homepage: https://github.com/Karmesinrot/Anifiltrs
+! Description: Satire way of Blocking kiss sites. In all seriousness, if you're running pi-hole and don't want or need those sites you may use this filter
+
+! Kiss sites
+||Kissanime.*^
+||kissmanga.*^
+||kissasian.*^
