@@ -22,11 +22,7 @@
 @@||myanimelist.cdn-dena.com^$image,domain=kissmanga.com
 
 ! 9anime Cosmetic Filters
-! removes adframes and warning message
-9anime.*##div.text-center.widget:nth-of-type(7) > div
-9anime.*##.hidden-sm.hidden-xs.alert-warning.alert
-9anime.*##div.mgid:nth-child(1)
-9anime.*##div.crop:nth-child(3)
+! Cleans up the ui a bit, making it more compact
 9anime.*##.widget.crop.text-center
 ! 9anime community statement
 9anime.*##.alert-primary.alert:has-text(We need the community help, please click here to read)
