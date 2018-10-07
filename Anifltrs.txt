@@ -62,3 +62,6 @@ kissmanga.com###divImage:style(display: block !important;)
 
 ! Dubbedanime.net
 dubbedanime.net##.text-center.alert-info.alert:has-text(Hide the Annoying Ads!)
+
+! Masteranime
+masterani.me##.hero:has([href*="masterani.me/out/"])
