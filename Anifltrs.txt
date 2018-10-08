@@ -21,6 +21,14 @@
 @@||www.google.com/s2/favicons?domain=kissmanga.com$image,domain=kissmanga.com
 @@||myanimelist.cdn-dena.com^$image,domain=kissmanga.com
 
+! MAL-Sync ----------------------------------------------------
+! Counter Images broken by easylist
+@@||img.shields.io/discord/358599430502481920.svg?style=flat-square&logo=discord&label=Chat%20%2F%20Support&colorB=7289DA$image,domain=kissanime.ru
+@@||img.shields.io/github/issues/lolamtisch/MALSync.svg?style=flat-square&logo=github&logoColor=white$image,domain=kissanime.ru
+@@||img.shields.io/badge/Chrome-Download-brightgreen.svg?style=flat-square&label=Chrome&logo=google%20chrome&logoColor=white$image,domain=kissanime.ru
+@@||img.shields.io/badge/Firefox-Download-brightgreen.svg?style=flat-square&label=Firefox&logo=mozilla%20firefox&logoColor=white$image,domain=kissanime.ru
+@@||img.shields.io/badge/Userscript-Download-brightgreen.svg?style=flat-square&label=Userscript&logo=javascript&logoColor=white$image,domain=kissanime.ru
+
 ! 9anime Cosmetic Filters
 ! Cleans up the ui a bit, making it more compact
 9anime.*##.widget.crop.text-center
