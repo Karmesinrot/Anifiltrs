@@ -70,4 +70,5 @@ dubbedanime.net##.text-center.alert-info.alert:has-text(Hide the Annoying Ads!)
 
 ! Masteranime
 ! Ads under video player
-masterani.me##div.row:nth-of-type(2)
+masterani.me##div.row:nth-of-type(2):has([href*="masterani.me/out/"])
+
