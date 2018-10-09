@@ -69,4 +69,5 @@ kissmanga.com###divImage:style(display: block !important;)
 dubbedanime.net##.text-center.alert-info.alert:has-text(Hide the Annoying Ads!)
 
 ! Masteranime
-masterani.me##.hero:has([href*="masterani.me/out/"])
+! Ads under video player
+masterani.me##div.row:nth-of-type(2)
