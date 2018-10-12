@@ -75,4 +75,5 @@ masterani.me##div.row:nth-of-type(2):has([href*="masterani.me/out/"])
 
 ! Kissmanga Diffuse Ban
 ! Counter both the banned & Fake Maintenance message
+! note:users need to delete/clear all cookies and site data from kissmanga
 kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
