@@ -34,7 +34,7 @@
 
 ! Kissanime Cosmetic Filter
 ! removes the annoying "Blocking ads on KissAnime could lead to suspension/ban" msg
-kissanime.ru##div.rightBox:nth-of-type(1):has-text(suspension/ban)
+kissanime.ru##.barContent > div:nth-of-type(2) > p:nth-of-type(1):has-text(suspension/ban)
 
 ! MyAnimeList Cosmetic Filters
 ! Mal Privacy Policy statement mask when not logged in
