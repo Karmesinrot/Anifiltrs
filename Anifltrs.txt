@@ -55,3 +55,7 @@ kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
 
 ! Dubbedanime.net
 dubbedanime.net##.text-center.alert-info.alert:has-text(Hide the Annoying Ads!)
+
+! Masteranime Cosmetic Filters
+! Removes blank frame under video player
+masterani.me##div.row:nth-of-type(2):has([href*="masterani.me/out/"])
