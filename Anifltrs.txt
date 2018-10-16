@@ -65,11 +65,7 @@ kissmanga.com##+js(setTimeout-defuser.js, (), 2000)
 
 ! Kismanga Counter images being hidden
 kissmanga.com###divImage:style(display: block !important;)
+kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
 
 ! Dubbedanime.net
 dubbedanime.net##.text-center.alert-info.alert:has-text(Hide the Annoying Ads!)
-
-! Kissmanga Diffuse Ban
-! Counter both the banned & Fake Maintenance message
-! note:users need to delete/clear all cookies and site data from kissmanga
-kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
