@@ -56,13 +56,6 @@ kissanime.ru##+js(setTimeout-defuser.js, YANMKABFYWRW)
 kissanime.ru###my_video_1:style(display: block !important;)
 kissanime.ru###my_video_1_html5_api:style(display: block !important;)
 
-! kissmanga Blocking
-!##### All filters relating to this block are redundant when using a custom userscript #####
-kissmanga.com##+js(setTimeout-defuser.js, (), 30000)
-kissmanga.com##+js(setTimeout-defuser.js, (), 2000)
-! Blocks xhr request that leads to "Fake Maintenance" Page
-||kissmanga.com/Special/TemporaryBlockZ$xmlhttprequest,first-party,important
-
 ! Kismanga Counter images being hidden
 kissmanga.com###divImage:style(display: block !important;)
 kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
