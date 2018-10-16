@@ -44,13 +44,6 @@ myanimelist.net##.root
 ! Remove annoying message to disable adblocker
 kissmanga.com##div.rightBox:nth-of-type(1):has-text(not compatible with Adblock/uBlock)
 
-! kissanime
-kissanime.ru##script:inject(abort-current-inline-script.js, $, elem.hide)
-! Block Adblock detection script(redundant if used with a custom userscript)
-kissanime.ru##+js(setTimeout-defuser.js, YANMKABFYWRW)
-! Blocking xml request in the case of AdBlocker being detected, thus leading to a ban
-||kissanime.ru/*/TemporaryBlockZ^$xmlhttprequest
-
 ! kissanime Servers
 ! unhide beta and alpha servers
 kissanime.ru###my_video_1:style(display: block !important;)
