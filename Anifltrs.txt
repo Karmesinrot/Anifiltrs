@@ -59,3 +59,7 @@ dubbedanime.net##.text-center.alert-info.alert:has-text(Hide the Annoying Ads!)
 ! Masteranime Cosmetic Filters
 ! Removes blank frame under video player
 masterani.me##div.row:nth-of-type(2):has([href*="masterani.me/out/"])
+
+! Kissmanga diffuse
+||linkedin.com^$script,redirect=noopjs,domain=kissmanga.com
+||googletagmanager.com/gtag/js$script,redirect=noopjs,domain=kissmanga.com
