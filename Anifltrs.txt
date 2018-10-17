@@ -12,7 +12,7 @@
 ! MAL-Sync ----------------------------------------------------
 ! To counter favicons broken by easylist [userscript]
 @@||www.google.com/s2/favicons?domain=www.crunchyroll.com$image,domain=kissanime.ru|kissmanga.com
-@@||www.google.com/s2/favicons?domain=www2.gogoanime.tv$image,domain=kissanime.ru|kissmanga.com
+@@||www.google.com/s2/favicons?domain=*.gogoanime.*$image,domain=kissanime.ru|kissmanga.com
 @@||www.google.com/s2/favicons?domain=*.9anime.*$image,domain=kissanime.ru|kissmanga.com
 @@||www.google.com/s2/favicons?domain=kissanime.ru$image,domain=kissanime.ru|kissmanga.com
 @@||www.google.com/s2/favicons?domain=www.masterani.me$image,domain=kissanime.ru|kissmanga.com
