@@ -44,7 +44,7 @@ myanimelist.net##.root
 ! Remove annoying message to disable adblocker
 kissmanga.com##div.rightBox:nth-of-type(1):has-text(not compatible with Adblock/uBlock)
 ! Clearbox shown on chrome
-!#if env_chromium
+!#if !env_chromium
 kissmanga.com##div.clear2:nth-of-type(2)
 !#endif
 
