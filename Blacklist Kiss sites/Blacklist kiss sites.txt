@@ -7,4 +7,8 @@
 ||Kissanime.*^
 ||kissmanga.*^
 ||kissasian.*^
+
+! Sites related to the group
 ||readcomiconline.to^
+||kimcartoon.me^
+||novelplanet.com^
