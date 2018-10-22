@@ -7,3 +7,4 @@
 ||Kissanime.*^
 ||kissmanga.*^
 ||kissasian.*^
+||readcomiconline.to^
