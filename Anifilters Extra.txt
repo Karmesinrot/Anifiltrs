@@ -7,3 +7,7 @@
 
 ! Dubbedanime.net
 dubbedanime.net##.text-center.alert-info.alert:has-text(Hide the Annoying Ads!)
+
+! Mangahub.io
+! Video Ads
+||truvidplayer.com^$third-party,domain=mangahub.io
