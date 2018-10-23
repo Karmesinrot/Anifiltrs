@@ -7,18 +7,3 @@
 
 ! Dubbedanime.net
 dubbedanime.net##.text-center.alert-info.alert:has-text(Hide the Annoying Ads!)
-
-! Mangahub.io
-! Video Ads
-||truvidplayer.com^$third-party,domain=mangahub.io
-
-! Mangarock
-||ad.doubleclick.net^$third-party,domain=mangarock.com
-! Articles when in vertical view
-mangarock.com###taboola-below-article-thumbnails-last-page-vertical
-
-! Manganelo
-manganelo.com###ad_b72890
-
-! Mangapark
-||adserver.reklamstore.com/reklamstore.js$script,domain=mangapark.me
