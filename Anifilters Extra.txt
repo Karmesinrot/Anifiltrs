@@ -3,6 +3,8 @@
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Anifiltrs with additional support for Anime streaming and Manga reading sites which are not (yet) supported by lolamtisch's MAL-Sync
 
+!#include Anifltrs.txt
+
 ! Dubbedanime.net
 dubbedanime.net##.text-center.alert-info.alert:has-text(Hide the Annoying Ads!)
 
