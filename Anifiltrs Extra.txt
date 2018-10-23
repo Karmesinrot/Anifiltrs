@@ -1,0 +1,13 @@
+! Title: Anifiltrs/Extra
+! Expires: 3 days
+! Homepage: https://github.com/Karmesinrot/Anifiltrs
+! Description: Anifiltrs with additional support for Anime streaming and Manga reading sites which are not supported by lolamtisch's MAL-Sync
+
+!#include Anifltrs.txt
+
+! Dubbedanime.net
+dubbedanime.net##.text-center.alert-info.alert:has-text(Hide the Annoying Ads!)
+
+! Mangahub.io
+! Video Ads
+||truvidplayer.com^$third-party,domain=mangahub.io
