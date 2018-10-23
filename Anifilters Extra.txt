@@ -1,7 +1,7 @@
 ! Title: Anifiltrs/Extra
 ! Expires: 1 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
-! Description: Anifiltrs with additional support for Anime streaming and Manga reading sites which are not supported or yet to be supported by lolamtisch's MAL-Sync
+! Description: Anifiltrs with additional support for Anime streaming and Manga reading sites which are not supported by lolamtisch's MAL-Sync
 
 !#include Anifltrs.txt
 
