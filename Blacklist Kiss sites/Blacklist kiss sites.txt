@@ -1,7 +1,7 @@
 ! Title: Kiss sites Blacklist
 ! Expires: 7 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
-! Description: Satire way of Blocking kiss sites. In all seriousness, if you're running pi-hole and don't want or need those sites you may use this filter
+! Description: [Reading with Raven's voice from teen titans] The Greatest Solution to your problems with these sites. Best used with your pi-hole. I'm so happy using this.
 
 ! Kiss sites
 ||Kissanime.*^
