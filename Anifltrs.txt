@@ -10,7 +10,7 @@
 @@||gateway.discord.gg^
 
 ! MAL-Sync ----------------------------------------------------
-! To counter favicons broken by easylist [userscript]
+! To counter favicons broken by easylist [userscript and extension]
 @@||www.google.com/s2/favicons?domain=www.crunchyroll.com$image,domain=kissanime.ru|kissmanga.com
 @@||www.google.com/s2/favicons?domain=*.gogoanime.*$image,domain=kissanime.ru|kissmanga.com
 @@||www.google.com/s2/favicons?domain=*.9anime.*$image,domain=kissanime.ru|kissmanga.com
