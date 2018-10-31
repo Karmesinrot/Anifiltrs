@@ -5,10 +5,10 @@
 
 ! Kiss sites
 ||Kissanime.*^
-||kissmanga.*^
+||kissmanga.com^
 ||kissasian.*^
 
 ! Sites related to the group
 ||readcomiconline.to^
-||kimcartoon.me^
+||kimcartoon.*^
 ||novelplanet.com^
