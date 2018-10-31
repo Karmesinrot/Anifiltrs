@@ -72,12 +72,3 @@ kissmanga.com##+js(setTimeout-defuser.js, (), 2000)
 ! Blocks xhr request that leads to "Fake Maintenance" Page
 ||kissmanga.com/Special/TemporaryBlockZ$xmlhttprequest,first-party,important
 
-! Kissanime Diffuse
-kissanime.ru##+js(setTimeout-defuser.js, /YANMKABFYWRW|HAYNQMAKDASAS/)
-kissanime.ru##+js(setTimeout-defuser.js, DoAdsPosition)
-! Fake captcha fail
-kissanime.ru##+js(setTimeout-defuser.js, YASBATMBCL)
-||kissanime.ru^$xmlhttprequest,first-party
-kissanime.ru##script:inject(abort-on-property-read.js, InitCloseButton)
-||kissanime.ru^$other,first-party
-||kissanime.ru/AGBXSKCSYWBSDAPOLAZ$xmlhttprequest,first-party
