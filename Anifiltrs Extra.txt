@@ -12,5 +12,8 @@ dubbedanime.net##.text-center.alert-info.alert:has-text(Hide the Annoying Ads!)
 ! Video Ads
 ||truvidplayer.com^$third-party,domain=mangahub.io
 
-! otakustream modal
+! otakustream
+! modal
 otakustream.tv##.modal-backdrop
+! facebook
+||staticxx.facebook.com^2$third-party,domain=otakustream.tv
