@@ -75,9 +75,3 @@ kissmanga.com##+js(setTimeout-defuser.js, (), 30000)
 kissmanga.com##+js(setTimeout-defuser.js, (), 2000)
 ! Blocks xhr request that leads to "Fake Maintenance" Page
 ||kissmanga.com/Special/TemporaryBlockZ$xmlhttprequest,first-party,important
-
-! Masteranime
-! Mp4upload video popups
-mp4upload.com##+js(window.open-defuser.js)
-mp4upload.com##+js(abort-on-property-read.js, zfgloadedpopup)
-mp4upload.com##+js(abort-on-property-read.js, zfgloadedpushopt)
