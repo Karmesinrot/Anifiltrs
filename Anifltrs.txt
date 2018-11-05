@@ -33,8 +33,6 @@
 ! 9anime Cosmetic Filters
 ! Cleans up the ui a bit, making it more compact
 9anime.*##.widget.crop.text-center
-! 9anime community statement
-9anime.*##.alert-primary.alert:has-text(We need the community help, please click here to read)
 
 ! Kissanime Cosmetic Filters
 ! removes the annoying "Blocking ads on KissAnime could lead to suspension/ban" msg
