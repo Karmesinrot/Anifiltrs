@@ -64,6 +64,7 @@ kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
 masterani.me##div.row:nth-of-type(2):has([href*="masterani.me/out/"])
 
 ! Kissmanga diffuse
+||mgid.com^script,redirect=noopjs,domain=kissmanga.com
 ||linkedin.com^$script,redirect=noopjs,domain=kissmanga.com
 ||googletagmanager.com/gtag/js$script,redirect=noopjs,domain=kissmanga.com
 ||kissmanga.com^xmlhttprequest,first-party
