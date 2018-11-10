@@ -7,6 +7,8 @@
 ||Kissanime.*^
 ||kissmanga.com^
 ||kissasian.*^
+||kisshentai.net^
+||kissdoujin.com^
 
 ! Sites related to the group
 ||readcomiconline.to^
