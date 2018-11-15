@@ -12,3 +12,5 @@ mangarock.com##._2fF1P
 ! Animeheaven.eu
 ! facebook comment section
 ||facebook.com^$third-party,domain=animeheaven.eu
+! Distractive chat box
+||st.chatango.com^$third-party,domain=animeheaven.eu
