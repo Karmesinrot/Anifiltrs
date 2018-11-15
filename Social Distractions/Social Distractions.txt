@@ -1,0 +1,4 @@
+! Title: Anifiltrs — Anti social distractions
+! Expires: 7 days
+! Homepage: https://github.com/Karmesinrot/Anifiltrs
+! Description: Filters for removing distractive/obtrusive social items on MAL-Sync supported sites
