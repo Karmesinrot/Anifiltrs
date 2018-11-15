@@ -14,3 +14,9 @@ mangarock.com##._2fF1P
 ||facebook.com^$third-party,domain=animeheaven.eu
 ! Distractive chat box
 ||st.chatango.com^$third-party,domain=animeheaven.eu
+
+! Kissmanga
+! google scripts
+||google.com^$script,domain=kissmanga.com
+! facebook like
+||facebook.com^$third-party,domain=kissmanga.com
