@@ -8,3 +8,7 @@
 ||facebook.com^$third-party,domain=mangarock.com
 ! mangarock social icons for sharing
 mangarock.com##._2fF1P
+
+! Animeheaven.eu
+! facebook comment section
+||facebook.com^$third-party,domain=animeheaven.eu
