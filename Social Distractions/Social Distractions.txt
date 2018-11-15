@@ -2,3 +2,9 @@
 ! Expires: 7 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Filters for removing distractive/obtrusive social items on MAL-Sync supported sites
+
+! mangarock
+! social media
+||facebook.com^$third-party,domain=mangarock.com
+! mangarock social icons for sharing
+mangarock.com##._2fF1P
