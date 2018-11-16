@@ -1,5 +1,5 @@
 # Anifiltrs
-Personal filter lists
+Filter list for anime streaming, manga reading, and downloading of such things.
 
 -------------
 
