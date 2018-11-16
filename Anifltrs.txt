@@ -26,6 +26,7 @@
 @@||img.shields.io/badge/Chrome-Download-brightgreen.svg?style=flat-square&label=Chrome&logo=google%20chrome&logoColor=white$image,domain=kissanime.ru|kissmanga.com
 @@||img.shields.io/badge/Firefox-Download-brightgreen.svg?style=flat-square&label=Firefox&logo=mozilla%20firefox&logoColor=white$image,domain=kissanime.ru|kissmanga.com
 @@||img.shields.io/badge/Userscript-Download-brightgreen.svg?style=flat-square&label=Userscript&logo=javascript&logoColor=white$image,domain=kissanime.ru|kissmanga.com
+@@||img.shields.io/github/last-commit/lolamtisch/malsync.svg?style=flat-square&logo=github&logoColor=white&label=Github$image,domain=kissanime.ru
 ! Episode Check
 !#if env_chromium
 @@||kissanime.ru/cdn-cgi/*
