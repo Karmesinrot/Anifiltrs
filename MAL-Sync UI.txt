@@ -1,5 +1,5 @@
 ! Title: Anifiltrs — MAL-Sync UI
-! Expires: 1 days
+! Expires: 7 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Filters for fixing broken favicons, badges, images, and other related things on MAL-Sync
 
