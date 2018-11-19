@@ -1,4 +1,4 @@
-! Title: Anifiltrs — Anime streaming & Manga reading
+! Title: Anifiltrs — 🍱 Anime streaming & Manga reading
 ! Expires: 1 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Personal filters for anime streaming
