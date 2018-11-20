@@ -21,3 +21,7 @@ mangarock.com##._2fF1P
 ||google.com^$script,domain=kissmanga.com
 ! facebook like
 ||facebook.com^$third-party,domain=kissmanga.com
+
+! 9anime
+! facebook
+||connect.facebook.net^*.js$script,domain=9anime.to
