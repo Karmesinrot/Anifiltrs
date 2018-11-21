@@ -12,9 +12,12 @@ mangarock.com##._2fF1P
 ! Animeheaven.eu
 ! facebook comment section
 ||facebook.com^$third-party,domain=animeheaven.eu
+||facebook.net^$script,domain=animeheaven.eu
 ! Distractive chat box
 ! Stores passwords in plaintext
 ||st.chatango.com^$third-party,domain=animeheaven.eu
+! twitter
+||twitter.com^$third-party,domain=animeheaven.eu
 
 ! Kissmanga
 ! google scripts
