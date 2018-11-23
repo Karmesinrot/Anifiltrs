@@ -4,11 +4,22 @@
 ! Description: Filters for fixing broken favicons, badges, images, and other related things on MAL-Sync
 
 ! MAL-Sync ----------------------------------------------------
-! To counter favicons broken by easylist
-@@||www.google.com/s2/favicons?domain=*$image,domain=kissanime.ru|kissmanga.com
-! To Counter Images broken by easylist
+! To counter favicons broken by easylist [userscript and extension]
+@@||www.google.com/s2/favicons?domain=www.crunchyroll.com$image,domain=kissanime.ru|kissmanga.com
+@@||www.google.com/s2/favicons?domain=gogoanimes.co$image,domain=kissanime.ru|kissmanga.com
+@@||www.google.com/s2/favicons?domain=*9anime.*$image,domain=kissanime.ru|kissmanga.com
+@@||www.google.com/s2/favicons?domain=kissanime.ru$image,domain=kissanime.ru|kissmanga.com
+@@||www.google.com/s2/favicons?domain=www.masterani.me$image,domain=kissanime.ru|kissmanga.com
+@@||www.google.com/s2/favicons?domain=mangadex.org$image,domain=kissmanga.com|kissanime.ru
+@@||www.google.com/s2/favicons?domain=kissmanga.com$image,domain=kissmanga.com|kissanime.ru
+! To Counter Images broken by easylist [userscript and extension]
 @@||myanimelist.cdn-dena.com^$image,domain=kissmanga.com|kissanime.ru
-! To Counter Badges broken by easylist
-@@||img.shields.io/discord/*$image,domain=kissanime.ru|kissmanga.com
-@@||img.shields.io/github/*/lolamtisch/*$image,domain=kissanime.ru|kissmanga.com
-@@||img.shields.io/badge/*$image,domain=kissanime.ru|kissmanga.com
+! To Counter Badges broken by easylist [userscript and extension]
+@@||img.shields.io/discord/358599430502481920.svg?style=flat-square&logo=discord&label=Chat%20%2F%20Support&colorB=7289DA$image,domain=kissanime.ru|kissmanga.com
+@@||img.shields.io/github/*/lolamtisch/MALSync.svg*$image,domain=kissanime.ru|kissmanga.com
+@@||img.shields.io/badge/*-Download-brightgreen.svg?style=flat-square&label=*&logo=*&logoColor=white$image,domain=kissanime.ru|kissmanga.com
+@@||img.shields.io/badge/Changelog-*-green.svg?style=flat-square&logo=data:image/png;base64,*==$image,domain=kissanime.ru|kissmanga.com
+! Episode Check [Extension]
+!#if env_chromium
+@@||kissanime.ru/cdn-cgi/*
+!#endif
