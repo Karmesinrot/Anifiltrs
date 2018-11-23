@@ -68,18 +68,22 @@ kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
 masterani.me##div.row:nth-of-type(2):has([href*="masterani.me/out/"])
 
 ! Kissmanga diffuse
+!#if env_chromium
 ||mgid.com^script,redirect=noopjs,domain=kissmanga.com
 ||linkedin.com^$script,redirect=noopjs,domain=kissmanga.com
 ||googletagmanager.com/gtag/js$script,redirect=noopjs,domain=kissmanga.com
 ||kissmanga.com^xmlhttprequest,first-party
 kissmanga.com##+js(setTimeout-defuser.js, /NGASTQBASMS|YABASFSDWHQBD/)
+!#endif
 
 ! kissmanga Blocking
 !##### All filters relating to this block are redundant when using a custom userscript #####
 !#if env_firefox
 kissmanga.com##^script:has-text(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini)
 !#endif
+!#if env_chromium
 kissmanga.com##+js(setTimeout-defuser.js, (), 30000)
 kissmanga.com##+js(setTimeout-defuser.js, (), 2000)
+!#endif
 ! Blocks xhr request that leads to "Fake Maintenance" Page
 ||kissmanga.com/Special/TemporaryBlockZ$xmlhttprequest,first-party,important
