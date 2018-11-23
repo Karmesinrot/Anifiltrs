@@ -1,7 +1,7 @@
 ! Title: Anifiltrs — Discord Anime Gaming
 ! Expires: 12 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
-! Description: Personal filters for anime streaming
+! Description: Filers for DAG(Discord Anime Gaming)
 
 ! DAG ---------------------------------------------------------
 @@||discordapp.com/api/gateway$xmlhttprequest,domain=9anime.*
