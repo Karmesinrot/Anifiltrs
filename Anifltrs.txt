@@ -5,6 +5,7 @@
 
 !#include DAG/DAG.txt
 !#include MAL-Sync%20UI.txt
+!#include Blur%20Preview%20Thumbnails/Blur%20preview%20thumbnails.txt
 
 ! 9anime Cosmetic Filters
 ! Cleans up the ui a bit, making it more compact
