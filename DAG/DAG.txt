@@ -1,0 +1,4 @@
+! Title: Anifiltrs — Discord Anime Gaming
+! Expires: 12 days
+! Homepage: https://github.com/Karmesinrot/Anifiltrs
+! Description: Personal filters for anime streaming
