@@ -5,3 +5,6 @@
 
 ! rapidvideo
 www.rapidvideo.com##div.vjs-poster:style(filter: blur(8px))
+
+! streamango
+streamango.com##div.vjs-poster:style(filter: blur(8px))
