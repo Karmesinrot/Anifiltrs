@@ -3,6 +3,9 @@
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Personal filters for anime streaming
 
+!#include DAG/DAG.txt
+!#include MAL-Sync%20UI.txt
+
 ! 9anime Cosmetic Filters
 ! Cleans up the ui a bit, making it more compact
 9anime.*##.widget.crop.text-center
