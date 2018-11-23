@@ -51,6 +51,8 @@ myanimelist.net##.root
 kissmanga.com##div.rightBox:has-text(not compatible with Adblock/uBlock)
 ! Global clearbox padding
 kissmanga.com##div[class^="clear2"]
+! Chapter List unnessary spaces
+kissmanga.com##.barContent.chapterList > div > div[class="clear"]
 
 ! kissanime Servers
 ! unhide beta and alpha servers
