@@ -37,7 +37,7 @@
 ! Kissanime Cosmetic Filters
 ! removes the annoying message to disable Adblock/uBlock
 kissanime.ru##.barContent > div > p:has-text(not compatible with Adblock/uBlock)
-! Clearbox padding
+! Global clearbox padding
 kissanime.ru##div[class^="clear2"]
 
 ! MyAnimeList Cosmetic Filters
@@ -47,7 +47,7 @@ myanimelist.net##.root
 ! kissmanga Cosmetic Filters
 ! Remove annoying message to disable adblocker
 kissmanga.com##div.rightBox:has-text(not compatible with Adblock/uBlock)
-! Clearbox padding
+! Global clearbox padding
 kissmanga.com##div[class^="clear2"]
 
 ! kissanime Servers
