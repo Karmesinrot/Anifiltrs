@@ -3,12 +3,6 @@
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Personal filters for anime streaming
 
-! DAG ---------------------------------------------------------
-@@||discordapp.com/api/gateway$xmlhttprequest,domain=9anime.*
-@@||gateway.discord.gg/?encoding=json&v=6$websocket,domain=9anime.*
-@@||discordapp.com^
-@@||gateway.discord.gg^
-
 ! 9anime Cosmetic Filters
 ! Cleans up the ui a bit, making it more compact
 9anime.*##.widget.crop.text-center
