@@ -53,6 +53,8 @@ myanimelist.net##.root
 kissmanga.com##div.rightBox:has-text(not compatible with Adblock/uBlock)
 ! Global clearbox padding
 kissmanga.com##div[class^="clear2"]
+! ad remnants
+kissmanga.com###leftside > br
 ! Chapter List unnessary spaces
 kissmanga.com##.barContent.chapterList > div > div[class="clear"]
 
