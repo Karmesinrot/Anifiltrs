@@ -10,4 +10,4 @@ www.rapidvideo.com##div.vjs-poster:style(filter: blur(8px); margin-left: -8px !i
 streamango.com##div.vjs-poster:style(filter: blur(8px); margin: -8px !important;)
 
 ! opeload
-openload.co##div.vjs-poster:style(filter: blur(8px); margin: -8px !important;)
+openload.co##div.vjs-poster:style(filter: blur(8px); margin-left: -8px !important; margin-right: -8px !important;)
