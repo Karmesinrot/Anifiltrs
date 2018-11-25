@@ -36,12 +36,11 @@ kissmanga.com###leftside > br
 ! Chapter List unnessary spaces
 kissmanga.com##.barContent.chapterList > div > div[class="clear"]
 
-! kissanime Servers
+! kissanime Counter elements from being hidden
 ! unhide beta and alpha servers
 kissanime.ru###my_video_1:style(display: block !important;)
 kissanime.ru###my_video_1_html5_api:style(display: block !important;)
-
-! Kismanga Counter images being hidden
+! Counter images being hidden
 kissmanga.com###divImage:style(display: block !important;)
 kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
 
