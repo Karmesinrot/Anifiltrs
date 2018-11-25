@@ -36,14 +36,6 @@ kissmanga.com###leftside > br
 ! Chapter List unnessary spaces
 kissmanga.com##.barContent.chapterList > div > div[class="clear"]
 
-! kissanime Counter elements from being hidden
-! unhide beta and alpha servers
-kissanime.ru###my_video_1:style(display: block !important;)
-kissanime.ru###my_video_1_html5_api:style(display: block !important;)
-! Counter images being hidden
-kissmanga.com###divImage:style(display: block !important;)
-kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
-
 ! Masteranime Cosmetic Filters
 ! Removes blank frame under video player
 masterani.me##div.row:nth-of-type(2):has([href*="masterani.me/out/"])
@@ -61,6 +53,14 @@ mangarock.com##[id^="taboola-below-article-thumbnails-vertical"]
 ! Gogoanimes Cosmetic filters
 ! adframe above video player
 gogoanimes.co##div.anime_video_body > div[style="height:250px;overflow:hidden;"]
+
+! kissanime Counter elements from being hidden
+! unhide beta and alpha servers
+kissanime.ru###my_video_1:style(display: block !important;)
+kissanime.ru###my_video_1_html5_api:style(display: block !important;)
+! Counter images being hidden
+kissmanga.com###divImage:style(display: block !important;)
+kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
 
 ! Kissmanga diffuse
 !#if env_chromium
