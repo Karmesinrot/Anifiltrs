@@ -13,6 +13,8 @@ mangarock.com##._2fF1P
 ! facebook comment section
 ||facebook.com^$third-party,domain=animeheaven.eu
 ||facebook.net^$script,domain=animeheaven.eu
+! facebook comments container
+animeheaven.eu##.infocombox
 ! Distractive chat box
 ! Stores passwords in plaintext
 ||st.chatango.com^$third-party,domain=animeheaven.eu
