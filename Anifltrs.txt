@@ -52,6 +52,10 @@ masterani.me##div.row:nth-of-type(2):has([href*="masterani.me/out/"])
 ! Mangarock Cosmetic filters
 ! tips modal
 mangarock.com##._3tgGR:has-text(Quick tips)
+! buttom banner ads
+mangarock.com##:xpath(//*[@id="bottom-banner-ads"])
+! reader ads on vertical mode
+mangarock.com##[id^="taboola-below-article-thumbnails-vertical"]
 
 ! Kissmanga diffuse
 !#if env_chromium
