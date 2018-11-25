@@ -49,6 +49,10 @@ kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
 ! Removes blank frame under video player
 masterani.me##div.row:nth-of-type(2):has([href*="masterani.me/out/"])
 
+! Mangarock Cosmetic filters
+! tips modal
+mangarock.com##._3tgGR:has-text(Quick tips)
+
 ! Kissmanga diffuse
 !#if env_chromium
 ||mgid.com^script,redirect=noopjs,domain=kissmanga.com
