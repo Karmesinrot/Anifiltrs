@@ -28,3 +28,9 @@ mangarock.com##._2fF1P
 ! 9anime
 ! facebook
 ||connect.facebook.net^*.js$script,domain=9anime.to
+
+! crunchyroll
+! social media share buttons
+||facebook.com^$third-party,domain=crunchyroll.com
+||twitter.com^$third-party,domain=crunchyroll.com
+||apis.google.com/js/platform.js$third-party,domain=crunchyroll.com
