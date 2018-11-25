@@ -49,6 +49,16 @@ kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
 ! Removes blank frame under video player
 masterani.me##div.row:nth-of-type(2):has([href*="masterani.me/out/"])
 
+! Mangarock Cosmetic filters
+! similar manga adrame
+mangarock.com##.col-lg-4.col-12 > div[class="_2m3Ig _25rXJ"],[src="/iframe/adtrue_300x250.html"]
+! tips modal
+mangarock.com##._3tgGR:has-text(Quick tips)
+! buttom banner ads
+mangarock.com##:xpath(//*[@id="bottom-banner-ads"])
+! reader ads on vertical mode
+mangarock.com##[id^="taboola-below-article-thumbnails-vertical"]
+
 ! Kissmanga diffuse
 !#if env_chromium
 ||mgid.com^script,redirect=noopjs,domain=kissmanga.com
