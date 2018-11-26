@@ -67,7 +67,7 @@ kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
 ||mgid.com^script,redirect=noopjs,domain=kissmanga.com
 ||linkedin.com^$script,redirect=noopjs,domain=kissmanga.com
 ||googletagmanager.com/gtag/js$script,redirect=noopjs,domain=kissmanga.com
-||kissmanga.com^xmlhttprequest,first-party
+||kissmanga.com^$xmlhttprequest,first-party
 kissmanga.com##+js(setTimeout-defuser.js, /NGASTQBASMS|YABASFSDWHQBD/)
 !#endif
 
