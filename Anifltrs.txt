@@ -64,7 +64,7 @@ kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
 
 ! Kissmanga diffuse
 !#if env_chromium
-||mgid.com^script,redirect=noopjs,domain=kissmanga.com
+||mgid.com^$script,redirect=noopjs,domain=kissmanga.com
 ||linkedin.com^$script,redirect=noopjs,domain=kissmanga.com
 ||googletagmanager.com/gtag/js$script,redirect=noopjs,domain=kissmanga.com
 ||kissmanga.com^$xmlhttprequest,first-party
