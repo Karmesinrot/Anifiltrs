@@ -3,10 +3,12 @@
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Personal filters for anime streaming
 
+! INCLUDE RESOURCES -------------------------------------------
 !#include DAG/DAG.txt
 !#include MAL-Sync%20UI.txt
 !#include Blur%20Preview%20Thumbnails/Blur%20preview%20thumbnails.txt
 
+! COSMETIC FILTERS --------------------------------------------
 ! 9anime Cosmetic Filters
 ! Cleans up the ui a bit, making it more compact
 9anime.*##.widget.crop.text-center
@@ -57,6 +59,7 @@ mangarock.com##:xpath(//*[@id="s872-0"])
 ! adframe above video player
 gogoanimes.co##div.anime_video_body > div[style="height:250px;overflow:hidden;"]
 
+! KISS SITES ELEMETNS BEING HIDDEN ----------------------------
 ! kissanime Counter elements from being hidden
 ! unhide beta and alpha servers
 kissanime.ru###my_video_1:style(display: block !important;)
@@ -65,6 +68,7 @@ kissanime.ru###my_video_1_html5_api:style(display: block !important;)
 kissmanga.com###divImage:style(display: block !important;)
 kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
 
+! KISSMANGA Anti-AdBlock --------------------------------------
 ! Kissmanga diffuse
 !#if env_chromium
 ||mgid.com^$script,redirect=noopjs,domain=kissmanga.com
