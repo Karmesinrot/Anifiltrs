@@ -20,6 +20,7 @@ animeheaven.eu##.infocombox
 ||st.chatango.com^$third-party,domain=animeheaven.eu
 ! twitter
 ||twitter.com^$third-party,domain=animeheaven.eu
+animeheaven.eu##a[href="https://twitter.com/share"]
 
 ! Kissmanga
 ! google scripts
