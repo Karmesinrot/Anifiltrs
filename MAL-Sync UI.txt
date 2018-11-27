@@ -10,6 +10,7 @@
 @@||www.google.com/s2/favicons?domain=*9anime.*$image,domain=kissanime.ru|kissmanga.com
 @@||www.google.com/s2/favicons?domain=kissanime.ru$image,domain=kissanime.ru|kissmanga.com
 @@||www.google.com/s2/favicons?domain=www.masterani.me$image,domain=kissanime.ru|kissmanga.com
+@@||animeheaven.eu/favicon.ico$image,domain=kissanime.ru|kissmanga.com
 @@||www.google.com/s2/favicons?domain=mangadex.org$image,domain=kissmanga.com|kissanime.ru
 @@||www.google.com/s2/favicons?domain=kissmanga.com$image,domain=kissmanga.com|kissanime.ru
 ! To Counter Images broken by easylist [userscript and extension]
