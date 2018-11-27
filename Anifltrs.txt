@@ -50,6 +50,8 @@ mangarock.com##._3tgGR:has-text(Quick tips)
 mangarock.com##:xpath(//*[@id="bottom-banner-ads"])
 ! reader ads on vertical mode
 mangarock.com##[id^="taboola-below-article-thumbnails-vertical"]
+mangarock.com##div._3XZqY
+mangarock.com##:xpath(//*[@id="s872-0"])
 
 ! Gogoanimes Cosmetic filters
 ! adframe above video player
