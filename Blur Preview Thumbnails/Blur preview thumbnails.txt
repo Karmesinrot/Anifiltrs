@@ -4,13 +4,13 @@
 ! Description: Filter list for applying a blur Filter to preview thumbnails on video players
 
 ! rapidvideo
-www.rapidvideo.com##div.vjs-poster:style(filter: blur(8px); margin-left: -8px !important; margin-right: -8px !important;)
+www.rapidvideo.com##div.vjs-poster:style(filter:blur(8px);margin-left:-8px!important;margin-right:-8px!important;)
 
 ! streamango
-streamango.com##div.vjs-poster:style(filter: blur(8px); margin: -8px !important;)
+streamango.com##div.vjs-poster:style(filter:blur(8px);margin:-8px!important;)
 
 ! opeload
-openload.co##div.vjs-poster:style(filter: blur(8px); margin-left: -8px !important; margin-right: -8px !important;)
+openload.co##div.vjs-poster:style(filter:blur(8px);margin-left:-8px!important;margin-right:-8px!important;)
 
 ! mycloud
-mcloud.to##div.jw-preview.jw-reset:style(filter: blur(8px);)
+mcloud.to##div.jw-preview.jw-reset:style(filter:blur(8px);)
