@@ -94,3 +94,4 @@ kissmanga.com##+js(setTimeout-defuser.js, (), 2000)
 ! Masteranime MyStream pop-up ads
 mysembed.net##+js(window.open-defuser.js)
 mysembed.net##+js(abort-on-property-write.js, qxxbgqnyew)
+mysembed.net###videooverlay
