@@ -14,3 +14,6 @@ openload.co##div.vjs-poster:style(filter:blur(8px);margin-left:-8px!important;ma
 
 ! mycloud
 mcloud.to##div.jw-preview.jw-reset:style(filter:blur(8px);)
+
+! mystream
+mysembed.net##div.vjs-poster:style(filter:blur(8px)!important;)
