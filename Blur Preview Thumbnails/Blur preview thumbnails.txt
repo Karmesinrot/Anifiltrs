@@ -1,4 +1,4 @@
-! Title: Anifiltrs — Blur Preview Thumbnails
+! Title: Anifiltrs — 🍶 Blur Preview Thumbnails
 ! Expires: 8 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Filter list for applying a blur Filter to preview thumbnails on video players
