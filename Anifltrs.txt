@@ -91,3 +91,6 @@ kissmanga.com##+js(setTimeout-defuser.js, (), 2000)
 ||kissmanga.com/Special/TemporaryBlockZ$xmlhttprequest,first-party,important
 
 ! HOT FIXES ---------------------------------------------------
+! Masteranime MyStream pop-up ads
+mysembed.net##+js(window.open-defuser.js)
+mysembed.net##+js(abort-on-property-write.js, qxxbgqnyew)
