@@ -17,3 +17,6 @@ mcloud.to##div.jw-preview.jw-reset:style(filter:blur(8px);)
 
 ! mystream
 mysembed.net##div.vjs-poster:style(filter:blur(8px)!important;)
+
+! mp4upload
+mp4upload.com##div.jw-preview.jw-reset:style(filter:blur(8px)!important;)
