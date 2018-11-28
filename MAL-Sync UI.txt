@@ -5,15 +5,8 @@
 
 ! MAL-Sync ----------------------------------------------------
 ! To counter favicons broken by easylist [userscript and extension]
-@@||www.google.com/s2/favicons?domain=www.crunchyroll.com$image,domain=kissanime.ru|kissmanga.com
-@@||www.google.com/s2/favicons?domain=gogoanimes.co$image,domain=kissanime.ru|kissmanga.com
-@@||www.google.com/s2/favicons?domain=*9anime.*$image,domain=kissanime.ru|kissmanga.com
-@@||www.google.com/s2/favicons?domain=kissanime.ru$image,domain=kissanime.ru|kissmanga.com
-@@||www.google.com/s2/favicons?domain=www.masterani.me$image,domain=kissanime.ru|kissmanga.com
+@@||www.google.com/s2/favicons?domain=*$image,domain=kissanime.ru|kissmanga.com
 @@||animeheaven.eu/favicon.ico$image,domain=kissanime.ru|kissmanga.com
-@@||www.google.com/s2/favicons?domain=mangadex.org$image,domain=kissmanga.com|kissanime.ru
-@@||www.google.com/s2/favicons?domain=kissmanga.com$image,domain=kissmanga.com|kissanime.ru
-@@||www.google.com/s2/favicons?domain=mangarock.com$image,domain=kissmanga.com|kissanime.ru
 ! To Counter Images broken by easylist [userscript and extension]
 @@||myanimelist.cdn-dena.com^$image,domain=kissmanga.com|kissanime.ru
 ! To Counter Badges broken by easylist [userscript and extension]
