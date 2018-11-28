@@ -16,4 +16,4 @@ dubbedanime.net##.text-center.alert-info.alert:has-text(Hide the Annoying Ads!)
 ! modal
 otakustream.tv##.modal-backdrop
 ! facebook
-||staticxx.facebook.com^2$third-party,domain=otakustream.tv
+||staticxx.facebook.com^$third-party,domain=otakustream.tv
