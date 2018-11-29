@@ -56,6 +56,8 @@ mangarock.com##div._3XZqY
 mangarock.com##:xpath(//*[@id="s872-0"])
 
 ! Gogoanimes Cosmetic filters
+! background colour
+gogoanimes.co##body:style(background-color: #1b1b1b !important;)
 ! adframe above video player
 gogoanimes.co##div.anime_video_body > div[style="height:250px;overflow:hidden;"]
 
