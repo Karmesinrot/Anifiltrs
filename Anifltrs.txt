@@ -19,11 +19,11 @@
 ! removes the annoying message to disable Adblock/uBlock
 kissanime.ru##.barContent > div > p:has-text(not compatible with Adblock/uBlock)
 ! Global clearbox padding
-kissanime.ru##div[class^="clear2"]
+kissanime.ru##div[class="clear2"]
 ! ad remnants
 kissanime.ru###leftside > br
 ! Episode List unnecessary spaces
-kissanime.ru##.barContent.episodeList > div > div[class="clear"]
+kissanime.ru##.barContent.episodeList > div > .clear
 
 ! MyAnimeList Cosmetic Filters
 ! Mal Privacy Policy statement mask when not logged in
@@ -33,15 +33,15 @@ myanimelist.net##.root
 ! Remove annoying message to disable adblocker
 kissmanga.com##div.rightBox:has-text(not compatible with Adblock/uBlock)
 ! Global clearbox padding
-kissmanga.com##div[class^="clear2"]
+kissmanga.com##div[class="clear2"]
 ! ad remnants
 kissmanga.com###leftside > br
 ! Chapter List unnessary spaces
-kissmanga.com##.barContent.chapterList > div > div[class="clear"]
+kissmanga.com##.barContent.chapterList > div > .clear
 
 ! Masteranime Cosmetic Filters
 ! Removes blank frame under video player
-masterani.me##div.row:nth-of-type(2):has([href*="masterani.me/out/"])
+masterani.me##div.row:has([href*="masterani.me/out/"])
 
 ! Mangarock Cosmetic filters
 ! similar manga adrame
@@ -52,14 +52,14 @@ mangarock.com##._3tgGR:has-text(Quick tips)
 mangarock.com##:xpath(//*[@id="bottom-banner-ads"])
 ! reader ads on vertical mode
 mangarock.com##[id^="taboola-below-article-thumbnails-vertical"]
-mangarock.com##div._3XZqY
+mangarock.com##._3XZqY
 mangarock.com##:xpath(//*[@id="s872-0"])
 
 ! Gogoanimes Cosmetic filters
 ! background colour
 gogoanimes.co##body:style(background-color: #1b1b1b !important;)
 ! adframe above video player
-gogoanimes.co##div.anime_video_body > div[style="height:250px;overflow:hidden;"]
+gogoanimes.co##.anime_video_body > div[style="height:250px;overflow:hidden;"]
 
 ! KISS SITES ELEMETNS BEING HIDDEN ----------------------------
 ! kissanime Counter elements from being hidden
