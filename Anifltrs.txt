@@ -20,10 +20,9 @@
 kissanime.ru##.barContent > div > p:has-text(not compatible with Adblock/uBlock)
 ! Global clearbox padding
 kissanime.ru##div[class="clear2"]
+kissanime.ru##.clear:matches-css(height:18px)
 ! ad remnants
 kissanime.ru###leftside > br
-! Episode List unnecessary spaces
-kissanime.ru##.barContent.episodeList > div > .clear
 
 ! MyAnimeList Cosmetic Filters
 ! Mal Privacy Policy statement mask when not logged in
