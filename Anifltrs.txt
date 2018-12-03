@@ -23,6 +23,8 @@ kissanime.ru##div[class="clear2"]
 kissanime.ru##.clear:matches-css(height:18px)
 ! ad remnants
 kissanime.ru###leftside > br
+! anime thumbnails broken by easylist
+@@||tumblr.com^$image,domain=kissanime.ru
 
 ! MyAnimeList Cosmetic Filters
 ! Mal Privacy Policy statement mask when not logged in
