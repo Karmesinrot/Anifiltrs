@@ -38,6 +38,8 @@ kissmanga.com##div[class="clear2"]
 kissmanga.com##.clear:matches-css(height:18px)
 ! ad remnants
 kissmanga.com###leftside > br
+! manga thumbnails broken by easylist
+@@||tumblr.com^$image,domain=kissmanga.com
 
 ! Masteranime Cosmetic Filters
 ! Removes blank frame under video player
