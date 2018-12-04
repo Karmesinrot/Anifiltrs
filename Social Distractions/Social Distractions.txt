@@ -3,37 +3,22 @@
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Filters for removing distractive/obtrusive social items on MAL-Sync supported sites
 
+! GLOBAL ------------------------------------------------------
+||facebook.com^$third-party,domain=mangarock.com|animeheaven.eu|kissmanga.com|crunchyroll.com
+||facebook.net^$script,domain=animeheaven.eu|9anime.*
+||twitter.com^$third-party,domain=animeheaven.eu|crunchyroll.com
+||google.com^$script,domain=kissmanga.com|crunchyroll.com
+
+! PER-STEI HANDLING -------------------------------------------
 ! mangarock
-! social media
-||facebook.com^$third-party,domain=mangarock.com
 ! mangarock social icons for sharing
 mangarock.com##._2fF1P
 
 ! Animeheaven.eu
-! facebook comment section
-||facebook.com^$third-party,domain=animeheaven.eu
-||facebook.net^$script,domain=animeheaven.eu
 ! facebook comments container
 animeheaven.eu##.infocombox
 ! Distractive chat box
 ! Stores passwords in plaintext
 ||st.chatango.com^$third-party,domain=animeheaven.eu
 ! twitter
-||twitter.com^$third-party,domain=animeheaven.eu
 animeheaven.eu##a[href="https://twitter.com/share"]
-
-! Kissmanga
-! google scripts
-||google.com^$script,domain=kissmanga.com
-! facebook like
-||facebook.com^$third-party,domain=kissmanga.com
-
-! 9anime
-! facebook
-||connect.facebook.net^*.js$script,domain=9anime.to
-
-! crunchyroll
-! social media share buttons
-||facebook.com^$third-party,domain=crunchyroll.com
-||twitter.com^$third-party,domain=crunchyroll.com
-||apis.google.com/js/platform.js$third-party,domain=crunchyroll.com
