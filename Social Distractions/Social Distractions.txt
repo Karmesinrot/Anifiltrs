@@ -4,7 +4,10 @@
 ! Description: Filters for removing distractive/obtrusive social items on MAL-Sync supported sites
 
 ! GLOBAL ------------------------------------------------------
-
+||facebook.com^$third-party,domain=mangarock.com|animeheaven.eu|kissmanga.com|crunchyroll.com
+||facebook.net^$script,domain=animeheaven.eu|9anime.*
+||twitter.com^$third-party,domain=animeheaven.eu|crunchyroll.com
+||google.com^$script,domain=kissmanga.com|crunchyroll.com
 
 ! PER-STEI HANDLING -------------------------------------------
 ! mangarock
