@@ -3,6 +3,10 @@
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Filters for removing distractive/obtrusive social items on MAL-Sync supported sites
 
+! GLOBAL ------------------------------------------------------
+
+
+! PER-STEI HANDLING -------------------------------------------
 ! mangarock
 ! social media
 ||facebook.com^$third-party,domain=mangarock.com
