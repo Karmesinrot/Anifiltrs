@@ -9,7 +9,7 @@
 ||twitter.com^$third-party,domain=animeheaven.eu|crunchyroll.com
 ||google.com^$script,domain=kissmanga.com|crunchyroll.com
 
-! PER-STEI HANDLING -------------------------------------------
+! PER-SITE HANDLING -------------------------------------------
 ! mangarock
 ! mangarock social icons for sharing
 mangarock.com##._2fF1P
