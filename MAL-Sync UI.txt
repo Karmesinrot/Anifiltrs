@@ -10,10 +10,7 @@
 ! To Counter Images broken by easylist [userscript and extension]
 @@||myanimelist.*^$image,domain=kissmanga.com|kissanime.ru
 ! To Counter Badges broken by easylist [userscript and extension]
-@@||img.shields.io/discord/358599430502481920.svg?style=flat-square&logo=discord&label=Chat%20%2F%20Support&colorB=7289DA$image,domain=kissanime.ru|kissmanga.com
-@@||img.shields.io/github/*/lolamtisch/MALSync.svg*$image,domain=kissanime.ru|kissmanga.com
-@@||img.shields.io/badge/*-Download-brightgreen.svg?style=flat-square&label=*&logo=*&logoColor=white$image,domain=kissanime.ru|kissmanga.com
-@@||img.shields.io/badge/Changelog-*-green.svg?style=flat-square&logo=data:image/png;base64,*==$image,domain=kissanime.ru|kissmanga.com
+@@||img.shields.io^$image,domain=kissanime.ru|kissmanga.com
 ! Episode Check [Extension]
 !#if env_chromium
 @@||kissanime.ru/cdn-cgi/*
