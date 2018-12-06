@@ -19,10 +19,8 @@
 ! removes the annoying message to disable Adblock/uBlock
 kissanime.ru##.barContent > div > p:has-text(not compatible with Adblock/uBlock)
 ! Global clearbox padding
-kissanime.ru##div[class="clear2"]
+kissanime.ru##.clear2, br
 kissanime.ru##.clear:matches-css(height:18px)
-! ad remnants
-kissanime.ru###leftside > br
 ! anime thumbnails broken by easylist
 @@||tumblr.com^$image,domain=kissanime.ru
 
@@ -34,10 +32,8 @@ myanimelist.net##.root
 ! Remove annoying message to disable adblocker
 kissmanga.com##div.rightBox:has-text(not compatible with Adblock/uBlock)
 ! Global clearbox padding
-kissmanga.com##div[class="clear2"]
+kissmanga.com##.clear2, br
 kissmanga.com##.clear:matches-css(height:18px)
-! ad remnants
-kissmanga.com###leftside > br
 ! manga thumbnails broken by easylist
 @@||tumblr.com^$image,domain=kissmanga.com
 
