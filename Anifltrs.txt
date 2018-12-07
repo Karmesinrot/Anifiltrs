@@ -61,6 +61,8 @@ gogoanimes.co##.anime_video_body > div[style="height:250px;overflow:hidden;"]
 ! Counter images being hidden
 kissmanga.com###divImage:style(display: block !important;)
 kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
+! counter thumbnails broken by easylist
+@@||tumblr.com^$image,domain=kissanime.ru|kissmanga.com
 
 ! KISSMANGA Anti-AdBlock --------------------------------------
 ! Kissmanga diffuse
