@@ -11,9 +11,7 @@
 ! COSMETIC FILTERS --------------------------------------------
 ! 9anime Cosmetic Filters
 ! Cleans up the ui a bit, making it more compact
-9anime.*##.widget.crop.text-center
-! ad frame
-9anime.*##div[style="width:728px;height:90px;display:inline-block"]
+9anime.*##.text-center.widget
 
 ! Kissanime Cosmetic Filters
 ! removes the annoying message to disable Adblock/uBlock
