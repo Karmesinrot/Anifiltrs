@@ -19,8 +19,6 @@ kissanime.ru##.barContent > div > p:has-text(not compatible with Adblock/uBlock)
 ! Global clearbox padding
 kissanime.ru##.clear2, br
 kissanime.ru##.clear:matches-css(height:18px)
-! anime thumbnails broken by easylist
-@@||tumblr.com^$image,domain=kissanime.ru
 
 ! MyAnimeList Cosmetic Filters
 ! Mal Privacy Policy statement mask when not logged in
@@ -32,8 +30,6 @@ kissmanga.com##div.rightBox:has-text(not compatible with Adblock/uBlock)
 ! Global clearbox padding
 kissmanga.com##.clear2, br
 kissmanga.com##.clear:matches-css(height:18px)
-! manga thumbnails broken by easylist
-@@||tumblr.com^$image,domain=kissmanga.com
 
 ! Masteranime Cosmetic Filters
 ! Removes blank frame under video player
