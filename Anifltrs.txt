@@ -80,6 +80,8 @@ kissmanga.com##+js(setTimeout-defuser.js, (), 2000)
 ! Blocks xhr request that leads to "Fake Maintenance" Page
 ||kissmanga.com/Special/TemporaryBlockZ$xmlhttprequest,first-party,important
 
+! ADS ---------------------------------------------------------
+
 ! HOT FIXES ---------------------------------------------------
 ! Masteranime MyStream pop-up ads
 mysembed.net##+js(window.open-defuser.js)
