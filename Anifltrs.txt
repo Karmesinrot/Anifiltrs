@@ -82,8 +82,7 @@ kissmanga.com##+js(setTimeout-defuser.js, (), 2000)
 
 ! ADS ---------------------------------------------------------
 ! mangarock ads
-mangarock.com##+js(setTimeout-defuser.js, STOP_EVENT)
-mangarock.com##+js(setTimeout-defuser.js, changeAds)
+mangarock.com##+js(setTimeout-defuser.js, /STOP_EVENT|changeAds/)
 
 ! HOT FIXES ---------------------------------------------------
 ! Masteranime MyStream pop-up ads
