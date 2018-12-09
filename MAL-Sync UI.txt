@@ -13,5 +13,6 @@
 @@||img.shields.io^$image,domain=kissanime.ru|kissmanga.com
 ! New Releases Check [Extension]
 !#if env_chromium
+! episode check
 @@||kissanime.ru/cdn-cgi/*
 !#endif
