@@ -11,7 +11,7 @@
 @@||myanimelist.*^$image,domain=kissmanga.com|kissanime.ru
 ! To Counter Badges broken by easylist [userscript and extension]
 @@||img.shields.io^$image,domain=kissanime.ru|kissmanga.com
-! Episode Check [Extension]
+! New Releases Check [Extension]
 !#if env_chromium
 @@||kissanime.ru/cdn-cgi/*
 !#endif
