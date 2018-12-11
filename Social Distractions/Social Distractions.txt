@@ -8,6 +8,8 @@
 ||facebook.net^$script,domain=animeheaven.eu|9anime.*
 ||twitter.com^$third-party,domain=animeheaven.eu|crunchyroll.com
 ||google.com^$script,domain=kissmanga.com|crunchyroll.com
+! chatbox that stores passwords in plaintext
+||st.chatango.com^$script,domain=animeheaven.eu|branitube.org|turkanime.tv|anime4you.one
 
 ! PER-SITE HANDLING -------------------------------------------
 ! mangarock
