@@ -67,9 +67,7 @@ kissmanga.com##+js(setTimeout-defuser.js, /NGASTQBASMS|YABASFSDWHQBD/)
 
 ! kissmanga Blocking
 !##### All filters relating to this block are redundant when using a custom userscript #####
-!#if env_firefox
 kissmanga.com##^script:has-text(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini)
-!#endif
 !#if env_chromium
 kissmanga.com##+js(setTimeout-defuser.js, (), 30000)
 kissmanga.com##+js(setTimeout-defuser.js, (), 2000)
