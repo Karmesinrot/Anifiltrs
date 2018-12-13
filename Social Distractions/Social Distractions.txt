@@ -21,3 +21,7 @@ mangarock.com##._2fF1P
 animeheaven.eu##.infocombox
 ! twitter
 animeheaven.eu##a[href="https://twitter.com/share"]
+
+! turkanime
+! chatboxes
+turkanime.tv##.col-xs-4 > .row > .col-xs-12:has-text(/TÜRK ANIME TV SOHBET|FACEBOOK'ta BEĞEN/i)
