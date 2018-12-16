@@ -86,6 +86,8 @@ mangarock.com##+js(setTimeout-defuser.js, /STOP_EVENT|changeAds/)
 ||playwire.com^$third-party,domain=mangarock.com
 
 ! PRIVACY -----------------------------------------------------
+! mangarock loacation tracker
+||mangarock.com/geo$xmlhttprequest,first-party
 
 ! HOT FIXES ---------------------------------------------------
 ! Masteranime MyStream pop-up ads
