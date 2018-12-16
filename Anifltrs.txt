@@ -80,7 +80,7 @@ kissmanga.com##+js(setTimeout-defuser.js, (), 2000)
 ||kissmanga.com/Special/TemporaryBlockZ$xmlhttprequest,first-party,important
 
 ! ADS ---------------------------------------------------------
-! mangarock ads
+! mangarock reader ads
 mangarock.com##+js(setTimeout-defuser.js, /STOP_EVENT|changeAds/)
 
 ! HOT FIXES ---------------------------------------------------
