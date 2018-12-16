@@ -85,6 +85,8 @@ mangarock.com##+js(setTimeout-defuser.js, /STOP_EVENT|changeAds/)
 ! mangarock video ads
 ||playwire.com^$third-party,domain=mangarock.com
 
+! PRIVACY -----------------------------------------------------
+
 ! HOT FIXES ---------------------------------------------------
 ! Masteranime MyStream pop-up ads
 mysembed.net##+js(window.open-defuser.js)
