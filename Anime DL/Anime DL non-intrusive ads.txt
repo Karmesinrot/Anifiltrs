@@ -8,4 +8,4 @@
 horriblesubs.info#@#.rls-sponsor
 horriblesubs.info#@#.latest-sponsor
 horriblesubs.info#@#.homepage-sponsor
-@@||horriblesubs.info/images/b/*$image,first-party
+@@||horriblesubs.info/images^$image,first-party
