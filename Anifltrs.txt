@@ -67,6 +67,7 @@ kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
 ||googletagmanager.com/gtag/js$script,redirect=noopjs,domain=kissmanga.com
 kissmanga.com##+js(setTimeout-defuser.js, /NGASTQBASMS|YABASFSDWHQBD/)
 !#endif
+kissmanga.com##+js(abort-on-property-write.js, AddCloseButton, InitCloseButton)
 
 ! kissmanga Blocking
 !##### All filters relating to this block are redundant when using a custom userscript #####
