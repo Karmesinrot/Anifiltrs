@@ -62,11 +62,6 @@ kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
 
 ! KISSMANGA Anti-AdBlock --------------------------------------
 ! Kissmanga diffuse
-!#if env_chromium
-||linkedin.com^$script,redirect=noopjs,domain=kissmanga.com
-||googletagmanager.com/gtag/js$script,redirect=noopjs,domain=kissmanga.com
-kissmanga.com##+js(setTimeout-defuser.js, /NGASTQBASMS|YABASFSDWHQBD/)
-!#endif
 kissmanga.com##+js(abort-on-property-write.js, AddCloseButton, InitCloseButton)
 
 ! kissmanga Blocking
@@ -75,8 +70,6 @@ kissmanga.com##^script:has-text(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobi
 !#if env_chromium
 kissmanga.com##+js(setTimeout-defuser.js, (), 30000)
 !#endif
-! Blocks xhr request that leads to "Fake Maintenance" Page
-||kissmanga.com/Special/TemporaryBlockZ$xmlhttprequest,first-party,important
 
 ! ADS ---------------------------------------------------------
 ! mangarock reader ads
