@@ -62,11 +62,11 @@ kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
 
 ! KISSMANGA Anti-AdBlock --------------------------------------
 ! Kissmanga diffuse
-kissmanga.com##+js(abort-on-property-write.js, AddCloseButton, InitCloseButton)
+kissmanga.com##^script:has-text(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini)
 
 ! kissmanga Blocking
 !##### All filters relating to this block are redundant when using a custom userscript #####
-kissmanga.com##^script:has-text(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini)
+kissmanga.com##+js(abort-on-property-write.js, AddCloseButton, InitCloseButton)
 !#if env_chromium
 kissmanga.com##+js(setTimeout-defuser.js, (), 30000)
 !#endif
