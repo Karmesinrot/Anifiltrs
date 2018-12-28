@@ -9,7 +9,7 @@ Filter list for anime streaming, manga reading, and downloading of such things.
 
 **Anifiltrs**
 * Includes MAL-Sync UI
-* Cosmetic filters for MAL-Sync’s supported sites
+* Cosmetic filters for MAL-Sync’s [supported sites](https://github.com/lolamtisch/MALSync#supported-pages-)
 * Other hotfixes for Anime and Manga sites
 
 **Anifiltrs Extra**
