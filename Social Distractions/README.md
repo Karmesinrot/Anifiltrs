@@ -1,2 +1,2 @@
 # Anifiltrs Social distractions
-Filters for removing distractive/obtrusive social items on MAL-Sync supported sites.
+Filters for removing distractive or obtrusive social items on MAL-Sync supported sites.
