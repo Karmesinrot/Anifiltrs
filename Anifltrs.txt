@@ -41,7 +41,7 @@ mangarock.com##.col-lg-4.col-12 > div[class="_2m3Ig _25rXJ"],[src="/iframe/adtru
 ! buttom banner ads
 mangarock.com##:xpath(//*[@id="bottom-banner-ads"])
 ! reader ads on vertical mode
-mangarock.com##._3XZqY, .TPKsw._2bD1y
+mangarock.com##.BCWDo, ._2bD1y _2pgR9 _3lZHb
 
 ! Gogoanimes Cosmetic filters
 ! background colour
