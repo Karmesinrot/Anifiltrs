@@ -82,7 +82,3 @@ mangarock.com##+js(setTimeout-defuser.js, /STOP_EVENT|changeAds/)
 ||mangarock.com/geo$xmlhttprequest,first-party
 
 ! HOT FIXES ---------------------------------------------------
-! Masteranime MyStream pop-up ads
-mysembed.net##+js(window.open-defuser.js)
-mysembed.net##+js(abort-on-property-write.js, qxxbgqnyew)
-mysembed.net###videooverlay
