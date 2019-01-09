@@ -1,0 +1,15 @@
+! Title: 9anime Unbreak
+! Expires: 14 days
+! Homepage: https://github.com/Karmesinrot/Anifiltrs
+! Description: Filters for unbreaking 9anime
+! Note: many of these filters are already available on Adguard base filters
+
+! 9anime Unbreak ----------------------------------------------
+! whitelist resources
+@@||9anime.*/ajax^
+@@||9anime.*/assets^
+@@||9anime.*/captcha^
+!# allow only the official 9anime domain(s) to have the login button #
+||9anime.cloud/user/ajax^$important
+||9anime.vip/user/ajax^$important
+||9anime.is/user/ajax^$important
