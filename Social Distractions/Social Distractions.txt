@@ -24,3 +24,5 @@ turkanime.tv##.col-xs-4 > .row > .col-xs-12:has-text(/TÜRK ANIME TV SOHBET|FACE
 ! container of social media icons
 anime4you.one##.left.hidden-sm.hidden-xs.col-md-2.col-lg-2.col-xl-2 > aside.dark-bg:has-text(/socials/i)
 anime4you.one##.left.hidden-sm.hidden-xs.col-md-2.col-lg-2.col-xl-2 > div.spacer.clearfix:nth-of-type(1)
+! chatbox container
+anime4you.one##.hidden-xs.hidden-sm.chatbox.dark-bg
