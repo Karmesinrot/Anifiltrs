@@ -38,7 +38,7 @@ kissmanga.com##.clear:matches-css(height:18px)
 masterani.me##div.row:has([href*="masterani.me/out/"])
 
 ! Mangarock Cosmetic filters
-! similar manga adrame
+! sidebar[similar manga adrames]
 mangarock.com##.col-lg-4.col-12 > div[class="_2m3Ig _25rXJ"],[src="/iframe/adtrue_300x250.html"]
 ! buttom banner ads
 mangarock.com##:xpath(//*[@id="bottom-banner-ads"])
