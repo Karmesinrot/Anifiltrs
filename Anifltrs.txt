@@ -40,6 +40,7 @@ masterani.me##div.row:has([href*="masterani.me/out/"])
 ! Mangarock Cosmetic filters
 ! sidebar[similar manga adrames]
 mangarock.com##.col-lg-4.col-12 > div[class="_2m3Ig _25rXJ"],[src="/iframe/adtrue_300x250.html"]
+mangarock.com##.col-12.col-lg-4 > div > div:has(#side-banner-ads)
 ! buttom banner ads
 mangarock.com##:xpath(//*[@id="bottom-banner-ads"])
 ! reader ads on vertical mode
