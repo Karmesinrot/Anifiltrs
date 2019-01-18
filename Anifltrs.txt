@@ -37,7 +37,7 @@ kissmanga.com##.clear:matches-css(height:18px)
 ! Removes blank frame under video player
 masterani.me##div.row:has([href*="masterani.me/out/"])
 
-! Mangarock Cosmetic filters
+! Mangarock Annoyances
 ! blank adframe on homepage
 mangarock.com##div:has(>.iframe[title*=adtrue])
 ! sidebar[similar manga adrames]
