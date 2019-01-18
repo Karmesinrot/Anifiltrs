@@ -8,6 +8,7 @@
 @@||www.google.com/s2/favicons?domain^$image,domain=kissanime.ru|kissmanga.com
 ! To Counter Images broken by easylist [userscript and extension]
 @@||myanimelist.*^$image,domain=kissmanga.com|kissanime.ru
+@@||raw.githubusercontent.com^$image,domain=kissanime.ru|kissmanga.com
 ! To Counter Badges broken by easylist [userscript and extension]
 @@||img.shields.io^$image,domain=kissanime.ru|kissmanga.com
 ! New Releases Check [Extension]
