@@ -45,6 +45,7 @@ mangarock.com##.col-12.col-lg-4 > div > div:has(#side-banner-ads)
 mangarock.com##:xpath(//*[@id="bottom-banner-ads"])
 ! reader ads
 mangarock.com##.BCWDo, ._2bD1y _2pgR9 _3lZHb
+mangarock.com##div[id*="taboola"],div[id*="ads"]
 
 ! Gogoanimes Cosmetic filters
 ! background colour
