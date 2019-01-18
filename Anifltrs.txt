@@ -46,7 +46,7 @@ mangarock.com##.col-12.col-lg-4 > div > div:has(#side-banner-ads)
 ! buttom banner ads
 mangarock.com##:xpath(//*[@id="bottom-banner-ads"])
 ! reader ads
-mangarock.com##._2bD1y _2pgR9 _3lZHb
+mangarock.com##div:has(> div > div[id$=video])
 mangarock.com##div[id*="taboola"],div[id*="ads"]
 mangarock.com##.slick-slide:has(div[id^=taboola])
 
