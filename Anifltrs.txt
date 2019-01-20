@@ -49,6 +49,7 @@ mangarock.com##:xpath(//*[@id="bottom-banner-ads"])
 mangarock.com##div:has(> div > div[id$=video])
 mangarock.com##div[id*="taboola"],div[id*="ads"]
 mangarock.com##.slick-slide:has(div[id^=taboola])
+mangarock.com##div:has(>.BCWDo)
 
 ! Gogoanimes Cosmetic filters
 ! background colour
