@@ -80,6 +80,7 @@ kissmanga.com##+js(setTimeout-defuser.js, (), 30000)
 ! ADS ---------------------------------------------------------
 ! mangarock reader ads
 mangarock.com##+js(setTimeout-defuser.js, /STOP_EVENT|changeAds/)
+mangarock.com##+js(set-constant.js, Ads Block.no, true)
 ! mangarock video ads
 ||playwire.com^$third-party,domain=mangarock.com
 
