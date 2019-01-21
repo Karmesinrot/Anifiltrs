@@ -72,8 +72,8 @@ kissmanga.com##^script:has-text(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobi
 
 ! kissmanga Blocking
 !##### All filters relating to this block are redundant when using a custom userscript #####
-kissmanga.com##+js(abort-on-property-write.js, AddCloseButton, InitCloseButton)
 !#if env_chromium
+kissmanga.com##+js(abort-on-property-write.js, AddCloseButton, InitCloseButton)
 kissmanga.com##+js(setTimeout-defuser.js, (), 30000)
 !#endif
 
