@@ -4,7 +4,6 @@
 ! Description: Filers for DAG(Discord Anime Gaming)
 
 ! DAG ---------------------------------------------------------
-@@||discordapp.com/api/gateway$xmlhttprequest,domain=9anime.to|9anime.is|9anime.ru|9anime.ch
-@@||gateway.discord.gg/?encoding=json&v=6$websocket,domain=9anime.to|9anime.is|9anime.ru|9anime.ch
-@@||discordapp.com^
-@@||gateway.discord.gg^
+! Prevent DAG errors due to easylist filter(s)
+@@||discordapp.com^$xmlhttprequest,domain=9anime.to|9anime.ru|kissanime.ru|kissmanga.com
+@@||gateway.discord.gg^$websocket,domain=9anime.to|9anime.ru|kissanime.ru|kissmanga.com
