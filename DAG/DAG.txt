@@ -5,5 +5,5 @@
 
 ! DAG ---------------------------------------------------------
 ! Prevent DAG errors due to easylist filter(s)
-@@||discordapp.com/api/gateway$xmlhttprequest,domain=9anime.to|9anime.is|9anime.ru|9anime.ch
-@@||gateway.discord.gg/?encoding=json&v=6$websocket,domain=9anime.to|9anime.is|9anime.ru|9anime.ch
+@@||discordapp.com/api/gateway$xmlhttprequest,domain=9anime.to|9anime.ru
+@@||gateway.discord.gg/?encoding=json&v=6$websocket,domain=9anime.to|9anime.ru
