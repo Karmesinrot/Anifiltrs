@@ -14,7 +14,7 @@
 ! PER-SITE HANDLING -------------------------------------------
 ! mangarock
 ! mangarock social icons for sharing
-mangarock.com##._2fF1P
+mangarock.com##div:has(>div>a[href^="https://www.facebook.com"],a[href^="https://www.twitter.com"])
 
 ! turkanime
 ! chatboxes
