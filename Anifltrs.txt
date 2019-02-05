@@ -28,7 +28,8 @@ myanimelist.net##.root
 
 ! kissmanga Cosmetic Filters
 ! Remove annoying message to disable adblocker
-kissmanga.com##div.rightBox:has-text(not compatible with Adblock/uBlock)
+kissmanga.com##div.rightBox:has(p:has-text(Adblock/uBlock)):if-not(:has(p:not(:has-text(Adblock/uBlock))))
+kissmanga.com##div.barContent > div > p:has-text(Adblock/uBlock)
 ! Global clearbox padding
 kissmanga.com##.clear2
 kissmanga.com###leftside > br
