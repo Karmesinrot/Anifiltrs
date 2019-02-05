@@ -15,6 +15,7 @@
 
 ! Kissanime Cosmetic Filters
 ! removes the annoying message to disable Adblock/uBlock
+kissanime.ru##div.rightBox:has(p:has-text(Adblock/uBlock)):if-not(:has(p:not(:has-text(Adblock/uBlock))))
 kissanime.ru##.barContent > div > p:has-text(not compatible with Adblock/uBlock)
 ! Global clearbox padding
 kissanime.ru##.clear2
