@@ -31,7 +31,7 @@ kissmanga.com##div.rightBox:has-text(not compatible with Adblock/uBlock)
 ! Global clearbox padding
 kissmanga.com##.clear2
 kissmanga.com###leftside > br
-kissmanga.com##.clear:matches-css(height:18px)
+kissmanga.com##.clear:not(:matches-css(height:0px)):not(:matches-css(height:5px))
 
 ! Masteranime Cosmetic Filters
 ! Removes blank frame under video player
