@@ -48,7 +48,7 @@ mangarock.com##.col-lg-4.col-12 > div:has(:scope > div > [id^=taboola])
 mangarock.com##div:has(>div>[id^=taboola][id*=collection])
 ! reader ads
 mangarock.com##div:has(> div > div[id$=video])
-mangarock.com##div[id*="taboola"],div[id*="ads"]
+mangarock.com##div:has(>div>[id^=taboola][id*=vertical])
 mangarock.com##.slick-slide:has(div[id^=taboola])
 mangarock.com##div:has(>.BCWDo)
 
