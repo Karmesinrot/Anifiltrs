@@ -43,7 +43,6 @@ masterani.me##div.row:has([href*="masterani.me/out/"])
 ! adtrue iframe
 mangarock.com##div:has(:scope >.iframe[src^="/iframe/adtrue"])
 ! sidebar[similar manga adrames]
-mangarock.com##.col-lg-4.col-12 > div[class="_2m3Ig _25rXJ"],[src="/iframe/adtrue_300x250.html"]
 mangarock.com##.col-lg-4.col-12 > div:has(:scope > div > [id^=taboola])
 ! Collection list adframe(s)
 mangarock.com##div:has(>div>[id^=taboola][id*=collection])
