@@ -40,6 +40,8 @@ kissmanga.com##.clear:not(:matches-css(height:0px)):not(:matches-css(height:5px)
 masterani.me##div.row:has([href*="masterani.me/out/"])
 
 ! Mangarock Annoyances
+! Sticker header
+mangarock.com##._2Dq7D:style(position: absolute !important;)
 ! adtrue iframe
 mangarock.com##div:has(:scope >.iframe[src^="/iframe/adtrue"])
 ! sidebar[similar manga adrames]
