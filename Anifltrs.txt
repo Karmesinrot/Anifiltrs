@@ -89,6 +89,9 @@ mangarock.com##+js(set-constant.js, Ads Block.no, true)
 ! mangarock video ads
 ||playwire.com^$third-party,domain=mangarock.com
 
+! KA & KM push ads
+kissanime.ru,kissmanga.com##^script[data-cfasync="false"]
+
 ! PRIVACY -----------------------------------------------------
 ! mangarock loacation tracker
 ||mangarock.com/geo$xmlhttprequest,first-party
