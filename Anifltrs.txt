@@ -97,7 +97,3 @@ kissanime.ru,kissmanga.com##^script[data-cfasync="false"]
 ||mangarock.com/geo$xmlhttprequest,first-party
 
 ! HOT FIXES ---------------------------------------------------
-!#if env_chromium
-! kissmanga pop-up ads
-||omapetor.xyz^
-!#endif
