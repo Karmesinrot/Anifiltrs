@@ -39,6 +39,9 @@ kissmanga.com##div.barContent > div > p:has-text(Adblock/uBlock)
 kissmanga.com##.clear2
 kissmanga.com###leftside > br
 kissmanga.com##.clear:not(:matches-css(height:0px)):not(:matches-css(height:5px)):not(:matches-css(height:76px))
+! left-over adframes
+kissanime.ru##iframe[src^="/ads/"]
+kissanime.ru##div[id^=adsIfrme]:not([id=adsIfrme])
 
 ! Masteranime Cosmetic Filters
 ! Removes blank frame under video player
