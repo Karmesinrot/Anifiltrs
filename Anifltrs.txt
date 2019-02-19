@@ -21,6 +21,8 @@ kissanime.ru##.barContent > div > p:has-text(not compatible with Adblock/uBlock)
 kissanime.ru##.clear2
 kissanime.ru###leftside > br
 kissanime.ru##.clear:not(:matches-css(height:0px)):not(:matches-css(height:5px)):not(:matches-css(line-height:23px)):not(:matches-css(height:76px))
+! Messages on top of video player
+kissanime.ru##div[style*='!important']
 
 ! MyAnimeList Cosmetic Filters
 ! Mal Privacy Policy statement mask when not logged in
