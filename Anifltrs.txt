@@ -76,8 +76,6 @@ turkanime.tv##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
 ! Counter images being hidden
 kissmanga.com###divImage:style(display: block !important;)
 kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
-! counter thumbnails broken by easylist
-@@||tumblr.com^$image,domain=kissanime.ru|kissmanga.com
 
 ! KISSANIME & KISSMANGA Anti-AdBlock --------------------------------------
 ! script diffuse
@@ -96,9 +94,6 @@ mangarock.com##+js(setTimeout-defuser.js, /STOP_EVENT|changeAds/)
 mangarock.com##+js(set-constant.js, Ads Block.no, true)
 ! mangarock video ads
 ||playwire.com^$third-party,domain=mangarock.com
-
-! KA & KM push ads
-kissanime.ru,kissmanga.com##^script[data-cfasync="false"]
 
 ! PRIVACY -----------------------------------------------------
 ! mangarock loacation tracker
