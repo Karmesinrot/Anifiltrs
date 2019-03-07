@@ -6,8 +6,6 @@
 ! MAL-Sync ----------------------------------------------------
 ! Prevent miniMAL breakage due to uBlock filter
 gogoanime.*,gogoanimes.*#@#+js(set-constant.js, String.prototype.charAt, noopFunc)
-! Crunchyroll popup blocked on masterani.me
-@@||www.crunchyroll.com^$popup,domain=masterani.me
 ! To Counter Contributor section breakage due to easylist filter [userscript and extension]
 @@||discordapp.com^$image,domain=kissanime.ru|kissmanga.com
 ! To counter favicons broken by easylist [userscript and extension]

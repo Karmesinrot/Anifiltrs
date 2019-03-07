@@ -43,10 +43,6 @@ kissmanga.com##.clear:not(:matches-css(height:0px)):not(:matches-css(height:5px)
 kissmanga.com##iframe[src^="/ads/"]
 kissmanga.com##div[id^=adsIfrme]:not([id=adsIfrme])
 
-! Masteranime Cosmetic Filters
-! Removes blank frame under video player
-masterani.me##div.row:has([href*="masterani.me/out/"])
-
 ! Mangarock Annoyances
 ! Sticker header
 mangarock.com##._2Dq7D:style(position: absolute !important;)
