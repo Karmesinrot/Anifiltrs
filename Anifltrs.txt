@@ -96,3 +96,5 @@ mangarock.com##+js(set-constant.js, Ads Block.no, true)
 ||mangarock.com/geo$xmlhttprequest,first-party
 
 ! HOT FIXES ---------------------------------------------------
+! Fix kissanime thumbnails broken by easylist
+@@||i.imgur.com^$image,domain=kissanime.ru
