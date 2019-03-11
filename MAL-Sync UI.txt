@@ -6,6 +6,10 @@
 ! MAL-Sync ----------------------------------------------------
 ! Prevent miniMAL breakage due to uBlock filter
 gogoanime.*,gogoanimes.*#@#+js(set-constant.js, String.prototype.charAt, noopFunc)
+! Prevent MAL-Sync update and miniMAL brekage on 9anime Firefox stable
+!#if env_firefox
+9anime.ru,9anime.to#@#+js(set-constant.js, String.prototype.charAt, trueFunc)
+!#endif
 ! To Counter Contributor section breakage due to easylist filter [userscript and extension]
 @@||discordapp.com^$image,domain=kissanime.ru|kissmanga.com
 ! To counter favicons broken by easylist [userscript and extension]
