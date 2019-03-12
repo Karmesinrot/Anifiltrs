@@ -6,7 +6,7 @@
 ! MAL-Sync ----------------------------------------------------
 ! Prevent miniMAL breakage due to uBlock filter
 gogoanime.*,gogoanimes.*#@#+js(set-constant.js, String.prototype.charAt, noopFunc)
-! Prevent MAL-Sync update and miniMAL brekage on 9anime Firefox stable
+! Prevent MAL-Sync update and miniMAL brekage on 9anime Firefox stable [userscript]
 !#if env_firefox
 9anime.ru,9anime.to#@#+js(set-constant.js, String.prototype.charAt, trueFunc)
 !#endif
