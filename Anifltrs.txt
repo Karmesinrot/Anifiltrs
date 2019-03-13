@@ -70,7 +70,7 @@ turkanime.tv##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
 
 ! KISS SITES ELEMETNS BEING HIDDEN/BROKEN ---------------------
 ! Counter images being hidden
-kissmanga.com###divImage:style(display: block !important;)
+kissmanga.com###divImage:style(display: block !important;margin-top:15px!important;)
 kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
 
 ! KISSANIME & KISSMANGA Anti-AdBlock --------------------------------------
