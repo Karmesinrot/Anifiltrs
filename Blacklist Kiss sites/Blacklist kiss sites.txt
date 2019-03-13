@@ -9,6 +9,7 @@
 ||kissasian.*^
 ||kisshentai.net^
 ||kissdoujin.com^
+||kisstvshow.to^
 
 ! Sites related to the group
 ||readcomiconline.to^
