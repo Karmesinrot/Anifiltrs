@@ -15,3 +15,6 @@ dubbedanime.net##.text-center.alert-info.alert:has-text(Hide the Annoying Ads!)
 ! otakustream
 ! facebook
 ||staticxx.facebook.com^$third-party,domain=otakustream.tv
+! Counter icons from being broken by fanboy's annoyances
+@@||otakustream.tv/wp-content/plugins/accesspress-social-login-lite/css/font-awesome/font-awesome.min.css$stylesheet,1p
+@@||otakustream.tv/wp-content/plugins/accesspress-social-login-lite/css/fonts^$font,1p
