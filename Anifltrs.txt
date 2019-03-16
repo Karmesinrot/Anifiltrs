@@ -68,6 +68,11 @@ gogoanimes.*,gogoanime.*##.anime_video_body > div[style="height:250px;overflow:h
 ! sponsored adframes
 turkanime.tv##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
 
+! Otakustream
+! Counter icons from being broken by fanboy's annoyances
+@@||otakustream.tv/wp-content/plugins/accesspress-social-login-lite/css/font-awesome/font-awesome.min.css$stylesheet,1p
+@@||otakustream.tv/wp-content/plugins/accesspress-social-login-lite/css/fonts^$font,1p
+
 ! KISS SITES ELEMETNS BEING HIDDEN/BROKEN ---------------------
 ! Counter images being hidden
 kissmanga.com###divImage:style(display: block !important;margin-top:15px!important;)
