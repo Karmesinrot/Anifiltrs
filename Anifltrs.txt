@@ -78,11 +78,11 @@ turkanime.tv##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
 kissmanga.com###divImage:style(display: block !important;margin-top:15px!important;)
 kissmanga.com##+js(setTimeout-defuser.js, /YANABWEKA|HATEDBSDIDSY/)
 
-! KISSANIME & KISSMANGA Anti-AdBlock --------------------------------------
-! script diffuse
+! KISSANIME & KISSMANGA Annoynaces --------------------------------------
+! AA script diffuse
 kissanime.ru,kissmanga.com##^script:has-text(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini)
 
-! AA Blocking
+! AA Blocking chromium
 !##### All filters relating to this block are redundant when using a custom userscript #####
 !#if env_chromium
 kissanime.ru,kissmanga.com##+js(abort-on-property-write.js, AddCloseButton, InitCloseButton)
