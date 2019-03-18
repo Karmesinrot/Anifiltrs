@@ -89,6 +89,9 @@ kissanime.ru,kissmanga.com##+js(abort-on-property-write.js, AddCloseButton, Init
 kissanime.ru,kissmanga.com##+js(setTimeout-defuser.js, (), 30000)
 !#endif
 
+! prevent kissanime wrong captcha loop
+kissanime.ru##+js(setTimeout-defuser.js, YASBATMBCL)
+
 ! ADS ---------------------------------------------------------
 ! mangarock reader ads
 mangarock.com##+js(setTimeout-defuser.js, /STOP_EVENT|changeAds/)
