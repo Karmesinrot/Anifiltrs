@@ -73,6 +73,10 @@ turkanime.tv##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
 @@||otakustream.tv/wp-content/plugins/accesspress-social-login-lite/css/font-awesome/font-awesome.min.css$stylesheet,1p
 @@||otakustream.tv/wp-content/plugins/accesspress-social-login-lite/css/fonts^$font,1p
 
+! openload.co
+! counter script that causes extra clicks to start the video
+openload.co##+js(abort-current-inline-script.js, Function.prototype.bind)
+
 ! KISS SITES ELEMETNS BEING HIDDEN/BROKEN ---------------------
 ! Counter images being hidden
 kissmanga.com###divImage:style(display: block !important;margin-top:15px!important;)
