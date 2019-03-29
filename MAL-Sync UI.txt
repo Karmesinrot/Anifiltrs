@@ -19,6 +19,8 @@ gogoanime.*,gogoanimes.*#@#+js(set-constant.js, String.prototype.charAt, noopFun
 !#if env_chromium
 ! new episode check
 @@||kissanime.ru/cdn-cgi^
+@@||kissanime.ru/Anime/*mal-sync-background^$subdocument
 ! new chapter check
 @@||kissmanga.com/cdn-cgi^
+@@||kissmanga.com/Manga/*mal-sync-background^$subdocument
 !#endif
