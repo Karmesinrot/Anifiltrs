@@ -113,3 +113,4 @@ mangarock.com##+js(set-constant.js, Ads Block.no, true)
 
 ! MyAnimeList's April Fools censored images
 myanimelist.net##img[src$="censored.png"]
+||cdn.myanimelist.net/images/censored.png$image
