@@ -110,7 +110,3 @@ mangarock.com##+js(set-constant.js, Ads Block.no, true)
 ! HOT FIXES ---------------------------------------------------
 ! Fix kissanime thumbnails broken by easylist
 @@||i.imgur.com^$image,domain=kissanime.ru
-
-! MyAnimeList's April Fools censored images
-myanimelist.net##img[src$="censored.png"]
-||cdn.myanimelist.net/images/censored.png$image
