@@ -4,7 +4,7 @@
 ! Description: Filters for removing distractive/obtrusive social items on MAL-Sync supported sites
 
 ! GLOBAL ------------------------------------------------------
-||facebook.com^$third-party,domain=mangarock.com|kissmanga.com|crunchyroll.com|turkanime.tv|otakustream.tv
+||facebook.com^$third-party,domain=mangarock.com|kissmanga.com|crunchyroll.com|turkanime.tv|otakustream.tv|animeflv.net
 ||facebook.net^$script,domain=9anime.to|9anime.is|9anime.ru|9anime.ch
 ||twitter.com^$third-party,domain=crunchyroll.com
 ||google.com^$script,domain=kissmanga.com|crunchyroll.com
@@ -26,3 +26,6 @@ anime4you.one##.left.hidden-sm.hidden-xs.col-md-2.col-lg-2.col-xl-2 > aside.dark
 anime4you.one##.left.hidden-sm.hidden-xs.col-md-2.col-lg-2.col-xl-2 > div.spacer.clearfix:nth-of-type(1)
 ! chatbox container
 anime4you.one##.hidden-xs.hidden-sm.chatbox.dark-bg
+
+! animeflv.net
+animeflv.net##.ListSocial.BFixed
