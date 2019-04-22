@@ -110,6 +110,9 @@ mangarock.com##+js(set-constant.js, Ads Block.no, true)
 ! mangarock video ads
 ||playwire.com^$third-party,domain=mangarock.com
 
+! yourupload download rom ad
+yourupload.com##.download-roms-button
+
 ! PRIVACY -----------------------------------------------------
 ! mangarock loacation tracker
 ||mangarock.com/geo$xmlhttprequest,first-party
