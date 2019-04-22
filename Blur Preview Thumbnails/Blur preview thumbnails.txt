@@ -20,3 +20,6 @@ mysembed.net##.vjs-poster:style(filter:blur(1.5rem)!important;)
 
 ! mp4upload
 mp4upload.com##.jw-preview.jw-reset:style(filter:blur(1.5rem)!important;)
+
+! fembed
+fembed.com###vstr > div[style*="background-size:contain;"]:style(filter:blur(8px))
