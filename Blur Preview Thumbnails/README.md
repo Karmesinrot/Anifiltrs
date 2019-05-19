@@ -16,4 +16,7 @@ uBlock Origin filters for blurring the preview images on video players. Created 
 * Streamango
 * OpenLoad
 * MyStream
-
+* Mp4upload
+* Fembed
+* YourUpload
+* Kwik
