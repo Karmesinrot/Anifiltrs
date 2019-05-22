@@ -119,3 +119,6 @@ yourupload.com##.download-roms-button
 ! HOT FIXES ---------------------------------------------------
 ! Fix kissanime thumbnails broken by easylist
 @@||i.imgur.com^$image,domain=kissanime.ru
+
+! mp4upload ad overlay
+mp4upload.com##div :has(div>iframe[src*="/vjs/ada2.html"])
