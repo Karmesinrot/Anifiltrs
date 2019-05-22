@@ -9,7 +9,7 @@
 ||twitter.com^$third-party,domain=crunchyroll.com
 ||google.com^$script,domain=kissmanga.com|crunchyroll.com
 ! chatbox that stores passwords in plaintext
-||st.chatango.com^$script,domain=turkanime.tv|anime4you.one
+||st.chatango.com^$script,domain=turkanime.tv|anime4you.one|animevibe.tv
 
 ! PER-SITE HANDLING -------------------------------------------
 ! mangarock
