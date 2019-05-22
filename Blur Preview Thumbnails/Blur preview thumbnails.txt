@@ -30,3 +30,5 @@ yourupload.com##.jw-preview.jw-reset:style(filter:blur(8px))
 ! kwik
 kwik.cx##.plyr__poster:style(filter:blur(8px)!important;)
 
+! oload
+oload.tv##.vjs-poster:style(filter:blur(8px))
