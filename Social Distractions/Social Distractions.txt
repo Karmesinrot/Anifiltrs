@@ -29,3 +29,7 @@ anime4you.one##.hidden-xs.hidden-sm.chatbox.dark-bg
 
 ! animeflv.net
 animeflv.net##.ListSocial.BFixed
+
+! animevibe
+! Chatbox
+animevibe.tv##aside.widget_custom_html.widget.td_block_template_17.widget_text:has(span:has-text(Chat))
