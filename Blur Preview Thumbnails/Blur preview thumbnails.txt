@@ -21,8 +21,8 @@ mysembed.net##.vjs-poster:style(filter:blur(1.5rem)!important;)
 ! mp4upload
 mp4upload.com##.vjs-poster:style(filter:blur(1.17rem)!important;)
 
-! fembed, xstreamcdn
-fembed.com,xstreamcdn.com###vstr > div[style*="background-size:contain;"]:style(filter:blur(8px))
+! fembed, xstreamcdn, noveplanet
+fembed.com,xstreamcdn.com,novelplanet.me###vstr > div[style*="background-size:contain;"]:style(filter:blur(8px))
 
 ! yourupload
 yourupload.com##.jw-preview.jw-reset:style(filter:blur(8px))
