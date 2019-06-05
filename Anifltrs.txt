@@ -45,7 +45,7 @@ kissmanga.com##div[id^=adsIfrme]:not([id=adsIfrme])
 ! Sticker header
 mangarock.com##._2Dq7D:style(position: absolute !important;)
 ! adtrue iframe
-mangarock.com##div:has(:scope >.iframe[src^="/iframe/adtrue"])
+mangarock.com##iframe[src^="/iframe/adtrue"][class="iframe"]:nth-ancestor(1)
 ! sidebar[similar manga adrames]
 mangarock.com##.col-lg-4.col-12 > div:has(:scope > div > [id^=taboola])
 ! Collection list adframe(s)
