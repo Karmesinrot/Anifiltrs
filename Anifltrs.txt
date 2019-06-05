@@ -46,14 +46,11 @@ kissmanga.com##div[id^=adsIfrme]:not([id=adsIfrme])
 mangarock.com##._2Dq7D:style(position: absolute !important;)
 ! adtrue iframe
 mangarock.com##iframe[src^="/iframe/adtrue"][class="iframe"]:nth-ancestor(1)
-! sidebar[similar manga adrames]
-mangarock.com##.col-lg-4.col-12 > div:has(:scope > div > [id^=taboola])
-! Collection list adframe(s)
-mangarock.com##div:has(>div>[id^=taboola][id*=collection])
+! taboola ads
+mangarock.com##[id=taboola-homepage-desktop],[id=taboola-article-thumbnails],[id^=taboola][id*=collection],[id^=taboola][id*=vertical]:nth-ancestor(2)
+mangarock.com##[id^=taboola][id*=horizontal]:nth-ancestor(1)
 ! reader ads
 mangarock.com##[id$=video]:nth-ancestor(2)
-mangarock.com##div:has(>div>[id^=taboola][id*=vertical])
-mangarock.com##.slick-slide:has(div[id^=taboola])
 
 ! Gogoanimes Cosmetic filters
 ! background colour
