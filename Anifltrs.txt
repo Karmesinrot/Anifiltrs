@@ -82,6 +82,10 @@ animeflv.net##.CpCnC > .WdgtCn:style(margin-top:105px!important;)
 ! google ads frame container
 anime-planet.com##.ad:nth-ancestor(1) [class^="halo"]
 
+! animeultima
+! animeultima.eu ads on the sidebar of video page
+animeultima.eu##iframe[src="/unit/300"]:nth-ancestor(1)
+
 ! KISS SITES ELEMETNS BEING HIDDEN/BROKEN ---------------------
 ! Counter images being hidden
 kissmanga.com###divImage:style(display: block !important;margin-top:15px!important;)
