@@ -88,6 +88,10 @@ animeultima.eu##iframe[src="/unit/300"]:nth-ancestor(1)
 ! cosmetic adjustment after removing ads
 animeultima.eu##[style="margin: 0px auto; width: 300px;"]:style(margin-top:-12px!important;)
 
+! Dream Animes
+! google ads
+dreamanimes.com.br##.adsbygoogle:nth-ancestor(1)
+
 ! KISS SITES ELEMETNS BEING HIDDEN/BROKEN ---------------------
 ! Counter images being hidden
 kissmanga.com###divImage:style(display: block !important;margin-top:15px!important;)
