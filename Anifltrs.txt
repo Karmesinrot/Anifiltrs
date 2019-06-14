@@ -78,6 +78,10 @@ openload.co##+js(abort-current-inline-script.js, Function.prototype.bind)
 ! cosmetic filter for sidebar on video page
 animeflv.net##.CpCnC > .WdgtCn:style(margin-top:105px!important;)
 
+! AnimePlanet
+! google ads frame container
+anime-planet.com##.ad:nth-ancestor(1) [class^="halo"]
+
 ! KISS SITES ELEMETNS BEING HIDDEN/BROKEN ---------------------
 ! Counter images being hidden
 kissmanga.com###divImage:style(display: block !important;margin-top:15px!important;)
