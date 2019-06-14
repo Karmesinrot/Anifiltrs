@@ -38,3 +38,6 @@ ok.ru##.vid-card_img:style(filter:blur(8px))
 
 ! Netu.tv
 hqq.tv##.vjs-poster:style(filter:blur(8px)!important;)
+
+! verystream.com
+verystream.com##.vjs-poster:style(filter:blur(8px);)
