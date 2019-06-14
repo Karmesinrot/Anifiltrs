@@ -6,9 +6,5 @@
 
 ! 9anime Unbreak ----------------------------------------------
 ! whitelist resources
-@@||9anime.*/ajax^
-@@||9anime.*/captcha^
-!# allow only the official 9anime domain(s) to have the login button #
-||9anime.cloud/user/ajax^$important
-||9anime.vip/user/ajax^$important
-||9anime.is/user/ajax^$important
+@@||9anime.*/ajax^$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
+@@||9anime.*/captcha^$domain=9anime.ru|9anime.to|9anime.nl|9anime.live
