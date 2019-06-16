@@ -124,6 +124,9 @@ yourupload.com##.download-roms-button
 ! kwik CSP filter
 ||kwik.cx^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.plyr.io cdn.jsdelivr.net blob: 'self'
 
+! prettyfast.to CSP filter
+||prettyfast.to^$csp=script-src 'self' 'unsafe-inline' ssl.p.jwpcdn.com *.googleusercontent.com g.jwpsrv.com ajax.googleapis.com blob: 'self'
+
 ! PRIVACY -----------------------------------------------------
 ! mangarock loacation tracker
 ||mangarock.com/geo$xmlhttprequest,first-party
