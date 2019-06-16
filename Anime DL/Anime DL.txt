@@ -8,3 +8,9 @@
 @@||horriblesubs.info^$image,1p
 ! download page add
 horriblesubs.info##div.hidden-xs.well:has(script)
+
+! kwik.cx
+! unbreak download button
+kwik.cx#@#.adSense
+! remove leftover adframes
+kwik.cx##script[src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]:nth-ancestor(2):not(body)
