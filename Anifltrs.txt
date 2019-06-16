@@ -121,6 +121,9 @@ mangarock.com##+js(setTimeout-defuser.js, (), 30000)
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
 
+! kwik CSP filter
+||kwik.cx^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.plyr.io cdn.jsdelivr.net blob: 'self'
+
 ! PRIVACY -----------------------------------------------------
 ! mangarock loacation tracker
 ||mangarock.com/geo$xmlhttprequest,first-party
