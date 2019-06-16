@@ -6,3 +6,5 @@
 ! horriblesubs
 ! blocked background-image
 @@||horriblesubs.info^$image,1p
+! download page add
+horriblesubs.info##div.hidden-xs.well:has(script)
