@@ -1,5 +1,5 @@
 ! Title: Anime DL non-intrusive ads
-! Expires: 7 days
+! Expires: 14 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Whitelists non-intrusive ads on Anime DL sites
 
