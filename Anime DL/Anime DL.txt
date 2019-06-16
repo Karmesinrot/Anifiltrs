@@ -1,1 +1,5 @@
+! Title: Anime DL
+! Expires: 7 days
+! Homepage: https://github.com/Karmesinrot/Anifiltrs
+! Description: Filters Anime DL sites
 
