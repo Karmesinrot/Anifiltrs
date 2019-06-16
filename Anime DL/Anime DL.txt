@@ -3,3 +3,6 @@
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Filters for Anime DL sites
 
+! horriblesubs
+! blocked background-image
+@@||horriblesubs.info^$image,1p
