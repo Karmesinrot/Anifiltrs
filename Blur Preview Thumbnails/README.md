@@ -9,14 +9,3 @@ uBlock Origin filters for blurring the preview images on video players. Created 
 ### After
 ![After](https://raw.githubusercontent.com/Karmesinrot/Anifiltrs/master/Screenshots/bpt_applied.png)
 
-
-### The filter list works for the following players:
-* MyCloud
-* RapidVideo
-* Streamango
-* OpenLoad
-* MyStream
-* Mp4upload
-* Fembed
-* YourUpload
-* Kwik
