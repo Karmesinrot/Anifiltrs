@@ -17,12 +17,6 @@
 ||novelplanet.com^
 
 ! csp filters
-||Kissanime.ru^$csp=default-src 'none'
-||kissmanga.com^$csp=default-src 'none'
+||*^$csp=default-src 'none' ,domain=Kissanime.ru|kissmanga.com|kisshentai.net|kissdoujin.com|kisstvshow.to|readcomiconline.to|novelplanet.com
 ||kissasian.*^$csp=default-src 'none'
-||kisshentai.net^$csp=default-src 'none'
-||kissdoujin.com^$csp=default-src 'none'
-||kisstvshow.to^$csp=default-src 'none'
-||readcomiconline.to^$csp=default-src 'none'
 ||kimcartoon.*^$csp=default-src 'none'
-||novelplanet.com^$csp=default-src 'none'
