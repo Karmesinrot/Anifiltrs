@@ -106,6 +106,7 @@ kissanime.ru,kissmanga.com##^script:has-text(Android|webOS|iPhone|iPad|iPod|Blac
 kissanime.ru,kissmanga.com##+js(abort-on-property-write.js, AddCloseButton, InitCloseButton)
 kissanime.ru,kissmanga.com##+js(setTimeout-defuser.js, (), 30000)
 kissanime.ru##+js(abort-on-property-read.js, HAYNQMAKDASAS)
+kissmanga.com##+js(setTimeout-defuser.js, /HATEDBSDIDSY|YANABWEKA/)
 !#endif
 
 ! prevent kissanime wrong captcha loop
