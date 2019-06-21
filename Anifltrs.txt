@@ -132,6 +132,9 @@ yourupload.com##.download-roms-button
 ! 4anime
 ||4anime.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: ajax.googleapis.com ssl.p.jwpcdn.com *.disqus.com c.disquscdn.com
 
+! animefreak.tv
+||animefreak.tv^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.google.com www.gstatic.com
+
 ! PRIVACY -----------------------------------------------------
 ! mangarock loacation tracker
 ||mangarock.com/geo$xmlhttprequest,first-party
