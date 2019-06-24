@@ -69,6 +69,8 @@ turkanime.tv##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
 ! Counter icons from being broken by fanboy's annoyances
 @@||otakustream.tv/wp-content/plugins/accesspress-social-login-lite/css/font-awesome/font-awesome.min.css$stylesheet,1p
 @@||otakustream.tv/wp-content/plugins/accesspress-social-login-lite/css/fonts^$font,1p
+! Counter fonts broken by easylist
+@@||fonts.googleapis.com^$stylesheet,domain=otakustream.tv
 
 ! openload.co
 ! counter script that causes extra clicks to start the video
