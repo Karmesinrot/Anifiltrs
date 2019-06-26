@@ -117,8 +117,6 @@ kissanime.ru##+js(setTimeout-defuser.js, YASBATMBCL)
 mangarock.com##+js(setTimeout-defuser.js, /STOP_EVENT|changeAds/)
 mangarock.com##+js(set-constant.js, Ads Block.no, true)
 mangarock.com##+js(setTimeout-defuser.js, (), 30000)
-! mangarock video ads
-||playwire.com^$third-party,domain=mangarock.com
 
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
