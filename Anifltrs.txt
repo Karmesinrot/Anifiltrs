@@ -141,3 +141,6 @@ yourupload.com##.download-roms-button
 
 ! mp4upload ad overlay
 mp4upload.com##div :has(div>iframe[src*="/vjs/ada2.html"])
+
+! rapdivideo breakage due to easylist filter
+||rapidvideo.com^$script,badfilter
