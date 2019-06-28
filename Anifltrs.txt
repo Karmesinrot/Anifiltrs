@@ -118,7 +118,7 @@ mangarock.com##+js(setTimeout-defuser.js, (), 30000)
 ! badfilter
 @@||mangarock.com/ads.js$badfilter
 ! CSP
-||mangarock.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.mangarockhd.com *.mrcdn.info fonts.googleapis.com fonts.gstatic.com js.stripe.com *.myanimelist.net vgfiles.nabstudio.com cdnjs.cloudflare.com *.disqus.com c.disquscdn.com; frame-src data: disqus.com js.stripe.com; img-src data: *
+||mangarock.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.mangarockhd.com *.mrcdn.info fonts.googleapis.com fonts.gstatic.com js.stripe.com *.myanimelist.net vgfiles.nabstudio.com cdnjs.cloudflare.com *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg; frame-src data: disqus.com js.stripe.com; img-src data: *
 
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
