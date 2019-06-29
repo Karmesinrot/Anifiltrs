@@ -148,3 +148,6 @@ mp4upload.com##div :has(div>iframe[src*="/vjs/ada2.html"])
 
 ! rapdivideo breakage due to easylist filter
 ||rapidvideo.com^$script,badfilter
+
+! novelplanet [nova player] pop-up ads
+novelplanet.me##+js(abort-on-property-read.js, decodeURIComponent)
