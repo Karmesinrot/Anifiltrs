@@ -16,14 +16,12 @@
 ! Kissanime Cosmetic Filters
 ! removes the annoying message to disable Adblock/uBlock
 kissanime.ru##div.rightBox:has(p:has-text(Adblock/uBlock)):if-not(:has(p:not(:has-text(Adblock/uBlock)))),.barContent > div > p:has-text(not compatible with Adblock/uBlock)
-! Global clearbox padding
-kissanime.ru##.clear2, #leftside > br
+! Global clearbox padding and left-over adframes
+kissanime.ru##.clear2, #leftside > br, iframe[src^="/ads/"]
 kissanime.ru##.clear:not(:matches-css(height:0px)):not(:matches-css(height:5px)):not(:matches-css(line-height:23px)):not(:matches-css(height:76px))
+kissanime.ru##div[id^=adsIfrme]:not([id=adsIfrme])
 ! Messages on top of video player
 kissanime.ru##div[style*='!important']
-! left-over adframes
-kissanime.ru##iframe[src^="/ads/"]
-kissanime.ru##div[id^=adsIfrme]:not([id=adsIfrme])
 
 ! MyAnimeList Cosmetic Filters
 ! Mal Privacy Policy statement mask when not logged in
@@ -32,12 +30,12 @@ myanimelist.net##.root
 ! kissmanga Cosmetic Filters
 ! Remove annoying message to disable adblocker
 kissmanga.com##div.rightBox:has(p:has-text(Adblock/uBlock)):if-not(:has(p:not(:has-text(Adblock/uBlock)))),.barContent > div > p:has-text(not compatible with Adblock/uBlock)
-! Global clearbox padding
-kissmanga.com##.clear2, #leftside > br
+! Global clearbox padding and left-over adframes
+kissmanga.com##.clear2, #leftside > br, iframe[src^="/ads/"]
 kissmanga.com##.clear:not(:matches-css(height:0px)):not(:matches-css(height:5px)):not(:matches-css(height:76px))
-! left-over adframes
-kissmanga.com##iframe[src^="/ads/"]
 kissmanga.com##div[id^=adsIfrme]:not([id=adsIfrme])
+! Counter images being hidden
+kissmanga.com###divImage:style(display: block !important;margin-top:15px!important;)
 
 ! Mangarock Annoyances
 ! Sticker header
@@ -92,11 +90,7 @@ animeultima.eu##.has-text-centered.is-narrow.column:style(margin-top:-12px)
 ! google ads
 dreamanimes.com.br##.adsbygoogle:nth-ancestor(1)
 
-! KISS SITES ELEMETNS BEING HIDDEN/BROKEN ---------------------
-! Counter images being hidden
-kissmanga.com###divImage:style(display: block !important;margin-top:15px!important;)
-
-! KISSANIME & KISSMANGA Annoynaces --------------------------------------
+! KISSANIME & KISSMANGA Annoyances ----------------------------
 ! AA script diffuse
 kissanime.ru,kissmanga.com##^script:has-text(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini)
 
