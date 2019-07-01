@@ -129,6 +129,10 @@ yourupload.com##.download-roms-button
 ! animefreak.tv
 ||animefreak.tv^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.google.com www.gstatic.com
 
+! kissanime
+! excluded facebook
+||kissanime.ru^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.mp4upload.com *.playercdn.net data: www.googletagmanager.com *.disqus.com c.disquscdn.com *.googleusercontent.com fonts.gstatic.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg; frame-src disqus.com www.novelplanet.me streamango.com www.mp4upload.com www.rapidvideo.com googlevideo.com; img-src data: *
+
 ! PRIVACY -----------------------------------------------------
 ! mangarock loacation tracker
 ||mangarock.com/geo$xmlhttprequest,first-party
