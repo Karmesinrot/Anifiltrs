@@ -151,8 +151,10 @@ yourupload.com##.download-roms-button
 ! mp4upload ad overlay
 mp4upload.com##div :has(div>iframe[src*="/vjs/ada2.html"])
 
-! rapdivideo breakage due to easylist filter
-||rapidvideo.com^$script,badfilter
+! rapdivideo breakage due to easylist filter [mainly hotkeys and quality selector]
+@@||rapidvideo.com/assets/js/video-js-6.2.0.js$script
+@@||rapidvideo.com/assets/js/videojs.hotkeys-0.2.25.min.js$script
+@@||rapidvideo.com/assets/js/silvermine-videojs-quality-selector.min.js$script
 
 ! novelplanet [nova player] pop-up ads
 novelplanet.me##+js(abort-current-inline-script.js, String.fromCharCode, decodeURIComponent)
