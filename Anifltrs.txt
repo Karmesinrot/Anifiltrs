@@ -51,11 +51,8 @@ mangarock.com##[id$=video]:nth-ancestor(2)
 ! Gogoanimes Cosmetic filters
 ! background colour
 gogoanimes.*,gogoanime.*##body:style(background-color: #1b1b1b !important;)
-! adframe above video player
-gogoanimes.*,gogoanime.*##.anime_video_body > div[style="height:250px;overflow:hidden;"]
 ! ad containers
-gogoanimes.*,gogoanime.*##.adsverting.anime_name
-gogoanimes.*,gogoanime.*##.headnav_center:has(>.headnav_items)
+gogoanimes.*,gogoanime.*##.anime_video_body > div[style="height:250px;overflow:hidden;"], [class^="headnav_center"]
 
 ! Turkanime Cosmetic filters
 ! sponsored adframes
