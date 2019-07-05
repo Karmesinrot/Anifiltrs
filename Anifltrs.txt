@@ -137,6 +137,9 @@ yourupload.com##.download-roms-button
 ! novelplanet [nova player] CSP
 ||novelplanet.me^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: fvs.io *.hlsmp4.com; connect-src 'self'
 
+! kissmanga
+||kissmanga.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg; frame-src disqus.com ; img-src data: *
+
 ! PRIVACY -----------------------------------------------------
 ! mangarock loacation tracker
 ||mangarock.com/geo$xmlhttprequest,first-party
