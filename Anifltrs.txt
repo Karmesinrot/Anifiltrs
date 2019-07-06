@@ -143,6 +143,7 @@ yourupload.com##.download-roms-button
 ! PRIVACY -----------------------------------------------------
 ! mangarock loacation tracker
 ||mangarock.com/geo$xmlhttprequest,first-party
+mangarock.com##+js(set-constant.js, country, undefined)
 
 ! HOT FIXES ---------------------------------------------------
 ! Fix kissanime thumbnails broken by easylist
