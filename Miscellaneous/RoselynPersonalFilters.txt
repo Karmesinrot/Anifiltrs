@@ -1,0 +1,11 @@
+! Title: Roselyn's[Karmesinrot] Personal Filters
+! Expires: 14 days
+! Homepage: https://github.com/Karmesinrot/Anifiltrs
+! Description: My presonal filterlist
+
+! Personal filters --------------------------------------------
+
+! mesaboogie.com
+! counter images not showing
+@@||e2.bablic.com/api/engine/ping?*$xmlhttprequest,domain=mesaboogie.com
+@@||placehold.it^$image,domain=mesaboogie.com
