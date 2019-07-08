@@ -157,6 +157,4 @@ mp4upload.com##div :has(div>iframe[src*="/vjs/ada2.html"])
 @@||rapidvideo.com/assets/js/videojs.hotkeys-0.2.25.min.js$script
 @@||rapidvideo.com/assets/js/silvermine-videojs-quality-selector.min.js$script
 
-! novelplanet [nova player] pop-up ads
-novelplanet.me##+js(abort-current-inline-script.js, String.fromCharCode, decodeURIComponent)
 
