@@ -149,9 +149,6 @@ mangarock.com##+js(set-constant.js, country, undefined)
 ! Fix kissanime thumbnails broken by easylist
 @@||i.imgur.com^$image,domain=kissanime.ru
 
-! mp4upload ad overlay
-mp4upload.com##div :has(div>iframe[src*="/vjs/ada2.html"])
-
 ! rapdivideo breakage due to easylist filter [mainly hotkeys and quality selector]
 @@||rapidvideo.com/assets/js/video-js-6.2.0.js$script
 @@||rapidvideo.com/assets/js/videojs.hotkeys-0.2.25.min.js$script
