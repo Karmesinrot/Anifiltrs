@@ -16,11 +16,11 @@ gogoanime.*,gogoanimes.*#@#+js(set-constant.js, String.prototype.charAt, noopFun
 ! To Counter Badges broken by easylist [userscript and extension]
 @@||img.shields.io^$image,domain=kissanime.ru|kissmanga.com
 ! New Releases Check [Extension]
+@@||kissanime.ru/cdn-cgi^
+@@||kissmanga.com/cdn-cgi^
 !#if env_chromium
 ! new episode check
-@@||kissanime.ru/cdn-cgi^
 @@||kissanime.ru/Anime/*mal-sync-background^$subdocument
 ! new chapter check
-@@||kissmanga.com/cdn-cgi^
 @@||kissmanga.com/Manga/*mal-sync-background^$subdocument
 !#endif
