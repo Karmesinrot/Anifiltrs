@@ -47,3 +47,6 @@ crazyload.co##.jw-preview.jw-reset:style(filter:blur(8px);)
 
 ! vidoza.net
 vidoza.net##.vjs-poster:style(filter:blur(8px)!important;)
+
+! vidstreaming.io
+vidstreaming.io##.jw-preview.jw-reset:style(filter:blur(8px);)
