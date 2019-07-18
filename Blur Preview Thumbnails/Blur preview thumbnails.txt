@@ -50,3 +50,6 @@ vidoza.net##.vjs-poster:style(filter:blur(8px)!important;)
 
 ! vidstreaming.io
 vidstreaming.io##.jw-preview.jw-reset:style(filter:blur(8px);)
+
+! animeultima.eu
+animeultima.eu##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
