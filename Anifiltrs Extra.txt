@@ -17,3 +17,7 @@ dubbedanime.net##.text-center.alert-info.alert:has-text(Hide the Annoying Ads!)
 ||gofootprints.net/popup.js^$script,domain=animehub.ac
 ! left-over adframe
 animehub.ac##.sb-subs.goblock
+
+! thewatchcartoononline.tv
+thewatchcartoononline.tv##body:style(background-color:#1e262d!important;)
+thewatchcartoononline.tv##.anti-ad
