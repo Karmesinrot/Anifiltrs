@@ -109,9 +109,9 @@ kissanime.ru##+js(setTimeout-defuser.js, YASBATMBCL)
 
 ! ADS ---------------------------------------------------------
 ! mangarock reader ads
-mangarock.com##+js(setTimeout-defuser.js, /STOP_EVENT|changeAds/)
+mangarock.com##+js(setTimeout-defuser.js, changeAds, 30000)
 mangarock.com##+js(set-constant.js, Ads Block.no, true)
-mangarock.com##+js(setTimeout-defuser.js, (), 30000)
+mangarock.com##+js(abort-on-property-read.js, tyche)
 ! badfilter
 @@||mangarock.com/ads.js$badfilter
 ! CSP
