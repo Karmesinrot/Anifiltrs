@@ -93,6 +93,10 @@ animeultima.eu##.has-text-centered.is-narrow.column:style(margin-top:-12px)
 ! google ads
 dreamanimes.com.br##.adsbygoogle:nth-ancestor(1)
 
+! Voiranime
+! adframes on sidebar
+voiranime.com##[id^=ai_widget]:not(:has([href="https://discord.gg/rvBeeNg"]))
+
 ! KISSANIME & KISSMANGA Annoyances ----------------------------
 ! AA script diffuse
 kissanime.ru,kissmanga.com##^script:has-text(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini)
