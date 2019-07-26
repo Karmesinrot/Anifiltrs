@@ -14,3 +14,8 @@ horriblesubs.info##div.hidden-xs.well:has(script)
 kwik.cx#@#.adSense
 ! remove leftover adframes
 kwik.cx##script[src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]:nth-ancestor(2):not(body)
+
+! hikarinoakariost.info
+! Counter copy protection
+||hikarinoakariost.info/wp-content/plugins/secure-copy-content-protection/*
+hikarinoakariost.info##+js(addEventListener-defuser.js, keydown)
