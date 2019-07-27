@@ -29,7 +29,7 @@ myanimelist.net##.root
 ! Premium memebership "Hide Ads" button
 myanimelist.net##.header-menu-login > a:has-text(Hide Ads)
 ! #HelpKyoAniHeal banner
-@@||cdn.myanimelist.net/images/ad//help_kyoani_heal_250_36.png?v=1$image,first-party
+@@||cdn.myanimelist.net/images/ad/help_kyoani_heal_250_36.png?v=1$image,first-party
 
 ! kissmanga Cosmetic Filters
 ! Remove annoying message to disable adblocker
