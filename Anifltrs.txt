@@ -155,6 +155,10 @@ yourupload.com##.download-roms-button
 ! gogoanime
 ||gogoanime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.k-vid.co ajax.googleapis.com disqus.com *.disqus.com c.disquscdn.com; connect-src *.amgload.net *.piguiqproxy.com ajax.apimovie.xyz discordapp.com wss: realtime.services.disqus.com gateway.discord.gg; frame-src disqus.com vidstreaming.io www.xstreamcdn.com gcloud.live streamango.com www.rapidvideo.com rapidvid.to estream.to oload.tv openload.co openload.pw vev.io vev.red www.mp4upload.com; font-src *; img-src data: *
 
+! branitube
+! popads
+branitube.org##+js(abort-on-property-write.js, _pop)
+
 ! PRIVACY -----------------------------------------------------
 ! mangarock loacation tracker
 ||mangarock.com/geo$xmlhttprequest,first-party
