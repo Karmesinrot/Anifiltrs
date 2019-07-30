@@ -99,6 +99,11 @@ dreamanimes.com.br##.adsbygoogle:nth-ancestor(1)
 ! adframes on sidebar
 voiranime.com##[id^=ai_widget]:not(:has([href="https://discord.gg/rvBeeNg"]))
 
+! dubbedanime.net
+! vip membership overlay
+dubbedanime.net##.vip-membership-banner
+dubbedanime.net##a[href="https://otaku.cafe/vip.htm"]
+
 ! KISSANIME & KISSMANGA Annoyances ----------------------------
 ! AA script diffuse
 kissanime.ru,kissmanga.com##^script:has-text(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini)
