@@ -176,7 +176,6 @@ mangarock.com##+js(set-constant.js, country, undefined)
 @@||i.imgur.com^$image,domain=kissanime.ru
 
 ! rapdivideo breakage due to easylist filter [mainly hotkeys and quality selector]
-@@||rapidvideo.com/assets/js/video-js-6.2.0.js$script
 @@||rapidvideo.com/assets/js/videojs.hotkeys-0.2.25.min.js$script
 @@||rapidvideo.com/assets/js/silvermine-videojs-quality-selector.min.js$script
 
