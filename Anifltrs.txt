@@ -166,6 +166,10 @@ yourupload.com##.download-roms-button
 ! popads
 branitube.org##+js(abort-on-property-write.js, _pop)
 
+! novelplanet
+! video ads on start and middle of video
+novelplanet.me##+js(abort-on-property-read.js, jwplayer.utils.Timer)
+
 ! PRIVACY -----------------------------------------------------
 ! mangarock loacation tracker
 ||mangarock.com/geo$xmlhttprequest,first-party
