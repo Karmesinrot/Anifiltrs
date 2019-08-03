@@ -20,3 +20,5 @@ kwik.cx##script[src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]:
 ||hikarinoakariost.info/wp-content/plugins/secure-copy-content-protection/*
 hikarinoakariost.info##+js(addEventListener-defuser.js, keydown, undefined)
 hikarinoakariost.info##+js(addEventListener-defuser.js, mousemove, undefined)
+! popads
+hikarinoakariost.info##+js(abort-on-property-read.js, _pop)
