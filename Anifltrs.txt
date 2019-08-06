@@ -110,6 +110,10 @@ kissanime.ru,kissmanga.com##^script:has-text(Android|webOS|iPhone|iPad|iPod|Blac
 ! Diffuse web console clearing
 kissanime.ru,kissmanga.com##+js(abort-on-property-read.js, console.clear)
 
+! mangakakalot & manganelo
+! adtrue adframes
+mangakakalot.com,manganelo.com##iframe[src^="/ads/"]:nth-ancestor(1)
+
 ! AA Blocking chromium
 !##### All filters relating to this block are redundant when using a custom userscript #####
 !#if env_chromium
