@@ -104,23 +104,21 @@ voiranime.com##[id^=ai_widget]:not(:has([href="https://discord.gg/rvBeeNg"]))
 dubbedanime.net##.vip-membership-banner
 dubbedanime.net##a[href="https://otaku.cafe/vip.htm"]
 
+! mangakakalot & manganelo
+! adtrue adframes
+mangakakalot.com,manganelo.com##iframe[src^="/ads/"]:nth-ancestor(1)
+
 ! KISSANIME & KISSMANGA Annoyances ----------------------------
 ! AA script diffuse
 kissanime.ru,kissmanga.com##^script:has-text(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini)
 ! Diffuse web console clearing
 kissanime.ru,kissmanga.com##+js(abort-on-property-read.js, console.clear)
-
-! mangakakalot & manganelo
-! adtrue adframes
-mangakakalot.com,manganelo.com##iframe[src^="/ads/"]:nth-ancestor(1)
-
 ! AA Blocking chromium
 !##### All filters relating to this block are redundant when using a custom userscript #####
 !#if env_chromium
 kissanime.ru,kissmanga.com##+js(abort-current-inline-script.js, AddCloseButton, InitCloseButton)
 kissanime.ru,kissmanga.com##+js(setTimeout-defuser.js, (), 30000)
 !#endif
-
 ! prevent kissanime wrong captcha loop
 kissanime.ru##+js(setTimeout-defuser.js, YASBATMBCL)
 
@@ -170,10 +168,6 @@ yourupload.com##.download-roms-button
 ! popads
 branitube.org##+js(abort-on-property-write.js, _pop)
 
-! novelplanet
-! video ads on start and middle of video
-novelplanet.me##+js(abort-on-property-read.js, jwplayer.utils.Timer)
-
 ! PRIVACY -----------------------------------------------------
 ! mangarock loacation tracker
 ||mangarock.com/geo$xmlhttprequest,first-party
@@ -187,4 +181,7 @@ mangarock.com##+js(set-constant.js, country, undefined)
 @@||rapidvideo.com/assets/js/videojs.hotkeys-0.2.25.min.js$script
 @@||rapidvideo.com/assets/js/silvermine-videojs-quality-selector.min.js$script
 
+! novelplanet
+! video ads on start and middle of video
+novelplanet.me##+js(abort-on-property-read.js, jwplayer.utils.Timer)
 
