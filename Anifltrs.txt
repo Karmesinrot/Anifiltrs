@@ -182,7 +182,3 @@ mangarock.com##+js(set-constant.js, country, undefined)
 @@||rapidvideo.com/assets/js/videojs.hotkeys-0.2.25.min.js$script
 @@||rapidvideo.com/assets/js/silvermine-videojs-quality-selector.min.js$script
 
-! novelplanet
-! video ads on start and middle of video
-novelplanet.me##+js(abort-on-property-read.js, jwplayer.utils.Timer)
-
