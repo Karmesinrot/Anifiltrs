@@ -59,3 +59,6 @@ branitube.org##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
 
 ! mp4.sh
 mp4.sh##.vjs-poster:style(filter:blur(8px) saturate(150%))
+
+! mega.nz
+mega.nz###video:not([src]):style(filter:blur(8px))
