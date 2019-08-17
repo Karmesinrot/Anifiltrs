@@ -15,8 +15,8 @@
 
 ! Kissanime Cosmetic Filters
 ! removes the annoying message to disable Adblock/uBlock
-kissanime.ru##div.rightBox:has-text(Adblock/uBlock):not(:has(p:not(:has-text(Adblock/uBlock))))
-kissanime.ru##.barContent > div > p:has-text(not compatible with Adblock/uBlock)
+kissanime.ru##div.rightBox:has-text(Adblock/uBlock):not(:has(p:not(:has-text(Adblock/uBlock)):not(:has-text(bad ads))))
+kissanime.ru##.barContent > div > p:has-text(/Adblock\/uBlock|report bad ads/)
 ! Global clearbox padding and left-over adframes
 kissanime.ru###leftside > br, iframe[src^="/ads/"]
 kissanime.ru##.clear2:not(+#centerDivVideo):not(+.rightBox:has-text(/Related Links|Latest update/))
@@ -35,8 +35,8 @@ myanimelist.net##.header-menu-login > a:has-text(Hide Ads)
 
 ! kissmanga Cosmetic Filters
 ! Remove annoying message to disable adblocker
-kissmanga.com##div.rightBox:has-text(Adblock/uBlock):not(:has(p:not(:has-text(Adblock/uBlock))))
-kissmanga.com##.barContent > div > p:has-text(not compatible with Adblock/uBlock)
+kissmanga.com##div.rightBox:has-text(Adblock/uBlock):not(:has(p:not(:has-text(Adblock/uBlock)):not(:has-text(bad ads))))
+kissmanga.com##.barContent > div > p:has-text(/Adblock\/uBlock|report bad ads/)
 ! Global clearbox padding and left-over adframes
 kissmanga.com##.clear2, #leftside > br, iframe[src^="/ads/"]
 kissmanga.com##.clear:not(:matches-css(height:0px)):not(:matches-css(height:5px)):not(:matches-css(height:76px))
