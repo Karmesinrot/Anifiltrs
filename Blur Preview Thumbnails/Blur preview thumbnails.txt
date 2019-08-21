@@ -54,8 +54,8 @@ vidstreaming.io##.jw-preview.jw-reset:style(filter:blur(8px);)
 ! animeultima.eu
 animeultima.*##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
 
-! branitube.org
-branitube.org##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
+! branitube
+branitube.net##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
 
 ! mp4.sh
 mp4.sh##.vjs-poster:style(filter:blur(8px) saturate(150%))

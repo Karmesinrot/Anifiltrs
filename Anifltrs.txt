@@ -167,7 +167,7 @@ yourupload.com##.download-roms-button
 
 ! branitube
 ! popads
-branitube.org##+js(abort-on-property-write.js, _pop)
+branitube.net##+js(abort-on-property-write.js, _pop)
 
 ! PRIVACY -----------------------------------------------------
 ! mangarock loacation tracker
