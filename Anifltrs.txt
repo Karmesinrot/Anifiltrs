@@ -117,6 +117,7 @@ kissanime.ru,kissmanga.com##+js(abort-on-property-read.js, console.clear)
 ! AA Blocking chromium
 !##### All filters relating to this block are redundant when using a custom userscript #####
 !#if env_chromium
+kissmanga.com##+js(aopr, InitCloseButton)
 kissanime.ru,kissmanga.com##+js(abort-current-inline-script.js, AddCloseButton, InitCloseButton)
 kissanime.ru,kissmanga.com##+js(setTimeout-defuser.js, (), 30000)
 !#endif
