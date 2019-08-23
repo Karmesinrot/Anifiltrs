@@ -6,8 +6,8 @@
 ! rapidvideo
 rapidvideo.*,rapidvid.*##.vjs-poster:style(filter:blur(8px);margin-left:-8px!important;margin-right:-8px!important;)
 
-! streamango
-streamango.com##.vjs-poster:style(filter:blur(8px);margin:-8px!important;)
+! fruithosted.net
+streamango.com,streamcherry.com##.vjs-poster:style(filter:blur(8px);margin:-8px!important;)
 
 ! opeload
 openload.*##.vjs-poster:style(filter:blur(8px);margin-left:-8px!important;margin-right:-8px!important;)
