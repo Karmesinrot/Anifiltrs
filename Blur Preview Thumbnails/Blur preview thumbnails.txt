@@ -62,3 +62,6 @@ mp4.sh##.vjs-poster:style(filter:blur(8px) saturate(150%))
 
 ! mega.nz
 mega.nz###video:not([src]):style(filter:blur(8px))
+
+! bitchute.com
+bitchute.com##.plyr__poster:style(filter:blur(6px)!important)
