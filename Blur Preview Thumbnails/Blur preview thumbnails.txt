@@ -52,7 +52,7 @@ vidoza.net##.vjs-poster:style(filter:blur(8px)!important;)
 vidstreaming.io##.jw-preview.jw-reset:style(filter:blur(8px);)
 
 ! animeultima.eu
-animeultima.*##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
+animeultima.*,animeflix.io##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
 
 ! branitube
 branitube.net##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
