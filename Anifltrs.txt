@@ -89,6 +89,7 @@ anime-planet.com##.ad:nth-ancestor(1) [class^="halo"]
 ! animeultima
 ! animeultima.eu ads on the sidebar of video page
 animeultima.eu##iframe[src="/unit/300"]:nth-ancestor(1)
+animeultima.eu##[id^=adtrue_tag]:nth-ancestor(1)
 ! cosmetic adjustment after removing ads
 animeultima.eu##.has-text-centered.is-narrow.column:style(margin-top:-12px)
 
