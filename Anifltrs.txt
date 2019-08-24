@@ -57,6 +57,8 @@ mangarock.com##[id^=taboola][id*=horizontal]:nth-ancestor(1)
 mangarock.com##div._3-1BM:has(>div>div>script:has-text(taboola))
 ! reader ads
 mangarock.com##[id$=video]:nth-ancestor(2)
+! message to buy membership
+mangarock.com##a:has-text(Remove all Ads on Manga Rock)
 
 ! Gogoanimes Cosmetic filters
 ! background colour
