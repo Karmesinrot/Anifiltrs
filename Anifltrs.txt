@@ -54,6 +54,7 @@ mangarock.com##iframe[src^="/iframe/adtrue"][class="iframe"]:nth-ancestor(1)
 ! taboola ads
 mangarock.com##[id=taboola-homepage-desktop],[id=taboola-article-thumbnails],[id^=taboola][id*=collection],[id^=taboola][id*=vertical]:nth-ancestor(2)
 mangarock.com##[id^=taboola][id*=horizontal]:nth-ancestor(1)
+mangarock.com##div._3-1BM:has(>div>div>script:has-text(taboola))
 ! reader ads
 mangarock.com##[id$=video]:nth-ancestor(2)
 
