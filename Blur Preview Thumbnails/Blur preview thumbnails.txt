@@ -65,3 +65,6 @@ mega.nz###video:not([src]):style(filter:blur(8px))
 
 ! bitchute.com
 bitchute.com##.plyr__poster:style(filter:blur(6px)!important)
+
+! riie.net
+riie.net##.arve-thumbnail:style(filter:blur(6px);important)
