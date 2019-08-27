@@ -74,3 +74,6 @@ clipwatching.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
 
 ! cloudvideo.tv
 cloudvideo.tv##.vjs-poster:style(filter:blur(8px) saturate(2))
+
+! flix555.com
+flix555.com##.jw-preview.jw-reset:style(filter:blur(8px);)
