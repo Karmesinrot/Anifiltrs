@@ -187,3 +187,5 @@ mangarock.com##+js(set-constant.js, country, undefined)
 @@||rapidvideo.com/assets/js/videojs.hotkeys-0.2.25.min.js$script
 @@||rapidvideo.com/assets/js/silvermine-videojs-quality-selector.min.js$script
 
+! kickassanime player popup ads
+||haloani.ru/dust/newserv.js?v5$script
