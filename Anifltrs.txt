@@ -113,6 +113,10 @@ dubbedanime.net##a[href="https://otaku.cafe/vip.htm"]
 ! adtrue adframes
 mangakakalot.com,manganelo.com##iframe[src^="/ads/"]:nth-ancestor(1)
 
+! kickassanime
+! 1p frames left-overs
+kickassanime.ru##iframe[src*="kickassanime.ru"]:nth-ancestor(2)
+
 ! KISSANIME & KISSMANGA Annoyances ----------------------------
 ! AA script diffuse
 kissanime.ru,kissmanga.com##^script:has-text(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini)
