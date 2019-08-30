@@ -178,6 +178,9 @@ yourupload.com##.download-roms-button
 ! popads
 branitube.net##+js(abort-on-property-write.js, _pop)
 
+! animezone.pl & anime-odcinki.pl
+animezone.pl,anime-odcinki.pl##+js(nowebrtc.js)
+
 ! PRIVACY -----------------------------------------------------
 ! mangarock loacation tracker
 ||mangarock.com/geo$xmlhttprequest,first-party
