@@ -83,3 +83,6 @@ dailymotion.com##.np_ViewPoster-image:style(filter:blur(8px) saturate(1.25))
 
 ! haloani.ru
 haloani.ru##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.25)!important)
+
+! freshstream.kiwi
+freshstream.kiwi##.vjs-poster:style(filter:blur(8px) saturate(1.5))
