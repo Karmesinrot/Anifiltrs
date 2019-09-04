@@ -60,6 +60,9 @@ mangarock.com##[id$=video]:nth-ancestor(2)
 ! message to buy membership
 mangarock.com##a:has-text(Remove all Ads on Manga Rock)
 mangarock.com##.col-lg-4.col-12 > ._3-1BM:has-text(Keep track of your reading progress):has([href="/account/login"])
+! mangarock loacation tracker
+||mangarock.com/geo$xmlhttprequest,first-party
+mangarock.com##+js(set-constant.js, country, undefined)
 
 ! Gogoanimes Cosmetic filters
 ! background colour
@@ -181,11 +184,6 @@ branitube.net##+js(abort-on-property-write.js, _pop)
 
 ! animezone.pl & anime-odcinki.pl
 animezone.pl,anime-odcinki.pl##+js(nowebrtc.js)
-
-! PRIVACY -----------------------------------------------------
-! mangarock loacation tracker
-||mangarock.com/geo$xmlhttprequest,first-party
-mangarock.com##+js(set-constant.js, country, undefined)
 
 ! HOT FIXES ---------------------------------------------------
 ! Fix kissanime thumbnails broken by easylist
