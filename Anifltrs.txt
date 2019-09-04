@@ -65,7 +65,7 @@ mangarock.com##.col-lg-4.col-12 > ._3-1BM:has-text(Keep track of your reading pr
 ! background colour
 animego.*,gogoanimes.*,gogoanime.*##body:style(background-color: #1b1b1b !important;)
 ! ad containers
-animego.*,gogoanimes.*,gogoanime.*##.anime_video_body > div[style="height:250px;overflow:hidden;"], [class^="headnav_center"]
+animego.*,gogoanimes.*,gogoanime.*##[class^="anime_video_body"] > div[style="height:250px;overflow:hidden;"], [class^="headnav_center"]
 
 ! Turkanime Cosmetic filters
 ! sponsored adframes
