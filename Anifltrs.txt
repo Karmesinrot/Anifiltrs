@@ -197,3 +197,6 @@ mangarock.com##+js(set-constant.js, country, undefined)
 
 ! kickassanime player popup ads
 ||haloani.ru/dust/newserv.js?v5$script
+
+! freshstream.kiwi anti-adblock
+@@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js$script,domain=freshstream.kiwi
