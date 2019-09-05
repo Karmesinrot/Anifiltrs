@@ -115,7 +115,7 @@ dubbedanime.net##a[href="https://otaku.cafe/vip.htm"]
 
 ! mangakakalot & manganelo
 ! adtrue adframes
-mangakakalot.com,manganelo.com##iframe[src^="/ads/"]:nth-ancestor(1)
+mangakakalot.com,manganelo.com##iframe[src^="/ads/"]:not(+img):nth-ancestor(1)
 
 ! kickassanime
 ! 1p frames left-overs
