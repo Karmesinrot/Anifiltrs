@@ -9,3 +9,6 @@ uBlock Origin filters for blurring the preview images on video players. Created 
 ### After
 ![After](https://raw.githubusercontent.com/Karmesinrot/Anifiltrs/master/Screenshots/bpt_applied.png)
 
+
+>### Disclaimer
+>Styling webpages or elements isn’t uBlockOrigin's main function; so given that using this method to blur thumbnails wouldn’t work will all video players. I’d recommned using [stylus](https://github.com/openstyles/stylus) for such tasks.
