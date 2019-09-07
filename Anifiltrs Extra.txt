@@ -22,3 +22,7 @@ thewatchcartoononline.tv##.anti-ad
 ! mangapanda.com
 ! 18+ game ad
 mangapanda.com##+js(acis, document.querySelector, erogesimg)
+
+! mangafox & mangahere
+! empty ad containers
+fanfox.net,mangahere.*##[class*="ad"][style="width:800px;height:90px;"]
