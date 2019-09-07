@@ -18,3 +18,7 @@ animehub.ac##.sb-subs.goblock
 ! thewatchcartoononline.tv
 thewatchcartoononline.tv##body:style(background-color:#1e262d!important;)
 thewatchcartoononline.tv##.anti-ad
+
+! mangapanda.com
+! 18+ game ad
+mangapanda.com##+js(acis, document.querySelector, erogesimg)
