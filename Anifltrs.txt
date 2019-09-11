@@ -121,6 +121,11 @@ mangakakalot.com,manganelo.com##iframe[src^="/ads/"]:not(+img):nth-ancestor(1)
 ! 1p frames left-overs
 kickassanime.ru##iframe[src*="kickassanime.ru"]:nth-ancestor(2)
 
+! animefever
+! left-over frames
+animefever.tv##[class~="adsbygoogle"]
+animefever.tv##.uk-width-expand > h3.font-medium.mb-2.text-sm.uk-text-muted:has-text(Advertisement)
+
 ! KISSANIME & KISSMANGA Annoyances ----------------------------
 ! AA script diffuse
 kissanime.ru,kissmanga.com##^script:has-text(Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini)
