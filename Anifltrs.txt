@@ -26,8 +26,6 @@ kissanime.ru##div[id^=adsIfrme]:not([id=adsIfrme])
 kissanime.ru##div[style*='!important']
 
 ! MyAnimeList Cosmetic Filters
-! Mal Privacy Policy statement mask when not logged in
-myanimelist.net##.root
 ! Premium memebership "Hide Ads" button
 myanimelist.net##.header-menu-login > a:has-text(Hide Ads)
 ! #HelpKyoAniHeal banner
