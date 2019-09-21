@@ -56,7 +56,7 @@ mangarock.com##[id$=video]:nth-ancestor(2)
 mangarock.com###bottom-banner-ads
 ! message to buy membership
 mangarock.com##a:has-text(Remove all Ads on Manga Rock)
-mangarock.com####span[style="display:block"],[style="display: block;"], [style="display: flex; flex-direction: column; align-items: center; margin-bottom: 20px; margin-top: 10px;"]
+mangarock.com##span[style="display:block"],[style="display: block;"], [style="display: flex; flex-direction: column; align-items: center; margin-bottom: 20px; margin-top: 10px;"]
 mangarock.com##.vm-placement:nth-ancestor(1)
 mangarock.com##.col-lg-4.col-12 > ._3-1BM:has-text(Keep track of your reading progress):has([href="/account/login"])
 ! mangarock loacation tracker
