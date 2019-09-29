@@ -15,4 +15,4 @@ Filter list for anime streaming, manga reading, and downloading of such things.
 * Other hotfixes for Anime and Manga sites
 
 **Anifiltrs Extra** [[Subscribe]](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Karmesinrot/Anifiltrs/master/Anifiltrs%20Extra.txt&title=Anifiltrs%2FExtra)
-* Anifilrs with additional filters for sites unsupported by MAL-Sync
+* Additional filters for sites unsupported by MAL-Sync
