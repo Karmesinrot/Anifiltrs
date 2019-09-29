@@ -9,3 +9,9 @@
 ! counter images not showing
 @@||e2.bablic.com/api/engine/ping?*$xmlhttprequest,domain=mesaboogie.com
 @@||placehold.it^$image,domain=mesaboogie.com
+
+! collinsdictionary.com
+collinsdictionary.com##[id^=ad_]+[id|=hcdcrt]
+
+! lexico sidebar
+lexico.com###sidebar:style(position:relative;top:105px!important;)
