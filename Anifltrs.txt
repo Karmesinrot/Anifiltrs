@@ -173,7 +173,7 @@ yourupload.com##.download-roms-button
 
 ! 9anime
 ! inlcuded recaptcha due to possibility of 9anime user accounts
-||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.9anime.ru *.googleapis.com *.gstatic.com www.google.com recaptcha.net *.disqus.com c.disquscdn.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg; frame-src disqus.com prettyfast.to www.rapidvideo.com rapidvid.to mcloud.to www.mp4upload.com openload.co openload.pw oload.tv www.google.com; img-src data: *
+||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.9anime.ru *.9anime.to *.googleapis.com *.gstatic.com www.google.com recaptcha.net *.disqus.com c.disquscdn.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg; frame-src disqus.com prettyfast.to www.rapidvideo.com rapidvid.to mcloud.to www.mp4upload.com openload.co openload.pw oload.tv www.google.com; img-src data: *
 
 ! novelplanet [nova player] CSP
 ||novelplanet.me^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: fvs.io *.hlsmp4.com; connect-src 'self'
