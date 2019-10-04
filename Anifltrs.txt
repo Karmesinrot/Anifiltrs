@@ -204,6 +204,3 @@ animezone.pl,anime-odcinki.pl##+js(nowebrtc.js)
 
 ! freshstream.kiwi anti-adblock
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js$script,domain=freshstream.kiwi
-
-! 9anime.nl cross-origin css
-@@||9anime.ru/assets/min/frontend/all.css^$css,domain=9anime.nl
