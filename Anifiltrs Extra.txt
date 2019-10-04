@@ -25,4 +25,4 @@ mangapanda.com##+js(acis, document.querySelector, erogesimg)
 
 ! mangafox & mangahere
 ! empty ad containers
-fanfox.net,mangahere.*##[class*="ad"][style="width:800px;height:90px;"]
+fanfox.net,mangahere.*##[class*="ad"][style="width:800px;height:90px;"],[style="width: 800px; height: 90px;"]
