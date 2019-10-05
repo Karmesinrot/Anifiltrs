@@ -191,6 +191,9 @@ branitube.net##+js(abort-on-property-write.js, _pop)
 ! animezone.pl & anime-odcinki.pl
 animezone.pl,anime-odcinki.pl##+js(nowebrtc.js)
 
+! animeflix
+||animeflix.io^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.googleapis.com fonts.gstatic.com ssl.p.jwpcdn.com blob: 'self' ; connect-src 'self' s1-na-http.auengine.com dl.v.vrv.co a-vrv.akamaized.net wss: animeflix.io ; img-src data: * ; upgrade-insecure-requests
+
 ! HOT FIXES ---------------------------------------------------
 ! Fix kissanime thumbnails broken by easylist
 @@||i.imgur.com^$image,domain=kissanime.ru
