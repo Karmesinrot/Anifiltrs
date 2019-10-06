@@ -12,6 +12,7 @@
 
 ! collinsdictionary.com
 collinsdictionary.com##[id^=ad_]+[id|=hcdcrt]
+collinsdictionary.com##div.columns_item:has([id^=ad_]+[id|=hcdcrt])
 
 ! lexico sidebar
 lexico.com###sidebar:style(position:relative;top:105px!important;)
