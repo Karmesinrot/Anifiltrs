@@ -31,7 +31,7 @@ yourupload.com##.jw-preview.jw-reset:style(filter:blur(8px))
 kwik.cx##.plyr__poster:style(filter:blur(8px)!important;)
 
 ! oload
-oload.tv##.vjs-poster:style(filter:blur(8px))
+oload.*##.vjs-poster:style(filter:blur(8px))
 
 ! ok.ru
 ok.ru##.vid-card_img:style(filter:blur(8px))
