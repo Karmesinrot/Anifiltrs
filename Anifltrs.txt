@@ -144,7 +144,7 @@ kissanime.ru##+js(setTimeout-defuser.js, YASBATMBCL)
 
 ! ADS ---------------------------------------------------------
 ! mangarock reader ads
-mangarock.com##+js(stif, !changeAds)
+mangarock.com##+js(nostif, changeAds)
 mangarock.com##+js(set-constant.js, Ads Block.no, true)
 mangarock.com##+js(abort-on-property-read.js, tyche)
 ! badfilter
