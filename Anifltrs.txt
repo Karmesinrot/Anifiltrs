@@ -137,7 +137,7 @@ kissanime.ru,kissmanga.com##+js(abort-on-property-read.js, console.clear)
 !#if env_chromium
 kissmanga.com##+js(aopr, InitCloseButton)
 kissanime.ru,kissmanga.com##+js(abort-current-inline-script.js, AddCloseButton, InitCloseButton)
-kissanime.ru,kissmanga.com##+js(sitf, !30000)
+kissanime.ru,kissmanga.com##+js(nostif, 30000)
 !#endif
 ! prevent kissanime wrong captcha loop
 kissanime.ru##+js(setTimeout-defuser.js, YASBATMBCL)
