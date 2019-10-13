@@ -82,9 +82,9 @@ turkanime.tv##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
 ! Counter fonts broken by easylist
 @@||fonts.googleapis.com^$stylesheet,domain=otakustream.tv
 
-! openload.co
+! openload & oload
 ! counter script that causes extra clicks to start the video
-openload.*##+js(abort-current-inline-script.js, Function.prototype.bind)
+openload.*,oload.*##+js(abort-current-inline-script.js, Function.prototype.bind)
 
 ! Animeflv
 ! cosmetic filter for sidebar on video page
