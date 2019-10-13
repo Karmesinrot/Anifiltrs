@@ -92,3 +92,6 @@ replay.watch##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.25))
 
 ! trollvid.net
 trollvid.net##.vjs-poster:style(filter:blur(8px) saturate(1.5))
+
+! vshare.io
+vshare.io##.vjs-poster:style(filter:blur(8px) saturate(1.35)!important;)
