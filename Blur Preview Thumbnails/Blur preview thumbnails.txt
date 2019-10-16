@@ -95,3 +95,6 @@ trollvid.net##.vjs-poster:style(filter:blur(8px) saturate(1.5))
 
 ! vshare.io
 vshare.io##.vjs-poster:style(filter:blur(8px) saturate(1.35)!important;)
+
+! animefever.tv
+animefever.tv##.jw-preview.jw-reset:style(filter:blur(10px) saturate(2))
