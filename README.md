@@ -10,7 +10,7 @@ Filter list for anime streaming, manga reading, and downloading of such things.
 **Anifiltrs** [[Subscribe]](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Karmesinrot/Anifiltrs/master/Anifltrs.txt&title=Anifiltrs%20%E2%80%94%20%F0%9F%8D%B1%20Anime%20streaming%20%26%20Manga%20reading)
 * Includes MAL-Sync UI
 * Cosmetic filters for MAL-Sync’s [supported sites](https://github.com/lolamtisch/MALSync#supported-pages-)
-* Blocks ads on some of the supported sites
+* Filters for some ads found on the said supported sites
 * Includes [Blur Preview Thumbnails](https://github.com/Karmesinrot/Anifiltrs/tree/master/Blur%20Preview%20Thumbnails#blur-preview-thumbnails) filters
 * Other hotfixes for Anime and Manga sites
 
