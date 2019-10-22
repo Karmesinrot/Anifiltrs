@@ -210,3 +210,5 @@ animezone.pl,anime-odcinki.pl##+js(nowebrtc.js)
 ! 9anime cross-site css
 |https://$3p,script,domain=9anime.one,badfilter
 |https://$3p,stylesheet,domain=9anime.one,badfilter
+! 9anime email decode on the anime titles
+@@||www.9anime.ru/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script,domain=9anime.ru|9anime.to|9anime.nl|9anime.live|9anime.one
