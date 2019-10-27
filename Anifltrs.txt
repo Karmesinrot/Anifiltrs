@@ -181,7 +181,7 @@ yourupload.com##.download-roms-button
 ||kissmanga.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg; frame-src disqus.com; font-src *; img-src data: *
 
 ! gogoanime
-*$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.k-vid.co ajax.googleapis.com disqus.com *.disqus.com c.disquscdn.com; connect-src *.amgload.net *.piguiqproxy.com ajax.apimovie.xyz discordapp.com wss: realtime.services.disqus.com gateway.discord.gg; frame-src disqus.com vidstreaming.io www.xstreamcdn.com gcloud.live streamango.com www.rapidvideo.com rapidvid.to estream.to oload.tv oload.stream oload.monster openload.co openload.pw vev.io vev.red www.mp4upload.com; font-src *; img-src data: *,domain=gogoanime.tv|gogoanime.io|gogoanimes.co|animego.to|gogoanime.video
+*$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: cdn.k-vid.co ajax.googleapis.com disqus.com *.disqus.com c.disquscdn.com *.oloadcdn.net cdnjs.cloudflare.com; connect-src *.amgload.net *.piguiqproxy.com ajax.apimovie.xyz discordapp.com openload.co *.openload.co openload.pw *.openload.pw oload.tv *.oload.tv oload.monster *.oload.monster wss: realtime.services.disqus.com gateway.discord.gg; frame-src disqus.com vidstreaming.io www.xstreamcdn.com gcloud.live streamango.com www.rapidvideo.com rapidvid.to estream.to oload.tv oload.stream oload.monster openload.co openload.pw vev.io vev.red www.mp4upload.com; font-src data: *; img-src data: *,domain=gogoanime.tv|gogoanime.io|gogoanimes.co|animego.to|gogoanime.video
 
 ! branitube
 ! popads
