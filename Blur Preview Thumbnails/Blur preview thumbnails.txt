@@ -3,9 +3,6 @@
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Filter list for applying a blur Filter to preview thumbnails on video players
 
-! rapidvideo
-rapidvideo.*,rapidvid.*##.vjs-poster:style(filter:blur(8px);margin-left:-8px!important;margin-right:-8px!important;)
-
 ! fruithosted.net
 streamango.com,streamcherry.com##.vjs-poster:style(filter:blur(8px);margin:-8px!important;)
 
