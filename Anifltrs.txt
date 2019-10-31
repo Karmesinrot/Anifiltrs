@@ -83,6 +83,8 @@ turkanime.tv##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
 @@||otakustream.tv/wp-content/plugins/accesspress-social-login-lite/css/fonts^$font,1p
 ! Counter fonts broken by easylist
 @@||fonts.googleapis.com^$stylesheet,domain=otakustream.tv
+! player sidebar ads
+otakustream.tv##[class~="sidebar"][class~="promoted"]
 
 ! openload & oload
 ! counter script that causes extra clicks to start the video
