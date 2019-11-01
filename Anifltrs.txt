@@ -121,6 +121,9 @@ mangakakalot.com,manganelo.com##iframe[src^="/ads/"]:not(+img):nth-ancestor(1)
 ! kickassanime
 ! 1p frames left-overs
 kickassanime.*##iframe[src*="kickassanime"]:nth-ancestor(2)
+! Disable/whitelist in adblock message
+kickassanime.*###ablock
+kickassanime.*###notes > div:has-text(adblocker)
 
 ! animefever
 ! left-over frames
