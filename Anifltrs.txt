@@ -120,7 +120,7 @@ mangakakalot.com,manganelo.com##iframe[src^="/ads/"]:not(+img):nth-ancestor(1)
 
 ! kickassanime
 ! 1p frames left-overs
-kickassanime.ru##iframe[src*="kickassanime.ru"]:nth-ancestor(2)
+kickassanime.*##iframe[src*="kickassanime"]:nth-ancestor(2)
 
 ! animefever
 ! left-over frames
