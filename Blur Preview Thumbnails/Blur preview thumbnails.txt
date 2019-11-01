@@ -3,12 +3,6 @@
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Filter list for applying a blur Filter to preview thumbnails on video players
 
-! fruithosted.net
-streamango.com,streamcherry.com##.vjs-poster:style(filter:blur(8px);margin:-8px!important;)
-
-! opeload
-openload.*##.vjs-poster:style(filter:blur(8px);margin-left:-8px!important;margin-right:-8px!important;)
-
 ! mycloud
 mcloud.to##.jw-preview.jw-reset:style(filter:blur(8px);)
 
@@ -26,9 +20,6 @@ yourupload.com##.jw-preview.jw-reset:style(filter:blur(8px))
 
 ! kwik
 kwik.cx##.plyr__poster:style(filter:blur(8px)!important;)
-
-! oload
-oload.*##.vjs-poster:style(filter:blur(8px))
 
 ! ok.ru
 ok.ru##.vid-card_img:style(filter:blur(8px))
