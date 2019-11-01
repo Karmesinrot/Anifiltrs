@@ -200,9 +200,6 @@ animezone.pl,anime-odcinki.pl##+js(nowebrtc.js)
 ! Fix kissanime thumbnails broken by easylist
 @@||i.imgur.com^$image,domain=kissanime.ru
 
-! kickassanime player popup ads
-||haloani.ru/dust/newserv.js?v5$script
-
 ! freshstream.kiwi anti-adblock
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js$script,domain=freshstream.kiwi
 
