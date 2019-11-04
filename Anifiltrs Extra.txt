@@ -26,3 +26,8 @@ mangapanda.com##+js(acis, document.querySelector, erogesimg)
 ! mangafox & mangahere
 ! empty ad containers
 fanfox.net,mangahere.*##[class*="ad"][style="width:800px;height:90px;"],[style="width: 800px; height: 90px;"]
+
+! Darkanime
+darkanime.stream##+js(acis, document.getElementsByTagName, script)
+! Go premium text beside ads
+darkanime.stream##[class|=col-lg]:has([href="/premium"]):nth-ancestor(1)
