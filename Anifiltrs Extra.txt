@@ -31,3 +31,8 @@ fanfox.net,mangahere.*##[class*="ad"][style="width:800px;height:90px;"],[style="
 darkanime.stream##+js(acis, document.getElementsByTagName, script)
 ! Go premium text beside ads
 darkanime.stream##[class|=col-lg]:has([href="/premium"]):nth-ancestor(1)
+
+! anime8
+! xhr ads
+anime8.ru##+js(set, String.fromCharCode, noopFunc)
+anime8.ru##+js(aopr, XMLHttpRequest)
