@@ -6,5 +6,5 @@
 
 ! DAG ---------------------------------------------------------
 ! Prevent DAG errors due to easylist filter(s)
-@@||discordapp.com^$xmlhttprequest,domain=9anime.to|9anime.ru|9anime.nl|9anime.live|9anime.one|kissanime.ru|kissmanga.com|otakustream.tv
-@@||gateway.discord.gg^$websocket,domain=9anime.to|9anime.ru|9anime.nl|9anime.live|9anime.one|kissmanga.com|otakustream.tv
+@@||discordapp.com^$xmlhttprequest,domain=9anime.to|9anime.ru|9anime.nl|9anime.live|9anime.one|kissanime.ru|kissmanga.com
+@@||gateway.discord.gg^$websocket,domain=9anime.to|9anime.ru|9anime.nl|9anime.live|9anime.one|kissmanga.com

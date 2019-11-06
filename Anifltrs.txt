@@ -77,15 +77,6 @@ animego.*,gogoanimes.*,gogoanime.*##[style="position:fixed;z-index:9999;backgrou
 ! sponsored adframes
 turkanime.tv##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
 
-! Otakustream
-! Counter icons from being broken by fanboy's annoyances
-@@||otakustream.tv/wp-content/plugins/accesspress-social-login-lite/css/font-awesome/font-awesome.min.css$stylesheet,1p
-@@||otakustream.tv/wp-content/plugins/accesspress-social-login-lite/css/fonts^$font,1p
-! Counter fonts broken by easylist
-@@||fonts.googleapis.com^$stylesheet,domain=otakustream.tv
-! player sidebar ads
-otakustream.tv##[class~="sidebar"][class~="promoted"]
-
 ! Animeflv
 ! cosmetic filter for sidebar on video page
 animeflv.net##.CpCnC > .WdgtCn:style(margin-top:105px!important;)

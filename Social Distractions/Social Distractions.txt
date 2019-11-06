@@ -4,7 +4,7 @@
 ! Description: Filters for removing distractive/obtrusive social items on MAL-Sync supported sites
 
 ! GLOBAL ------------------------------------------------------
-||facebook.*^$all,domain=mangarock.com|kissmanga.com|crunchyroll.com|turkanime.tv|otakustream.tv|animeflv.net|9anime.to|9anime.ru|9anime.nl|9anime.live
+||facebook.*^$all,domain=mangarock.com|kissmanga.com|crunchyroll.com|turkanime.tv|animeflv.net|9anime.to|9anime.ru|9anime.nl|9anime.live
 ||twitter.com^$third-party,domain=crunchyroll.com
 ||google.com^$script,domain=kissmanga.com|crunchyroll.com
 ! chatbox that stores passwords in plaintext
@@ -32,7 +32,3 @@ animeflv.net##.ListSocial.BFixed
 ! animevibe
 ! Chatbox
 animevibe.tv##aside.widget_custom_html.widget.td_block_template_17.widget_text:has(span:has-text(Chat))
-
-! Otakustream
-! share buttons
-otakustream.tv###st-1
