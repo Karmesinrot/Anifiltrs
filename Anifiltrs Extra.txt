@@ -36,3 +36,8 @@ darkanime.stream##[class|=col-lg]:has([href="/premium"]):nth-ancestor(1)
 ! xhr ads
 anime8.ru##+js(set, String.fromCharCode, noopFunc)
 anime8.ru##+js(aopr, Math.floor)
+
+! mangazuki
+! pop-up ads
+mangazuki.online##+js(acis, Math, zfgloaded)
+mangazuki.online##+js(aopr, _pop)
