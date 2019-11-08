@@ -83,3 +83,6 @@ vshare.io##.vjs-poster:style(filter:blur(8px) saturate(1.35)!important;)
 
 ! animefever.tv
 animefever.tv##.jw-preview.jw-reset:style(filter:blur(10px) saturate(2))
+
+! animo pace
+animo-pace-stream.io##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.25)!important)
