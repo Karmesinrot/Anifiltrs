@@ -201,4 +201,4 @@ animezone.pl,anime-odcinki.pl##+js(nowebrtc.js)
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script,domain=9anime.ru|9anime.nl|9anime.live|9anime.one
 
 ! HydraX player popads
-hydrax.net,replay.watch##+js(aopr, _pop)
+hydrax.net##+js(aopr, _pop)
