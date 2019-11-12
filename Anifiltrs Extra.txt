@@ -40,3 +40,6 @@ anime8.ru##+js(acis, Math, charCodeAt)
 ! pop-up ads
 mangazuki.online##+js(acis, Math, zfgloaded)
 mangazuki.online##+js(aopr, _pop)
+
+! animebam
+animebam.se##[id*="ScriptRoot"]
