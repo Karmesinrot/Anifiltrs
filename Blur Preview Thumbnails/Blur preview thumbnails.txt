@@ -86,3 +86,8 @@ animefever.tv##.jw-preview.jw-reset:style(filter:blur(10px) saturate(2))
 
 ! animo pace
 animo-pace-stream.io##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.25)!important)
+
+! dreamanimes
+dreamanimes.com.br##.jw-preview.jw-reset:style(filter:blur(12px) saturate(1.5)!important;)
+dreamanimes.com.br##.plyr__poster:style(filter:blur(12px) saturate(1.5)!important;)
+dreamanimes.com.br##.vjs-poster:style(filter:blur(12px) saturate(1.5)!important;)
