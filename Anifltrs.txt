@@ -207,4 +207,4 @@ animezone.pl,anime-odcinki.pl##+js(nowebrtc.js)
 
 ! HydraX player popups
 hydrax.net##+js(aopr, _pop)
-hydrax.net##+js(aopr, _0x2a8b)
+hydrax.net##+js(nostif, _0x)
