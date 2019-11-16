@@ -192,6 +192,9 @@ animezone.pl,anime-odcinki.pl##+js(nowebrtc.js)
 ! animefever
 ||animefever.tv^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.animefever.tv fonts.googleapis.com fonts.gstatic.com st.bebi.com data: ssl.p.jwpcdn.com cdn.jsdelivr.net *.stackpathcdn.com blob: 'self' ; img-src data: *
 
+! netu.tv player unnecessary extra clicks
+hqq.tv##+js(aopr, BetterJsPop)
+
 ! HOT FIXES ---------------------------------------------------
 ! Fix kissanime thumbnails broken by easylist
 @@||i.imgur.com^$image,domain=kissanime.ru
