@@ -55,7 +55,7 @@ bitchute.com##.plyr__poster:style(filter:blur(6px)!important)
 riie.net##.arve-thumbnail:style(filter:blur(6px);important)
 
 ! clipwatching.com
-clipwatching.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
+clipwatching.com##.vjs-poster:style(filter:blur(8px) saturate(150%);)
 
 ! cloudvideo.tv
 cloudvideo.tv##.vjs-poster:style(filter:blur(8px) saturate(2))
