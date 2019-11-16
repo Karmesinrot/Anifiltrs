@@ -212,3 +212,6 @@ hqq.tv##+js(aopr, BetterJsPop)
 hydrax.net##+js(aopr, _pop)
 hydrax.net##+js(nostif, _0x)
 hydrax.net##+js(aopr, AaDetector)
+
+! upvid player webRTC
+upvid.*##+js(nowebrtc.js)
