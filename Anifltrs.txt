@@ -215,3 +215,6 @@ hydrax.net##+js(aopr, AaDetector)
 
 ! upvid player webRTC
 upvid.*##+js(nowebrtc.js)
+
+! kickassanime popups
+kickassanime.rs##+js(acis, Math, zfgloaded)
