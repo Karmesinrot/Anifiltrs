@@ -92,3 +92,6 @@ dreamanimes.com.br##.jw-preview.jw-reset,.plyr__poster,.vjs-poster:style(filter:
 
 ! drive.google.com
 drive.google.com##img[alt*="thumbnail"]:style(filter:blur(8px) saturate(1.2)!important;)
+
+! onlystream.tv
+onlystream.tv##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
