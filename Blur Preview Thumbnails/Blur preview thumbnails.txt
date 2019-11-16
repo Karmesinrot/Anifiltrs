@@ -95,3 +95,6 @@ drive.google.com##img[alt*="thumbnail"]:style(filter:blur(8px) saturate(1.2)!imp
 
 ! onlystream.tv
 onlystream.tv##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
+
+! upvid
+upvid.*##.vjs-poster:style(filter:blur(8px) saturate(1.2);)
