@@ -151,7 +151,7 @@ mangarock.com##+js(abort-on-property-read.js, tyche)
 yourupload.com##.download-roms-button
 
 ! kwik CSP filter
-||kwik.cx^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.plyr.io cdn.jsdelivr.net blob: 'self'
+||kwik.cx^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.plyr.io cdn.jsdelivr.net blob: 'self' resource: 'self'
 
 ! prettyfast.to CSP filter
 ||prettyfast.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' ssl.p.jwpcdn.com *.googleusercontent.com g.jwpsrv.com ajax.googleapis.com blob: 'self' resource: 'self'
