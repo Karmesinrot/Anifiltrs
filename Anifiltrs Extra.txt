@@ -43,3 +43,7 @@ mangazuki.online##+js(aopr, _pop)
 
 ! animebam
 animebam.se##[id*="ScriptRoot"]
+
+! tsumino
+! popups
+||tsumino.com/Content/pop.js^$script
