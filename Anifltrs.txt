@@ -43,6 +43,8 @@ kissmanga.com##div[id^=adsIfrme]:not([id=adsIfrme])
 kissmanga.com###divImage:style(display: block !important;)
 ! Counter "Show Comments Box" being hidden
 kissmanga.com###btnShowComments:style(display:inline-block!important)
+! wrong styling on ublock filters
+kissmanga.com#@##btnShowComments:style(display:block!important;)
 
 ! Mangarock Annoyances
 ! Sticker header
