@@ -7,7 +7,7 @@
 mcloud.to##.jw-preview.jw-reset:style(filter:blur(8px);)
 
 ! mystream
-mysembed.net,mystream.to##.vjs-poster:style(filter:blur(12px) saturate(120%)!important;)
+mysembed.net,mystream.to,mstream.*##.vjs-poster:style(filter:blur(12px) saturate(120%)!important;)
 
 ! mp4upload
 mp4upload.com##.vjs-poster:style(filter:blur(8px) saturate(150%) !important;)
