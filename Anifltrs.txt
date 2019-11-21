@@ -127,7 +127,7 @@ animefever.tv##.uk-width-expand > h3.font-medium.mb-2.text-sm.uk-text-muted:has-
 
 ! KISSANIME & KISSMANGA Annoyances ----------------------------
 ! AA script diffuse
-kissanime.ru,kissmanga.com##^script:has-text(Android|webOS|iPhone|iPad|iPod|Edge|BlackBerry|IEMobile|Opera Mini)
+kissanime.ru,kissmanga.com##^script:has-text(/Android|webOS|iPhone|iPad|iPod|Edge|BlackBerry|IEMobile|Opera Mini/)
 ! Diffuse web console clearing
 kissanime.ru,kissmanga.com##+js(abort-on-property-read.js, console.clear)
 ! AA Blocking chromium
