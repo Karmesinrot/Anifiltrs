@@ -39,6 +39,7 @@ kissmanga.com##.barContent > div > p:has-text(/Adblock\/uBlock|report bad ads/)
 kissmanga.com##.clear2, #leftside > br, iframe[src^="/ads/"]
 kissmanga.com##.clear:not(:matches-css(height:0px)):not(:matches-css(height:5px)):not(:matches-css(height:76px))
 kissmanga.com##div[id^=adsIfrme]:not([id=adsIfrme])
+kissmanga.com###divImage~div:has([id^=adsIfrme]:not([id=adsIfrme]))
 ! Counter images being hidden
 kissmanga.com###divImage:style(display: block !important;)
 ! Counter "Show Comments Box" being hidden
