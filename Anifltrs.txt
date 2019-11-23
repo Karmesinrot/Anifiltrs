@@ -26,6 +26,8 @@ kissanime.ru##div[id^=adsIfrme]:not([id=adsIfrme])
 kissanime.ru##div[style*='!important']
 ! Prevent 1p links from closing when opening in a new tab
 @@||kissanime.ru^$popup,domain=kissanime.ru
+! Prevent video from being hidden
+kissanime.ru###divContentVideo:style(display:inline!important)
 
 ! MyAnimeList Cosmetic Filters
 ! Premium memebership "Hide Ads" button
