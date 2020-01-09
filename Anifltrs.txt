@@ -173,8 +173,8 @@ hqq.tv##+js(aopr, BetterJsPop)
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js$script,domain=freshstream.kiwi
 
 ! 9anime cross-site css
-|https://$3p,script,domain=9anime.one,badfilter
-|https://$3p,stylesheet,domain=9anime.one,badfilter
+|https://$3p,script,domain=9anime.one|9anime.tv,badfilter
+|https://$3p,stylesheet,domain=9anime.one|9anime.tv,badfilter
 ! 9anime email decode on the anime titles
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script,domain=9anime.ru|9anime.nl|9anime.live|9anime.one
 
