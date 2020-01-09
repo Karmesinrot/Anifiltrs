@@ -47,27 +47,6 @@ kissmanga.com###btnShowComments:style(display:inline-block!important)
 ! wrong styling on ublock filters
 kissmanga.com#@##btnShowComments:style(display:block!important;)
 
-! Mangarock Annoyances
-! Sticker header
-mangarock.com##._2Dq7D:style(position: absolute !important;)
-! adtrue iframe
-mangarock.com##iframe[src^="/iframe/adtrue"][class="iframe"]:nth-ancestor(1)
-! taboola ads
-mangarock.com##[id=taboola-homepage-desktop],[id=taboola-article-thumbnails],[id^=taboola][id*=collection],[id^=taboola][id*=vertical]:nth-ancestor(2)
-mangarock.com##[id^=taboola][id*=horizontal]:nth-ancestor(1)
-mangarock.com##div._3-1BM:has(>div>div>script:has-text(taboola))
-! reader ads
-mangarock.com##[id$=video]:nth-ancestor(2)
-mangarock.com###bottom-banner-ads
-! message to buy membership
-mangarock.com##a:has-text(Remove all Ads on Manga Rock)
-mangarock.com##span[style="display:block"],[style="display: block;"], [style="display: flex; flex-direction: column; align-items: center; margin-bottom: 20px; margin-top: 10px;"]
-mangarock.com##.vm-placement:nth-ancestor(1)
-mangarock.com##.col-lg-4.col-12 > ._3-1BM:has-text(Keep track of your reading progress):has([href="/account/login"])
-! mangarock loacation tracker
-||mangarock.com/geo$xmlhttprequest,first-party
-mangarock.com##+js(set-constant.js, country, undefined)
-
 ! Gogoanimes Cosmetic filters
 ! background colour
 animego.*,gogoanimes.*,gogoanime.*##body:style(background-color: #1b1b1b !important;)
@@ -141,15 +120,6 @@ kissanime.ru,kissmanga.com##+js(nostif, 30000)
 kissanime.ru##+js(setTimeout-defuser.js, YASBATMBCL)
 
 ! ADS ---------------------------------------------------------
-! mangarock reader ads
-mangarock.com##+js(nostif, changeAds)
-mangarock.com##+js(set-constant.js, Ads Block.no, true)
-mangarock.com##+js(abort-on-property-read.js, tyche)
-! badfilter
-@@||mangarock.com/ads.js$badfilter
-! CSP
-||mangarock.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.mangarockhd.com *.mrcdn.info fonts.googleapis.com fonts.gstatic.com js.stripe.com *.myanimelist.net vgfiles.nabstudio.com cdnjs.cloudflare.com *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg; frame-src data: disqus.com js.stripe.com; img-src data: *
-
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
 

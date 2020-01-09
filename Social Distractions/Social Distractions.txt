@@ -4,17 +4,13 @@
 ! Description: Filters for removing distractive/obtrusive social items on MAL-Sync supported sites
 
 ! GLOBAL ------------------------------------------------------
-||facebook.*^$all,domain=mangarock.com|kissmanga.com|crunchyroll.com|turkanime.tv|animeflv.net|9anime.to|9anime.ru|9anime.nl|9anime.live|9anime.one|9anime.love|9anime.life|9anime.page|9anime.video
+||facebook.*^$all,domain=kissmanga.com|crunchyroll.com|turkanime.tv|animeflv.net|9anime.to|9anime.ru|9anime.nl|9anime.live|9anime.one|9anime.love|9anime.life|9anime.page|9anime.video
 ||twitter.com^$third-party,domain=crunchyroll.com
 ||google.com^$script,domain=kissmanga.com|crunchyroll.com
 ! chatbox that stores passwords in plaintext
 ||st.chatango.com^$script,domain=turkanime.tv|anime4you.one|animevibe.tv|voiranime.com
 
 ! PER-SITE HANDLING -------------------------------------------
-! mangarock
-! mangarock social icons for sharing
-mangarock.com##div:has(>div>a[href^="https://www.facebook.com"],a[href^="https://www.twitter.com"])
-
 ! turkanime
 ! chatboxes
 turkanime.tv##.col-xs-4 > .row > .col-xs-12:has-text(/TÜRK ANIME TV SOHBET|FACEBOOK'ta BEĞEN/i)
