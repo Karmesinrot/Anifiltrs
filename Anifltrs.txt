@@ -176,7 +176,7 @@ hqq.tv##+js(aopr, BetterJsPop)
 |https://$3p,script,domain=9anime.one|9anime.tv,badfilter
 |https://$3p,stylesheet,domain=9anime.one|9anime.tv,badfilter
 ! 9anime email decode on the anime titles
-@@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script,domain=9anime.ru|9anime.nl|9anime.live|9anime.one
+@@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script,domain=9anime.ru|9anime.nl|9anime.live|9anime.one|9anime.love|9anime.life|9anime.page|9anime.video|9anime.tv
 
 ! HydraX player popups
 hydrax.net##+js(aopr, _pop)
