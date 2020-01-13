@@ -137,20 +137,20 @@ yourupload.com##.download-roms-button
 
 ! kissanime
 ! excluded facebook
-||kissanime.ru^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.playercdn.net data: www.googletagmanager.com *.disqus.com c.disquscdn.com fonts.gstatic.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg; frame-src disqus.com www.novelplanet.me www.mp4upload.com googlevideo.com replay.watch hydrax.net; media-src *; img-src data: *
+||kissanime.ru^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.playercdn.net data: www.googletagmanager.com *.disqus.com c.disquscdn.com fonts.gstatic.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg ; frame-src disqus.com www.novelplanet.me www.mp4upload.com googlevideo.com replay.watch hydrax.net ; media-src * ; img-src data: *
 
 ! 9anime
 ! inlcuded recaptcha due to possibility of 9anime user accounts
-||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.9anime.ru *.9anime.to *.akacdn.ru *.googleapis.com *.gstatic.com www.google.com *.recaptcha.net *.disqus.com c.disquscdn.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg; frame-src disqus.com prettyfast.to mcloud.to www.mp4upload.com www.google.com replay.watch hydrax.net; img-src data: *
+||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.9anime.ru *.9anime.to *.akacdn.ru *.googleapis.com *.gstatic.com www.google.com *.recaptcha.net *.disqus.com c.disquscdn.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg ; frame-src disqus.com prettyfast.to mcloud.to www.mp4upload.com www.google.com replay.watch hydrax.net ; img-src data: *
 
 ! novelplanet [nova player] CSP
-||novelplanet.me^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: fvs.io *.hlsmp4.com; connect-src 'self'
+||novelplanet.me^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: fvs.io *.hlsmp4.com ; connect-src 'self'
 
 ! kissmanga
-||kissmanga.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' www.google.com www.gstatic.com *.recaptcha.net *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg; frame-src www.google.com disqus.com; font-src *; img-src data: *
+||kissmanga.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' www.google.com www.gstatic.com *.recaptcha.net *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg ; frame-src www.google.com disqus.com ; font-src * ; img-src data: *
 
 ! gogoanime
-*$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.k-vid.co ajax.googleapis.com disqus.com *.disqus.com c.disquscdn.com ssl.p.jwpcdn.com recaptcha.net *.gstatic.com www.google.com code.jquery.com *.bootstrapcdn.com bowercdn.net cache.cdnfile.info data: blob: vidstreaming.io; connect-src ajax.apimovie.xyz disqus.com gcloud.live feurl.com *.cdnfile.info vev.io vev.red discordapp.com wss: gateway.discord.gg; frame-src disqus.com vidstreaming.io gcloud.live www.fembed.com feurl.com estream.to vev.io vev.red www.mp4upload.com www.google.com www.yourupload.com; media-src * blob: *; font-src data: *; img-src data: *,domain=gogoanime.tv|gogoanime.io|gogoanimes.co|animego.to|gogoanime.video|gogoanime.movie
+*$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.k-vid.co ajax.googleapis.com disqus.com *.disqus.com c.disquscdn.com ssl.p.jwpcdn.com recaptcha.net *.gstatic.com www.google.com code.jquery.com *.bootstrapcdn.com bowercdn.net cache.cdnfile.info data: blob: vidstreaming.io ; connect-src ajax.apimovie.xyz disqus.com gcloud.live feurl.com *.cdnfile.info vev.io vev.red discordapp.com wss: gateway.discord.gg ; frame-src disqus.com vidstreaming.io gcloud.live www.fembed.com feurl.com estream.to vev.io vev.red www.mp4upload.com www.google.com www.yourupload.com ; media-src * blob: * ; font-src data: * ; img-src data: *,domain=gogoanime.tv|gogoanime.io|gogoanimes.co|animego.to|gogoanime.video|gogoanime.movie
 
 ! branitube
 ! popads
