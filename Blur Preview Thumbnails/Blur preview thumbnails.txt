@@ -13,7 +13,7 @@ mysembed.net,mystream.to,mstream.*##.vjs-poster:style(filter:blur(12px) saturate
 mp4upload.com##.vjs-poster:style(filter:blur(8px) saturate(150%) !important;)
 
 ! fembed
-fembed.com,fembed.net,xstreamcdn.com,novelplanet.me,gcloud.live,vaplayer.xyz,jplayer.net,gaobook.review,luxubu.review,weirdmovies.xyz,zidiplay.com,femoload.club###vstr > div[style*="background-size:contain;"]:style(filter:blur(8px))
+fembed.com,fembed.net,xstreamcdn.com,novelplanet.me,gcloud.live,vaplayer.xyz,jplayer.net,gaobook.review,luxubu.review,weirdmovies.xyz,zidiplay.com,femoload.club,feurl.com###vstr > div[style*="background-size:contain;"]:style(filter:blur(8px))
 
 ! yourupload
 yourupload.com##.jw-preview.jw-reset:style(filter:blur(8px))
