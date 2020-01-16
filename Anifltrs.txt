@@ -77,8 +77,6 @@ animeultima.eu##.has-text-centered.is-narrow.column:style(margin-top:-12px)
 ! Dream Animes
 ! google ads
 dreamanimes.com.br##.adsbygoogle:nth-ancestor(1)
-! Assistant
-dreamanimes.com.br###assist:style(left:120px!important;position:relative!important)
 
 ! Voiranime
 ! adframes on sidebar
