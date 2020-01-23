@@ -97,6 +97,8 @@ kickassanime.*##iframe[src*="kickassanime"]:nth-ancestor(2)
 ! Disable/whitelist in adblock message
 kickassanime.*###ablock
 kickassanime.*###notes > div:has-text(adblocker)
+! hide ads button
+kickassanime.*###hide-ads-btn
 
 ! animefever
 ! left-over frames
