@@ -105,6 +105,10 @@ kickassanime.*###hide-ads-btn
 animefever.tv##[class~="adsbygoogle"]
 animefever.tv##.uk-width-expand > h3.font-medium.mb-2.text-sm.uk-text-muted:has-text(Advertisement)
 
+! AnimesVision
+! widget containers
+animesvision.com.br##center:has(script[src="//widgets.outbrain.com/outbrain.js"])
+
 ! KISSANIME & KISSMANGA Annoyances ----------------------------
 ! AA script diffuse
 kissanime.ru,kissmanga.com##^script:has-text($.getScript)
