@@ -113,6 +113,9 @@ animesvision.com.br##center:has(script[src="//widgets.outbrain.com/outbrain.js"]
 anime-odcinki.pl##.widget_text:has(center:has(script))
 anime-odcinki.pl##center:has(script)
 
+! novelplanet
+novelplanet.com##[style^="text-align"]:has(.adsbyvli)
+
 ! KISSANIME & KISSMANGA Annoyances ----------------------------
 ! AA script diffuse
 kissanime.ru,kissmanga.com##^script:has-text($.getScript)
