@@ -43,3 +43,7 @@ mangazuki.online##+js(aopr, _pop)
 
 ! animebam
 animebam.se##[id*="ScriptRoot"]
+
+! 9aime.vip
+! empty ad containers
+9anime.vip##.goblock.text-center
