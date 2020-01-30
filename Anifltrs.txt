@@ -116,6 +116,9 @@ anime-odcinki.pl##center:has(script)
 ! novelplanet
 novelplanet.com##[style^="text-align"]:has(.adsbyvli)
 
+! goyabu
+goyabu.com###warning
+
 ! KISSANIME & KISSMANGA Annoyances ----------------------------
 ! AA script diffuse
 kissanime.ru,kissmanga.com##^script:has-text($.getScript)
