@@ -121,7 +121,7 @@ goyabu.com###warning
 
 ! shinden.pl
 ! sponsor section
-shinden.pl##section:has(.spolecznoscinet+.spolecznoscinet)
+shinden.pl##.takie-tam
 
 ! KISSANIME & KISSMANGA Annoyances ----------------------------
 ! AA script diffuse
