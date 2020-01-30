@@ -173,6 +173,8 @@ yourupload.com##.download-roms-button
 ! branitube
 ! popads
 branitube.net##+js(abort-on-property-write.js, _pop)
+! video player anti-adblock
+@@||bebi.com/bebi_v*.js$script,domain=branitube.net
 
 ! animezone.pl & anime-odcinki.pl
 animezone.pl,anime-odcinki.pl##+js(nowebrtc.js)
