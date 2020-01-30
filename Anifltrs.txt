@@ -57,7 +57,7 @@ animego.*,gogoanimes.*,gogoanime.*##[style="position:fixed;z-index:9999;backgrou
 
 ! Turkanime Cosmetic filters
 ! sponsored adframes
-turkanime.tv##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
+turkanime.net##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
 
 ! Animeflv
 ! cosmetic filter for sidebar on video page
