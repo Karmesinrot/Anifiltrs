@@ -119,6 +119,10 @@ novelplanet.com##[style^="text-align"]:has(.adsbyvli)
 ! goyabu
 goyabu.com###warning
 
+! shinden.pl
+! sponsor section
+shinden.pl##section:has(.spolecznoscinet+.spolecznoscinet)
+
 ! KISSANIME & KISSMANGA Annoyances ----------------------------
 ! AA script diffuse
 kissanime.ru,kissmanga.com##^script:has-text($.getScript)
