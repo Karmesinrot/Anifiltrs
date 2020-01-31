@@ -162,7 +162,7 @@ yourupload.com##.download-roms-button
 ||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.9anime.ru *.9anime.to *.akacdn.ru *.googleapis.com *.gstatic.com www.google.com *.recaptcha.net *.disqus.com c.disquscdn.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg ; frame-src disqus.com prettyfast.to mcloud.to www.mp4upload.com www.google.com replay.watch hydrax.net ; img-src data: *,domain=~9anime.vip|~9anime.xyz|~9anime.id
 
 ! novelplanet [nova player] CSP
-||novelplanet.me^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: fvs.io *.hlsmp4.com ; connect-src 'self'
+||novelplanet.me^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: fvs.io
 
 ! kissmanga
 ||kissmanga.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' www.google.com www.gstatic.com *.recaptcha.net *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg ; frame-src www.google.com disqus.com ; font-src * ; img-src data: *
