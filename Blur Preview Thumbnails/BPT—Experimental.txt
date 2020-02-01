@@ -6,3 +6,7 @@
 ! vidlox
 vidlox.me##.play-wrapper:style(backdrop-filter:blur(8px); -webkit-backdrop-filter: blur(10px)!important; height:100%!important;opacity:1!important;)
 vidlox.me##.poster-icon:style(padding-top:19%!important;padding-bottom:19%!important;height:25%important)
+
+! gounlimited
+gounlimited.to##.play-wrapper:style(backdrop-filter:blur(8px); -webkit-backdrop-filter: blur(10px)!important; height:100%!important;opacity:1!important;)
+gounlimited.to##.poster-icon:style(padding-top:19%!important;padding-bottom:19%!important;height:25%important)
