@@ -47,3 +47,7 @@ animebam.se##[id*="ScriptRoot"]
 9anime.vip##.goblock.text-center
 ! images
 |https://$image,3p,domain=9anime.vip,badfilter
+
+! dreamanime
+! popads
+dreamanime.fun##+js(aopr, _pop)
