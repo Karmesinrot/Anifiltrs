@@ -49,5 +49,6 @@ animebam.se##[id*="ScriptRoot"]
 |https://$image,3p,domain=9anime.vip,badfilter
 
 ! dreamanime
-! popads
+! popups
 dreamanime.fun##+js(aopr, _pop)
+dreamanime.fun##+js(acis, Math, zfgloaded)
