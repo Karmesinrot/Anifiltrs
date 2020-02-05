@@ -98,3 +98,6 @@ onlystream.tv##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
 
 ! upvid
 upvid.*##.vjs-poster:style(filter:blur(8px) saturate(1.2);)
+
+! yfvf.com
+yfvf.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
