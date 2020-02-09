@@ -159,7 +159,7 @@ yourupload.com##.download-roms-button
 
 ! 9anime
 ! inlcuded recaptcha due to possibility of 9anime user accounts
-||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.9anime.ru *.9anime.to *.akacdn.ru *.googleapis.com *.gstatic.com www.google.com *.recaptcha.net *.disqus.com c.disquscdn.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg ; frame-src disqus.com prettyfast.to mcloud.to www.mp4upload.com www.google.com hydrax.net ; img-src data: *,domain=~9anime.vip|~9anime.xyz|~9anime.id|~9anime.pro
+||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.9anime.ru *.9anime.to *.akacdn.ru *.googleapis.com *.gstatic.com www.google.com *.recaptcha.net *.disqus.com c.disquscdn.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg ; frame-src disqus.com prettyfast.to mcloud.to www.mp4upload.com www.google.com hydrax.net ; img-src data: *,domain=~9anime.vip|~9anime.pro
 
 ! novelplanet [nova player] CSP
 ||novelplanet.me^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: fvs.io
