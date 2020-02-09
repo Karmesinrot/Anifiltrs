@@ -101,3 +101,6 @@ upvid.*##.vjs-poster:style(filter:blur(8px) saturate(1.2);)
 
 ! yfvf.com
 yfvf.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
+
+! streamable.com
+streamable.com###play-background:style(filter:blur(12px) saturate(1.5);)
