@@ -207,6 +207,3 @@ upvid.*##+js(nowebrtc.js)
 
 ! kickassanime popups
 kickassanime.rs##+js(acis, Math, zfgloaded)
-
-! feurl popups
-feurl.com##+js(aopr, popjs)
