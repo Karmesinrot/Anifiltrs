@@ -127,15 +127,15 @@ shinden.pl##.takie-tam
 ! AA script diffuse
 kissanime.ru,kissmanga.com##^script:has-text($.getScript)
 ! Diffuse web console clearing
-kissanime.ru,kissmanga.com##+js(abort-on-property-read.js, console.clear)
+kissanime.ru,kissmanga.com##+js(aopr, console.clear)
 ! AA Blocking chromium
 !##### All filters relating to this block are redundant when using a custom userscript #####
 !#if env_chromium
-kissanime.ru,kissmanga.com##+js(abort-current-inline-script.js, InitCloseButton, AddCloseButton)
+kissanime.ru,kissmanga.com##+js(acis, InitCloseButton, AddCloseButton)
 kissanime.ru,kissmanga.com##+js(nostif, 30000)
 !#endif
 ! prevent kissanime wrong captcha loop
-kissanime.ru##+js(setTimeout-defuser.js, YASBATMBCL)
+kissanime.ru##+js(std, YASBATMBCL)
 
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
@@ -172,7 +172,7 @@ yourupload.com##.download-roms-button
 
 ! branitube
 ! popads
-branitube.net##+js(abort-on-property-write.js, _pop)
+branitube.net##+js(aopw, _pop)
 ! video player anti-adblock
 @@||bebi.com/bebi_v*.js$script,domain=branitube.net
 
