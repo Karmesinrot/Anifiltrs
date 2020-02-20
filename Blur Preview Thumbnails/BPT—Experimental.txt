@@ -1,12 +1,12 @@
 ! Title: Anifiltrs — 🍶 Blur Preview Thumbnails Experimental
 ! Expires: 8 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
-! Description: A list of filters for backdrop-filter which isn't yet widely supported by all web browsers
+! Description: A list of filters for backdrop-filter which isn’t yet widely supported by all web browsers
 
 ! vidlox
-vidlox.me##.play-wrapper:style(backdrop-filter:blur(8px); -webkit-backdrop-filter: blur(10px)!important; height:100%!important;opacity:1!important;)
-vidlox.me##.poster-icon:style(padding-top:19%!important;padding-bottom:19%!important;height:25%important)
+vidlox.me##.play-wrapper:style(backdrop-filter:blur(8px); -webkit-backdrop-filter: blur(10px)!important; height:100%!important; opacity:1!important;)
+vidlox.me##.poster-icon:style(padding-top:19%!important; padding-bottom:19%!important; height:25%important)
 
 ! gounlimited
-gounlimited.to##.play-wrapper:style(backdrop-filter:blur(8px); -webkit-backdrop-filter: blur(10px)!important; height:100%!important;opacity:1!important;)
-gounlimited.to##.poster-icon:style(padding-top:19%!important;padding-bottom:19%!important;height:25%important)
+gounlimited.to##.play-wrapper:style(backdrop-filter:blur(8px); -webkit-backdrop-filter: blur(10px)!important; height:100%!important; opacity:1!important;)
+gounlimited.to##.poster-icon:style(padding-top:19%!important; padding-bottom:19%!important; height:25%important)
