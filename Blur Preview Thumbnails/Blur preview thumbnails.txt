@@ -18,9 +18,6 @@ fembed.com,fembed.net,xstreamcdn.com,novelplanet.me,gcloud.live,vaplayer.xyz,jpl
 ! yourupload
 yourupload.com##.jw-preview.jw-reset:style(filter:blur(8px))
 
-! kwik
-kwik.cx##.plyr__poster:style(filter:blur(8px)!important;)
-
 ! ok.ru
 ok.ru##.vid-card_img:style(filter:blur(8px))
 
