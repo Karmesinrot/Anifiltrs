@@ -192,11 +192,11 @@ hqq.tv##+js(aopr, BetterJsPop)
 ! freshstream.kiwi anti-adblock
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js$script,domain=freshstream.kiwi
 
-! 9anime cross-site css
+! 9anime xss
 |https://$3p,script,domain=9anime.one|9anime.tv,badfilter
 |https://$3p,stylesheet,domain=9anime.one|9anime.tv,badfilter
-! 9anime email decode on the anime titles
-@@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script,domain=9anime.ru|9anime.nl|9anime.live|9anime.one|9anime.love|9anime.life|9anime.page|9anime.video|9anime.tv
+!'@' => 'CF email' titles
+@@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
 
 ! HydraX player popups
 hydrax.net##+js(aopr, _pop)
