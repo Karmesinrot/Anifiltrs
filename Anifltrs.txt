@@ -186,9 +186,6 @@ animezone.pl,anime-odcinki.pl##+js(nowebrtc.js)
 hqq.tv##+js(aopr, BetterJsPop)
 
 ! HOT FIXES ---------------------------------------------------
-! Fix kissanime thumbnails broken by easylist
-@@||i.imgur.com^$image,domain=kissanime.ru
-
 ! freshstream.kiwi anti-adblock
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js$script,domain=freshstream.kiwi
 
@@ -198,12 +195,5 @@ hqq.tv##+js(aopr, BetterJsPop)
 !'@' => 'CF email' titles
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
 
-! HydraX player popups
-hydrax.net##+js(aopr, _pop)
-hydrax.net##+js(nostif, _0x)
-
 ! upvid player webRTC
 upvid.*##+js(nowebrtc.js)
-
-! kickassanime popups
-kickassanime.rs##+js(acis, Math, zfgloaded)
