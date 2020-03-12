@@ -107,3 +107,6 @@ moeclip.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
 
 ! mixdrop.co
 mixdrop.co##.vjs-poster:style(filter:blur(8px) saturate(1.2))
+
+! upstream.to
+upstream.to##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.25))
