@@ -134,3 +134,6 @@ vidfast.co##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
 
 ! vidmoly.me
 vidmoly.me##.jw-preview.jw-reset:style(filter:blur(8px))
+
+! vidsat.net
+vidsat.net##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
