@@ -128,3 +128,6 @@ embed.tune.pk##.media-cover:style(filter:blur(7px) saturate(1.5))
 
 ! jetload.net
 jetload.net##.vjs-poster:style(filter:blur(8px) saturate(1.2))
+
+! vidfast.co
+vidfast.co##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
