@@ -197,3 +197,9 @@ hqq.tv##+js(aopr, BetterJsPop)
 
 ! upvid player webRTC
 upvid.*##+js(nowebrtc.js)
+
+! pstream.net
+pstream.net##+js(aopw, adcashMacros)
+pstream.net##.js-overlay-papi
+@@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js$script,domain=pstream.net
+@@||pstream.net^$ghide
