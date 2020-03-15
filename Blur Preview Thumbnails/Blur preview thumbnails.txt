@@ -131,3 +131,6 @@ jetload.net##.vjs-poster:style(filter:blur(8px) saturate(1.2))
 
 ! vidfast.co
 vidfast.co##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
+
+! vidmoly.me
+vidmoly.me##.jw-preview.jw-reset:style(filter:blur(8px))
