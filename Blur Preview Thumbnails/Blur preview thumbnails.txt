@@ -122,3 +122,6 @@ fastplay.to##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
 
 ! odnoklassniki.ru
 odnoklassniki.ru##.vid-card_img:style(filter:blur(8px))
+
+! tune.pk
+embed.tune.pk##.media-cover:style(filter:blur(7px) saturate(1.5))
