@@ -116,3 +116,6 @@ video.sibnet.ru##.vjs-poster:style(filter:blur(8px) saturate(1.5))
 
 ! turkanime.net
 turkanime.net##.jw-preview.jw-reset:style(filter:blur(8px))
+
+! fastplay.to
+fastplay.to##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
