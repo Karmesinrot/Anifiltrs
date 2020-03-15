@@ -137,3 +137,6 @@ vidmoly.me##.jw-preview.jw-reset:style(filter:blur(8px))
 
 ! vidsat.net
 vidsat.net##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
+
+! saruch.co
+saruch.co##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
