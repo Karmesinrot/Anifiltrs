@@ -119,3 +119,6 @@ turkanime.net##.jw-preview.jw-reset:style(filter:blur(8px))
 
 ! fastplay.to
 fastplay.to##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
+
+! odnoklassniki.ru
+odnoklassniki.ru##.vid-card_img:style(filter:blur(8px))
