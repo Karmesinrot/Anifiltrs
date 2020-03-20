@@ -50,5 +50,4 @@ animebam.se##[id*="ScriptRoot"]
 
 ! dreamanime
 ! popups
-dreamanime.fun##+js(aopr, _pop)
-dreamanime.fun##+js(acis, Math, zfgloaded)
+dreamanime.fun##+js(acis, document.querySelectorAll, popMagic)
