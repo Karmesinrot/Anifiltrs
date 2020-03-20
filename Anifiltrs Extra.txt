@@ -44,7 +44,7 @@ animebam.se##[id*="ScriptRoot"]
 
 ! 9aime.vip
 ! empty ad containers
-9anime.vip##.goblock.text-center
+9anime.vip##.text-center.cut
 ! images
 |https://$image,3p,domain=9anime.vip,badfilter
 
