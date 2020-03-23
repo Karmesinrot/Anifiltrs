@@ -126,14 +126,14 @@ shinden.pl##.takie-tam
 
 ! KISSANIME & KISSMANGA Annoyances ----------------------------
 ! AA script diffuse
-kissanime.ru,kissmanga.com##^script:has-text($.getScript)
+kissanime.ru##^script:has-text($.getScript)
 ! Diffuse web console clearing
 kissanime.ru,kissmanga.com##+js(aopr, console.clear)
 ! AA Blocking chromium
 !##### All filters relating to this block are redundant when using a custom userscript #####
 !#if env_chromium
 kissanime.ru,kissmanga.com##+js(acis, InitCloseButton, AddCloseButton)
-kissanime.ru,kissmanga.com##+js(nostif, 30000)
+kissanime.ru##+js(nostif, 30000)
 !#endif
 ! prevent kissanime wrong captcha loop
 kissanime.ru##+js(std, YASBATMBCL)
