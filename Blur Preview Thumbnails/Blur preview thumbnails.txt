@@ -143,3 +143,6 @@ saruch.co##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
 
 ! solidfiles.com
 solidfiles.com##.vjs-poster:style(filter:blur(8px))
+
+! feralhosting.com
+feralhosting.com##.vjs-poster:style(filter:blur(8px) saturate(1.25))
