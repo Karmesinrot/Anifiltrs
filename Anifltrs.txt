@@ -137,6 +137,8 @@ kissanime.ru##+js(nostif, 30000)
 !#endif
 ! prevent kissanime wrong captcha loop
 kissanime.ru##+js(std, YASBATMBCL)
+! inline-script which hides content
+kissanime.ru##+js(acis, $, /#(center)?[D/d]iv(My)?Video/)
 
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
@@ -204,6 +206,3 @@ pstream.net##+js(aopw, adcashMacros)
 pstream.net##.js-overlay-papi
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js$script,domain=pstream.net
 @@||pstream.net^$ghide
-
-! force to display kissanime video
-kissanime.ru###divVideo:style(display:block!important)
