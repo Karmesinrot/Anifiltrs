@@ -138,7 +138,7 @@ kissanime.ru##+js(nostif, 30000)
 ! prevent kissanime wrong captcha loop
 kissanime.ru##+js(std, YASBATMBCL)
 ! inline-script which hides content
-kissanime.ru##+js(acis, $, /#(center)?[D/d]iv(My)?Video/)
+kissanime.ru##+js(acis, $, /#(center)?[D/d]ivVideo/)
 
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
