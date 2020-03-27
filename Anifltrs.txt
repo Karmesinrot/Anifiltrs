@@ -131,8 +131,8 @@ kissanime.ru##^script:has-text($.getScript)
 kissanime.ru,kissmanga.com##+js(aopr, console.clear)
 ! AA Blocking chromium
 !##### All filters relating to this block are redundant when using a custom userscript #####
-!#if env_chromium
 kissanime.ru,kissmanga.com##+js(acis, InitCloseButton, AddCloseButton)
+!#if env_chromium
 kissanime.ru##+js(nostif, 30000)
 !#endif
 ! prevent kissanime wrong captcha loop
