@@ -1,10 +1,9 @@
-! Title: Anifiltrs — 🍱 Anime streaming & Manga reading
+! Title: Anifiltrs — skeletonise
 ! Expires: 1 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
-! Description: Personal filters for anime streaming
+! Description: Anifiltrs but without Blur Preview Thumbnails
 
 ! INCLUDE RESOURCES -------------------------------------------
 !#include DAG/DAG.txt
 !#include MAL-Sync%20UI.txt
 !#include Anifiltrs%20Main/Anifiltrs%20main.txt
-!#include Blur%20Preview%20Thumbnails/Blur%20preview%20thumbnails.txt

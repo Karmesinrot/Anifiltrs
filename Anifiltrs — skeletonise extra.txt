@@ -1,7 +1,9 @@
-! Title: Anifiltrs/Extra
+! Title: Anifiltrs/Extra — skeletonise
 ! Expires: 3 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Anifiltrs with additional support for Anime streaming and Manga reading sites which are not supported by lolamtisch's MAL-Sync
 
-!#include Anifltrs.txt
+!#include DAG/DAG.txt
+!#include MAL-Sync%20UI.txt
+!#include Anifiltrs%20Main/Anifiltrs%20main.txt
 !#include Anifiltrs%20Main/Anifiltrs%20extra-main.txt

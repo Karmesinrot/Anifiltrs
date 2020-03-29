@@ -1,0 +1,214 @@
+! Title: Anifiltrs — Main
+! Expires: 1 days
+! Homepage: https://github.com/Karmesinrot/Anifiltrs
+! Description: Main body for Anifiltrs
+
+! ANNOYANCES & COSMETIC FILTERS -------------------------------
+! 9anime Cosmetic Filters
+! Cleans up the ui a bit, making it more compact
+9anime.*##.text-center.widget
+
+! Kissanime Cosmetic Filters
+! removes the annoying message to disable Adblock/uBlock
+kissanime.ru##div.rightBox:has-text(Adblock/uBlock):not(:has(p:not(:has-text(Adblock/uBlock)):not(:has-text(bad ads))))
+kissanime.ru##.barContent > div > p:has-text(/Adblock\/uBlock|report bad ads/)
+! Global clearbox padding and left-over adframes
+kissanime.ru###leftside > br, iframe[src^="/ads/"]
+kissanime.ru##.clear2:not(+#centerDivVideo):not(+.rightBox:has-text(/Related Links|Latest update/))
+kissanime.ru##.clear:not(:matches-css(height:0px)):not(:matches-css(height:5px)):not(:matches-css(line-height:23px)):not(:matches-css(height:76px))
+kissanime.ru##div[id^=adsIfrme]:not([id=adsIfrme])
+! Messages on top of video player
+kissanime.ru##div[style*='!important']
+! Prevent 1p links from closing when opening in a new tab
+@@||kissanime.ru^$popup,domain=kissanime.ru
+
+! MyAnimeList Cosmetic Filters
+! Premium memebership "Hide Ads" button
+myanimelist.net##.header-menu-login > a:has-text(Hide Ads)
+
+! kissmanga Cosmetic Filters
+! Remove annoying message to disable adblocker
+kissmanga.com##div.rightBox:has-text(Adblock/uBlock):not(:has(p:not(:has-text(Adblock/uBlock)):not(:has-text(bad ads))))
+kissmanga.com##.barContent > div > p:has-text(/Adblock\/uBlock|report bad ads/)
+! Global clearbox padding and left-over adframes
+kissmanga.com##.clear2, #leftside > br, iframe[src^="/ads/"]
+kissmanga.com##.clear:not(:matches-css(height:0px)):not(:matches-css(height:5px)):not(:matches-css(height:76px))
+kissmanga.com##div[id^=adsIfrme]:not([id=adsIfrme])
+kissmanga.com###divImage~div:has([id^=adsIfrme]:not([id=adsIfrme]))
+! Counter images being hidden
+kissmanga.com###divImage:style(display: block !important;)
+! Counter "Show Comments Box" being hidden
+kissmanga.com###btnShowComments:style(display:inline-block!important)
+! wrong styling on ublock filters
+kissmanga.com#@##btnShowComments:style(display:block!important;)
+
+! Gogoanimes Cosmetic filters
+! background colour
+animego.*,gogoanimes.*,gogoanime.*##body:style(background-color: #1b1b1b !important;)
+! ad containers
+animego.*,gogoanimes.*,gogoanime.*##[class^="anime_video_body"] > div[style="height:250px;overflow:hidden;"], [class^="headnav_center"]
+! useless information banner
+animego.*,gogoanimes.*,gogoanime.*##[style="position:fixed;z-index:9999;background:#ffc119;bottom:0;text-align:center;color:#000;width:100%;padding:10px 0;font-weight:600;"]
+
+! Turkanime Cosmetic filters
+! sponsored adframes
+turkanime.net##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
+
+! Animeflv
+! cosmetic filter for sidebar on video page
+animeflv.net##.CpCnC > .WdgtCn:style(margin-top:105px!important;)
+
+! AnimePlanet
+! google ads frame container
+anime-planet.com##.ad:nth-ancestor(1) [class^="halo"]
+
+! animeultima
+! ads on the sidebar of video page
+animeultima.*##iframe[src="/unit/300"]:nth-ancestor(1)
+animeultima.*##[id^=adtrue_tag]:nth-ancestor(1)
+! cosmetic adjustment after removing ads
+animeultima.*##.has-text-centered.is-narrow.column:style(margin-top:-12px)
+
+! Dream Animes
+! google ads
+dreamanimes.com.br##.adsbygoogle:nth-ancestor(1)
+
+! Voiranime
+! adframes on sidebar
+voiranime.com##[id^=ai_widget]:not(:has([href="https://discord.gg/rvBeeNg"]))
+
+! dubbedanime.net
+! vip membership overlay
+dubbedanime.net##.vip-membership-banner
+dubbedanime.net##a[href="https://otaku.cafe/vip.htm"]
+
+! mangakakalot & manganelo
+! adtrue adframes
+mangakakalot.com,manganelo.com##iframe[src^="/ads/"]:not(+img):nth-ancestor(1)
+
+! kickassanime
+! 1p frames left-overs
+kickassanime.*##iframe[src*="kickassanime"]:nth-ancestor(2)
+! Disable/whitelist in adblock message
+kickassanime.*###ablock
+kickassanime.*###notes > div:has-text(adblocker)
+! hide ads button
+kickassanime.*###hide-ads-btn
+
+! animefever
+! left-over frames
+animefever.tv##[class~="adsbygoogle"]
+animefever.tv##.uk-width-expand > h3.font-medium.mb-2.text-sm.uk-text-muted:has-text(Advertisement)
+
+! AnimesVision
+! widget containers
+animesvision.biz##center:if(+ .goblock.detail-anime)
+animesvision.biz##div.sb-subs.goblock:has(center > script)
+
+! anime-odcinki
+anime-odcinki.pl##.widget_text:has(center:has(script))
+anime-odcinki.pl##center:has(script)
+
+! novelplanet
+novelplanet.com##[style^="text-align"]:has(.adsbyvli)
+
+! goyabu
+goyabu.com###warning
+
+! shinden.pl
+! sponsor section
+shinden.pl##.takie-tam
+
+! KISSANIME & KISSMANGA Annoyances ----------------------------
+! AA script diffuse
+kissanime.ru##^script:has-text($.getScript)
+! Diffuse web console clearing
+kissanime.ru,kissmanga.com##+js(aopr, console.clear)
+! AA Blocking chromium
+!##### All filters relating to this block are redundant when using a custom userscript #####
+kissanime.ru,kissmanga.com##+js(acis, InitCloseButton, AddCloseButton)
+!#if env_chromium
+kissanime.ru##+js(nostif, 30000)
+!#endif
+! prevent kissanime wrong captcha loop
+kissanime.ru##+js(std, YASBATMBCL)
+! inline-script which hides content
+kissanime.ru##+js(acis, $, bookmark)
+
+! ADS ---------------------------------------------------------
+! yourupload download rom ad
+yourupload.com##.download-roms-button
+
+! kwik CSP filter
+||kwik.cx^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.plyr.io cdn.jsdelivr.net blob: 'self' resource: 'self'
+
+! prettyfast.to CSP filter
+||prettyfast.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' ssl.p.jwpcdn.com *.googleusercontent.com g.jwpsrv.com ajax.googleapis.com blob: 'self' resource: 'self'
+
+! 4anime
+||4anime.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: ajax.googleapis.com ssl.p.jwpcdn.com *.disqus.com c.disquscdn.com
+
+! animefreak.tv
+||animefreak.tv^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.google.com www.gstatic.com
+
+! kissanime
+! excluded facebook
+||kissanime.ru^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.googletagmanager.com *.disqus.com c.disquscdn.com fonts.gstatic.com hcaptcha.com assets.hcaptcha.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg ; frame-src disqus.com www.novelplanet.me www.mp4upload.com googlevideo.com assets.hcaptcha.com ; media-src * ; img-src data: *
+
+! 9anime
+! inlcuded recaptcha due to possibility of 9anime user accounts
+||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.9anime.ru *.9anime.to *.akacdn.ru *.googleapis.com *.gstatic.com www.google.com *.recaptcha.net *.disqus.com c.disquscdn.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg ; frame-src disqus.com prettyfast.to mcloud.to www.mp4upload.com www.google.com hydrax.net ; img-src data: *,domain=~9anime.vip|~9anime.pro|~9anime.fun
+
+! novelplanet [nova player] CSP
+||novelplanet.me^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: fvs.io
+
+! kissmanga
+||kissmanga.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' www.google.com www.gstatic.com *.recaptcha.net *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg ; frame-src www.google.com disqus.com ; font-src * ; img-src data: *
+
+! gogoanime
+*$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.k-vid.co ajax.googleapis.com disqus.com *.disqus.com c.disquscdn.com ssl.p.jwpcdn.com recaptcha.net *.gstatic.com www.google.com code.jquery.com *.bootstrapcdn.com bowercdn.net cache.cdnfile.info cdn.jsdelivr.net iamcdn.net data: blob: vidstreaming.io ; connect-src ajax.apimovie.xyz ajax.gogocdn.net disqus.com gcloud.live feurl.com *.cdnfile.info mixdrop.co ping.idocdn.com *.buzz *.monster discordapp.com wss: gateway.discord.gg ; frame-src disqus.com vidstreaming.io hydrax.net gcloud.live www.fembed.com feurl.com www.google.com mixdrop.co www.mp4upload.com www.yourupload.com ; media-src * blob: * ; font-src data: * ; img-src data: *,domain=gogoanime.tv|gogoanime.io|gogoanimes.co|animego.to|gogoanime.video|gogoanime.movie
+
+! branitube
+! popup ads
+branitube.net##+js(aopw, _pop)
+branitube.net##+js(acis, document.querySelectorAll, popMagic)
+! video player anti-adblock
+@@||bebi.com/bebi_v*.js$script,domain=branitube.net
+
+! animezone.pl & anime-odcinki.pl
+animezone.pl,anime-odcinki.pl##+js(nowebrtc.js)
+
+! animeflix
+||animeflix.io^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.googleapis.com fonts.gstatic.com *.google-analytics.com ssl.p.jwpcdn.com blob: 'self' ; connect-src 'self' s1-na-http.auengine.com dl.v.vrv.co a-vrv.akamaized.net wss: animeflix.io ; img-src data: * ; upgrade-insecure-requests
+
+! netu.tv player unnecessary extra clicks
+hqq.tv##+js(aopr, BetterJsPop)
+
+! HOT FIXES ---------------------------------------------------
+! freshstream.kiwi anti-adblock
+@@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js$script,domain=freshstream.kiwi
+
+! 9anime xss
+|https://$3p,script,domain=9anime.one|9anime.tv,badfilter
+|https://$3p,stylesheet,domain=9anime.one|9anime.tv,badfilter
+!'@' => 'CF email' titles
+@@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
+
+! upvid player webRTC
+upvid.*##+js(nowebrtc.js)
+
+! pstream.net
+pstream.net##+js(aopw, adcashMacros)
+pstream.net##.js-overlay-papi
+@@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js$script,domain=pstream.net
+@@||pstream.net^$ghide
+
+! Animefever.tv AA player
+@@||ssl.p.jwpcdn.com/player/plugins/gapro/v/2.1.5/gapro.js$xhr,domain=animefever.tv
+
+! kissanime hcaptcha breakage
+*$script,3p,domain=kissanime.ru,badfilter
+
+! animeshouse player AA
+@@||lockharte-ah.gq/popads.js$script,domain=animeshouse.net
+@@||satellizer-ah.cf/adblocker.js$script,domain=lockharte-ah.gq
