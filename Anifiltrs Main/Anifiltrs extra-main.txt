@@ -1,4 +1,4 @@
-! Title: Anifiltrs/Extra—main
+! Title: Anifiltrs/Extra—main 🥪
 ! Expires: 3 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Anifiltrs with additional support for Anime streaming and Manga reading sites which are not supported by lolamtisch's MAL-Sync

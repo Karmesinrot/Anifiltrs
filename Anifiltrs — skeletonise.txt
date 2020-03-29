@@ -1,4 +1,4 @@
-! Title: Anifiltrs — skeletonise
+! Title: Anifiltrs — 🥡 skeletonise
 ! Expires: 1 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Anifiltrs but without Blur Preview Thumbnails

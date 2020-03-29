@@ -1,4 +1,4 @@
-! Title: Anifiltrs — 🍶 Blur Preview Thumbnails Experimental
+! Title: Anifiltrs — 🍹 Blur Preview Thumbnails Experimental
 ! Expires: 8 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: A list of filters for backdrop-filter which isn’t yet widely supported by all web browsers

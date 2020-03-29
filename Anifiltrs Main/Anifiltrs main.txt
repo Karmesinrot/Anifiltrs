@@ -1,4 +1,4 @@
-! Title: Anifiltrs — Main
+! Title: Anifiltrs — 🍲 Main
 ! Expires: 1 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Main body for Anifiltrs
