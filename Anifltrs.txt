@@ -158,7 +158,8 @@ yourupload.com##.download-roms-button
 
 ! kissanime
 ! excluded facebook
-||kissanime.ru^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.googletagmanager.com *.disqus.com c.disquscdn.com fonts.gstatic.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg ; frame-src disqus.com www.novelplanet.me www.mp4upload.com googlevideo.com ; media-src * ; img-src data: *
+||kissanime.ru^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.googletagmanager.com *.disqus.com c.disquscdn.com fonts.gstatic.com hcaptcha.com assets.hcaptcha.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg ; frame-src disqus.com www.novelplanet.me www.mp4upload.com googlevideo.com assets.hcaptcha.com ; media-src * ; img-src data: *
+
 ! 9anime
 ! inlcuded recaptcha due to possibility of 9anime user accounts
 ||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.9anime.ru *.9anime.to *.akacdn.ru *.googleapis.com *.gstatic.com www.google.com *.recaptcha.net *.disqus.com c.disquscdn.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg ; frame-src disqus.com prettyfast.to mcloud.to www.mp4upload.com www.google.com hydrax.net ; img-src data: *,domain=~9anime.vip|~9anime.pro|~9anime.fun
@@ -209,3 +210,6 @@ pstream.net##.js-overlay-papi
 
 ! Animefever.tv AA player
 @@||ssl.p.jwpcdn.com/player/plugins/gapro/v/2.1.5/gapro.js$xhr,domain=animefever.tv
+
+! kissanime hcaptcha breakage
+*$script,3p,domain=kissanime.ru,badfilter
