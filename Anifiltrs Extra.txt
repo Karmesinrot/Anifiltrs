@@ -4,3 +4,4 @@
 ! Description: Anifiltrs with additional support for Anime streaming and Manga reading sites which are not supported by lolamtisch's MAL-Sync
 
 !#include Anifltrs.txt
+!#include Anifiltrs%20Main/Anifiltrs%20extra-main.txt
