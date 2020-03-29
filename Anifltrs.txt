@@ -213,3 +213,7 @@ pstream.net##.js-overlay-papi
 
 ! kissanime hcaptcha breakage
 *$script,3p,domain=kissanime.ru,badfilter
+
+! animeshouse player AA
+@@||lockharte-ah.gq/popads.js$script,domain=animeshouse.net
+@@||satellizer-ah.cf/adblocker.js$script,domain=lockharte-ah.gq
