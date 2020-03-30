@@ -5,8 +5,6 @@
 ! Description: Filters for fixing broken favicons, badges, images, and other related things on MAL-Sync
 
 ! MAL-Sync ----------------------------------------------------
-! Prevent miniMAL breakage due to uBlock filter
-animego.*,gogoanime.*,gogoanimes.*#@#+js(set, String.prototype.charAt, noopFunc)
 ! Prevent animefever Anti MAL-Sync
 animefever.tv##+js(nosiif, window.location.replace, 1000)
 ! To Counter Contributor section breakage due to easylist filter [userscript and extension]
