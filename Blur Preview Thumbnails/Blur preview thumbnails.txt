@@ -152,3 +152,6 @@ animeshouse.net##.jw-preview.jw-reset:style(filter:blur(8px) saturate(.9))
 
 ! lockharte-ah.gq
 lockharte-ah.gq##.jw-preview.jw-reset:style(filter:blur(8px) saturate(.9))
+
+! gdriveplayer.me
+gdriveplayer.me##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
