@@ -226,3 +226,6 @@ animexin.xyz##div.section:has-text(AnimeXin Store)
 animexin.xyz##+js(nostif, sponsor)
 ! Ad script
 animexin.xyz##+js(acis, document.createElement, 'script')
+
+! dreamsub popups
+dreamsub.stream##+js(aopw, _pop)
