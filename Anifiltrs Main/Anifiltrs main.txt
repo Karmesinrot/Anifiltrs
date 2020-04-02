@@ -220,3 +220,6 @@ animexin.xyz##+js(acis, document.createElement, 'script')
 
 ! dreamsub popups
 dreamsub.stream##+js(aopw, _pop)
+
+! weird xstreamcdn popup when csp blocks ad script
+fembed.com,feurl.com##+js(window.open-defuser)
