@@ -158,3 +158,6 @@ gdriveplayer.me##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
 
 ! dreamsub.stream
 dreamsub.stream##.vjs-poster:style(filter:blur(8px) saturate(1.5))
+
+! gounlimited.to
+gounlimited.to##.vjs-poster:style(filter:blur(8px) saturate(1.5))
