@@ -25,9 +25,6 @@ kissanime.ru##div[style*='!important']
 ! MyAnimeList Cosmetic Filters
 ! Premium memebership "Hide Ads" button
 myanimelist.net##.header-menu-login > a:has-text(Hide Ads)
-! 2020 April Fools
-myanimelist.net##+js(ra, class, .score-label)
-myanimelist.net##+js(ra, value, #myinfo_score > option)
 
 ! kissmanga Cosmetic Filters
 ! Remove annoying message to disable adblocker
