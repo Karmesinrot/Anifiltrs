@@ -79,8 +79,7 @@ voiranime.com##[id^=ai_widget]:not(:has([href="https://discord.gg/rvBeeNg"]))
 
 ! dubbedanime.net
 ! vip membership overlay
-dubbedanime.net##.vip-membership-banner
-dubbedanime.net##a[href="https://otaku.cafe/vip.htm"]
+dubbedanime.net##.vip-membership-banner, a[href="https://otaku.cafe/vip.htm"]
 
 ! mangakakalot & manganelo
 ! adtrue adframes
@@ -209,11 +208,9 @@ pstream.net##.js-overlay-papi
 
 ! animexin.xyz
 ! adframes
-animexin.xyz###floatcenter
-animexin.xyz##.kln
+animexin.xyz###floatcenter, .kln, .postbody > br
 animexin.xyz##.textwidget.custom-html-widget:has(script+noscript, script[src*="ads.php"])
 animexin.xyz##div.section:has-text(AnimeXin Store)
-animexin.xyz##.postbody > br
 ! Anti-Adblock msg
 animexin.xyz##+js(nostif, sponsor)
 ! Ad script
