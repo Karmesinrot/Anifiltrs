@@ -213,6 +213,7 @@ animexin.xyz###floatcenter
 animexin.xyz##.kln
 animexin.xyz##.textwidget.custom-html-widget:has(script+noscript, script[src*="ads.php"])
 animexin.xyz##div.section:has-text(AnimeXin Store)
+animexin.xyz##.postbody > br
 ! Anti-Adblock msg
 animexin.xyz##+js(nostif, sponsor)
 ! Ad script
