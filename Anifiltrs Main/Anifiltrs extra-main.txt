@@ -4,13 +4,7 @@
 ! Description: Anifiltrs with additional support for Anime streaming and Manga reading sites which are not supported by lolamtisch's MAL-Sync
 
 ! Extra/ filters-----------------------------------------------
-! Mangahub.io
-! Video Ads
-||truvidplayer.com^$third-party,domain=mangahub.io
-
 ! AnimeHub.ac
-! click pop-up ads
-||gofootprints.net/popup.js^$script,domain=animehub.ac
 ! left-over adframe
 animehub.ac##.sb-subs.goblock
 
@@ -18,25 +12,13 @@ animehub.ac##.sb-subs.goblock
 thewatchcartoononline.tv##body:style(background-color:#1e262d!important;)
 thewatchcartoononline.tv##.anti-ad
 
-! mangapanda.com
-! 18+ game ad
-mangapanda.com##+js(acis, document.querySelector, erogesimg)
-
 ! mangafox & mangahere
 ! empty ad containers
 fanfox.net,mangahere.*##[class*="ad"][style="width:800px;height:90px;"],[style="width: 800px; height: 90px;"]
 
-! Darkanime
-darkanime.stream##+js(acis, document.getElementsByTagName, script)
-
 ! anime8
 ! xhr ads
 anime8.ru##+js(acis, Math, charCodeAt)
-
-! mangazuki
-! pop-up ads
-mangazuki.online##+js(acis, Math, zfgloaded)
-mangazuki.online##+js(aopr, _pop)
 
 ! animebam
 animebam.se##[id*="ScriptRoot"]
