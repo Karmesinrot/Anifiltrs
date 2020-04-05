@@ -5,8 +5,9 @@
 
 ! Extra/ filters-----------------------------------------------
 ! AnimeHub.ac
-! left-over adframe
+! left-over adframe(s)
 animehub.ac##.sb-subs.goblock
+animehub.ac##center:has(>script[src^="//ad.animehub.ac"])
 
 ! thewatchcartoononline.tv
 thewatchcartoononline.tv##body:style(background-color:#1e262d!important;)
