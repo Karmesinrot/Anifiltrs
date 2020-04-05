@@ -113,6 +113,8 @@ novelplanet.com##[style^="text-align"]:has(.adsbyvli)
 
 ! goyabu
 goyabu.com###warning
+! adb check
+goyabu.com##+js(set, adBlockEnabled, false)
 
 ! shinden.pl
 ! sponsor section
