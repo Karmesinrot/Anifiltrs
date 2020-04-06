@@ -17,10 +17,6 @@ thewatchcartoononline.tv##.anti-ad
 ! empty ad containers
 fanfox.net,mangahere.*##[class*="ad"][style="width:800px;height:90px;"],[style="width: 800px; height: 90px;"]
 
-! anime8
-! xhr ads
-anime8.ru##+js(acis, Math, charCodeAt)
-
 ! animebam
 animebam.se##[id*="ScriptRoot"]
 
