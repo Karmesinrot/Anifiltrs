@@ -60,18 +60,18 @@ animeflv.net##.CpCnC > .WdgtCn:style(margin-top:105px!important;)
 
 ! AnimePlanet
 ! google ads frame container
-anime-planet.com##.ad:nth-ancestor(1) [class^="halo"]
+anime-planet.com##.ad:upward(1) [class^="halo"]
 
 ! animeultima
 ! ads on the sidebar of video page
-animeultima.*##iframe[src="/unit/300"]:nth-ancestor(1)
-animeultima.*##[id^=adtrue_tag]:nth-ancestor(1)
+animeultima.*##iframe[src="/unit/300"]:upward(1)
+animeultima.*##[id^=adtrue_tag]:upward(1)
 ! cosmetic adjustment after removing ads
 animeultima.*##.has-text-centered.is-narrow.column:style(margin-top:-12px)
 
 ! Dream Animes
 ! google ads
-dreamanimes.com.br##.adsbygoogle:nth-ancestor(1)
+dreamanimes.com.br##.adsbygoogle:upward(1)
 
 ! Voiranime
 ! adframes on sidebar
@@ -83,11 +83,11 @@ dubbedanime.net##.vip-membership-banner, a[href="https://otaku.cafe/vip.htm"]
 
 ! mangakakalot & manganelo
 ! adtrue adframes
-mangakakalot.com,manganelo.com##iframe[src^="/ads/"]:not(+img):nth-ancestor(1)
+mangakakalot.com,manganelo.com##iframe[src^="/ads/"]:not(+img):upward(1)
 
 ! kickassanime
 ! 1p frames left-overs
-kickassanime.*##iframe[src*="kickassanime"]:nth-ancestor(2)
+kickassanime.*##iframe[src*="kickassanime"]:upward(2)
 ! Disable/whitelist in adblock message
 kickassanime.*###ablock
 kickassanime.*###notes > div:has-text(adblocker)

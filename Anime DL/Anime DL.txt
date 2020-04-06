@@ -13,7 +13,7 @@ horriblesubs.info##div.hidden-xs.well:has(script)
 ! unbreak download button
 kwik.cx#@#.adSense
 ! remove leftover adframes
-kwik.cx##script[src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]:nth-ancestor(2):not(body)
+kwik.cx##script[src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]:upward(2):not(body)
 
 ! hikarinoakariost.info
 ! Counter copy protection
