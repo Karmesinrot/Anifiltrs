@@ -27,3 +27,8 @@ animebam.se##[id*="ScriptRoot"]
 ! dreamanime
 ! popups
 dreamanime.fun##+js(acis, document.querySelectorAll, popMagic)
+
+! sganime
+! popup ads
+sganime.org##+js(aopr, _pop)
+sganime.org##+js(aopw, adcashMacros)
