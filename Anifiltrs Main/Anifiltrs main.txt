@@ -220,6 +220,3 @@ animexin.xyz##+js(acis, document.createElement, 'script')
 
 ! dreamsub popups
 dreamsub.stream##+js(aopw, _pop)
-
-! hotfix new fembed player popups
-gaobook.review,fembed.com,feurl.com##+js(aeld, click, pop)
