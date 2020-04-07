@@ -79,7 +79,7 @@ voiranime.com##[id^=ai_widget]:not(:has([href="https://discord.gg/rvBeeNg"]))
 
 ! dubbedanime.net
 ! vip membership overlay
-dubbedanime.net##.vip-membership-banner, a[href="https://otaku.cafe/vip.htm"]
+dubbedanime.net##.vip-membership-banner, .p-3.bg-white.container-fluid
 
 ! mangakakalot & manganelo
 ! adtrue adframes
