@@ -123,6 +123,8 @@ shinden.pl##.takie-tam
 ! KISSANIME & KISSMANGA Annoyances ----------------------------
 ! AA script diffuse
 kissanime.ru##^script:has-text($.getScript)
+! common timeout
+kissanime.ru,kissmanga.com##+js(nostif, 5000)
 ! Diffuse web console clearing
 kissanime.ru,kissmanga.com##+js(aopr, console.clear)
 ! AA Blocking chromium
