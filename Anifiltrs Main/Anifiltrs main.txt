@@ -41,6 +41,8 @@ kissmanga.com###divImage:style(display: block !important;)
 kissmanga.com###btnShowComments:style(display:inline-block!important)
 ! wrong styling on ublock filters
 kissmanga.com#@##btnShowComments:style(display:block!important;)
+! rightBox advert container
+kissmanga.com##.rightBox:has-text(Related Links)
 
 ! Gogoanimes Cosmetic filters
 ! background colour
