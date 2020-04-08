@@ -24,3 +24,7 @@ anime4you.one##.hidden-xs.hidden-sm.chatbox.dark-bg
 
 ! animeflv.net
 animeflv.net##.ListSocial.BFixed
+
+! animexin
+! chatango container
+animexin.xyz##script[src="//st.chatango.com/js/gz/emb.js"]:upward(.section)
