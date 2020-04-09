@@ -49,8 +49,6 @@ kissmanga.com##.rightBox:has-text(Related Links)
 animego.*,gogoanimes.*,gogoanime.*##body:style(background-color: #1b1b1b !important;)
 ! ad containers
 animego.*,gogoanimes.*,gogoanime.*##[class^="anime_video_body"] > div[style="height:250px;overflow:hidden;"], [class^="headnav_center"]
-! useless information banner
-animego.*,gogoanimes.*,gogoanime.*##[style="position:fixed;z-index:9999;background:#ffc119;bottom:0;text-align:center;color:#000;width:100%;padding:10px 0;font-weight:600;"]
 
 ! Turkanime Cosmetic filters
 ! sponsored adframes
