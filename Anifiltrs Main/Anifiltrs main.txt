@@ -205,9 +205,6 @@ pstream.net##.js-overlay-papi
 ! Animefever.tv AA player
 @@||ssl.p.jwpcdn.com/player/plugins/gapro/v/2.1.5/gapro.js$xhr,domain=animefever.tv
 
-! kissanime hcaptcha breakage
-*$script,3p,domain=kissanime.ru,badfilter
-
 ! animeshouse player AA
 @@||lockharte-ah.gq/popads.js$script,domain=animeshouse.net
 @@||satellizer-ah.cf/adblocker.js$script,domain=lockharte-ah.gq
