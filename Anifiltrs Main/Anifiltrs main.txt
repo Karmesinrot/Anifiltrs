@@ -109,7 +109,7 @@ anime-odcinki.pl##.widget_text:has(center:has(script))
 anime-odcinki.pl##center:has(script)
 
 ! novelplanet
-novelplanet.com##[style^="text-align"]:has(.adsbyvli)
+novelplanet.com##[id^=bg_]:upward([style^="text-align"])
 
 ! goyabu
 goyabu.com###warning
