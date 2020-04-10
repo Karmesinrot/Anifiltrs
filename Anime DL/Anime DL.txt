@@ -5,7 +5,8 @@
 
 ! horriblesubs
 ! blocked background-image
-@@||horriblesubs.info^$image,1p
+@@||horriblesubs.info^$image
+horriblesubs.info##[class~="text-center"][class*="-spons"]
 ! download page add
 horriblesubs.info##div.hidden-xs.well:has(script)
 
