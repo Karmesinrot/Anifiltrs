@@ -23,3 +23,7 @@ hikarinoakariost.info##+js(aeld, mousemove, undefined)
 hikarinoakariost.info##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important;-moz-user-select: text !important;-ms-user-select: text !important;user-select: text !important;)
 ! popads
 hikarinoakariost.info##+js(aopr, _pop)
+
+! anidl
+! discord button [rapid] colour change
+anidl.org##+js(nosiif, button.options.color)
