@@ -10,17 +10,12 @@
 horriblesubs.info##div.hidden-xs.well:has(script)
 
 ! kwik.cx
-! unbreak download button
-kwik.cx#@#.adSense
 ! remove leftover adframes
 kwik.cx##script[src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]:upward(2):not(body)
 
 ! hikarinoakariost.info
 ! Counter copy protection
 ||hikarinoakariost.info/wp-content/plugins/secure-copy-content-protection/*
-hikarinoakariost.info##+js(aeld, keydown, undefined)
-hikarinoakariost.info##+js(aeld, mousemove, undefined)
-hikarinoakariost.info##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important;-moz-user-select: text !important;-ms-user-select: text !important;user-select: text !important;)
 ! popads
 hikarinoakariost.info##+js(aopr, _pop)
 
