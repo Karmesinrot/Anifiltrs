@@ -4,8 +4,5 @@
 ! Description: Whitelists non-intrusive ads on Anime DL sites
 
 ! Horriblesubs
-! counter non-intrusive ads blocked by Adguard Base Filters
-horriblesubs.info#@#.rls-sponsor
-horriblesubs.info#@#.latest-sponsor
-horriblesubs.info#@#.homepage-sponsor
+! allow non-intrusive ads
 @@||horriblesubs.info/images^$image,first-party
