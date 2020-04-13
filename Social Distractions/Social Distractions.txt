@@ -28,3 +28,7 @@ animeflv.net##.ListSocial.BFixed
 ! animexin
 ! chatango container
 animexin.xyz##script[src="//st.chatango.com/js/gz/emb.js"]:upward(.section)
+
+! manganelo & mangakakalot
+! facebook like buttons
+manganelo.com,mangakakalot.com##.fb-like.fb_iframe_widget
