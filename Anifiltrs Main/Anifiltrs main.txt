@@ -227,3 +227,6 @@ dreamsub.stream##+js(aopw, _pop)
 ! vidoza 'msg' ads
 vidoza.net##[id^=asg]
 vidoza.net##+js(nostif, _checkBait)
+
+! animefire AA
+@@||animfire.net^$ghide
