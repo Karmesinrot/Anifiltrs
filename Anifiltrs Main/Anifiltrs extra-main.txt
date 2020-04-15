@@ -32,3 +32,7 @@ dreamanime.fun##+js(acis, document.querySelectorAll, popMagic)
 ! popup ads
 sganime.org##+js(aopr, _pop)
 sganime.org##+js(aopw, adcashMacros)
+
+! kimcartoon
+! Adframes
+kimcartoon.to##[data-ad-slot]:upward([style])
