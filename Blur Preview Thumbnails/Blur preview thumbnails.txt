@@ -155,3 +155,6 @@ dreamsub.stream##.vjs-poster:style(filter:blur(8px) saturate(1.5))
 
 ! gounlimited.to
 gounlimited.to##.vjs-poster:style(filter:blur(8px) saturate(1.5))
+
+! vev
+vev.io,vev.red##.vjs-poster:style(filter:blur(8px) saturate(1.5)!important)
