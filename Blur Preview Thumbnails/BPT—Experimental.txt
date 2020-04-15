@@ -10,3 +10,7 @@ vidlox.me##.poster-icon:style(padding-top:19%!important; padding-bottom:19%!impo
 ! videobin.co
 videobin.co##.play-wrapper:style(backdrop-filter:blur(8px); -webkit-backdrop-filter: blur(10px)!important; height:100%!important;opacity:1!important;)
 videobin.co##.poster-icon:style(padding-top:19%!important;padding-bottom:19%!important;height:25%important)
+
+ ! clipwatching
+clipwatching.com##.play-wrapper:style(backdrop-filter:blur(8px); -webkit-backdrop-filter: blur(10px)!important; height:100%!important;opacity:1!important;)
+clipwatching.com##.poster-icon:style(padding-top:19%!important;padding-bottom:19%!important;height:25%important)
