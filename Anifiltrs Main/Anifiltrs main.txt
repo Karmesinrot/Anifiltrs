@@ -138,6 +138,12 @@ kissanime.ru##+js(std, YASBATMBCL)
 ! inline-script which hides content
 kissanime.ru##+js(acis, $, bookmark)
 
+! animexin.xyz
+! adframes
+animexin.xyz###floatcenter, .kln, .postbody > br
+animexin.xyz##.textwidget.custom-html-widget:has(script+noscript, script[src*="ads.php"])
+animexin.xyz##div.section:has-text(AnimeXin Store)
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
@@ -204,10 +210,6 @@ pstream.net##.js-overlay-papi
 @@||satellizer-ah.cf/adblocker.js$script,domain=lockharte-ah.gq
 
 ! animexin.xyz
-! adframes
-animexin.xyz###floatcenter, .kln, .postbody > br
-animexin.xyz##.textwidget.custom-html-widget:has(script+noscript, script[src*="ads.php"])
-animexin.xyz##div.section:has-text(AnimeXin Store)
 ! Anti-Adblock msg
 animexin.xyz##+js(nostif, sponsor)
 ! Ad script
