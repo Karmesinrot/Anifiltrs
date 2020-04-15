@@ -144,6 +144,10 @@ animexin.xyz###floatcenter, .kln, .postbody > br
 animexin.xyz##.textwidget.custom-html-widget:has(script+noscript, script[src*="ads.php"])
 animexin.xyz##div.section:has-text(AnimeXin Store)
 
+! animefire
+! Publicidade
+animefire.net##div:has(>h3+[id^=ad_unit])
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
