@@ -165,3 +165,6 @@ doodstream.com,dood.watch##+js(ra, poster, #video_player_html5_api)
 
 ! streamz
 streamz.cc##.vjs-poster:style(filter:blur(8px) saturate(1.7))
+
+! vidbm
+vidbm.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
