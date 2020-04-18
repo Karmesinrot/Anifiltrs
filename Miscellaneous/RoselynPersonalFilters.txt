@@ -13,3 +13,7 @@
 ! collinsdictionary.com
 collinsdictionary.com##[id^=ad_]+[id|=hcdcrt]
 collinsdictionary.com##div.columns_item:has([id^=ad_]+[id|=hcdcrt])
+
+! animoapps
+! counter unable to scroll after some time
+aminoapps.com##+js(aeld, scroll, void)
