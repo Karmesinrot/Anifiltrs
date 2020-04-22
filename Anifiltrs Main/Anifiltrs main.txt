@@ -198,6 +198,8 @@ upvid.*##+js(nowebrtc.js)
 
 ! pstream.net
 pstream.net##+js(aopw, adcashMacros)
+*$script,3p,domain=pstream.net
+pstream.net##a.yet-another-overlay
 
 ! animeshouse player AA
 @@||lockharte-ah.gq/popads.js$script,domain=animeshouse.net
