@@ -178,9 +178,6 @@ yourupload.com##.download-roms-button
 *$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.k-vid.co ajax.googleapis.com disqus.com *.disqus.com c.disquscdn.com ssl.p.jwpcdn.com recaptcha.net *.gstatic.com www.google.com code.jquery.com *.bootstrapcdn.com bowercdn.net cache.cdnfile.info cdn.jsdelivr.net iamcdn.net fonts.googleapis.com cdn.jwplayer.com data: blob: vidstreaming.io ; connect-src ajax.apimovie.xyz ajax.gogocdn.net disqus.com gcloud.live feurl.com *.cdnfile.info mixdrop.co ping.idocdn.com *.buzz *.monster hydrax.net sentry.variab.ly *.cloud9.to discordapp.com wss: gateway.discord.gg ; frame-src disqus.com vidstreaming.io hydrax.net gcloud.live www.fembed.com feurl.com www.google.com mixdrop.co www.mp4upload.com www.yourupload.com vev.io vev.red cloud9.to ; media-src * blob: * ; font-src data: * ; img-src data: *,domain=gogoanime.tv|gogoanime.io|gogoanimes.co|animego.to|gogoanime.video|gogoanime.movie
 
 ! branitube
-! popup ads
-branitube.net##+js(aopw, _pop)
-branitube.net##+js(acis, document.querySelectorAll, popMagic)
 ! video player anti-adblock
 @@||bebi.com/bebi_v*.js$script,domain=branitube.net
 
@@ -205,9 +202,6 @@ upvid.*##+js(nowebrtc.js)
 
 ! pstream.net
 pstream.net##+js(aopw, adcashMacros)
-pstream.net##.js-overlay-papi
-@@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/fuckadblock.min.js$script,domain=pstream.net
-@@||pstream.net^$ghide
 
 ! animeshouse player AA
 @@||lockharte-ah.gq/popads.js$script,domain=animeshouse.net
