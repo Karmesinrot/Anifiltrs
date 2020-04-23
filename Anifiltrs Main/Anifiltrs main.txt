@@ -148,6 +148,10 @@ animexin.xyz##div.section:has-text(AnimeXin Store)
 ! Publicidade
 animefire.net##div:has(>h3+[id^=ad_unit])
 
+! otakufr
+! widgets
+otakufr.com##.widget_text.widget.widget_custom_html:has(script[src^="//platform.bidgear.com/ads.php"])
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
