@@ -154,6 +154,11 @@ animefire.net##div:has(>h3+[id^=ad_unit])
 ! widgets
 otakufr.com##.widget_text.widget.widget_custom_html:has(script[src^="//platform.bidgear.com/ads.php"])
 
+! samehadaku
+! adframe widgets
+samehadaku.vip##.ads_area
+samehadaku.vip##.ads_area:upward(.widget_senction)
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
