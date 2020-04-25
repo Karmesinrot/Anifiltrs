@@ -159,6 +159,10 @@ otakufr.com##.widget_text.widget.widget_custom_html:has(script[src^="//platform.
 samehadaku.vip##.ads_area
 samehadaku.vip##.ads_area:upward(.widget_senction)
 
+! jkanime
+! ad container
+jkanime.net##.side-300
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
