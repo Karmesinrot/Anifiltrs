@@ -57,6 +57,8 @@ turkanime.net##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
 ! Animeflv
 ! cosmetic filter for sidebar on video page
 animeflv.net##.CpCnC > .WdgtCn:style(margin-top:105px!important;)
+! ad widget
+animeflv.net##.WdgtCn:has(script[data-cfasync="false"])
 
 ! AnimePlanet
 ! google ads frame container
