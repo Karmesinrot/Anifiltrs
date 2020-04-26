@@ -228,6 +228,8 @@ animexin.xyz##+js(nostif, sponsor)
 animexin.xyz##+js(acis, document.createElement, 'script')
 ! popups
 animexin.xyz##+js(window.open-defuser)
+! Block AdBlock
+@@||animexin.xyz^$ghide
 
 ! dreamsub popups
 dreamsub.stream##+js(aopw, _pop)
