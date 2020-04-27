@@ -235,7 +235,3 @@ vidoza.net##+js(nostif, _checkBait)
 
 ! animefire AA
 @@||animfire.net^$ghide
-
-! hydrax AA
-hydrax.net##+js(nostif, msgWebmaster)
-hydrax.net###over:remove()
