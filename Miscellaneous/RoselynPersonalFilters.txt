@@ -6,10 +6,6 @@
 ! Personal filters --------------------------------------------
 
 ! mesaboogie.com
-! counter images not showing
-@@||e2.bablic.com/api/engine/ping?*$xmlhttprequest,domain=mesaboogie.com
-@@||placehold.it^$image,domain=mesaboogie.com
-
 ! collinsdictionary.com
 collinsdictionary.com##[id^=ad_]
 collinsdictionary.com##[id^=ad_]+[id|=hcdcrt]
