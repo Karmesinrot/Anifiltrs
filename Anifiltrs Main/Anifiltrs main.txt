@@ -238,3 +238,7 @@ vidoza.net##+js(nostif, _checkBait)
 
 ! hydrax AA
 playhydrax.com##+js(nostif, styleMinion)
+
+! branitube player
+! JWPlayer-wsystem.js line no. 4
+branitube.net#@#+js(json-prune, assh)
