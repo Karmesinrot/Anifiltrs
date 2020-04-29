@@ -4,7 +4,7 @@
 ! Description: Filter list for applying a blur Filter to preview thumbnails on video players
 
 ! mycloud
-mcloud.to##.jw-preview.jw-reset:style(filter:blur(8px);)
+mcloud.to,mcloud2.to##.jw-preview.jw-reset:style(filter:blur(8px);)
 
 ! mystream
 mysembed.net,mystream.to,mstream.*##.vjs-poster:style(filter:blur(12px) saturate(120%)!important;)
