@@ -235,3 +235,6 @@ vidoza.net##+js(nostif, _checkBait)
 
 ! animefire AA
 @@||animfire.net^$ghide
+
+! hydrax AA
+playhydrax.com##+js(nostif, styleMinion)
