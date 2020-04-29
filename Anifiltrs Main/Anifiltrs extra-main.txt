@@ -27,6 +27,9 @@ animebam.se##[id*="ScriptRoot"]
 ! dreamanime
 ! popups
 dreamanime.fun##+js(acis, document.querySelectorAll, popMagic)
+! redirected domains from
+@@||9anime.*$script,1p,domain=9anime.pro|9anime.fun
+||9anime.*/sw.js$script,important,domain=9anime.pro|9anime.fun
 
 ! sganime
 ! popup ads
