@@ -11,8 +11,9 @@
 @@||placehold.it^$image,domain=mesaboogie.com
 
 ! collinsdictionary.com
+collinsdictionary.com##[id^=ad_]
 collinsdictionary.com##[id^=ad_]+[id|=hcdcrt]
-collinsdictionary.com##div.columns_item:has([id^=ad_]+[id|=hcdcrt])
+collinsdictionary.com##[id^=ad_]+[id|=hcdcrt]:upward([class$="container"]:not(.topslot_container))
 
 ! animoapps
 ! counter unable to scroll after some time
