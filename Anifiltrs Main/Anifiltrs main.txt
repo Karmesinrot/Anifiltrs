@@ -159,6 +159,10 @@ samehadaku.vip##.ads_area:upward(.widget_senction)
 ! ad container
 jkanime.net##.side-300
 
+! animedaisuki
+! sidebar widget
+animedaisuki.moe##.CpCnC
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
