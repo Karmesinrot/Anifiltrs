@@ -139,7 +139,7 @@ kissanime.ru##+js(acis, $, bookmark)
 ! animexin.xyz
 ! adframes
 animexin.xyz###floatcenter, .kln, .kln + br
-animexin.xyz##.textwidget.custom-html-widget:has(script+noscript, script[src*="ads.php"])
+animexin.xyz##.textwidget.custom-html-widget:has(script+noscript, script[src*="ads.php"], script[src^="https://jsc.mgid.com/"])
 animexin.xyz##div.section:has-text(AnimeXin Store)
 
 ! animefire
