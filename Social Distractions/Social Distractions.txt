@@ -63,3 +63,8 @@ animeindo.moe##div.ctn_side:has(.textwidget)
 ! various social buttons
 anime-odcinki.pl##[class*="addtoany_list"]
 anime-odcinki.pl##.vb_buddy_welcome_icons>li:has(a[href="https://www.instagram.com/anime.odcinki.pl/"],[href="https://www.facebook.com/groups/164615500755607/"],[href="https://www.facebook.com/animeodcinkipolska/"])
+
+! animesvision
+! social buttons
+animesvision.biz##.footer-follow
+animesvision.biz##.top-menu > li:has(a[href="https://www.facebook.com/animesvision.oficial"],[href="https://www.instagram.com/animesvisionoficial"],[href="https://twitter.com/AnimesVision"])
