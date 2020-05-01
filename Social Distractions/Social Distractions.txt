@@ -54,3 +54,7 @@ anime-planet.com##.socialbuttons:upward(1)
 ! kickassanime
 ! footer share social buttons
 kickassanime.rs##.custom-control.custom-switch+ul
+
+! animeindo
+! social media widegets
+animeindo.moe##div.ctn_side:has(.textwidget)
