@@ -68,3 +68,7 @@ anime-odcinki.pl##.vb_buddy_welcome_icons>li:has(a[href="https://www.instagram.c
 ! social buttons
 animesvision.biz##.footer-follow
 animesvision.biz##.top-menu > li:has(a[href="https://www.facebook.com/animesvision.oficial"],[href="https://www.instagram.com/animesvisionoficial"],[href="https://twitter.com/AnimesVision"])
+
+! dreamsub
+! social icons
+dreamsub.stream##.footer-follow
