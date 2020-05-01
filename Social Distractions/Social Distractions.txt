@@ -8,7 +8,7 @@
 ||twitter.com^$third-party,domain=crunchyroll.com|anime-planet.com
 ||google.com^$script,domain=kissmanga.com|crunchyroll.com
 ! chatbox that stores passwords in plaintext
-||st.chatango.com^$script,domain=turkanime.net|anime4you.one|voiranime.com|animexin.xyz|otakufr.com
+||st.chatango.com^$script,domain=turkanime.net|anime4you.one|voiranime.com|animexin.xyz|otakufr.com|animeindo.moe
 
 ! PER-SITE HANDLING -------------------------------------------
 ! turkanime
