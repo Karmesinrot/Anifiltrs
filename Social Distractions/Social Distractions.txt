@@ -36,3 +36,7 @@ manganelo.com,mangakakalot.com##.fb-like.fb_iframe_widget
 ! otakufr
 ! chatango widget
 otakufr.com##.widget:has(script[src="//st.chatango.com/js/gz/emb.js"])
+
+! jkanime
+! homepage top anime
+jkanime.net##[class^="share-count-"]
