@@ -40,3 +40,7 @@ otakufr.com##.widget:has(script[src="//st.chatango.com/js/gz/emb.js"])
 ! jkanime
 ! homepage top anime
 jkanime.net##[class^="share-count-"]
+
+! animedaisuki
+! twitter button
+animedaisuki.moe##li:has(.fa-twitter)
