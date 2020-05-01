@@ -50,3 +50,7 @@ animedaisuki.moe##li:has(.fa-twitter)
 anime-planet.com##[class$="footer-social"]>h5
 anime-planet.com##[class$="footer-social"]>ul
 anime-planet.com##.socialbuttons:upward(1)
+
+! kickassanime
+! footer share social buttons
+kickassanime.rs##.custom-control.custom-switch+ul
