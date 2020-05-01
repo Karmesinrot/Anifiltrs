@@ -44,3 +44,9 @@ jkanime.net##[class^="share-count-"]
 ! animedaisuki
 ! twitter button
 animedaisuki.moe##li:has(.fa-twitter)
+
+! anime planet
+! social buttons
+anime-planet.com##[class$="footer-social"]>h5
+anime-planet.com##[class$="footer-social"]>ul
+anime-planet.com##.socialbuttons:upward(1)
