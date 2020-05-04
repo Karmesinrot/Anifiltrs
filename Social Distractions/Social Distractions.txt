@@ -76,3 +76,7 @@ dreamsub.stream##.footer-follow
 ! gogoanime
 ! share buttons beside title and login/register
 gogoanime.*##.link_face
+
+! 9anime
+! twitter
+9anime.*##.home-socials, a[href="https://twitter.com/9animeOfficial"]
