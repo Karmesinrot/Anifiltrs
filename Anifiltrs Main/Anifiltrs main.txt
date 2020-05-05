@@ -138,7 +138,7 @@ kissanime.ru##+js(acis, $, bookmark)
 
 ! animexin.xyz
 ! adframes
-animexin.xyz###floatcenter, .kln, .kln + br
+animexin.xyz##.kln, .kln + br
 animexin.xyz##.textwidget.custom-html-widget:has(script+noscript, script[src*="ads.php"], script[src^="https://jsc.mgid.com/"])
 animexin.xyz##div.section:has-text(AnimeXin Store)
 
@@ -216,16 +216,6 @@ pstream.net##a.yet-another-overlay
 ! animeshouse player AA
 @@||lockharte-ah.gq/popads.js$script,domain=animeshouse.net
 @@||satellizer-ah.cf/adblocker.js$script,domain=lockharte-ah.gq
-
-! animexin.xyz
-! Anti-Adblock msg
-animexin.xyz##+js(nostif, sponsor)
-! Ad script
-animexin.xyz##+js(acis, document.createElement, 'script')
-! popups
-animexin.xyz##+js(window.open-defuser)
-! Block AdBlock
-@@||animexin.xyz^$ghide
 
 ! dreamsub popups
 dreamsub.stream##+js(aopw, _pop)
