@@ -231,6 +231,5 @@ vidoza.net##+js(nostif, _checkBait)
 playhydrax.com##+js(nostif, styleMinion)
 
 ! animepahe
-animepahe.com##+js(acis, Math, zfgloaded)
 ! hentai tracker
 animepahe.com##+js(aopr, _paq)
