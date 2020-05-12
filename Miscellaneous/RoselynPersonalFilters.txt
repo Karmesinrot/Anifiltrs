@@ -11,7 +11,7 @@ collinsdictionary.com##[id^=ad_]+[id|=hcdcrt]:upward([class$="container"]:not(.t
 
 ! lexico
 lexico.com##.banbox, .banbox-mini, .mobile_banner.banbox
-lexico.com##.lex-content:style(padding:15px 0!important)
+lexico.com##.lex-content,.lex-category:style(padding:15px 0!important)
 lexico.com##.sidebar.extend:style(padding: 120px 0 0!important)
 
 ! animoapps
