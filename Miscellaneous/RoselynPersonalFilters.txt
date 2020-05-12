@@ -5,11 +5,16 @@
 
 ! Personal filters --------------------------------------------
 
-! mesaboogie.com
 ! collinsdictionary.com
 collinsdictionary.com##[id^=ad_]
 collinsdictionary.com##[id^=ad_]+[id|=hcdcrt]
 collinsdictionary.com##[id^=ad_]+[id|=hcdcrt]:upward([class$="container"]:not(.topslot_container))
+
+! lexico
+lexico.com##.banbox-mini
+lexico.com##.mobile_banner.banbox
+lexico.com##.lex-content:style(padding:15px 0!important)
+lexico.com##.sidebar.extend:style(padding: 120px 0 0!important)
 
 ! animoapps
 ! counter unable to scroll after some time
