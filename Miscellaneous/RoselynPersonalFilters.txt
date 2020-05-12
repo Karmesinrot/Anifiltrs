@@ -6,8 +6,7 @@
 ! Personal filters --------------------------------------------
 
 ! collinsdictionary.com
-collinsdictionary.com##[id^=ad_]
-collinsdictionary.com##[id^=ad_]+[id|=hcdcrt]
+collinsdictionary.com##[id^=ad_], [id^=ad_]+[id|=hcdcrt]
 collinsdictionary.com##[id^=ad_]+[id|=hcdcrt]:upward([class$="container"]:not(.topslot_container))
 
 ! lexico
