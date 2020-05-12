@@ -168,3 +168,6 @@ vidbm.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
 
 ! ani-stream
 ani-stream.com##.jw-preview.jw-reset,.vjs-poster:style(filter:blur(8px) saturate(1.5))
+
+! animebam
+animebam.se##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
