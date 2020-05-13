@@ -233,3 +233,6 @@ playhydrax.com##+js(nostif, styleMinion)
 ! animepahe
 ! hentai tracker
 animepahe.com##+js(aopr, _paq)
+
+! streamtape popads
+streamtape.com##+js(aopw, _pop)
