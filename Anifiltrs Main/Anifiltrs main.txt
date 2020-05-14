@@ -205,14 +205,6 @@ hqq.tv##+js(aopr, BetterJsPop)
 !'@' => 'CF email' titles
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
 
-! upvid player webRTC
-upvid.*##+js(nowebrtc.js)
-
-! pstream.net
-pstream.net##+js(aopw, adcashMacros)
-*$script,3p,domain=pstream.net
-pstream.net##a.yet-another-overlay
-
 ! animeshouse player AA
 @@||lockharte-ah.gq/popads.js$script,domain=animeshouse.net
 @@||satellizer-ah.cf/adblocker.js$script,domain=lockharte-ah.gq
