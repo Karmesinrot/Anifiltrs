@@ -228,3 +228,6 @@ animepahe.com##+js(aopr, _paq)
 
 ! streamtape popads
 streamtape.com##+js(aopw, _pop)
+
+! gogoanime.io top list
+@@||gogoanime.io/anclytic.html?id^$xhr,domain=gogoanime.io
