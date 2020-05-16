@@ -171,3 +171,7 @@ ani-stream.com##.jw-preview.jw-reset,.vjs-poster:style(filter:blur(8px) saturate
 
 ! animebam
 animebam.se##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
+
+! sendvid.com
+! different from sendvid.net which is a fembed site
+sendvid.com##.vjs-poster:style(filter:blur(8px) saturate(1.25))
