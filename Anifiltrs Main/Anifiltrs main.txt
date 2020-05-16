@@ -105,9 +105,6 @@ animesvision.biz##div.sb-subs.goblock:has(center > script)
 anime-odcinki.pl##.widget_text:has(center:has(script))
 anime-odcinki.pl##center:has(script)
 
-! novelplanet
-novelplanet.com##[id^=bg_]:upward([style^="text-align"])
-
 ! goyabu
 goyabu.com###warning
 ! adb check
