@@ -231,3 +231,4 @@ streamtape.com##+js(aopw, _pop)
 
 !sendvid.net
 ||sendvid.net/asset/sostress.js$1p
+sendvid.net##+js(aopr, __Y)
