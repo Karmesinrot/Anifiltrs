@@ -174,14 +174,14 @@ yourupload.com##.download-roms-button
 ||animefreak.tv^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.google.com www.gstatic.com
 
 ! kissanime
-||kissanime.ru^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.googletagmanager.com *.disqus.com c.disquscdn.com fonts.gstatic.com hcaptcha.com assets.hcaptcha.com fonts.googleapis.com *.replay.watch *.googleusercontent.com novelplanet.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg blob: kissanime.ru ; frame-src disqus.com www.novelplanet.me www.mp4upload.com googlevideo.com assets.hcaptcha.com playhydrax.com hydrax.net ; media-src * ; img-src data: *
+||kissanime.ru^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.googletagmanager.com *.disqus.com c.disquscdn.com fonts.gstatic.com hcaptcha.com assets.hcaptcha.com fonts.googleapis.com *.replay.watch *.googleusercontent.com novelplanet.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg blob: kissanime.ru ; frame-src disqus.com www.novelplanet.me www.mp4upload.com googlevideo.com assets.hcaptcha.com playhydrax.com hydrax.net fvs.io ; media-src * ; img-src data: *
 
 ! 9anime
 ! inlcuded recaptcha due to possibility of 9anime user accounts
 ||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.9anime.ru *.9anime.to *.akacdn.ru *.googleapis.com *.gstatic.com www.google.com *.recaptcha.net *.disqus.com c.disquscdn.com hcaptcha.com assets.hcaptcha.com mcloud2.to mcloud.to data: www.googletagmanager.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg ; frame-src disqus.com assets.hcaptcha.com mcloud.to mcloud2.to www.mp4upload.com www.google.com streamtape.com ; img-src data: *,domain=~9anime.vip|~9anime.pro|~9anime.fun
 
 ! novelplanet [nova player] CSP
-||novelplanet.me^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: fvs.io
+||novelplanet.me^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: fvs.io cdnjs.cloudflare.com
 
 ! kissmanga
 ||kissmanga.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' hcaptcha.com assets.hcaptcha.com *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg ; frame-src disqus.com ; font-src * ; img-src data: *

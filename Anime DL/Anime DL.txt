@@ -19,3 +19,7 @@ hikarinoakariost.info##+js(aopr, _pop)
 ! anidl
 ! discord button [rapid] colour change
 anidl.org##+js(nosiif, button.options.color)
+
+! novelplanet.me
+! script needed for download
+@@||cdnjs.cloudflare.com/ajax/libs/jquery/*$script,domain=novelplanet.me
