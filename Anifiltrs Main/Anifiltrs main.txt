@@ -228,3 +228,6 @@ streamtape.com##+js(aopw, _pop)
 
 ! gogoanime.io top list
 @@||gogoanime.io/anclytic.html?id^$xhr,domain=gogoanime.io
+
+!sendvid.net
+||sendvid.net/asset/sostress.js$1p
