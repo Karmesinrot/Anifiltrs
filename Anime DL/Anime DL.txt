@@ -13,8 +13,8 @@ horriblesubs.info##div.hidden-xs.well:has(script)
 ! hikarinoakariost.info
 ! Counter copy protection
 ||hikarinoakariost.info/wp-content/plugins/secure-copy-content-protection/*
-! popads
-hikarinoakariost.info##+js(aopr, _pop)
+! ads
+hikarinoakariost.info##+js(acis, String.fromCharCode, decodeURIComponent)
 
 ! anidl
 ! discord button [rapid] colour change
