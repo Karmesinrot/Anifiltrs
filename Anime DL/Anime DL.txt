@@ -23,7 +23,3 @@ hikarinoakariost.info##+js(aopr, _pop)
 ! anidl
 ! discord button [rapid] colour change
 anidl.org##+js(nosiif, button.options.color)
-
-! mp4upload
-! AA.dlbtn.disable
-*$script,3p,redirect-rule=noopjs,domain=mp4upload.com
