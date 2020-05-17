@@ -62,3 +62,9 @@ animesim.com##+js(acis, _pop)
 ! wuxiaworld.site
 ! ad containers
 wuxiaworld.site##.ad.c-ads.custom-code
+
+! wcostream.com
+! disable AB msg
+wcostream.com##.alert
+! ad container on top of video
+wcostream.com##div[style]:has(.reklam_pve)
