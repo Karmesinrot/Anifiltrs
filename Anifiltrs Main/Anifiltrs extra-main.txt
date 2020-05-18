@@ -68,3 +68,7 @@ wuxiaworld.site##.ad.c-ads.custom-code
 wcostream.com##.alert
 ! ad container on top of video
 wcostream.com##div[style]:has(.reklam_pve)
+
+! novelupdates
+novelupdates.com##+js(acis, document.createElement, script)
+*$script,3p,redirect=noopjs,domain=novelupdates.com
