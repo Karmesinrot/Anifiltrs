@@ -181,8 +181,7 @@ yourupload.com##.download-roms-button
     ; frame-src disqus.com www.novelplanet.me fvs.io \
     www.mp4upload.com googlevideo.com assets.hcaptcha.com \
     playhydrax.com hydrax.net \
-    ; media-src * \
-    ; img-src data: *
+    ; media-src * ; img-src data: *
 
 ! 9anime
 ! inlcuded recaptcha due to possibility of 9anime user accounts
@@ -203,8 +202,7 @@ yourupload.com##.download-roms-button
 ! kissmanga
 ||kissmanga.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' hcaptcha.com assets.hcaptcha.com *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg \
     ; frame-src disqus.com \
-    ; font-src * \
-    ; img-src data: *
+    ; font-src * ; img-src data: *
 
 ! gogoanime
 *$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.k-vid.co *.gogocdn.net *.cdnfile.info ajax.apimovie.xyz ajax.googleapis.com \
@@ -221,16 +219,13 @@ yourupload.com##.download-roms-button
     www.google.com mixdrop.co \
     www.mp4upload.com direct.apus.tech \
     www.yourupload.com vev.io vev.red cloud9.to \
-    ; media-src * blob: * \
-    ; font-src data: * \
-    ; img-src data: * \
+    ; media-src * blob: * ; font-src data: * ; img-src data: * \
     ,domain=gogoanime.tv|gogoanime.io|gogoanimes.co|animego.to|gogoanime.video|gogoanime.movie
 
 ! animeflix
 ||animeflix.io^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.googleapis.com fonts.gstatic.com *.google-analytics.com ssl.p.jwpcdn.com blob: 'self' \
     ; connect-src 'self' s1-na-http.auengine.com dl.v.vrv.co a-vrv.akamaized.net wss: animeflix.io \
-    ; img-src data: * \
-    ; upgrade-insecure-requests
+    ; img-src data: * ; upgrade-insecure-requests
 
 ! netu.tv player unnecessary extra clicks
 hqq.tv##+js(aopr, BetterJsPop)
