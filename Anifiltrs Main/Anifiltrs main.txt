@@ -200,9 +200,7 @@ yourupload.com##.download-roms-button
 ||novelplanet.me^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: fvs.io cdnjs.cloudflare.com
 
 ! kissmanga
-||kissmanga.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' hcaptcha.com assets.hcaptcha.com *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg \
-    ; frame-src disqus.com \
-    ; font-src * ; img-src data: *
+||kissmanga.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' hcaptcha.com assets.hcaptcha.com *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg ; frame-src disqus.com ; font-src * ; img-src data: *
 
 ! gogoanime
 *$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.k-vid.co *.gogocdn.net *.cdnfile.info ajax.apimovie.xyz ajax.googleapis.com \
@@ -223,18 +221,13 @@ yourupload.com##.download-roms-button
     ,domain=gogoanime.tv|gogoanime.io|gogoanimes.co|animego.to|gogoanime.video|gogoanime.movie
 
 ! animeflix
-||animeflix.io^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.googleapis.com fonts.gstatic.com *.google-analytics.com ssl.p.jwpcdn.com blob: 'self' \
-    ; connect-src 'self' s1-na-http.auengine.com dl.v.vrv.co a-vrv.akamaized.net wss: animeflix.io \
-    ; img-src data: * ; upgrade-insecure-requests
+||animeflix.io^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.googleapis.com fonts.gstatic.com *.google-analytics.com ssl.p.jwpcdn.com blob: 'self' ; connect-src 'self' s1-na-http.auengine.com dl.v.vrv.co a-vrv.akamaized.net wss: animeflix.io ; img-src data: * ; upgrade-insecure-requests
 
 ! netu.tv player unnecessary extra clicks
 hqq.tv##+js(aopr, BetterJsPop)
 
 ! mangapark
-||mangapark.net^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdnjs.cloudflare.com static.mangapark.net my.mangapark.net *.disqus.com c.disquscdn.com \
-    ; frame-src disqus.com \
-    ; style-src 'unsafe-inline' * \
-    ; font-src * ; img-src data: *
+||mangapark.net^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdnjs.cloudflare.com static.mangapark.net my.mangapark.net *.disqus.com c.disquscdn.com ; frame-src disqus.com ; style-src 'unsafe-inline' * ; font-src * ; img-src data: *
 
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
