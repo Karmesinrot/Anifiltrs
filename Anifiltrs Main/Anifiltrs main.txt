@@ -236,7 +236,10 @@ yourupload.com##.download-roms-button
 hqq.tv##+js(aopr, BetterJsPop)
 
 ! mangapark
-||mangapark.net^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdnjs.cloudflare.com static.mangapark.net my.mangapark.net *.disqus.com c.disquscdn.com ; frame-src disqus.com ; style-src 'unsafe-inline' * ; font-src * ; img-src data: *
+||mangapark.net^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdnjs.cloudflare.com static.mangapark.net my.mangapark.net *.disqus.com c.disquscdn.com \
+    ; frame-src disqus.com \
+    ; style-src 'unsafe-inline' * \
+    ; font-src * ; img-src data: *
 
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
