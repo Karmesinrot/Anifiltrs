@@ -231,9 +231,6 @@ playhydrax.com##+js(nostif, styleMinion)
 ! hentai tracker
 animepahe.com##+js(aopr, _paq)
 
-! streamtape popads
-streamtape.com##+js(aopw, _pop)
-
 !sendvid.net
 ||sendvid.net/asset/sostress.js$1p
 sendvid.net##+js(aopr, __Y)
