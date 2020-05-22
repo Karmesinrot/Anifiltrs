@@ -98,7 +98,7 @@ kickassanime.*###hide-ads-btn
 
 ! AnimesVision
 ! widget containers
-animesvision.biz##center:if(+ .goblock.detail-anime)
+animesvision.biz##center:has(+ .goblock.detail-anime)
 animesvision.biz##div.sb-subs.goblock:has(center > script)
 
 ! anime-odcinki
