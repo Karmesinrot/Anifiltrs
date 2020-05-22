@@ -19,4 +19,4 @@ Filter list for anime streaming, manga reading, and downloading of such things.
 
 ## Disclaimer
 
-*For users of uBlock Origin legacy*: lists that includes `Anifiltrs main.txt` as a resource makes use of line continuation on some filters which will result in breakage of websites since the said feature isn’t supported by legacy. Other filters from the repository will still be safe to use for those using the legacy version, many filters makes use of various synthax and resources only available to latest version of uBO.
+*For users of uBlock Origin legacy*: lists that includes `Anifiltrs main.txt` as a resource makes use of line continuation on some filters which will result in breakage of websites since the said feature isn’t supported by legacy. Other filters from the repository will still be safe to use for those using the legacy version, though take note many filters makes use of various synthax and resources only available to latest version of uBO.
