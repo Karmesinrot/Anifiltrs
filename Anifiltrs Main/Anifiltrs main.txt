@@ -197,9 +197,6 @@ yourupload.com##.download-roms-button
     ; media-src * blob: * ; font-src data: * ; img-src data: * \
     ,domain=gogoanime.tv|gogoanime.io|gogoanimes.co|animego.to|gogoanime.video|gogoanime.movie
 
-! animeflix
-||animeflix.io^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.googleapis.com fonts.gstatic.com *.google-analytics.com ssl.p.jwpcdn.com blob: 'self' ; connect-src 'self' s1-na-http.auengine.com dl.v.vrv.co a-vrv.akamaized.net wss: animeflix.io ; img-src data: * ; upgrade-insecure-requests
-
 ! netu.tv player unnecessary extra clicks
 hqq.tv##+js(aopr, BetterJsPop)
 
