@@ -4,11 +4,11 @@
 ! Description: Filters for removing distractive/obtrusive social items on MAL-Sync supported sites
 
 ! GLOBAL ------------------------------------------------------
-||facebook.*^$all,domain=kissmanga.com|crunchyroll.com|turkanime.net|animeflv.net|9anime.to|9anime.ru|9anime.nl|9anime.live|9anime.one|9anime.love|9anime.life|9anime.page|9anime.video|9anime.tv|jkanime.net|animeindo.moe|shinden.pl|animesvision.biz
-||twitter.com^$third-party,domain=crunchyroll.com|anime-planet.com
-||google.com^$script,domain=kissmanga.com|crunchyroll.com
+||facebook.*^$all,domain=9anime.life|9anime.live|9anime.love|9anime.nl|9anime.one|9anime.page|9anime.ru|9anime.to|9anime.tv|9anime.video|animeflv.net|animeindo.moe|animesvision.biz|crunchyroll.com|jkanime.net|kissmanga.com|shinden.pl|turkanime.net
+||twitter.com^$third-party,domain=anime-planet.com|crunchyroll.com
+||google.com^$script,domain=crunchyroll.com|kissmanga.com
 ! chatbox that stores passwords in plaintext
-||st.chatango.com^$script,domain=turkanime.net|anime4you.one|voiranime.com|animexin.xyz|otakufr.com|animeindo.moe|animeindo.moe
+||st.chatango.com^$script,domain=anime4you.one|animeindo.moe|animeindo.moe|animexin.xyz|otakufr.com|turkanime.net|voiranime.com
 
 ! PER-SITE HANDLING -------------------------------------------
 ! turkanime
