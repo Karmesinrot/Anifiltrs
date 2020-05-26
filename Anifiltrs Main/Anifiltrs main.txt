@@ -46,9 +46,9 @@ kissmanga.com##.rightBox:has-text(Related Links)
 
 ! Gogoanimes Cosmetic filters
 ! background colour
-animego.*,gogoanimes.*,gogoanime.*##body:style(background-color: #1b1b1b !important;)
+animego.*,gogoanime.*,gogoanimes.*##body:style(background-color: #1b1b1b !important;)
 ! ad containers
-animego.*,gogoanimes.*,gogoanime.*##[class^="anime_video_body"] > div[style="height:250px;overflow:hidden;"], [class^="headnav_center"], #load_ads_2
+animego.*,gogoanime.*,gogoanimes.*##[class^="anime_video_body"] > div[style="height:250px;overflow:hidden;"], [class^="headnav_center"], #load_ads_2
 
 ! Turkanime Cosmetic filters
 ! sponsored adframes
@@ -195,7 +195,7 @@ yourupload.com##.download-roms-button
 *$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.k-vid.co *.gogocdn.net *.cdnfile.info ajax.apimovie.xyz ajax.googleapis.com recaptcha.net *.gstatic.com www.google.com disqus.com *.disqus.com c.disquscdn.com ssl.p.jwpcdn.com cdn.jsdelivr.net iamcdn.net ping.idocdn.com *.buzz *.monster code.jquery.com *.bootstrapcdn.com bowercdn.net *.cloud9.to cdn.jwplayer.com www.googletagmanager.com cdnjs.cloudflare.com cdn.mp4upload.com *.fontawesome.com cdn.plyr.io discordapp.com data: blob: vidstreaming.io wss: gateway.discord.gg \
     ; frame-src disqus.com vidstreaming.io hydrax.net playhydrax.com gcloud.live www.fembed.com feurl.com www.google.com mixdrop.co www.mp4upload.com direct.apus.tech www.yourupload.com vev.io vev.red cloud9.to \
     ; media-src * blob: * ; font-src data: * ; img-src data: * \
-    ,domain=gogoanime.tv|gogoanime.io|gogoanimes.co|animego.to|gogoanime.video|gogoanime.movie
+    ,domain=animego.to|gogoanime.io|gogoanime.movie|gogoanime.tv|gogoanime.video|gogoanimes.co
 
 ! netu.tv player unnecessary extra clicks
 hqq.tv##+js(aopr, BetterJsPop)
