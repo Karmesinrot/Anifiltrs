@@ -174,16 +174,11 @@ yourupload.com##.download-roms-button
 ||animefreak.tv^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.google.com www.gstatic.com
 
 ! kissanime
-||kissanime.ru^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.googletagmanager.com fonts.googleapis.com fonts.gstatic.com *.disqus.com c.disquscdn.com hcaptcha.com assets.hcaptcha.com *.replay.watch *.googleusercontent.com novelplanet.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg blob: kissanime.ru \
-    ; frame-src disqus.com www.novelplanet.me fvs.io www.mp4upload.com googlevideo.com assets.hcaptcha.com playhydrax.com hydrax.net \
-    ; media-src * ; img-src data: *
+||kissanime.ru^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.googletagmanager.com fonts.googleapis.com fonts.gstatic.com *.disqus.com c.disquscdn.com hcaptcha.com assets.hcaptcha.com *.replay.watch *.googleusercontent.com novelplanet.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg blob: kissanime.ru ; frame-src disqus.com www.novelplanet.me fvs.io www.mp4upload.com googlevideo.com assets.hcaptcha.com playhydrax.com hydrax.net ; media-src * ; img-src data: *
 
 ! 9anime
 ! inlcuded recaptcha due to possibility of 9anime user accounts
-||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.9anime.ru *.9anime.to *.akacdn.ru *.googleapis.com *.gstatic.com www.google.com *.recaptcha.net *.disqus.com c.disquscdn.com hcaptcha.com assets.hcaptcha.com mcloud2.to mcloud.to data: www.googletagmanager.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg \
-    ; frame-src disqus.com assets.hcaptcha.com mcloud.to mcloud2.to www.mp4upload.com www.google.com streamtape.com \
-    ; img-src data: * \
-    ,domain=~9anime.vip|~9anime.pro|~9anime.fun
+||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.9anime.ru *.9anime.to *.akacdn.ru *.googleapis.com *.gstatic.com www.google.com *.recaptcha.net *.disqus.com c.disquscdn.com hcaptcha.com assets.hcaptcha.com mcloud2.to mcloud.to data: www.googletagmanager.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg ; frame-src disqus.com assets.hcaptcha.com mcloud.to mcloud2.to www.mp4upload.com www.google.com streamtape.com ; img-src data: *,domain=~9anime.vip|~9anime.pro|~9anime.fun
 
 ! novelplanet [nova player] CSP
 ||novelplanet.me^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: fvs.io cdnjs.cloudflare.com
@@ -192,10 +187,7 @@ yourupload.com##.download-roms-button
 ||kissmanga.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' hcaptcha.com assets.hcaptcha.com *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg ; frame-src disqus.com ; font-src * ; img-src data: *
 
 ! gogoanime
-*$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.k-vid.co *.gogocdn.net *.cdnfile.info ajax.apimovie.xyz ajax.googleapis.com recaptcha.net *.gstatic.com www.google.com disqus.com *.disqus.com c.disquscdn.com ssl.p.jwpcdn.com cdn.jsdelivr.net iamcdn.net ping.idocdn.com *.buzz *.monster code.jquery.com *.bootstrapcdn.com bowercdn.net *.cloud9.to cdn.jwplayer.com www.googletagmanager.com cdnjs.cloudflare.com cdn.mp4upload.com *.fontawesome.com cdn.plyr.io discordapp.com data: blob: vidstreaming.io wss: gateway.discord.gg \
-    ; frame-src disqus.com vidstreaming.io hydrax.net playhydrax.com gcloud.live www.fembed.com feurl.com www.google.com mixdrop.co www.mp4upload.com direct.apus.tech www.yourupload.com vev.io vev.red cloud9.to \
-    ; media-src * blob: * ; font-src data: * ; img-src data: * \
-    ,domain=animego.to|gogoanime.io|gogoanime.movie|gogoanime.tv|gogoanime.video|gogoanimes.co
+*$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.k-vid.co *.gogocdn.net *.cdnfile.info ajax.apimovie.xyz ajax.googleapis.com recaptcha.net *.gstatic.com www.google.com disqus.com *.disqus.com c.disquscdn.com ssl.p.jwpcdn.com cdn.jsdelivr.net iamcdn.net ping.idocdn.com *.buzz *.monster code.jquery.com *.bootstrapcdn.com bowercdn.net *.cloud9.to cdn.jwplayer.com www.googletagmanager.com cdnjs.cloudflare.com cdn.mp4upload.com *.fontawesome.com cdn.plyr.io discordapp.com data: blob: vidstreaming.io wss: gateway.discord.gg ; frame-src disqus.com vidstreaming.io hydrax.net playhydrax.com gcloud.live www.fembed.com feurl.com www.google.com mixdrop.co www.mp4upload.com direct.apus.tech www.yourupload.com vev.io vev.red cloud9.to ; media-src * blob: * ; font-src data: * ; img-src data: *,domain=animego.to|gogoanime.io|gogoanime.movie|gogoanime.tv|gogoanime.video|gogoanimes.co
 
 ! netu.tv player unnecessary extra clicks
 hqq.tv##+js(aopr, BetterJsPop)
