@@ -72,3 +72,7 @@ wcostream.com##div[style]:has(.reklam_pve)
 ! novelupdates
 novelupdates.com##+js(acis, document.createElement, script)
 *$script,3p,redirect=noopjs,domain=novelupdates.com
+
+! animeflv.la
+! address #30
+animeflv.la##+js(acis, Math, zfgloaded)
