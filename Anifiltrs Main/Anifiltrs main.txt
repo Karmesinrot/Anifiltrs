@@ -196,8 +196,7 @@ hqq.tv##+js(aopr, BetterJsPop)
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
 
 ! animeshouse player AA
-@@||lockharte-ah.gq/popads.js$script,domain=animeshouse.net
-@@||satellizer-ah.cf/adblocker.js$script,domain=lockharte-ah.gq
+@@||lockharte-ah.gq/popads.js$script,domain=ganessa-ah.ga
 
 ! dreamsub popups
 dreamsub.stream##+js(aopw, _pop)
