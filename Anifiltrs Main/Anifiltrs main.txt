@@ -137,7 +137,7 @@ animexin.xyz##div.section:has-text(AnimeXin Store)
 
 ! animefire
 ! Publicidade
-animefire.net##div:has(>h3+[id^=ad_unit])
+animefire.net##[class^="divSection"]:has(h3+[id^=ad_unit])
 
 ! otakufr
 ! widgets
