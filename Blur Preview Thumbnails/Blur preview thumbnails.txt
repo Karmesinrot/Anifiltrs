@@ -138,8 +138,8 @@ feralhosting.com##.vjs-poster:style(filter:blur(8px) saturate(1.25))
 ! animeshouse.net
 animeshouse.net##.jw-preview.jw-reset:style(filter:blur(8px) saturate(.9))
 
-! lockharte-ah.gq
-lockharte-ah.gq##.jw-preview.jw-reset:style(filter:blur(8px) saturate(.9))
+! lockharte-ah.gq & ganessa-ah.ga
+lockharte-ah.gq,ganessa-ah.ga##.jw-preview.jw-reset:style(filter:blur(8px) saturate(.9))
 
 ! gdriveplayer
 gdriveplayer.*##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
