@@ -71,10 +71,6 @@ animeultima.*##[id^=adtrue_tag]:upward(1)
 ! cosmetic adjustment after removing ads
 animeultima.*##.has-text-centered.is-narrow.column:style(margin-top:-12px)
 
-! Dream Animes
-! google ads
-dreamanimes.com.br##.adsbygoogle:upward(1)
-
 ! Voiranime
 ! adframes on sidebar
 voiranime.com##[id^=ai_widget]:not(:has([href="https://discord.gg/rvBeeNg"]))

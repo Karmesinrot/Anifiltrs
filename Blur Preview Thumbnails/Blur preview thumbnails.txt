@@ -78,9 +78,6 @@ vshare.io##.vjs-poster:style(filter:blur(8px) saturate(1.35)!important;)
 ! animo pace
 animo-pace-stream.io##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.25)!important)
 
-! dreamanimes
-dreamanimes.com.br##.jw-preview.jw-reset,.plyr__poster,.vjs-poster:style(filter:blur(12px) saturate(1.5)!important;)
-
 ! drive.google.com
 drive.google.com##img[alt*="thumbnail"]:style(filter:blur(8px) saturate(1.2)!important;)
 
