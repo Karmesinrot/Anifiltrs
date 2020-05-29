@@ -76,3 +76,6 @@ novelupdates.com##+js(acis, document.createElement, script)
 ! animeflv.la
 ! address #30
 animeflv.la##+js(acis, Math, zfgloaded)
+
+! misleading messages
+gogoanime.pro,gogoanime.app,kissanime.pro##.txtf, .text2
