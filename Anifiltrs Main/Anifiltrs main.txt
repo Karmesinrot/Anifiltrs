@@ -207,6 +207,8 @@ vidoza.net##+js(nostif, _checkBait)
 
 ! animefire AA
 @@||animefire.net^$ghide
+! popup ads
+animefire.net##+js(aopr, adcashMacros)
 
 ! hydrax AA
 playhydrax.com##+js(nostif, styleMinion)
