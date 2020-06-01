@@ -7,7 +7,7 @@
 
 ! collinsdictionary.com
 collinsdictionary.com##[id^=ad_], [id^=ad_]+[id|=hcdcrt]
-collinsdictionary.com##[id^=ad_]+[id|=hcdcrt]:upward([class$="container"]:not(.topslot_container))
+collinsdictionary.com##[id^=ad_]+[id|=hcdcrt]:upward(.home,[class$="container"]:not(.topslot_container))
 
 ! lexico
 lexico.com##.banbox, .banbox-mini, .mobile_banner.banbox
