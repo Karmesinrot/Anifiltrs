@@ -8,6 +8,8 @@
 ! collinsdictionary.com
 collinsdictionary.com##[id^=ad_], [id^=ad_]+[id|=hcdcrt]
 collinsdictionary.com##[id^=ad_]+[id|=hcdcrt]:upward(.home,[class$="container"]:not(.topslot_container))
+! temporary fix for menu margin
+collinsdictionary.com##.menuDd:style(margin-top:0px!important)
 
 ! lexico
 lexico.com##.banbox, .banbox-mini, .mobile_banner.banbox
