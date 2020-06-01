@@ -228,3 +228,6 @@ sendvid.net##+js(aopr, __Y)
 
 ! gogoanime.io broken image headers
 @@||gogoanime.io/img/bg-main-*.png$image,1p
+
+! hydrax ads
+playhydrax.com##+js(nosiif, (), 200)
