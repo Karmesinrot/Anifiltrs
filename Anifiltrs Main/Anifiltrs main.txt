@@ -119,9 +119,8 @@ kissanime.ru,kissmanga.com##+js(nostif, 5000)
 ! Diffuse web console clearing
 kissanime.ru,kissmanga.com##+js(aopr, console.clear)
 ! AA Blocking chromium
-!##### All filters relating to this block are redundant when using a custom userscript #####
-kissanime.ru,kissmanga.com##+js(acis, InitCloseButton, AddCloseButton)
 !#if env_chromium
+kissanime.ru,kissmanga.com##+js(acis, InitCloseButton, AddCloseButton)
 kissanime.ru##+js(nostif, 30000)
 !#endif
 ! prevent kissanime wrong captcha loop
