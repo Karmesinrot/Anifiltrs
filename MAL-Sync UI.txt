@@ -17,8 +17,8 @@ gogoanime.io##div:has-text(We moved site to)
 ! To Counter Badges broken [userscript and extension]
 @@||img.shields.io^$image,domain=kissanime.ru|kissmanga.com
 ! New Releases Check [Extension]
-@@||kissanime.ru/cdn-cgi^
-@@||kissmanga.com/cdn-cgi^
+@@||kissanime.ru/cdn-cgi^$~image
+@@||kissmanga.com/cdn-cgi^$~image
 !#if env_chromium
 ! new episode check
 @@||kissanime.ru/Anime/*mal-sync-background^$subdocument
