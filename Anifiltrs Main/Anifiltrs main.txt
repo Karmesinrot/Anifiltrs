@@ -124,7 +124,7 @@ kissanime.ru,kissmanga.com##+js(acis, InitCloseButton, AddCloseButton)
 kissanime.ru##+js(nostif, 30000)
 !#endif
 ! prevent kissanime wrong captcha loop
-kissanime.ru##+js(std, YASBATMBCL)
+kissanime.ru##+js(nostif, YASBATMBCL)
 ! inline-script which hides content
 kissanime.ru##+js(acis, $, bookmark)
 
