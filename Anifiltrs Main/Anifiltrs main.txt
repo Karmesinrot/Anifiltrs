@@ -230,3 +230,6 @@ sendvid.net##+js(aopr, __Y)
 
 ! hydrax ads
 playhydrax.com##+js(nosiif, (), 200)
+
+! streamtape ad script
+||streamtape.com/ad.js$script,redirect=noopjs
