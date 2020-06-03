@@ -7,7 +7,8 @@
 
 ! collinsdictionary.com
 collinsdictionary.com##[id^=ad_], [id^=ad_]+[id|=hcdcrt]
-collinsdictionary.com##[id^=ad_]+[id|=hcdcrt]:upward(.home,[class$="container"]:not(.topslot_container))
+collinsdictionary.com##[id^=ad_]+[id|=hcdcrt]:upward(.home,[class$="container"])
+collinsdictionary.com###main_content.dictionary:style(margin-top:20px !important;)
 ! temporary fix for menu margin
 collinsdictionary.com##.menuDd:style(margin-top:0px!important)
 
