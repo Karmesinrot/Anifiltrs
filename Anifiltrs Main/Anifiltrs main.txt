@@ -216,9 +216,10 @@ playhydrax.com##+js(nostif, styleMinion)
 ! hentai tracker
 animepahe.com##+js(aopr, _paq)
 
-!sendvid.net
+! xstreamcdn|fembed
 ||sendvid.net/asset/sostress.js$1p
-sendvid.net##+js(aopr, __Y)
+fcdn.stream,sendvid.net,vcdn.space##+js(aopr, __Y)
+fcdn.stream,sendvid.net,vcdn.space##+js(nowoif)
 
 ! 9anime hcaptcha
 @@||9anime.*/cdn-cgi/scripts/zepto.min.js$script,1p
