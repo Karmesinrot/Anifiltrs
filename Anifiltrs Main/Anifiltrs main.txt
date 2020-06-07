@@ -155,6 +155,12 @@ jkanime.net##.side-300
 ! sidebar widget
 animedaisuki.moe##.CpCnC
 
+! mangapark
+! ads below mangapages
+mangapark.net##[class|="ad-page"]
+! this is clearly a typo
+mangapark.net##[claass="ad-970x250"]
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
