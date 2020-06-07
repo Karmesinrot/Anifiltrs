@@ -20,3 +20,9 @@ lexico.com##.sidebar.extend:style(padding: 120px 0 0!important)
 ! animoapps
 ! counter unable to scroll after some time
 aminoapps.com##+js(aeld, scroll, void)
+
+! formula1.com
+! f1.com video player
+@@||player.ooyala.com/static/v4/production/analytics-plugin/googleAnalytics.min.js$script,domain=formula1.com
+! Official partners
+formula1.com#@#a[href^="http://pubads.g.doubleclick.net/"]
