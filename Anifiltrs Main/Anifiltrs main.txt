@@ -161,6 +161,10 @@ mangapark.net##[class|="ad-page"]
 ! this is clearly a typo
 mangapark.net##[claass="ad-970x250"]
 
+! manga4life
+! amazon ad
+manga4life.com##a[href^="https://www.amazon.com/"]
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
