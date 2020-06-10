@@ -9,8 +9,8 @@ mcloud.to,mcloud2.to##.jw-preview.jw-reset:style(filter:blur(8px);)
 ! mystream
 mstream.*,mysembed.net,mystream.to##.vjs-poster:style(filter:blur(12px) saturate(120%)!important;)
 
-! mp4upload
-mp4upload.com##.vjs-poster:style(filter:blur(8px) saturate(150%) !important;)
+! mp4upload => now uses plyr.io however plyr__poster is not enabled
+!mp4upload.com##.vjs-poster,.plyr__poster:style(filter:blur(8px) saturate(150%) !important;)
 
 ! fembed
 embed.best,embed.media,embedsito.com,fcdn.stream,fembed.com,fembed.net,femoload.club,feurl.com,gaobook.review,gcloud.live,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,novelplanet.me,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,sendvid.net,vaplayer.xyz,vcdn.space,weirdmovies.xyz,xstreamcdn.com,zidiplay.com###vstr > div[style*="background-size:contain;"]:style(filter:blur(8px))
