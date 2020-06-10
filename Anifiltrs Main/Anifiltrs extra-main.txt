@@ -87,3 +87,7 @@ gogoanime.pro,gogoanime.app,kissanime.pro##.txtf, .text2
 ! ryuanime
 ! empty sponsor box
 ryuanime.com##.card:has-text(Sponsor),.card+br
+
+! lndb
+! Bloody comic sans
+lndb.info###mainheader,.secondarytitle,.subtitle > h2,.secondarytitle > h1:style(font-family: "Segoe UI", "Calibri",  "Verdana", "Ubuntu" !important)
