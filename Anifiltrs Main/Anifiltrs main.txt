@@ -168,6 +168,10 @@ mangapark.net##[claass="ad-970x250"]
 ! amazon ad
 manga4life.com##a[href^="https://www.amazon.com/"]
 
+! otakufr
+! popups
+otakufr.com##+js(acis, Math, zfgloaded)
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
