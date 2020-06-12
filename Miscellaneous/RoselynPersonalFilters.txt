@@ -30,3 +30,7 @@ formula1.com#@#a[href^="http://pubads.g.doubleclick.net/"]
 ! myanimelist
 ! body colour
 myanimelist.net##body:not(.ownlist):style(background-color:transparent!important;)
+
+! mycloud
+! just to ease selecting the frame in devtools
+||mcloud*.to^$csp=child-src 'self' 'unsafe-inline' 'unsafe-eval' blob: 'self'
