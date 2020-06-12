@@ -26,3 +26,7 @@ aminoapps.com##+js(aeld, scroll, void)
 @@||player.ooyala.com/static/v4/production/analytics-plugin/googleAnalytics.min.js$script,domain=formula1.com
 ! Official partners
 formula1.com#@#a[href^="http://pubads.g.doubleclick.net/"]
+
+! myanimelist
+! body colour
+myanimelist.net##body:not(.ownlist):style(background-color:transparent!important;)
