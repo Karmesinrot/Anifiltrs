@@ -182,3 +182,6 @@ tranimeizle.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
 
 ! easyload
 easyload.io##.vjs-poster:style(filter:blur(10px) saturate(1.5))
+
+! clipwatching
+clipwatching.com##.vjs-poster:style(filter:blur(10px) saturate(1.5))
