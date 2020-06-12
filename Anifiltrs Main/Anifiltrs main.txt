@@ -255,3 +255,7 @@ playhydrax.com##+js(nosiif, (), 200)
 ! clipwatching, some ads
 clipwatching.com##^script:has-text('shift')
 clipwatching.com##+js(acis, String.fromCharCode, 'shift')
+
+! vidlox AA
+vidlox.*##+js(set, xRds, false)
+vidlox.*##+js(set, tRds, true)
