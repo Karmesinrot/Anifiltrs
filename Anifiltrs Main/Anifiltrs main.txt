@@ -253,8 +253,7 @@ playhydrax.com##+js(nosiif, (), 200)
 ||streamtape.com/ad.js$script,redirect=noopjs
 
 ! clipwatching, some ads
-clipwatching.com##^script:has-text('shift')
-clipwatching.com##+js(acis, String.fromCharCode, 'shift')
+clipwatching.com##+js(acis, atob, decodeURIComponent)
 
 ! vidlox AA
 vidlox.*##+js(set, xRds, false)
