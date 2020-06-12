@@ -52,7 +52,7 @@ mega.nz###video:not([src]):style(filter:blur(8px))
 bitchute.com##.plyr__poster:style(filter:blur(6px)!important)
 
 ! cloudvideo.tv
-cloudvideo.tv###th:style(filter:blur(8px) saturate(2))
+cloudvideo.tv##.vjs-poster:style(filter:blur(8px) saturate(2))
 
 ! flix555.com
 flix555.com##.jw-preview.jw-reset:style(filter:blur(8px);)
