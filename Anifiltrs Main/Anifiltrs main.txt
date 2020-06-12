@@ -258,3 +258,7 @@ clipwatching.com##+js(acis, atob, decodeURIComponent)
 ! vidlox AA
 vidlox.*##+js(set, xRds, false)
 vidlox.*##+js(set, tRds, true)
+
+! upvid
+upvid.*##^script:has-text('shift')
+upvid.*##+js(acis, String.fromCharCode, 'shift')
