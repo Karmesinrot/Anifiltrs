@@ -111,7 +111,8 @@ goyabu.com##+js(set, adBlockEnabled, false)
 
 ! shinden.pl
 ! sponsor section
-shinden.pl##.takie-tam
+! AA detection
+shinden.pl##.takie-tam:style(visibility:collapse!important;height:0px!important;width:0px!important)
 
 ! KISSANIME & KISSMANGA Annoyances ----------------------------
 ! AA script diffuse
