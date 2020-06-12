@@ -172,6 +172,10 @@ manga4life.com##a[href^="https://www.amazon.com/"]
 ! popups
 otakufr.com##+js(acis, Math, zfgloaded)
 
+! animezone
+! top banner ad
+animezone.pl##[style="width:970px;height:250px"]
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
