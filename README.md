@@ -19,4 +19,4 @@ Filter list for anime streaming, manga reading, and downloading of such things.
 
 ## Disclaimer
 
-*For users of uBlock Origin legacy*: the filter lists contains syntaxes and resources which are not available on your version.
+*For users of uBlock Origin legacy*: the filter lists contains syntaxes and resources which are not available on your version. Breakage may occur when using the filter lists.
