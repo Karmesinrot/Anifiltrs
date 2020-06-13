@@ -255,7 +255,10 @@ fcdn.stream,sendvid.net,vcdn.space##+js(nowoif)
 playhydrax.com##+js(nosiif, (), 200)
 
 ! streamtape ad script
-||streamtape.com/ad.js$script,redirect=noopjs
+||streamtape.com/ad.js$script,important
+*$script,redirect-rule=noopjs,domain=streamtape.com
+! AG base filter reported
+streamtape.com#@#+js(set-constant, googleAd, true)
 
 ! clipwatching, some ads
 clipwatching.com##+js(acis, atob, decodeURIComponent)
