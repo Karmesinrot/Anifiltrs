@@ -249,9 +249,6 @@ fcdn.stream,sendvid.net,vcdn.space##+js(nowoif)
 ! gogoanime.io broken image headers
 @@||gogoanime.io/img/bg-main-*.png$image,1p
 
-! hydrax ads
-playhydrax.com##+js(nosiif, (), 200)
-
 ! streamtape ad script
 ||streamtape.com/ad.js$script,important
 *$script,redirect-rule=noopjs,domain=streamtape.com
