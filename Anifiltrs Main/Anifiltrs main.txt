@@ -189,7 +189,7 @@ yourupload.com##.download-roms-button
 ||animefreak.tv^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.google.com www.gstatic.com
 
 ! kissanime
-||kissanime.ru^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.googletagmanager.com fonts.googleapis.com fonts.gstatic.com *.disqus.com c.disquscdn.com hcaptcha.com assets.hcaptcha.com *.replay.watch *.googleusercontent.com novelplanet.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg blob: kissanime.ru ; frame-src disqus.com www.novelplanet.me fvs.io www.mp4upload.com googlevideo.com assets.hcaptcha.com playhydrax.com hydrax.net ; media-src * ; img-src data: *
+||kissanime.ru^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.googletagmanager.com fonts.googleapis.com fonts.gstatic.com *.disqus.com c.disquscdn.com hcaptcha.com assets.hcaptcha.com *.replay.watch *.googleusercontent.com novelplanet.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg blob: kissanime.ru ; frame-src disqus.com www.novelplanet.me fvs.io www.mp4upload.com googlevideo.com assets.hcaptcha.com playhydrax.com hydrax.net play.p2ps.io ; media-src * ; img-src data: *
 
 ! 9anime
 ! inlcuded recaptcha due to possibility of 9anime user accounts
