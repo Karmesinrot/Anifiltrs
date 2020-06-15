@@ -175,6 +175,10 @@ otakufr.com##+js(acis, Math, zfgloaded)
 ! top banner ad
 animezone.pl##[style="width:970px;height:250px"]
 
+! dreamsub
+! ad containers
+dreamsub.stream###main-content:has([id^="rn_ad_native"])
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
