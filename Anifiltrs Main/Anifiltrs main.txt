@@ -219,6 +219,8 @@ hqq.tv##+js(aopr, BetterJsPop)
 
 ! dreamsub popups
 dreamsub.stream##+js(aopw, _pop)
+dreamsub.stream##+js(aopr, loadRunative)
+dreamsub.stream##+js(acis, adcashMacros)
 
 ! vidoza 'msg' ads
 vidoza.net##[id^=asg]
