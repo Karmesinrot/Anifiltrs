@@ -214,6 +214,9 @@ hqq.tv##+js(aopr, BetterJsPop)
 ! mangapark
 ||mangapark.net^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdnjs.cloudflare.com static.mangapark.net my.mangapark.net *.disqus.com c.disquscdn.com ; frame-src disqus.com ; style-src 'unsafe-inline' * ; font-src * ; img-src data: *
 
+! bato.to
+*$script,redirect-rule=noopjs,domain=bato.to|mangawindow.net
+
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
