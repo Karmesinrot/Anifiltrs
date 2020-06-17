@@ -93,6 +93,11 @@ gogoanime.pro,gogoanime.app,kissanime.pro##.txtf, .text2
 ! ryuanime
 ! empty sponsor box
 ryuanime.com##.card:has-text(Sponsor),.card+br
+! ad scripts
+ryuanime.com##+js(aopw, _pop)
+ryuanime.com##+js(acis, cpmstar_rnd , Math.round)
+ryuanime.com##+js(acis, document.createElement, 'script')
+*$script,redirect-rule=noopjs,domain=ryuanime.com
 
 ! lndb
 ! Bloody comic sans
