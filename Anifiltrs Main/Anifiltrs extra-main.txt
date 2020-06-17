@@ -4,6 +4,10 @@
 ! Description: Anifiltrs with additional support for Anime streaming and Manga reading sites which are not supported by lolamtisch's MAL-Sync
 
 ! Extra/ filters-----------------------------------------------
+! AnimePlanet
+! google ads frame container
+anime-planet.com##.ad:upward(1) [class^="halo"]
+
 ! AnimeHub.ac
 ! left-over adframe(s)
 animehub.ac##.sb-subs.goblock

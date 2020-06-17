@@ -61,10 +61,6 @@ turkanime.net##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
 ! ad widget
 animeflv.net##.WdgtCn:has(script[data-cfasync="false"])
 
-! AnimePlanet
-! google ads frame container
-anime-planet.com##.ad:upward(1) [class^="halo"]
-
 ! animeultima
 ! ads on the sidebar of video page
 animeultima.*##iframe[src="/unit/300"]:upward(1)
