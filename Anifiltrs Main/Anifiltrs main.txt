@@ -266,3 +266,8 @@ vidlox.*##+js(set, tRds, true)
 ! upvid
 upvid.*##^script:has-text('shift')
 upvid.*##+js(acis, String.fromCharCode, 'shift')
+
+! vidsat
+! https://vidsat.net/vlg981cdqkcc.html
+vidsat.net##+js(acis, Math, zfgloaded)
+||vidsat.net/js/pop.js$script
