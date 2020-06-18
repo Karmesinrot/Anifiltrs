@@ -251,10 +251,8 @@ fcdn.stream,sendvid.net,vcdn.space##+js(nowoif)
 @@||gogoanime.io/img/bg-main-*.png$image,1p
 
 ! streamtape ad script
-||streamtape.com/ad.js$script,important
+!||streamtape.com/ad.js$script,important
 *$script,redirect-rule=noopjs,domain=streamtape.com
-! AG base filter reported
-streamtape.com#@#+js(set-constant, googleAd, true)
 
 ! clipwatching, some ads
 clipwatching.com##+js(acis, atob, decodeURIComponent)
