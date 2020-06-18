@@ -27,6 +27,10 @@ kissanime.ru##div[style*='!important']
 ! MyAnimeList Cosmetic Filters
 ! Premium memebership "Hide Ads" button
 myanimelist.net##.header-menu-login > a:has-text(Hide Ads)
+! empty ad containers
+myanimelist.net##.amazon-ads
+myanimelist.net##div[style^="padding:16px 0px 0px 0px;"]
+myanimelist.net##[style^="padding: 20px"]:has(.mal-ad-unit)
 
 ! kissmanga Cosmetic Filters
 ! Remove annoying message to disable adblocker
