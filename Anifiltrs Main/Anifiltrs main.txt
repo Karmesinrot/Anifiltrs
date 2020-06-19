@@ -25,8 +25,8 @@ kissanime.ru##div[style*='!important']
 @@||kissanime.ru^$popup,domain=kissanime.ru
 
 ! MyAnimeList Cosmetic Filters
-! Premium memebership "Hide Ads" button
-myanimelist.net##.header-menu-login > a:has-text(Hide Ads)
+! Premium memebership «Hide Ads» button
+myanimelist.net##.header-menu-login > a[href="https://myanimelist.net/membership?_location=mal_h_u"]
 ! empty ad containers
 myanimelist.net##.amazon-ads
 myanimelist.net##div[style^="padding:16px 0px 0px 0px;"]
