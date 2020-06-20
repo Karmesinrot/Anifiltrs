@@ -4,6 +4,5 @@
 ! Description: Anifiltrs but without Blur Preview Thumbnails
 
 ! INCLUDE RESOURCES -------------------------------------------
-!#include DAG/DAG.txt
 !#include MAL-Sync%20UI.txt
 !#include Anifiltrs%20Main/Anifiltrs%20main.txt
