@@ -22,3 +22,6 @@ anidl.org##+js(acis, String.fromCharCode, decodeURIComponent)
 ! novelplanet.me
 ! script needed for download
 @@||cdnjs.cloudflare.com/ajax/libs/jquery/*$script,domain=novelplanet.me
+
+! erai-raws.info
+*$script,redirect-rule=noopjs,domain=erai-raws.info
