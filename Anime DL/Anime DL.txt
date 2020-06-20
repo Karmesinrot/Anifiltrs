@@ -17,6 +17,7 @@ horriblesubs.info##div.hidden-xs.well:has(script)
 hikarinoakariost.info##+js(acis, String.fromCharCode, decodeURIComponent)
 
 ! anidl
+anidl.org##+js(acis, String.fromCharCode, decodeURIComponent)
 ! discord button [rapid] colour change
 anidl.org##+js(nosiif, button.options.color)
 
