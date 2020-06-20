@@ -233,9 +233,6 @@ dreamsub.stream##+js(acis, adcashMacros)
 ! popup ads
 animefire.net##+js(aopr, adcashMacros)
 
-! hydrax AA
-playhydrax.com##+js(nostif, styleMinion)
-
 ! animepahe
 ! hentai tracker
 animepahe.com##+js(aopr, _paq)
