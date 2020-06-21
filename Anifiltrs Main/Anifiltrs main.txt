@@ -274,3 +274,6 @@ upvid.*##+js(acis, String.fromCharCode, 'shift')
 ! https://vidsat.net/vlg981cdqkcc.html
 vidsat.net##+js(acis, Math, zfgloaded)
 ||vidsat.net/js/pop.js$script
+
+! yourupload
+yourupload.com##+js(aopw, adcashMacros)
