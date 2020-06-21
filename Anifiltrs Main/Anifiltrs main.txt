@@ -175,10 +175,6 @@ otakufr.com##+js(acis, Math, zfgloaded)
 ! top banner ad
 animezone.pl##[style="width:970px;height:250px"]
 
-! dreamsub
-! ad containers
-dreamsub.stream###main-content:has([id^="rn_ad_native"])
-
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
@@ -230,8 +226,7 @@ animeid.tv##+js(aopw, zoneNativeSett)
 
 ! dreamsub popups
 dreamsub.stream##+js(aopw, _pop)
-dreamsub.stream##+js(aopr, loadRunative)
-dreamsub.stream##+js(acis, adcashMacros)
+*$script,redirect-rule=noopjs,domain=dreamsub.stream
 
 ! animefire AA
 @@||animefire.net^$ghide
