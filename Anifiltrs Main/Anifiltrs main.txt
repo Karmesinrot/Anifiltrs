@@ -216,6 +216,11 @@ hqq.tv##+js(aopr, BetterJsPop)
 ! bato.to
 *$script,redirect-rule=noopjs,domain=bato.to|mangawindow.net
 
+! animeid
+animeid.tv##+js(aopw, adcashMacros)
+animeid.tv##+js(aopw, zoneNativeSett)
+*$script,redirect-rule=noopjs,domain=animeid.tv
+
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
