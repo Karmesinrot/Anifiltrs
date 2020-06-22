@@ -54,8 +54,8 @@ animefever.tv##+js(json-prune, mal drop_mal mal_password mal_username seo p_meth
 
 ! animeram
 ! unnecessary widgets
-animeram.cc##.cblock:has(script[src*="ads.php?"])
-animeram.cc##.rightTopAd+div[style]
+animeram.*##.cblock:has(script[src*="ads.php?"])
+animeram.*##.rightTopAd+div[style]
 
 ! animerush
 ! sidebar container
