@@ -38,7 +38,7 @@ kissmanga.com##^div.rightBox:has-text(Adblock/uBlock):not(:has(p:not(:has-text(/
 kissmanga.com##div.rightBox:has-text(Adblock/uBlock):not(:has(p:not(:has-text(/Adblock\/uBlock|bad ads/))))
 kissmanga.com##.barContent > div > p:has-text(/Adblock\/uBlock|report bad ads/)
 ! Global clearbox padding and left-over adframes
-kissmanga.com##.clear2, #leftside > br, iframe[src^="/ads/"]
+kissmanga.com##.clear2, #leftside > br, iframe[src^="/ads/"], [style="text-align: center; padding: 10px 0px 10px 0px;"]
 kissmanga.com##.clear:not(:matches-css(height:0px)):not(:matches-css(height:5px)):not(:matches-css(height:76px))
 kissmanga.com##div[id^=adsIfrme]:not([id=adsIfrme])
 kissmanga.com###divImage~div:has([id^=adsIfrme]:not([id=adsIfrme]))
