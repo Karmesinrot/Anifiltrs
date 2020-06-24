@@ -109,3 +109,6 @@ jnovels.com##+js(acis, KillAdBlock)
 
 ! anjsub.com
 anjsub.com##+js(aopw, _pop)
+
+! animefrenzy
+animefrenzy.net##+js(aopw, _pop)
