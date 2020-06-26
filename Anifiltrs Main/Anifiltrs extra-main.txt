@@ -39,7 +39,7 @@ dreamanime.fun##+js(acis, document.querySelectorAll, popMagic)
 
 ! sganime
 ! popup ads
-sganime.org##+js(acis, String.fromCharCode, decodeURIComponent)
+sganime.org##+js(aopw, _pop)
 sganime.org##+js(nowoif)
 
 ! kimcartoon
