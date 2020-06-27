@@ -30,6 +30,12 @@ animebam.se##[id*="ScriptRoot"]
 ! empty ad containers
 9anime.vip##.text-center.cut
 
+! 9animes.io
+9animes.io##+js(acis, Math, zfgloaded)
+9animes.io##+js(acis, document.createElement, 'script')
+9animes.io##[class*="widget"][class$="text-center"]
+||googletagmanager.com/gtag/$script,redirect=googletagmanager.com/gtm.js,domain=9animes.io
+
 ! dreamanime
 ! popups
 dreamanime.fun##+js(acis, document.querySelectorAll, popMagic)
