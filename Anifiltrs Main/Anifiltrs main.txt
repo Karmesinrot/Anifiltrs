@@ -243,9 +243,9 @@ fcdn.stream,sendvid.net,vcdn.space##+js(aopr, __Y)
 fcdn.stream,sendvid.net,vcdn.space##+js(nowoif)
 
 ! 9anime hcaptcha
-@@||9anime.*/cdn-cgi/scripts/zepto.min.js$script,1p
-@@||9anime.*/cdn-cgi/scripts/cf.common.js$script,1p
-@@||9anime.*/cdn-cgi/scripts/hcaptcha.challenge.js$script,1p
+@@||9anime.*/cdn-cgi/scripts/zepto.min.js$script
+@@||9anime.*/cdn-cgi/scripts/cf.common.js$script
+@@||9anime.*/cdn-cgi/scripts/hcaptcha.challenge.js$script
 
 ! gogoanime.io broken image headers
 @@||gogoanime.io/img/bg-main-*.png$image,1p
