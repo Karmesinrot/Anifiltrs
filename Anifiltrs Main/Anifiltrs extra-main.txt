@@ -19,7 +19,7 @@ thewatchcartoononline.tv##.anti-ad
 
 ! mangafox & mangahere
 ! empty ad containers
-fanfox.net,mangahere.*##[class*="ad"][style="width:800px;height:90px;"],[style="width: 800px; height: 90px;"], [style^="width:728px;height:90px;"],[style^="width: 728px; height: 90px;"]
+fanfox.*,mangahere.*##[class*="ad"][style="width:800px;height:90px;"],[style="width: 800px; height: 90px;"], [style^="width:728px;height:90px;"],[style^="width: 728px; height: 90px;"]
 ! just for some insurance
 *$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' static.fanfox.net static.mangahere.cc ; child-src 'none',domain=fanfox.net|mangafox.com|mangafox.la|mangafox.me|mangahere.cc|mangahere.co|mangahere.com
 
