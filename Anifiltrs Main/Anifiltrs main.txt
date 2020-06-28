@@ -178,6 +178,10 @@ animezone.pl##[style="width:970px;height:250px"]
 ! unionmangas
 unionleitor.top##h2:has-text(Publicidade):upward(1)
 
+! scantrad
+! disable ablock msg on manga page
+scantrad.net##.asqx
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
