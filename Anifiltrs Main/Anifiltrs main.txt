@@ -224,6 +224,12 @@ animeid.tv##+js(aopw, adcashMacros)
 animeid.tv##+js(aopw, zoneNativeSett)
 *$script,redirect-rule=noopjs,domain=animeid.tv
 
+! scantrad
+*$script,redirect-rule=noopjs,domain=scantrad.net
+scantrad.net##+js(acis, document.getElementsByTagName, 'script')
+scantrad.net##+js(acis, document.createElement, ai)
+scantrad.net##+js(aopw, Date)
+
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
