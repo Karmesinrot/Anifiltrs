@@ -182,6 +182,10 @@ unionleitor.top##h2:has-text(Publicidade):upward(1)
 ! disable ablock msg on manga page
 scantrad.net##.asqx
 
+! Fallen Angels
+manga.fascans.com##.ads
+manga.fascans.com##.col-xs-12:has(:scope>.ads-large)
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
