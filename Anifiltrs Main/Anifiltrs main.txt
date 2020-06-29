@@ -228,7 +228,9 @@ animeid.tv##+js(aopw, zoneNativeSett)
 *$script,redirect-rule=noopjs,domain=scantrad.net
 scantrad.net##+js(acis, document.getElementsByTagName, 'script')
 scantrad.net##+js(acis, document.createElement, ai)
-scantrad.net##+js(aopw, Date)
+!scantrad.net##+js(aopw, Date)
+scantrad.net##+js(aeld, load, updatePub)
+scantrad.net##+js(nostif, updatePubImpact)
 
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
