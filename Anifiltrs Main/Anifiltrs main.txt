@@ -186,6 +186,12 @@ scantrad.net##.asqx
 manga.fascans.com##.ads
 manga.fascans.com##.col-xs-12:has(:scope>.ads-large)
 
+! mangadenizi.com
+! side bar ad containers
+mangadenizi.com##.col-sm-push-8.col-sm-4 > .row
+! general containers
+mangadenizi.com##.col-xs-12:has(:scope>.adds-large:not(:has(a)))
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
