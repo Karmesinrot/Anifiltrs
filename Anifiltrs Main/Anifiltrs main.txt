@@ -192,6 +192,10 @@ mangadenizi.com##.col-sm-push-8.col-sm-4 > .row
 ! general containers
 mangadenizi.com##.col-xs-12:has(:scope>.adds-large:not(:has(a)))
 
+! serimanga
+! site-wide ads
+serimanga.com##.pt-3.m-auto
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
