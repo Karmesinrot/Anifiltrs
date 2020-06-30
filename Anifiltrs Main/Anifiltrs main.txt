@@ -196,6 +196,10 @@ mangadenizi.com##.col-xs-12:has(:scope>.adds-large:not(:has(a)))
 ! site-wide ads
 serimanga.com##.pt-3.m-auto
 
+! mangakatana.com
+! empty divs
+mangakatana.com##.hxtc
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
