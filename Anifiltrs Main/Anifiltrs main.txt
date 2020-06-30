@@ -199,6 +199,8 @@ serimanga.com##.pt-3.m-auto
 ! mangakatana.com
 ! empty divs
 mangakatana.com##.hxtc
+! Hide Ads btn
+mangakatana.com##.sonar-wrapper
 
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
