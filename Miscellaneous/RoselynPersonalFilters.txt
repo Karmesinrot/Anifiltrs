@@ -30,6 +30,8 @@ formula1.com#@#a[href^="http://pubads.g.doubleclick.net/"]
 ! myanimelist
 ! body colour
 myanimelist.net##body:not(.ownlist):style(background-color:transparent!important;)
+! other
+myanimelist.net##+js(ra, onload|data-country-code)
 
 ! mycloud
 ! just to ease selecting the frame in devtools
