@@ -191,3 +191,6 @@ cloud9.to##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
 
 ! wstream
 wstream.*##.vjs-poster:style(filter:blur(8px) saturate(1.25))
+
+! streamz
+streamcrypt.net,streamz.*##.vjs-poster:style(filter:blur(8px))
