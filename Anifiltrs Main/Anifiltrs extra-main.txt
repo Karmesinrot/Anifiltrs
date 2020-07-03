@@ -83,7 +83,8 @@ wcostream.com##div[style]:has(.reklam_pve)
 
 ! novelupdates
 novelupdates.com##+js(acis, document.createElement, script)
-*$script,3p,redirect=noopjs,domain=novelupdates.com
+*$script,3p,domain=novelupdates.com,denyallow=googleapis.com
+*$script,redirect-rule=noopjs,domain=novelupdates.com
 ! homepage ad containers
 novelupdates.com##[class^="ad_"]+br
 novelupdates.com##div[style]:has(:scope>[class^="ad_"])
