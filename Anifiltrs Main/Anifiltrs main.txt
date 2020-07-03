@@ -170,6 +170,8 @@ manga4life.com##a[href^="https://www.amazon.com/"]
 ! otakufr
 ! popups
 otakufr.com##+js(acis, Math, zfgloaded)
+*$script,redirect-rule=noopjs,domain=otakufr.com
+otakufr.com##+js(acis, document.createElement, 'script')
 
 ! animezone
 ! top banner ad
