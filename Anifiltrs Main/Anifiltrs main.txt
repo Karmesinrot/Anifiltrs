@@ -312,6 +312,3 @@ vidsat.net##+js(acis, Math, zfgloaded)
 
 ! yourupload
 yourupload.com##+js(aopw, adcashMacros)
-
-! mp4upload svg icons
-@@||cdn.plyr.io/3.5.10/plyr.svg$xhr,domain=mp4upload.com
