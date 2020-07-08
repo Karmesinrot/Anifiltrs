@@ -132,3 +132,9 @@ animefrenzy.net##+js(aopw, _pop)
 lightnovelworld.com##+js(nostif, adsbox)
 ! index ads container
 lightnovelworld.com##.gridads
+
+! mtlnovel
+*$script,redirect-rule=noopjs,domain=mtlnovel.com
+! ads placeholders
+mtlnovel.com##[id|=mgid]
+mtlnovel.com##.m-card:has(:scope>.amp-unresolved)
