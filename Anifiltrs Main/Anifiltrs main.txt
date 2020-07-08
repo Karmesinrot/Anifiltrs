@@ -312,3 +312,6 @@ vidsat.net##+js(acis, Math, zfgloaded)
 
 ! yourupload
 yourupload.com##+js(aopw, adcashMacros)
+
+! easyload
+easyload.io##+js(nowoif)
