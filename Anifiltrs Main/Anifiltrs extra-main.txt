@@ -126,3 +126,9 @@ animehd47.com##+js(aopr, _pop)
 
 ! animefrenzy
 animefrenzy.net##+js(aopw, _pop)
+
+! lightnovelworld
+*$script,redirect-rule=noopjs,domain=lightnovelworld.com
+lightnovelworld.com##+js(nostif, adsbox)
+! index ads container
+lightnovelworld.com##.gridads
