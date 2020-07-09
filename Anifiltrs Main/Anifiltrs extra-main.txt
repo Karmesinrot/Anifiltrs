@@ -138,3 +138,7 @@ lightnovelworld.com##.gridads
 ! ads placeholders
 mtlnovel.com##[id|=mgid]
 mtlnovel.com##.m-card:has(:scope>.amp-unresolved)
+
+! mangapanda & mangareader.net
+*$script,redirect-rule=noopjs,domain=mangapanda.com|mangareader.net
+mangapanda.com,mangareader.net##+js(aopw, BB_ind)
