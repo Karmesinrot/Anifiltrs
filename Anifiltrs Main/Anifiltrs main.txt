@@ -315,3 +315,6 @@ yourupload.com##+js(aopw, adcashMacros)
 
 ! easyload
 easyload.io##+js(nowoif)
+
+! kissmanga check after CF
+@@||kissmanga.com/Ads/fbads.aspx$frame,1p
