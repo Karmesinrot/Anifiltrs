@@ -227,7 +227,7 @@ yourupload.com##.download-roms-button
 ||novelplanet.me^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: fvs.io cdnjs.cloudflare.com
 
 ! kissmanga
-||kissmanga.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' hcaptcha.com assets.hcaptcha.com *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg ; frame-src disqus.com assets.hcaptcha.com ; font-src * ; img-src data: *
+||kissmanga.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' hcaptcha.com assets.hcaptcha.com *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg ; frame-src disqus.com assets.hcaptcha.com https://kissmanga.com/Ads/fbads.aspx ; font-src * ; img-src data: *
 
 ! gogoanime
 *$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.k-vid.co *.gogocdn.net *.cdnfile.info ajax.apimovie.xyz *.googleapis.com recaptcha.net *.gstatic.com www.google.com disqus.com *.disqus.com c.disquscdn.com ssl.p.jwpcdn.com cdn.jsdelivr.net iamcdn.net ping.idocdn.com *.buzz *.monster code.jquery.com *.bootstrapcdn.com bowercdn.net *.cloud9.to cdn.jwplayer.com www.googletagmanager.com cdnjs.cloudflare.com cdn.mp4upload.com *.fontawesome.com cdn.plyr.io vjs.zencdn.net cdn.streamroot.io *.eload.io discordapp.com data: blob: vidstreaming.io wss: gateway.discord.gg ; frame-src disqus.com vidstreaming.io hydrax.net playhydrax.com gcloud.live www.fembed.com feurl.com fcdn.stream www.google.com mixdrop.co www.mp4upload.com direct.apus.tech www.yourupload.com vev.io vev.red cloud9.to easyload.io ; media-src * blob: * ; font-src data: * ; img-src data: *,domain=animego.to|gogoanime.in|gogoanime.io|gogoanime.movie|gogoanime.tv|gogoanime.video|gogoanimes.co
