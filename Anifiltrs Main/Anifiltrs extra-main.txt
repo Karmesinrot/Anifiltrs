@@ -69,7 +69,7 @@ animerush.tv##.amin_box:style(margin-top:0px!important)
 
 ! animesim
 ! future proofing
-animesim.com##+js(acis, _pop)
+animesim.com##+js(aopw, _pop)
 
 ! wuxiaworld.site
 ! ad containers
