@@ -21,7 +21,7 @@ thewatchcartoononline.tv##.anti-ad
 ! empty ad containers
 fanfox.*,mangahere.*##[class*="ad"][style="width:800px;height:90px;"],[style="width: 800px; height: 90px;"], [style^="width:728px;height:90px;"],[style^="width: 728px; height: 90px;"]
 ! just for some insurance
-*$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' static.fanfox.net static.mangahere.cc ; child-src 'none',domain=fanfox.net|mangafox.la|mangahere.cc|mangahere.co|mangahere.com
+*$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' static.fanfox.net static.mangahere.cc ; child-src 'none',domain=fanfox.net|mangafox.la|mangahere.*
 
 ! animebam
 animebam.se##[id*="ScriptRoot"]
