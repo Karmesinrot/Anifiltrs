@@ -317,3 +317,7 @@ yourupload.com##+js(aopw, adcashMacros)
 
 ! easyload
 easyload.io##+js(nowoif)
+
+! kissanime beta servers
+*$xmlhttprequest,3p,domain=kissanime.ru,badfilter
+*$stylesheet,3p,domain=kissanime.ru,badfilter
