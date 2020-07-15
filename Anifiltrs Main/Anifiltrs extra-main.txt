@@ -95,7 +95,7 @@ novelupdates.com##div[style]:has(:scope>[class^="ad_"])+br
 animeflv.la##+js(acis, Math, zfgloaded)
 
 ! misleading messages
-gogoanime.pro,gogoanime.app,kissanime.pro##.txtf, .text2
+gogoanime.app,gogoanime.pro,kissanime.pro##.txtf, .text2
 ! ads
 gogoanime.app,gogoanime.pro##+js(aopr, document.write)
 
