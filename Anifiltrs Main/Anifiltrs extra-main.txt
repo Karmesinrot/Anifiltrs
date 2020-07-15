@@ -142,3 +142,9 @@ mtlnovel.com##.m-card:has(:scope>.amp-unresolved)
 ! mangapanda & mangareader.net
 *$script,redirect-rule=noopjs,domain=mangapanda.com|mangareader.net
 mangapanda.com,mangareader.net##+js(aopw, BB_ind)
+
+! animesaturn
+*$script,redirect-rule=noopjs,domain=animesaturn.com
+||animesaturn.com^$csp=frame-src streamtape.com
+! widgets
+animesaturn.com##.card-body:has(script):upward(1)
