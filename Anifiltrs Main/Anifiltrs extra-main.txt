@@ -150,3 +150,6 @@ mangapanda.com,mangareader.net##+js(aopw, BB_ind)
 ||animesaturn.com^$csp=frame-src streamtape.com
 ! widgets
 animesaturn.com##.card-body:has(script):upward(1)
+
+! ytanime.tv
+ytanime.tv##+js(acis, document.querySelectorAll, popMagic)
