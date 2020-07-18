@@ -289,9 +289,6 @@ fcdn.stream,sendvid.net,vcdn.space##+js(nowoif)
 @@||9anime.*/cdn-cgi/scripts/cf.common.js$script
 @@||9anime.*/cdn-cgi/scripts/hcaptcha.challenge.js$script
 
-! gogoanime.io broken image headers
-@@||gogoanime.io/img/bg-main-*.png$image,1p
-
 ! streamtape ad script
 ||streamtape.com/ad.js$script,important
 *$script,redirect-rule=noopjs,domain=streamtape.com
