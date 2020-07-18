@@ -168,12 +168,6 @@ mangapark.net##[claass="ad-970x250"]
 ! amazon ad
 manga4life.com##a[href^="https://www.amazon.com/"]
 
-! otakufr
-! popups
-otakufr.com##+js(acis, Math, zfgloaded)
-*$script,redirect-rule=noopjs,domain=otakufr.com
-otakufr.com##+js(acis, document.createElement, 'script')
-
 ! animezone
 ! top banner ad
 animezone.pl##[style="width:970px;height:250px"]
@@ -243,6 +237,12 @@ hqq.tv##+js(aopr, BetterJsPop)
 ! bato.to
 *$script,redirect-rule=noopjs,domain=bato.to|mangawindow.net
 
+! otakufr
+! popups
+otakufr.com##+js(acis, Math, zfgloaded)
+*$script,redirect-rule=noopjs,domain=otakufr.com
+otakufr.com##+js(acis, document.createElement, 'script')
+
 ! animeid
 animeid.tv##+js(aopw, adcashMacros)
 animeid.tv##+js(aopw, zoneNativeSett)
@@ -262,6 +262,10 @@ scantrad.net##+js(nostif, updatePubImpact)
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
+! hcaptcha
+@@||9anime.*/cdn-cgi/scripts/zepto.min.js$script
+@@||9anime.*/cdn-cgi/scripts/cf.common.js$script
+@@||9anime.*/cdn-cgi/scripts/hcaptcha.challenge.js$script
 
 ! animeshouse player AA
 @@||lockharte-ah.gq/popads.js$script,domain=ganessa-ah.ga
@@ -283,11 +287,6 @@ animepahe.com##+js(aopr, _paq)
 ||sendvid.net/asset/sostress.js$1p
 fcdn.stream,sendvid.net,vcdn.space##+js(aopr, __Y)
 fcdn.stream,sendvid.net,vcdn.space##+js(nowoif)
-
-! 9anime hcaptcha
-@@||9anime.*/cdn-cgi/scripts/zepto.min.js$script
-@@||9anime.*/cdn-cgi/scripts/cf.common.js$script
-@@||9anime.*/cdn-cgi/scripts/hcaptcha.challenge.js$script
 
 ! streamtape ad script
 ||streamtape.com/ad.js$script,important
