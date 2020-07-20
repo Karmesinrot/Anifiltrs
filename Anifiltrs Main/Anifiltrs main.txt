@@ -318,6 +318,7 @@ easyload.io##+js(nowoif)
 ! kissanime beta servers
 *$xmlhttprequest,3p,domain=kissanime.ru,badfilter
 *$stylesheet,3p,domain=kissanime.ru,badfilter
+*$script,3p,domain=kissanime.ru,badfilter
 
 ! mp4upload new ads
 mp4upload.com##+js(acis, Object.defineProperty, XMLHttpRequest)
