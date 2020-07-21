@@ -158,3 +158,6 @@ ytanime.tv##+js(acis, document.querySelectorAll, popMagic)
 *$script,redirect-rule=noopjs,domain=nwanime.tv
 *$image,redirect-rule=1x1.gif,domain=nwanime.tv
 nwanime.tv##+js(acis, document.createElement, script)
+! video page ad containers
+nwanime.tv##[style="padding-left: 0px; margin-bottom: 20px;"]
+nwanime.tv##[class="row"][style="margin-bottom: 5px; text-align: center;"]
