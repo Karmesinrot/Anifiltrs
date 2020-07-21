@@ -261,6 +261,10 @@ scantrad.net##+js(nostif, updatePubImpact)
 ! mangakatana.com
 *$script,redirect-rule=noopjs,domain=mangakatana.com
 
+! gounlimted
+gounlimited.to##+js(aopw, adcashMacros)
+*$script,redirect-rule=noopjs,domain=gounlimited.to
+
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
