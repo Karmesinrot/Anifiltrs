@@ -153,3 +153,8 @@ animesaturn.com##.card-body:has(script):upward(1)
 
 ! ytanime.tv
 ytanime.tv##+js(acis, document.querySelectorAll, popMagic)
+
+! nwanime.tv
+*$script,redirect-rule=noopjs,domain=nwanime.tv
+*$image,redirect-rule=1x1.gif,domain=nwanime.tv
+nwanime.tv##+js(acis, document.createElement, script)
