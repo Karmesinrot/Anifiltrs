@@ -161,3 +161,6 @@ nwanime.tv##+js(acis, document.createElement, script)
 ! video page ad containers
 nwanime.tv##[style="padding-left: 0px; margin-bottom: 20px;"]
 nwanime.tv##[class="row"][style="margin-bottom: 5px; text-align: center;"]
+
+! darkanime
+darkanime.stream##+js(acis, document.createElement, 'script')
