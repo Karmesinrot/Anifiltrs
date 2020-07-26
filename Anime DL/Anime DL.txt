@@ -25,3 +25,8 @@ anidl.org##+js(acis, String.fromCharCode, decodeURIComponent)
 
 ! erai-raws.info
 *$script,redirect-rule=noopjs,domain=erai-raws.info
+
+! mtencodes.blogspot.com
+mtencodes.blogspot.com##+js(acis, String.fromCharCode, charCodeAt)
+*$script,redirect-rule=noopjs,domain=mtencodes.blogspot.com
+||cash-ads.com^$script,domain=mtencodes.blogspot.com
