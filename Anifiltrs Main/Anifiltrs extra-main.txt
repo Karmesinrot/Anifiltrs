@@ -94,10 +94,11 @@ novelupdates.com##div[style]:has(:scope>[class^="ad_"])+br
 ! address #30
 animeflv.la##+js(acis, Math, zfgloaded)
 
+! fake sites
+gogoanime.app,gogoanime.pro##+js(aopr, document.write)
+gogoanimehub.com##+js(acis, Math, zfgloaded)
 ! misleading messages
 gogoanime.app,gogoanime.pro,kissanime.pro##.txtf, .text2
-! ads
-gogoanime.app,gogoanime.pro##+js(aopr, document.write)
 
 ! ryuanime
 ! empty sponsor box
