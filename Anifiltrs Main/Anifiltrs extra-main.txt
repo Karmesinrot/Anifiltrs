@@ -97,6 +97,7 @@ animeflv.la##+js(acis, Math, zfgloaded)
 ! fake sites
 gogoanime.app,gogoanime.pro##+js(aopr, document.write)
 gogoanimehub.com##+js(acis, Math, zfgloaded)
+gogoanimehub.com##+js(acis, document.createElement, jsc.mgid.com)
 ! misleading messages
 gogoanime.app,gogoanime.pro,kissanime.pro##.txtf, .text2
 
