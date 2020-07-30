@@ -36,3 +36,7 @@ myanimelist.net##+js(ra, onload|data-country-code)
 ! mycloud
 ! just to ease selecting the frame in devtools
 ||mcloud*.to^$csp=child-src 'self' 'unsafe-inline' 'unsafe-eval' blob: 'self'
+
+! weather.com
+! ad-placeholders
+weather.com##[id|="WxuAd"]
