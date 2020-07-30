@@ -152,7 +152,7 @@ dreamsub.stream##.vjs-poster:style(filter:blur(8px) saturate(1.5))
 gounlimited.to##.vjs-poster:style(filter:blur(8px) saturate(1.5))
 
 ! vev
-vev.io,vev.red##.vjs-poster:style(filter:blur(8px) saturate(1.5)!important)
+vev.io,vev.red,vidup.io##.vjs-poster:style(filter:blur(8px) saturate(1.5)!important)
 
 ! doodstream
 dood.watch,doodstream.com##.vjs-poster:style(filter:blur(8px) saturate(1.5))
