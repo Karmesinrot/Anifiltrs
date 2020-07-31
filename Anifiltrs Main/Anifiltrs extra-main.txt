@@ -165,3 +165,7 @@ nwanime.tv##[style="padding-left: 0px; margin-bottom: 20px;"], [class="row"][sty
 
 ! darkanime
 darkanime.stream##+js(acis, document.createElement, 'script')
+
+! mangaowl
+! not currently possible with reader
+mangaowl.net##[id^=ads]
