@@ -199,6 +199,10 @@ mangakatana.com##.hxtc
 ! Hide Ads btn
 mangakatana.com##.sonar-wrapper
 
+! mangafox & mangahere
+! empty ad containers
+fanfox.*,mangahere.*##[class*="ad"][style="width:800px;height:90px;"],[style="width: 800px; height: 90px;"], [style^="width:728px;height:90px;"],[style^="width: 728px; height: 90px;"]
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
@@ -264,6 +268,9 @@ scantrad.net##+js(nostif, updatePubImpact)
 ! gounlimted
 gounlimited.to##+js(aopw, adcashMacros)
 *$script,redirect-rule=noopjs,domain=gounlimited.to
+
+! just for some insurance
+*$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' static.fanfox.net static.mangahere.cc ; child-src 'none',domain=fanfox.net|mangafox.la|mangahere.*
 
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
