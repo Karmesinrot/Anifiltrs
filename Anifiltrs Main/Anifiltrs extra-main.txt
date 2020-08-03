@@ -30,13 +30,6 @@ animebam.se##[id*="ScriptRoot"]
 9animes.io##[class*="widget"][class$="text-center"]
 ||googletagmanager.com/gtag/$script,redirect=googletagmanager.com/gtm.js,domain=9animes.io
 
-! dreamanime
-! popups
-dreamanime.fun##+js(acis, document.querySelectorAll, popMagic)
-! redirected domains from
-@@||9anime.*$script,1p,domain=9anime.pro|9anime.fun
-||9anime.*/sw.js$script,important,domain=9anime.pro|9anime.fun
-
 ! sganime
 ! popup ads
 sganime.org##+js(aopw, _pop)
