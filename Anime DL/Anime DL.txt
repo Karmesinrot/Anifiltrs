@@ -10,6 +10,9 @@ horriblesubs.info##[class~="text-center"][class*="-spons"]
 ! download page add
 horriblesubs.info##div.hidden-xs.well:has(script)
 
+! sukidesuost.info
+sukidesuost.info##+js(aopw, _pop)
+
 ! hikarinoakariost.info
 ! Counter copy protection
 ||hikarinoakariost.info/wp-content/plugins/secure-copy-content-protection/*
