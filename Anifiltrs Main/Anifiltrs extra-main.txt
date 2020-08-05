@@ -160,3 +160,8 @@ mangaowl.net##[id^=ads]
 ! mangazuki.online
 mangazuki.online##+js(acis, Object.defineProperty, XMLHttpRequest)
 mangazuki.online##+js(aopw, _pop)
+
+! readmanhua.net
+! banner ads
+readmanhua.net##.ad
+readmanhua.net###main-sidebar > .row:has([src="https://readmanhua.net/wp-content/uploads/2017/10/Immortal-taoists-reader-sidebar.gif"],[src="https://readmanhua.net/wp-content/uploads/2017/10/wzz-仙命决-popup-desktop-950x600-220200628-EN.gif"])
