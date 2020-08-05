@@ -165,3 +165,7 @@ mangazuki.online##+js(aopw, _pop)
 ! banner ads
 readmanhua.net##.ad
 readmanhua.net###main-sidebar > .row:has([src="https://readmanhua.net/wp-content/uploads/2017/10/Immortal-taoists-reader-sidebar.gif"],[src="https://readmanhua.net/wp-content/uploads/2017/10/wzz-仙命决-popup-desktop-950x600-220200628-EN.gif"])
+
+! wuxiaworld.com
+! Sponsored Links
+wuxiaworld.com##[id^=placement]
