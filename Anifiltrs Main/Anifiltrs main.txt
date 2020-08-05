@@ -332,5 +332,6 @@ easyload.io##+js(nowoif)
 *$stylesheet,3p,domain=kissanime.ru,badfilter
 *$script,3p,domain=kissanime.ru,badfilter
 
-! mp4upload new ads
-mp4upload.com##+js(acis, Object.defineProperty, XMLHttpRequest)
+! mp4upload some insurance
+mp4upload.com##+js(acis, String.fromCharCode, 'shift')
+mp4upload.com##^script:has-text('shift')
