@@ -156,3 +156,7 @@ darkanime.stream##+js(acis, document.createElement, 'script')
 ! mangaowl
 ! not currently possible with reader
 mangaowl.net##[id^=ads]
+
+! mangazuki.online
+mangazuki.online##+js(acis, Object.defineProperty, XMLHttpRequest)
+mangazuki.online##+js(aopw, _pop)
