@@ -197,3 +197,6 @@ streamcrypt.net,streamz.*##.vjs-poster:style(filter:blur(8px))
 
 ! animesonline.cz
 animesonline.cz##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.25))
+
+! NXLoad.com
+nxload.com##.vjs-poster:style(filter:blur(8px) saturate(1.25))
