@@ -6,7 +6,7 @@
 
 ! MAL-Sync ----------------------------------------------------
 ! Hide obtrusive banner on gogoanime
-gogoanime.io##div:has-text(We moved site to)
+gogoanime.*##div:has-text(We moved site to)
 ! To Counter Contributor section breakage [userscript and extension]
 @@||discordapp.com^$image,domain=kissanime.ru|kissmanga.com
 ! To counter favicons broken [userscript and extension]
