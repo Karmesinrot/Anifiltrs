@@ -305,9 +305,6 @@ fcdn.stream,sendvid.net,vcdn.space##+js(nowoif)
 ||streamtape.com/ad.js$script,important
 *$script,redirect-rule=noopjs,domain=streamtape.com
 
-! clipwatching, some ads
-clipwatching.com##+js(acis, atob, decodeURIComponent)
-
 ! vidlox AA
 vidlox.*##+js(set, xRds, false)
 vidlox.*##+js(set, tRds, true)
