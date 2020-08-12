@@ -116,7 +116,8 @@ animehd47.com##+js(aopw, KillAdBlock)
 animehd47.com##+js(aopr, _pop)
 
 ! animefrenzy
-animefrenzy.net##+js(aopw, _pop)
+animefrenzy.net##^script:has-text('shift')
+animefrenzy.net##+js(acis, String.fromCharCode, 'shift')
 
 ! lightnovelworld
 *$script,redirect-rule=noopjs,domain=lightnovelworld.com
