@@ -108,9 +108,6 @@ jnovels.com##+js(aopw, KillAdBlock)
 ! anjsub.com
 anjsub.com##+js(aopw, _pop)
 
-! animefrenzy
-animefrenzy.net##+js(aopw, _pop)
-
 ! animehd47
 animehd47.com##+js(aopw, KillAdBlock)
 animehd47.com##+js(aopr, _pop)
