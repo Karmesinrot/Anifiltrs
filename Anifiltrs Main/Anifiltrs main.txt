@@ -213,7 +213,6 @@ yourupload.com##.download-roms-button
 ! 4anime
 ||4anime.to^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: ajax.googleapis.com ssl.p.jwpcdn.com *.disqus.com c.disquscdn.com hcaptcha.com assets.hcaptcha.com
 4anime.to##+js(acis, Object.defineProperty, XMLHttpRequest)
-*$script,redirect-rule=noopjs,domain=4anime.to
 
 ! animefreak.tv
 ||animefreak.tv^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.google.com www.gstatic.com
