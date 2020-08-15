@@ -9,21 +9,6 @@
 ! Cleans up the ui a bit, making it more compact
 9anime.*##.text-center.widget:remove()
 
-! Kissanime Cosmetic Filters
-! removes the annoying message to disable Adblock/uBlock
-kissanime.ru##^div.rightBox:has-text(Please do not block ads):not(:has(p:not(:has-text(/Please do not block ads|bad ads/)))),.rightBox+.clear2
-kissanime.ru##div.rightBox:has-text(Please do not block ads):not(:has(p:not(:has-text(/Please do not block ads|bad ads/)))),.rightBox+.clear2
-kissanime.ru##.barContent > div > p:has-text(/block ads on KissAnime|Adblock\/uBlock|report bad ads/)
-! Global clearbox padding and left-over adframes
-kissanime.ru###leftside > br, iframe[src^="/ads/"]
-kissanime.ru##.clear2:not(+#centerDivVideo):not(+.rightBox:has-text(/Ongoing series|Related Links|Latest update/))
-kissanime.ru##.clear:not(:matches-css(height:0px)):not(:matches-css(height:5px)):not(:matches-css(line-height:23px)):not(:matches-css(height:76px))
-kissanime.ru##div[id^=adsIfrme]:not([id=adsIfrme])
-! Messages on top of video player
-kissanime.ru##div[style*='!important']
-! Prevent 1p links from closing when opening in a new tab
-@@||kissanime.ru^$popup,domain=kissanime.ru
-
 ! MyAnimeList Cosmetic Filters
 ! Premium memebership «Hide Ads» button
 myanimelist.net##.header-menu-login > a[href="https://myanimelist.net/membership?_location=mal_h_u"]
@@ -32,25 +17,6 @@ myanimelist.net##.amazon-ads
 myanimelist.net##div[style^="padding:16px 0px 0px 0px;"]
 myanimelist.net##[style^="padding: 20px"]:has(.mal-ad-unit)
 myanimelist.net##.right-column > .widget:has(:scope>.right_top_ad)
-
-! kissmanga Cosmetic Filters
-! Remove annoying message to disable adblocker
-kissmanga.com##^div.rightBox:has-text(Adblock/uBlock):not(:has(p:not(:has-text(/Adblock\/uBlock|bad ads/))))
-kissmanga.com##div.rightBox:has-text(Adblock/uBlock):not(:has(p:not(:has-text(/Adblock\/uBlock|bad ads/))))
-kissmanga.com##.barContent > div > p:has-text(/Adblock\/uBlock|report bad ads/)
-! Global clearbox padding and left-over adframes
-kissmanga.com##.clear2, #leftside > br, iframe[src^="/ads/"], [style="text-align: center; padding: 10px 0px 10px 0px;"]
-kissmanga.com##.clear:not(:matches-css(height:0px)):not(:matches-css(height:5px)):not(:matches-css(height:76px))
-kissmanga.com##div[id^=adsIfrme]:not([id=adsIfrme])
-kissmanga.com###divImage~div:has([id^=adsIfrme]:not([id=adsIfrme]))
-! Counter images being hidden
-kissmanga.com###divImage:style(display: block !important;)
-! Counter "Show Comments Box" being hidden
-!kissmanga.com###btnShowComments:style(display:inline-block!important)
-! wrong styling on ublock filters
-kissmanga.com#@##btnShowComments:style(display:block!important;)
-! rightBox advert container
-kissmanga.com##.rightBox:has-text(Related Links)
 
 ! Gogoanimes Cosmetic filters
 ! background colour
@@ -112,24 +78,6 @@ goyabu.com##+js(set, adBlockEnabled, false)
 ! sponsor section
 ! AA detection
 shinden.pl##.takie-tam:style(visibility:collapse!important;height:0px!important;width:0px!important)
-
-! KISSANIME & KISSMANGA Annoyances
-! AA script diffuse
-kissanime.ru##^script:has-text($.getScript)
-kissmanga.com##^script:has-text(ads on KissManga)
-! common timeout
-kissanime.ru,kissmanga.com##+js(nostif, 5000)
-! Diffuse web console clearing
-kissanime.ru,kissmanga.com##+js(aopr, console.clear)
-! AA Blocking chromium
-!#if env_chromium
-kissanime.ru,kissmanga.com##+js(acis, InitCloseButton, AddCloseButton)
-kissanime.ru##+js(nostif, 30000)
-!#endif
-! prevent kissanime wrong captcha loop
-kissanime.ru##+js(nostif, YASBATMBCL)
-! inline-script which hides content
-!kissanime.ru##+js(acis, $, bookmark)
 
 ! animexin.xyz
 ! adframes
@@ -217,18 +165,11 @@ yourupload.com##.download-roms-button
 ! animefreak.tv
 ||animefreak.tv^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.google.com www.gstatic.com
 
-! kissanime
-||kissanime.ru^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.googletagmanager.com fonts.googleapis.com fonts.gstatic.com *.disqus.com c.disquscdn.com hcaptcha.com assets.hcaptcha.com *.replay.watch *.googleusercontent.com novelplanet.com *.moekawaii.stream vjs.zencdn.net *.blogspot.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg blob: kissanime.ru ; frame-src disqus.com www.novelplanet.me fvs.io www.mp4upload.com googlevideo.com *.googleusercontent.com assets.hcaptcha.com playhydrax.com hydrax.net play.p2ps.io ; media-src * blob: * ; img-src data: *
-
 ! 9anime
 ||9anime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' data: *.9anime.ru *.9anime.to *.akacdn.ru *.googleapis.com *.gstatic.com www.google.com *.recaptcha.net *.disqus.com c.disquscdn.com hcaptcha.com assets.hcaptcha.com mcloud2.to mcloud.to cdnjs.cloudflare.com data: www.googletagmanager.com discordapp.com wss: realtime.services.disqus.com gateway.discord.gg ; frame-src disqus.com assets.hcaptcha.com mcloud.to mcloud2.to www.mp4upload.com www.google.com streamtape.com ; img-src data: *,domain=~9anime.vip|~9anime.nl
 
 ! novelplanet [nova player] CSP
 ||novelplanet.me^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: fvs.io cdnjs.cloudflare.com
-
-! kissmanga
-||kissmanga.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' hcaptcha.com assets.hcaptcha.com *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg ; frame-src disqus.com assets.hcaptcha.com ; font-src * ; img-src data: *
-@@||kissmanga.com/Message/Checking^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' hcaptcha.com assets.hcaptcha.com *.disqus.com c.disquscdn.com discordapp.com wss: gateway.discord.gg ; frame-src disqus.com assets.hcaptcha.com ; font-src * ; img-src data: *
 
 ! gogoanime
 *$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.k-vid.co *.gogocdn.net *.cdnfile.info ajax.apimovie.xyz *.googleapis.com recaptcha.net *.gstatic.com www.google.com disqus.com *.disqus.com c.disquscdn.com ssl.p.jwpcdn.com cdn.jsdelivr.net iamcdn.net ping.idocdn.com *.buzz *.monster code.jquery.com *.bootstrapcdn.com bowercdn.net *.cloud9.to cdn.jwplayer.com www.googletagmanager.com cdnjs.cloudflare.com cdn.mp4upload.com *.fontawesome.com cdn.plyr.io vjs.zencdn.net cdn.streamroot.io *.eload.io discordapp.com data: blob: vidstreaming.io wss: gateway.discord.gg ; frame-src disqus.com vidstreaming.io hydrax.net playhydrax.com gcloud.live www.fembed.com feurl.com fcdn.stream www.google.com mixdrop.co www.mp4upload.com direct.apus.tech www.yourupload.com vev.io vev.red cloud9.to easyload.io ; media-src * blob: * ; font-src data: * ; img-src data: *,domain=animego.*|gogoanime.*|gogoanimes.*
@@ -322,11 +263,6 @@ yourupload.com##+js(aopw, adcashMacros)
 
 ! easyload
 easyload.io##+js(nowoif)
-
-! kissanime beta servers
-*$xmlhttprequest,3p,domain=kissanime.ru,badfilter
-*$stylesheet,3p,domain=kissanime.ru,badfilter
-*$script,3p,domain=kissanime.ru,badfilter
 
 ! mp4upload some insurance
 mp4upload.com##+js(acis, String.fromCharCode, 'shift')

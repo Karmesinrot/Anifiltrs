@@ -6,5 +6,5 @@
 
 ! DAG ---------------------------------------------------------
 ! Prevent DAG errors due to easylist filter(s)
-@@||discordapp.com^$xmlhttprequest,domain=9anime.to|kissanime.ru|kissmanga.com
-@@||gateway.discord.gg^$websocket,domain=9anime.to|kissmanga.com
+@@||discordapp.com^$xmlhttprequest,domain=9anime.to
+@@||gateway.discord.gg^$websocket,domain=9anime.to
