@@ -26,6 +26,8 @@ aminoapps.com##+js(aeld, scroll, void)
 @@||player.ooyala.com/static/*/production/analytics-plugin/googleAnalytics.min.js$script,domain=formula1.com
 ! Official partners
 formula1.com#@#a[href^="http://pubads.g.doubleclick.net/"]
+! Driver of the day vote
+@@||cloudfront.net/*https://www.formula1.com/en/vote.html$subdocument,domain=formula1.com
 
 ! myanimelist
 ! body colour
