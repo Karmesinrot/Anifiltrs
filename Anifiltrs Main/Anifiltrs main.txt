@@ -151,6 +151,10 @@ mangakatana.com##.sonar-wrapper
 ! empty ad containers
 fanfox.*,mangahere.*##[class*="ad"][style="width:800px;height:90px;"],[style="width: 800px; height: 90px;"], [style^="width:728px;height:90px;"],[style^="width: 728px; height: 90px;"]
 
+! yayanimes
+! empty ads
+yayanimes.net###propaganda2[align="center"]
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
