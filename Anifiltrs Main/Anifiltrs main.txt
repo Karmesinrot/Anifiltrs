@@ -154,6 +154,8 @@ fanfox.*,mangahere.*##[class*="ad"][style="width:800px;height:90px;"],[style="wi
 ! yayanimes
 ! empty ads
 yayanimes.net###propaganda2[align="center"]
+! sidebar
+yayanimes.net##[class^="sidebar"]:has-text(Propaganda)
 
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
