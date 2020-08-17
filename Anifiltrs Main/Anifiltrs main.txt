@@ -209,6 +209,10 @@ gounlimited.to##+js(aopw, adcashMacros)
 ! just for some insurance
 *$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' static.fanfox.net static.mangahere.cc ; child-src 'none',domain=fanfox.net|mangafox.la|mangahere.*
 
+! yayanimes
+yayanimes.net##+js(aopw, _pop)
+yayanimes.net##+js(aopr, anOptions)
+
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
