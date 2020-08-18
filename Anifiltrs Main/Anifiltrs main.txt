@@ -282,3 +282,8 @@ mp4upload.com##^script:has-text('shift')
 
 ! to safeguard against such things
 9anime.*##+js(nowoif)
+
+! trollvid
+mp4.sh##+js(acis, Object.defineProperty, XMLHttpRequest)
+mp4.sh##+js(aopr, AaDetector)
+||actressact.com^
