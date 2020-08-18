@@ -221,6 +221,9 @@ gounlimited.to##+js(aopw, adcashMacros)
 yayanimes.net##+js(aopw, _pop)
 yayanimes.net##+js(aopr, anOptions)
 
+! animesimple
+animesimple.com##+js(acis, document.createElement, 'script')
+
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
