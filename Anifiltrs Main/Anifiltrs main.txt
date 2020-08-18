@@ -276,3 +276,6 @@ easyload.io##+js(nowoif)
 ! mp4upload some insurance
 mp4upload.com##+js(acis, String.fromCharCode, 'shift')
 mp4upload.com##^script:has-text('shift')
+
+! to safeguard against such things
+9anime.*##+js(nowoif)
