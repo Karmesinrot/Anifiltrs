@@ -42,7 +42,7 @@ animeultima.*,animeflix.io,divineanime.ru##.jw-preview.jw-reset:style(filter:blu
 ! branitube
 branitube.net##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
 
-! mp4.sh
+! trollvid
 mp4.sh##.vjs-poster:style(filter:blur(8px) saturate(150%))
 
 ! mega.nz
