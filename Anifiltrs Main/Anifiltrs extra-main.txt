@@ -173,3 +173,7 @@ mangahasu.com,mangahasu.se##+js(aopr, document.writeln)
 mangahasu.com,mangahasu.se##+js(acis, document.getElementsByTagName, script)
 mangahasu.com,mangahasu.se##+js(aopr, CryptoJS)
 mangahasu.com,mangahasu.se##+js(aopw, zoneNativeSett)
+
+! superanimes
+superanimes.org##+js(acis, document.querySelector, ads)
+superanimes.org##+js(acis, String.fromCharCode, pop_ads)
