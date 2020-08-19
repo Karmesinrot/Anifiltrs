@@ -177,3 +177,6 @@ mangahasu.com,mangahasu.se##+js(aopw, zoneNativeSett)
 ! superanimes
 superanimes.org##+js(acis, document.querySelector, ads)
 superanimes.org##+js(acis, String.fromCharCode, pop_ads)
+! Publicidade
+superanimes.org##[class^="ads"]
+superanimes.org###lateral > div.conteudoBox:has-text(Publicidade)
