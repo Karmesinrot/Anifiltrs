@@ -203,3 +203,6 @@ nxload.com##.vjs-poster:style(filter:blur(8px) saturate(1.25))
 
 ! supervideo.tv
 supervideo.tv##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.25))
+
+! streamwire.net
+streamwire.net##.vjs-poster:style(filter:blur(8px))
