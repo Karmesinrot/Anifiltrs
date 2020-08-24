@@ -180,3 +180,6 @@ superanimes.org##+js(acis, String.fromCharCode, pop_ads)
 ! Publicidade
 superanimes.org##[class^="ads"]
 superanimes.org###lateral > div.conteudoBox:has-text(Publicidade)
+
+! anizm
+anizm.tv##+js(aopw, zoneNativeSett)
