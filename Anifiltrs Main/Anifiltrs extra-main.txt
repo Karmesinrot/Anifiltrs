@@ -39,12 +39,6 @@ sganime.org##+js(nowoif)
 ! Adframes
 kimcartoon.to##[data-ad-slot]:upward([style])
 
-! animfever
-! AA => only when opened in a new tab or refresh page
-!@@||www.googletagmanager.com/gtm.js$script,domain=animefever.tv
-! Shakespeare’s Richard III, Act I Scene 3
-animefever.tv##+js(json-prune, mal drop_mal mal_password mal_username seo p_method subscribe)
-
 ! animeram
 ! unnecessary widgets
 animeram.*##.cblock:has(script[src*="ads.php?"])
