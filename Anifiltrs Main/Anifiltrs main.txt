@@ -112,14 +112,6 @@ mangapark.net##[class|="ad-page"]
 ! this is clearly a typo
 mangapark.net##[claass="ad-970x250"]
 
-! manga4life
-! amazon ad
-manga4life.com##a[href^="https://www.amazon.com/"]
-!csp filter
-manga4life.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' stackpath.bootstrapcdn.com ajax.cloudflare.com cdn.jsdelivr.net *.googleapis.com www.google.com recaptcha.net *.gstatic.com cdnjs.cloudflare.com *.fontawesome.com; font-src data: * ; img-src data: *;
-! ablock detector
-manga4life.com##+js(aopr, adblockDetected)
-
 ! animezone
 ! top banner ad
 animezone.pl##[style="width:970px;height:250px"]
@@ -231,6 +223,14 @@ yayanimes.net##+js(aopr, anOptions)
 
 ! animesimple
 animesimple.com##+js(acis, document.createElement, 'script')
+
+! manga4life
+! amazon ad
+manga4life.com##a[href^="https://www.amazon.com/"]
+!csp filter
+manga4life.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' stackpath.bootstrapcdn.com ajax.cloudflare.com cdn.jsdelivr.net *.googleapis.com www.google.com recaptcha.net *.gstatic.com cdnjs.cloudflare.com *.fontawesome.com; font-src data: * ; img-src data: *;
+! ablock detector
+manga4life.com##+js(aopr, adblockDetected)
 
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
