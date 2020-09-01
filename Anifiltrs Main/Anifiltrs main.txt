@@ -224,13 +224,13 @@ yayanimes.net##+js(aopr, anOptions)
 ! animesimple
 animesimple.com##+js(acis, document.createElement, 'script')
 
-! manga4life
+! manga4life & mangasee
 ! amazon ad
 manga4life.com##a[href^="https://www.amazon.com/"]
 !csp filter
 manga4life.com^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' stackpath.bootstrapcdn.com ajax.cloudflare.com cdn.jsdelivr.net *.googleapis.com www.google.com recaptcha.net *.gstatic.com cdnjs.cloudflare.com *.fontawesome.com; font-src data: * ; img-src data: *;
 ! ablock detector
-manga4life.com##+js(aopr, adblockDetected)
+manga4life.com,mangasee123.com##+js(aopr, adblockDetected)
 
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
