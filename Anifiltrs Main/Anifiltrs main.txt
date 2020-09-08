@@ -262,7 +262,7 @@ animepahe.com##+js(aopr, _paq)
 ! xstreamcdn|fembed
 ||sendvid.net/asset/sostress.js$1p
 fcdn.stream,sendvid.net,vcdn.space##+js(aopr, __Y)
-fcdn.stream,sendvid.net,vcdn.space##+js(nowoif)
+sendvid.net,vcdn.space##+js(nowoif)
 
 ! streamtape ad script
 ||streamtape.*/ad.js$script,important
