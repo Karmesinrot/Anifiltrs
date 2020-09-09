@@ -20,7 +20,7 @@ myanimelist.net##.right-column > .widget:has(:scope>.right_top_ad)
 
 ! Gogoanimes Cosmetic filters
 ! background colour
-animego.*,gogoanime.*,gogoanimes.*##body:style(background-color: #1b1b1b !important;)
+~gogoanime.app,~gogoanime.pro,animego.*,gogoanime.*,gogoanimes.*##body:style(background-color: #1b1b1b !important;)
 ! ad containers
 animego.*,gogoanime.*,gogoanimes.*##[class^="anime_video_body"] > div[style="height:250px;overflow:hidden;"], [class^="headnav_center"], #load_ads_2
 
