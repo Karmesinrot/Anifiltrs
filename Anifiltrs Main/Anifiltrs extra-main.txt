@@ -177,3 +177,6 @@ superanimes.org###lateral > div.conteudoBox:has-text(Publicidade)
 
 ! anizm
 anizm.tv##+js(aopw, zoneNativeSett)
+
+! animetv
+animetv.moe##+js(acis, Math, XMLHttpRequest)
