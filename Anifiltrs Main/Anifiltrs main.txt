@@ -297,10 +297,8 @@ mp4upload.com##^script:has-text('shift')
 9anime.*##+js(nowoif)
 
 ! trollvid
-mp4.sh##+js(acis, Object.defineProperty, XMLHttpRequest)
 mp4.sh##+js(aopr, AaDetector)
 ||actressact.com^
 
 ! animexin
 animexin.xyz##+js(acis, document.createElement, 'script')
-gdriveplayer.*##+js(acis, Object.defineProperty, XMLHttpRequest)
