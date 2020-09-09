@@ -180,3 +180,16 @@ anizm.tv##+js(aopw, zoneNativeSett)
 
 ! animetv
 animetv.moe##+js(acis, Math, XMLHttpRequest)
+
+! loveheaven scans
+! empty divs
+loveha.net,loveheaven.net##center
+! sidebar ad container
+loveheaven.net##.panel-body:has(:scope>center)
+loveheaven.net##center ~ br
+! align elements
+loveheaven.net##.page-header, .list-genres, .manga-list-genres:style(margin-top: 0px !important)
+! reader breaks
+loveha.net##center + br, center + br + br
+! advertisement headers
+loveha.net##h3:has-text(/advertisement/i)
