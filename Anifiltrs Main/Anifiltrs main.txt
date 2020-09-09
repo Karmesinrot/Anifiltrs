@@ -7,6 +7,7 @@
 ! ANNOYANCES & COSMETIC FILTERS -------------------------------
 ! 9anime Cosmetic Filters
 ! Cleans up the ui a bit, making it more compact
+9anime.*##^.text-center.widget, .widget.adw
 9anime.*##.text-center.widget, .widget.adw:remove()
 
 ! MyAnimeList Cosmetic Filters
