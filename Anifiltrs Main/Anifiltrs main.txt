@@ -250,9 +250,7 @@ tioanime.com##+js(acis, document.getElementsByTagName, 'script')
 dreamsub.stream##+js(aopw, _pop)
 *$script,redirect-rule=noopjs,domain=dreamsub.stream
 
-! animefire AA
-@@||animefire.net^$ghide
-! popup ads
+! animefire
 animefire.net##+js(aopr, adcashMacros)
 
 ! animepahe
