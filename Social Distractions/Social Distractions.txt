@@ -5,7 +5,7 @@
 
 ! GLOBAL ------------------------------------------------------
 ||facebook.*^$all,domain=~9anime.vip|9anime.*|animeflv.net|animeindo.moe|animesvision.biz|crunchyroll.com|jkanime.net|shinden.pl|turkanime.net
-||twitter.com^$third-party,domain=anime-planet.com|crunchyroll.com
+||twitter.com^$third-party,domain=crunchyroll.com
 ||google.com^$script,domain=crunchyroll.com
 ! chatbox that stores passwords in plaintext
 ||st.chatango.com^$script,domain=anime4you.one|animeindo.moe|animexin.xyz|otakufr.com|readm.org|turkanime.net|voiranime.com
