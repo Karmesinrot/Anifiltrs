@@ -228,7 +228,7 @@ animesimple.com##+js(acis, document.createElement, 'script')
 ! amazon ad
 manga4life.com##a[href^="https://www.amazon.com/"]
 ! csp filter
-*$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' stackpath.bootstrapcdn.com ajax.cloudflare.com cdn.jsdelivr.net *.googleapis.com www.google.com recaptcha.net *.gstatic.com cdnjs.cloudflare.com *.fontawesome.com; font-src data: * ; img-src data: *,domain=manga4life.com|mangasee123.com
+||manga4life.com$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' stackpath.bootstrapcdn.com ajax.cloudflare.com cdn.jsdelivr.net *.googleapis.com www.google.com recaptcha.net *.gstatic.com cdnjs.cloudflare.com *.fontawesome.com; font-src data: * ; img-src data: *
 ! ablock detector
 manga4life.com,mangasee123.com##+js(aopr, adblockDetected)
 
