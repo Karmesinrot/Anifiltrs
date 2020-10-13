@@ -34,8 +34,7 @@ animeflv.net##.WdgtCn:has(script[data-cfasync="false"])
 
 ! animeultima
 ! ads on the sidebar of video page
-animeultima.*##iframe[src="/unit/300"]:upward(1)
-animeultima.*##[id^=adtrue_tag]:upward(1)
+animeultima.*##iframe[src="/unit/300"], [id^=adtrue_tag]:upward(1)
 ! cosmetic adjustment after removing ads
 animeultima.*##.has-text-centered.is-narrow.column:style(margin-top:-12px)
 
