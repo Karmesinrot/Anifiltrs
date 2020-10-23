@@ -214,7 +214,7 @@ gounlimited.to##+js(aopw, adcashMacros)
 *$script,redirect-rule=noopjs,domain=gounlimited.to
 
 ! just for some insurance
-*$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' static.fanfox.net static.mangahere.cc ; child-src 'none',domain=fanfox.net|mangafox.la|mangahere.*
+*$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' static.fanfox.net static.mangafox.la static.mangahere.cc ; child-src 'none',domain=fanfox.net|mangafox.la|mangahere.*
 
 ! yayanimes
 yayanimes.net##+js(aopw, _pop)
