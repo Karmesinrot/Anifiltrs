@@ -235,6 +235,13 @@ manga4life.com,mangasee123.com##+js(aopr, adblockDetected)
 tioanime.com##+js(acis, document.getElementsByTagName, 'script')
 *$script,redirect-rule=noopjs,domain=tioanime.com
 
+! animetribes
+animetribes.ru##+js(aopr, zoneSett)
+animetribes.ru##+js(nowoif)
+! sponsor frame on top of video
+animetribes.ru##div[style^="position: absolute; overflow: hidden;"]:has(iframe[src^="https://animetribes.ru/ad/"])
+animetribes.ru##+js(aopr, BB_ind)
+
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
