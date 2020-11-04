@@ -57,7 +57,7 @@ kickassanime.*##iframe[src*="kickassanime"]:upward(2)
 kickassanime.*###ablock
 kickassanime.*###notes > div:has-text(adblocker)
 ! hide ads button
-kickassanime.*###hide-ads-btn
+kickassanime.*###__BVID__14
 
 ! AnimesVision
 ! widget containers
