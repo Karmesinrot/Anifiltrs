@@ -58,6 +58,8 @@ kickassanime.*###ablock
 kickassanime.*###notes > div:has-text(adblocker)
 ! hide ads button
 kickassanime.*###__BVID__14
+! kaa extension
+kickassanime.*###notes > div:has-text(extension)
 
 ! AnimesVision
 ! widget containers
