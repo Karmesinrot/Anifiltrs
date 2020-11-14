@@ -269,6 +269,11 @@ animefire.net##+js(aopr, adcashMacros)
 ! animepahe
 ! hentai tracker
 animepahe.com##+js(aopr, _paq)
+! ads on video page
+animepahe.*##+js(acis, String.fromCharCode, btoa)
+! resources
+|https://$stylesheet,3p,domain=animepahe.com,badfilter
+|https://$image,3p,domain=animepahe.com,badfilter
 
 ! xstreamcdn|fembed
 ||sendvid.net/asset/sostress.js$1p
@@ -314,10 +319,3 @@ animexin.xyz##+js(acis, document.createElement, 'script')
 
 ! jkanime
 jkanime.net##+js(acis, Math, XMLHttpRequest)
-
-! animepahe
-! ads on video page
-animepahe.*##+js(acis, String.fromCharCode, btoa)
-! resources
-|https://$stylesheet,3p,domain=animepahe.com,badfilter
-|https://$image,3p,domain=animepahe.com,badfilter
