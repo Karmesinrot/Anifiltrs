@@ -160,6 +160,10 @@ yayanimes.net##h1 span, #tituloSidebar span, #tituloComent span, .boxaviso:style
 kwik.cx##.plyr.plyr--paused::after:style(background:none!important)
 kwik.cx##.plyr.plyr--playing::after:style(background:none!important)
 
+! animepahe
+! adnauseam
+animepahe.*##.alert-top:has(a[href="https://adnauseam.io/"])
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
@@ -243,10 +247,6 @@ animetribes.ru##+js(nowoif)
 ! sponsor frame on top of video
 animetribes.ru##div[style^="position: absolute; overflow: hidden;"]:has(iframe[src^="https://animetribes.ru/ad/"])
 animetribes.ru##+js(aopr, BB_ind)
-
-! animepahe
-! adnauseam
-animepahe.*##.alert-top:has(a[href="https://adnauseam.io/"])
 
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
