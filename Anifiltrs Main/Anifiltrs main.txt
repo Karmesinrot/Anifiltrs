@@ -311,6 +311,9 @@ animexin.xyz##+js(acis, document.createElement, 'script')
 ! jkanime
 jkanime.net##+js(acis, Math, XMLHttpRequest)
 
-! animepahe resources
+! animepahe
+! ads on video page
+animepahe.*##+js(acis, String.fromCharCode, btoa)
+! resources
 |https://$stylesheet,3p,domain=animepahe.com,badfilter
 |https://$image,3p,domain=animepahe.com,badfilter
