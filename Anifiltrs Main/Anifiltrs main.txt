@@ -268,8 +268,6 @@ animefire.net##+js(aopr, adcashMacros)
 
 ! animepahe
 animepahe.*##+js(acis, document.createElement, 'script')
-! hentai tracker
-animepahe.com##+js(aopr, _paq)
 ! ads on video page
 animepahe.*##+js(acis, String.fromCharCode, btoa)
 ! resources
