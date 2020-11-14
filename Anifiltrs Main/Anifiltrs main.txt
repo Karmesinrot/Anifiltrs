@@ -244,6 +244,10 @@ animetribes.ru##+js(nowoif)
 animetribes.ru##div[style^="position: absolute; overflow: hidden;"]:has(iframe[src^="https://animetribes.ru/ad/"])
 animetribes.ru##+js(aopr, BB_ind)
 
+! animepahe
+! adnauseam
+animepahe.*##.alert-top:has(a[href="https://adnauseam.io/"])
+
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
