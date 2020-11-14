@@ -163,6 +163,8 @@ kwik.cx##.plyr.plyr--playing::after:style(background:none!important)
 ! animepahe
 ! adnauseam
 animepahe.*##.alert-top:has(a[href="https://adnauseam.io/"])
+! banner below theatre settings
+animepahe.*##.alert-info.alert:has-text(malicious ads)
 
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
