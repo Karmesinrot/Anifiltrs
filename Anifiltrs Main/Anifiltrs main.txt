@@ -313,7 +313,6 @@ mp4upload.com##^script:has-text('shift')
 
 ! trollvid
 mp4.sh##+js(aopr, AaDetector)
-||actressact.com^
 
 ! animexin
 animexin.xyz##+js(acis, document.createElement, 'script')
