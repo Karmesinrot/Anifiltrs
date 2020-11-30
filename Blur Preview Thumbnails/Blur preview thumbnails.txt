@@ -224,3 +224,6 @@ kimanime.ru##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
 
 ! streamSB
 streamsb.com,streamsb.net##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
+
+! StreamTape
+streamtape.*##.plyr--stopped > .plyr__video-wrapper > video:style(filter:blur(8px) saturate(1.5))
