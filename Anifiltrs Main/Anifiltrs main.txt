@@ -253,10 +253,6 @@ animetribes.ru##+js(aopr, BB_ind)
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
-! hcaptcha
-@@||9anime.*/cdn-cgi/scripts/zepto.min.js$script
-@@||9anime.*/cdn-cgi/scripts/cf.common.js$script
-@@||9anime.*/cdn-cgi/scripts/hcaptcha.challenge.js$script
 
 ! animeshouse player AA
 @@||lockharte-ah.gq/popads.js$script,domain=ganessa-ah.ga
