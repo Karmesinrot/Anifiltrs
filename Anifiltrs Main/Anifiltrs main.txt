@@ -307,3 +307,7 @@ mp4.sh##+js(aopr, AaDetector)
 
 ! animexin
 animexin.xyz##+js(acis, document.createElement, 'script')
+
+! asurascans.com
+*$script,redirect-rule=noopjs,domain=asurascans.com
+asurascans.com##+js(ra, onclick)
