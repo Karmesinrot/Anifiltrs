@@ -170,6 +170,10 @@ animepahe.*##.alert-info.alert:has-text(malicious ads)
 ! ad containers & unnecessary elements
 asurascans.com##[id^="teaser"], .kln, .kln+br, #readerarea>.code-block
 
+! mangajar.com
+! clean up UI
+mangajar.com##.ad-container
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
