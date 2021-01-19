@@ -166,6 +166,10 @@ animepahe.*##.alert-top:has(a[href="https://adnauseam.io/"])
 ! banner below theatre settings
 animepahe.*##.alert-info.alert:has-text(malicious ads)
 
+! asurascans
+! ad containers & unnecessary elements
+asurascans.com##[id^="teaser"], .kln, .kln+br, #readerarea>.code-block
+
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
 yourupload.com##.download-roms-button
