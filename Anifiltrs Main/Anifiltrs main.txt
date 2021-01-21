@@ -168,7 +168,7 @@ animepahe.*##.alert-info.alert:has-text(malicious ads)
 
 ! asurascans
 ! ad containers & unnecessary elements
-asurascans.com##[id^="teaser"], .kln, .kln+br, #readerarea>.code-block
+asurascans.com##[id^="teaser"], #sidebar>.widget_text.section, .kln, .kln+br, #readerarea>.code-block
 
 ! mangajar.com
 ! clean up UI
