@@ -288,8 +288,6 @@ sendvid.net,vcdn.space##+js(nowoif)
 *$script,redirect-rule=noopjs,domain=streamta.pe|streamtape.com|streamtape.net
 ! inline scripts
 streamta.pe##+js(acis, Object.defineProperty, break)
-streamta.pe##+js(aopw, _pop)
-streamta.pe##+js(nowoif)
 
 ! upvid
 upvid.*##^script:has-text('shift')
