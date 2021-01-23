@@ -286,8 +286,6 @@ sendvid.net,vcdn.space##+js(nowoif)
 ! streamtape ad script
 ||streamtape.*/ad.js$script,important
 *$script,redirect-rule=noopjs,domain=streamta.pe|streamtape.com|streamtape.net
-! inline scripts
-streamta.pe##+js(acis, Object.defineProperty, break)
 
 ! upvid
 upvid.*##^script:has-text('shift')
