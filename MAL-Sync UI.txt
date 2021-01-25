@@ -6,7 +6,7 @@
 
 ! MAL-Sync ----------------------------------------------------
 ! Prevent miniMAL breakage on violentmonkey when injection mode is set to default/page
-animego.*,gogoanime.*,gogoanimes.*#@#+js(set, String.prototype.charAt, noopFunc)
+! animego.*,gogoanime.*,gogoanimes.*#@#+js(set, String.prototype.charAt, noopFunc)
 ! Hide obtrusive banner on gogoanime
 gogoanime.*##div:has-text(We moved site to)
 ! hydrax devTools detection
