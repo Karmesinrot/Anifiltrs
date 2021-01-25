@@ -8,7 +8,7 @@
 ||twitter.com^$third-party,domain=crunchyroll.com
 ||google.com^$script,domain=crunchyroll.com
 ! chatbox that stores passwords in plaintext
-||st.chatango.com^$script,domain=anime4you.one|animeindo.moe|animexin.xyz|otakufr.com|readm.org|turkanime.net|voiranime.com
+||st.chatango.com^$script,domain=anime4you.one|animeindo.moe|animexin.xyz|otakufr.*|readm.org|turkanime.net|voiranime.com
 
 ! PER-SITE HANDLING -------------------------------------------
 ! turkanime
@@ -35,7 +35,7 @@ manganelo.com,mangakakalot.com##.fb-like.fb_iframe_widget
 
 ! otakufr
 ! chatango widget
-otakufr.com##.widget:has(script[src="//st.chatango.com/js/gz/emb.js"])
+otakufr.*##.widget:has(script[src="//st.chatango.com/js/gz/emb.js"])
 
 ! jkanime
 ! homepage top anime

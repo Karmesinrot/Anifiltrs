@@ -92,7 +92,7 @@ animefire.net##[class^="divSection"]:has(h3+[id^=ad_unit])
 
 ! otakufr
 ! widgets
-otakufr.com##.widget_text.widget.widget_custom_html:has(script[src^="//platform.bidgear.com/ads.php"])
+otakufr.*##.widget_text.widget.widget_custom_html:has(script[src^="//platform.bidgear.com/ads.php"])
 
 ! samehadaku
 ! adframe widgets
