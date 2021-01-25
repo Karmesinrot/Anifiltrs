@@ -203,12 +203,6 @@ hqq.tv##+js(aopr, BetterJsPop)
 ! bato.to
 *$script,redirect-rule=noopjs,domain=bato.to|mangawindow.net
 
-! otakufr
-! popups
-otakufr.com##+js(acis, Math, zfgloaded)
-*$script,redirect-rule=noopjs,domain=otakufr.com
-otakufr.com##+js(acis, document.createElement, 'script')
-
 ! animeid
 animeid.tv##+js(aopw, adcashMacros)
 animeid.tv##+js(aopw, zoneNativeSett)
