@@ -11,6 +11,8 @@
 gogoanime.*##div:has-text(We moved site to)
 ! hydrax devTools detection
 hydrax.*,playhydrax.com##+js(aopr, devtoolsOpen)
+! 4anime web console on video page
+4anime.to##+js(nosiif, console.clear)
 ! animesuge DevTools detection
 !#if env_chromium
 animesuge.io##+js(set, console.clear, trueFunc)
