@@ -8,19 +8,12 @@
 ||twitter.com^$third-party,domain=crunchyroll.com
 ||google.com^$script,domain=crunchyroll.com
 ! chatbox that stores passwords in plaintext
-||st.chatango.com^$script,domain=anime4you.one|animeindo.moe|animexin.xyz|otakufr.*|readm.org|turkanime.net|voiranime.com
+||st.chatango.com^$script,domain=animeindo.moe|animexin.xyz|otakufr.*|readm.org|turkanime.net|voiranime.com
 
 ! PER-SITE HANDLING -------------------------------------------
 ! turkanime
 ! chatboxes
 turkanime.net##.col-xs-4 > .row > .col-xs-12:has-text(/TÜRK ANIME TV SOHBET|FACEBOOK'ta BEĞEN/i)
-
-! anime4you
-! container of social media icons
-anime4you.one##.left.hidden-sm.hidden-xs.col-md-2.col-lg-2.col-xl-2 > aside.dark-bg:has-text(/socials/i)
-anime4you.one##.left.hidden-sm.hidden-xs.col-md-2.col-lg-2.col-xl-2 > div.spacer.clearfix:nth-of-type(1)
-! chatbox container
-anime4you.one##.hidden-xs.hidden-sm.chatbox.dark-bg
 
 ! animeflv.net
 animeflv.net##.ListSocial.BFixed
