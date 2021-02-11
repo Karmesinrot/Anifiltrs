@@ -193,3 +193,7 @@ loveheaven.net##.page-header, .list-genres, .manga-list-genres:style(margin-top:
 loveha.net##center + br, center + br + br
 ! advertisement headers
 loveha.net##h3:has-text(/advertisement/i)
+
+! kimanime
+! popup ads
+kimanime.ru,animax.to##+js(nowoif, /^/, 1)
