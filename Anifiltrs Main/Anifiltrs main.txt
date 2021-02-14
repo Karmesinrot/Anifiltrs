@@ -262,10 +262,6 @@ animetribes.ru##+js(aopr, BB_ind)
 ! dreamsub popups
 dreamsub.stream##+js(aopw, _pop)
 *$script,redirect-rule=noopjs,domain=dreamsub.stream
-! new domain
-strtape.tech##+js(nowoif)
-strtape.tech##+js(aopw, _pop)
-strtape.tech##+js(acis, Math.random, adblock)
 
 ! animefire
 animefire.net##+js(aopr, adcashMacros)
