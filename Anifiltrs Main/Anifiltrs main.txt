@@ -296,10 +296,6 @@ yourupload.com##+js(aopw, adcashMacros)
 ! easyload
 easyload.io##+js(nowoif)
 
-! mp4upload some insurance
-mp4upload.com##+js(acis, String.fromCharCode, 'shift')
-mp4upload.com##^script:has-text('shift')
-
 ! trollvid
 mp4.sh##+js(aopr, AaDetector)
 
