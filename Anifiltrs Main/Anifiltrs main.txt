@@ -308,3 +308,7 @@ asurascans.com##+js(ra, onclick)
 
 ! animedao AA
 animedao.to##+js(acis, document.createElement, script)
+
+! vcdn2 popups
+vcdn2.space##+js(nowoif)
+vcdn2.space##+js(acis, document.createElement, script)
