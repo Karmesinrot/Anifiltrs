@@ -252,6 +252,9 @@ animetribes.ru##+js(nowoif)
 animetribes.ru##div[style^="position: absolute; overflow: hidden;"]:has(iframe[src^="https://animetribes.ru/ad/"])
 animetribes.ru##+js(aopr, BB_ind)
 
+! animedao
+animedao.to##+js(acis, document.createElement, "script")
+
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
@@ -305,9 +308,6 @@ animexin.xyz##+js(acis, document.createElement, 'script')
 ! asurascans.com
 *$script,redirect-rule=noopjs,domain=asurascans.com
 asurascans.com##+js(ra, onclick)
-
-! animedao AA
-animedao.to##+js(acis, document.createElement, script)
 
 ! vcdn2 popups
 vcdn2.space##+js(nowoif)
