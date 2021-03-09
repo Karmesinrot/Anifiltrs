@@ -180,6 +180,8 @@ mangajar.com##.ad-container
 reaperscans.com###rsadstop
 reaperscans.com###rsads
 reaperscans.com##a[href^="https://reaperscans.onelink.me/"]
+! ad container
+reaperscans.com##div.w-100
 
 ! ADS ---------------------------------------------------------
 ! yourupload download rom ad
