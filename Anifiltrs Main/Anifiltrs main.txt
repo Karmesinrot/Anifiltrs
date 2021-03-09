@@ -177,9 +177,7 @@ mangajar.com##.ad-container
 ! reaperscans.com
 ! immortal taoist ads
 ||media.reaperscans.com/file/reaperscans/*/banner*.gif$image,1p
-reaperscans.com###rsadstop
-reaperscans.com###rsads
-reaperscans.com##a[href^="https://reaperscans.onelink.me/"]
+reaperscans.com###rsadstop, #rsads, a[href^="https://reaperscans.onelink.me/"]
 ! ad container
 reaperscans.com##div.w-100
 
