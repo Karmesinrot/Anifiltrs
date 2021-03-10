@@ -17,6 +17,8 @@ myanimelist.net##.header-menu-login > a[href="https://myanimelist.net/membership
 myanimelist.net##.amazon-ads, div[style^="padding:16px 0px 0px 0px;"]
 myanimelist.net##[style^="padding: 20px"]:has(.mal-ad-unit)
 myanimelist.net##.right-column > .widget:has(:scope>.right_top_ad)
+! footer banner
+myanimelist.net##.footer-mini-banner:has(a[href*="campaign"])
 
 ! Gogoanimes Cosmetic filters
 ! background colour
