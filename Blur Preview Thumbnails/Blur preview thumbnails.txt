@@ -79,9 +79,6 @@ vshare.io##.vjs-poster:style(filter:blur(8px) saturate(1.35)!important;)
 ! animo pace
 animo-pace-stream.io##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.25)!important)
 
-! drive.google.com
-drive.google.com##img[alt*="thumbnail"]:style(filter:blur(8px) saturate(1.2)!important;)
-
 ! onlystream.tv
 onlystream.tv##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
 
