@@ -164,7 +164,7 @@ wuxiaworld.com##[id^=placement]
 
 ! mangahasu
 mangahasu.com,mangahasu.se##+js(aopr, document.writeln)
-mangahasu.com,mangahasu.se##+js(acis, document.getElementsByTagName, script)
+mangahasu.com,mangahasu.se##+js(acis, document.createElement, "script")
 mangahasu.com,mangahasu.se##+js(aopr, CryptoJS)
 mangahasu.com,mangahasu.se##+js(aopw, zoneNativeSett)
 
