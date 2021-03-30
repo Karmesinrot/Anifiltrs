@@ -19,6 +19,10 @@ myanimelist.net##[style^="padding: 20px"]:has(.mal-ad-unit)
 myanimelist.net##.right-column > .widget:has(:scope>.right_top_ad)
 ! footer banner
 myanimelist.net##.footer-mini-banner:has(a[href*="campaign"])
+! fix character list on manga & LN
+!#if env_mobile
+myanimelist.net#@#div[style^="width:728px;"]
+!#endif
 
 ! Gogoanimes Cosmetic filters
 ! background colour
