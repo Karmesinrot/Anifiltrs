@@ -268,6 +268,10 @@ animetribes.ru##+js(aopr, BB_ind)
 ! animedao
 animedao.to##+js(acis, document.createElement, "script")
 
+! mangahub
+mangahub.io##+js(acis, String.fromCharCode, break)
+*$script,redirect-rule=noopjs,domain=mangahub.io
+
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
