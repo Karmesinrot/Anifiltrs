@@ -224,3 +224,6 @@ streamsb.com,streamsb.net##.jw-preview.jw-reset:style(filter:blur(8px) saturate(
 
 ! StreamTape
 streamtape.*,streamta.pe,strtape.tech##.plyr--stopped > .plyr__video-wrapper > video:style(filter:blur(8px) saturate(1.5))
+
+! streamHD
+streamhd.cc##.jw-preview.jw-reset,#over:style(filter:blur(8px) saturate(1.25))
