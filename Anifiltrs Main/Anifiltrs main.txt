@@ -294,7 +294,6 @@ animepahe.*##+js(acis, document.createElement, 'script')
 |https://$image,3p,domain=animepahe.com,badfilter
 
 ! xstreamcdn|fembed
-||sendvid.net/asset/sostress.js$1p
 fcdn.stream,sendvid.net,vcdn.space##+js(aopr, __Y)
 sendvid.net,vcdn.space##+js(nowoif)
 
