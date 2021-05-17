@@ -67,7 +67,7 @@ haloani.ru##.jw-preview.jw-reset,.vjs-poster:style(filter:blur(8px) saturate(1.2
 freshstream.kiwi##.vjs-poster:style(filter:blur(8px) saturate(1.5))
 
 ! hydrax
-embed.streamx.live,hydrax.net,playhydrax.com,replay.watch##.jw-preview.jw-reset,#over:style(filter:blur(8px) saturate(1.25))
+embed.streamx.live,hydrax.net,playhydrax.com,redirect-ads.com,replay.watch##.jw-preview.jw-reset,#over:style(filter:blur(8px) saturate(1.25))
 playhydrax.com###over > #playback-fake
 
 ! trollvid.net
