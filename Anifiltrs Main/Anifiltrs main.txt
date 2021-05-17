@@ -272,6 +272,11 @@ animedao.to##+js(acis, document.createElement, "script")
 mangahub.io##+js(acis, String.fromCharCode, break)
 *$script,redirect-rule=noopjs,domain=mangahub.io
 
+! yourupload
+yourupload.com##+js(acis, String.fromCharCode, decodeURIComponent)
+! in player button ads
+yourupload.com##div[button="brustcloud"],[button="esited"],[button="roms-get"]
+
 ! HOT FIXES ---------------------------------------------------
 !'@' => 'CF email' titles
 @@||9anime.*/cdn-cgi/scripts/*/cloudflare-static/email-decode.min.js$script
@@ -309,9 +314,6 @@ upvid.*##+js(acis, String.fromCharCode, 'shift')
 ! https://vidsat.net/vlg981cdqkcc.html
 vidsat.net##+js(acis, Math, zfgloaded)
 ||vidsat.net/js/pop.js$script
-
-! yourupload
-yourupload.com##+js(acis, String.fromCharCode, decodeURIComponent)
 
 ! easyload
 easyload.io##+js(nowoif)
