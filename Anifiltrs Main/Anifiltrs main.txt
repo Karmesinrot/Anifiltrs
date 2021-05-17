@@ -311,7 +311,7 @@ vidsat.net##+js(acis, Math, zfgloaded)
 ||vidsat.net/js/pop.js$script
 
 ! yourupload
-yourupload.com##+js(aopw, adcashMacros)
+yourupload.com##+js(acis, String.fromCharCode, decodeURIComponent)
 
 ! easyload
 easyload.io##+js(nowoif)
