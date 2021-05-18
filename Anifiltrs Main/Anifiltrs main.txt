@@ -324,3 +324,6 @@ vcdn2.space##+js(acis, document.createElement, script)
 
 ! streamhd
 streamhd.cc##+js(aost, Math.random, inlineScript)
+
+! animepahe
+animepahe.*##+js(acis, Math, break;case $.)
