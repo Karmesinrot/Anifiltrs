@@ -127,7 +127,6 @@ unionleitor.top##h2:has-text(Publicidade):upward(1)
 scantrad.net##.asqx
 
 ! Fallen Angels
-manga.fascans.com##.ads
 manga.fascans.com##.col-xs-12:has(:scope>.ads-large)
 
 ! mangadenizi.com
