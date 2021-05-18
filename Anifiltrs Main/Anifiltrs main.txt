@@ -252,7 +252,7 @@ tioanime.com##+js(acis, document.getElementsByTagName, 'script')
 animetribes.ru##+js(aopr, zoneSett)
 animetribes.ru##+js(nowoif)
 ! sponsor frame on top of video
-animetribes.ru##div[style^="position: absolute; overflow: hidden;"]:has(iframe[src^="https://animetribes.ru/ad/"])
+animetribes.ruanimetribes.ru##[class*="video-holder"]~div[style^="position: absolute; overflow: hidden;"]
 animetribes.ru##+js(aopr, BB_ind)
 
 ! animedao
