@@ -278,6 +278,7 @@ animefire.net##+js(aopr, adcashMacros)
 
 ! animepahe
 animepahe.*##+js(acis, document.createElement, 'script')
+animepahe.*##+js(acis, Math, break;case $.)
 ! resources
 |https://$stylesheet,3p,domain=animepahe.com,badfilter
 |https://$image,3p,domain=animepahe.com,badfilter
@@ -318,6 +319,3 @@ vcdn2.space##+js(acis, document.createElement, script)
 
 ! streamhd
 streamhd.cc##+js(aost, Math.random, inlineScript)
-
-! animepahe
-animepahe.*##+js(acis, Math, break;case $.)
