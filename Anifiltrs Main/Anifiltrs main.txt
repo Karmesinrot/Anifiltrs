@@ -161,12 +161,6 @@ yayanimes.net##h1 span, #tituloSidebar span, #tituloComent span, .boxaviso:style
 kwik.cx##.plyr.plyr--paused::after:style(background:none!important)
 kwik.cx##.plyr.plyr--playing::after:style(background:none!important)
 
-! animepahe
-! adnauseam
-animepahe.*##.alert-top:has(a[href="https://adnauseam.io/"])
-! banner below theatre settings
-animepahe.*##.alert-info.alert:has-text(malicious ads)
-
 ! asurascans
 ! ad containers & unnecessary elements
 asurascans.com##[id^="teaser"], #sidebar>.widget_text.section, .kln, .kln+br, #readerarea>.code-block
