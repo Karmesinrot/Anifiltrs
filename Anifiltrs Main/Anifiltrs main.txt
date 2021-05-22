@@ -321,4 +321,4 @@ vcdn2.space##+js(acis, document.createElement, script)
 streamhd.cc##+js(aost, Math.random, inlineScript)
 
 ! gogoanime new player
-gogo-play.*##+js(acis, Math, break;case $.)
+gogo-play.*,streamani.net##+js(acis, Math, break;case $.)
