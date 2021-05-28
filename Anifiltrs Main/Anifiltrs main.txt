@@ -48,9 +48,9 @@ voiranime.com##[id^=ai_widget]:not(:has([href="https://discord.gg/rvBeeNg"]))
 ! vip membership overlay
 dubbedanime.net##.vip-membership-banner, .p-3.bg-white.container-fluid
 
-! mangakakalot & manganelo
-! adtrue adframes
-mangakakalot.com,manganelo.com##iframe[src^="/ads/"]:not(+img):upward(1)
+! mangakakalot, manganelo & manganato
+! adframes
+mangakakalot.com,manganelo.com,readmanganato.com##iframe[src^="/ads/"]:not(+img):upward(1)
 
 ! kickassanime
 ! 1p frames left-overs
