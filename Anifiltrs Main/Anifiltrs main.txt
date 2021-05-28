@@ -295,11 +295,6 @@ sendvid.net,vcdn.space##+js(nowoif)
 upvid.*##^script:has-text('shift')
 upvid.*##+js(acis, String.fromCharCode, 'shift')
 
-! vidsat
-! https://vidsat.net/vlg981cdqkcc.html
-vidsat.net##+js(acis, Math, zfgloaded)
-||vidsat.net/js/pop.js$script
-
 ! easyload
 easyload.io##+js(nowoif)
 
