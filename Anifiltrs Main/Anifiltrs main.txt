@@ -176,6 +176,10 @@ reaperscans.com###rsadstop, #rsads, a[href^="https://reaperscans.onelink.me/"]
 ! ad container
 reaperscans.com##div.w-100
 
+! tritinia.com
+! empty containers
+tritinia.com##.widget_text.row, .ad
+
 ! ADS ---------------------------------------------------------
 ! yourupload
 yourupload.com##+js(acis, String.fromCharCode, decodeURIComponent)
