@@ -180,6 +180,10 @@ reaperscans.com##div.w-100
 ! empty containers
 tritinia.com##.widget_text.row, .ad
 
+! flamescans
+! teasers & ad containers
+flamescans.org##.kln, .kln+br, .code-block, [id^=teaser]
+
 ! ADS ---------------------------------------------------------
 ! yourupload
 yourupload.com##+js(acis, String.fromCharCode, decodeURIComponent)
