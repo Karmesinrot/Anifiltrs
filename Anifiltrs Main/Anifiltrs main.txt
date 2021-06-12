@@ -32,7 +32,6 @@ turkanime.net##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
 
 ! Animeflv
 ! ad widget
-animeflv.net##.WdgtCn:has(script[data-cfasync="false"])
 animeflv.net##a:has(img[src="https://animeflv.net/assets/animeflv/img/300x250.png"])
 animeflv.net##[style="width:300px; height:600px"]
 
