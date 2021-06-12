@@ -53,11 +53,6 @@ dubbedanime.net##.vip-membership-banner, .p-3.bg-white.container-fluid
 mangakakalot.com,manganelo.com,readmanganato.com##iframe[src^="/ads/"]:not(+img):upward(1)
 
 ! kickassanime
-! 1p frames left-overs
-kickassanime.*##iframe[src*="kickassanime"]:upward(2)
-! Disable/whitelist in adblock message
-kickassanime.*###ablock
-kickassanime.*###notes > div:has-text(adblocker)
 ! hide ads button
 kickassanime.*###__BVID__14
 ! kaa extension
