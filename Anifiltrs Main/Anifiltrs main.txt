@@ -317,7 +317,6 @@ animexin.xyz##+js(acis, document.createElement, 'script')
 asurascans.com##+js(ra, onclick)
 
 ! vcdn2 popups
-vcdn2.space##+js(nowoif)
 vcdn2.space##+js(acis, document.createElement, script)
 
 ! streamhd
