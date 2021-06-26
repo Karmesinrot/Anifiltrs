@@ -295,10 +295,6 @@ sendvid.net,vcdn.space##+js(nowoif)
 ||streamtape.*/ad.js$script,important
 *$script,redirect-rule=noopjs,domain=streamta.pe|streamtape.com|streamtape.net
 
-! upvid
-upvid.*##^script:has-text('shift')
-upvid.*##+js(acis, String.fromCharCode, 'shift')
-
 ! easyload
 easyload.io##+js(nowoif)
 
