@@ -223,7 +223,7 @@ kimanime.ru##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
 streamsb.com,streamsb.net##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
 
 ! StreamTape
-streamtape.*,streamta.pe,strtape.tech,strcloud.in##.plyr--stopped > .plyr__video-wrapper > video:style(filter:blur(8px) saturate(1.5))
+streamtape.*,streamta.pe,strtape.tech,strcloud.in,strcloud.link##.plyr--stopped > .plyr__video-wrapper > video:style(filter:blur(8px) saturate(1.5))
 
 ! streamHD
 streamhd.cc##.jw-preview.jw-reset,#over:style(filter:blur(8px) saturate(1.25))
