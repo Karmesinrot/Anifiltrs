@@ -30,11 +30,6 @@ animebam.se##[id*="ScriptRoot"]
 9animes.io##[class*="widget"][class$="text-center"]
 ||googletagmanager.com/gtag/$script,redirect=googletagmanager.com/gtm.js,domain=9animes.io
 
-! sganime
-! popup ads
-sganime.org##+js(aopw, _pop)
-sganime.org##+js(nowoif)
-
 ! kimcartoon
 ! Adframes
 kimcartoon.to##[data-ad-slot]:upward([style])
