@@ -63,8 +63,8 @@ novelupdates.com##+js(acis, document.createElement, script)
 *$script,redirect-rule=noopjs,domain=novelupdates.com
 ! homepage ad containers
 novelupdates.com##[class^="ad_"]+br
-novelupdates.com##div[style]:has(:scope>[class^="ad_"])
-novelupdates.com##div[style]:has(:scope>[class^="ad_"])+br
+novelupdates.com##div[style]:not([class]):has(:scope>[class^="ad_"])
+novelupdates.com##div[style]:not([class]):has(:scope>[class^="ad_"])+br
 
 ! animeflv.la
 ! address #30
