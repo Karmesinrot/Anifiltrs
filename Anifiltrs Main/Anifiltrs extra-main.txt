@@ -85,9 +85,6 @@ lndb.info###mainheader,.secondarytitle,.subtitle > h2,.secondarytitle > h1:style
 ! Anti-Adblock
 jnovels.com##+js(acis, jQuery, ai_adb)
 
-! anjsub.com
-anjsub.com##+js(aopw, _pop)
-
 ! animehd47
 animehd47.com##+js(aopw, KillAdBlock)
 animehd47.com##+js(aopr, _pop)
