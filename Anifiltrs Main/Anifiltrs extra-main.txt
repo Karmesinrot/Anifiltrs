@@ -89,12 +89,6 @@ jnovels.com##+js(acis, jQuery, ai_adb)
 animehd47.com##+js(aopw, KillAdBlock)
 animehd47.com##+js(aopr, _pop)
 
-! lightnovelworld
-*$script,redirect-rule=noopjs,domain=lightnovelworld.com
-lightnovelworld.com##+js(nostif, adsbox)
-! index ads container
-lightnovelworld.com##.gridads
-
 ! mtlnovel
 *$script,redirect-rule=noopjs,domain=mtlnovel.com
 ! ads placeholders
