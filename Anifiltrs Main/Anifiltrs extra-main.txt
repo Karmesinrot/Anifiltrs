@@ -22,7 +22,7 @@ animebam.se##[id*="ScriptRoot"]
 
 ! 9aime.vip
 ! empty ad containers
-9anime.vip##.text-center.cut
+9anime.vip##.text-center
 
 ! 9animes.io
 9animes.io##+js(acis, Math, zfgloaded)
