@@ -16,3 +16,5 @@ gogoanime.*##div:has-text(We moved site to)
 animesuge.io##+js(set, console.clear, trueFunc)
 animesuge.io##+js(set, console.log, trueFunc)
 !#endif
+! zoro console clearing and redirect to home page
+zoro.to##+js(aopr, console.clear)
