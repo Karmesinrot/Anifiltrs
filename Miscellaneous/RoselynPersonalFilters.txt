@@ -13,6 +13,8 @@ collinsdictionary.com###main_content.dictionary:style(margin-top:20px !important
 collinsdictionary.com##.menuDd:style(margin-top:0px!important)
 ! homepage empty slot
 collinsdictionary.com##.home.topslot_container
+! ad scripts
+collinsdictionary.com##+js(aopr, iaw)
 
 ! lexico
 lexico.com##.banbox, .banbox-mini, .mobile_banner.banbox
