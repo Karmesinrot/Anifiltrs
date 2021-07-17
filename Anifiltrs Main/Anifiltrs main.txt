@@ -186,9 +186,6 @@ yourupload.com##+js(acis, String.fromCharCode, decodeURIComponent)
 ! in player button ads
 yourupload.com##div[button="brustcloud"],[button="esited"],[button="roms-get"]
 
-! kwik CSP filter
-||kwik.cx^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' cdn.plyr.io cdn.jsdelivr.net hcaptcha.com assets.hcaptcha.com blob: 'self' resource: 'self'
-
 ! animefreak.tv
 ||animefreak.tv^$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' data: www.google.com www.gstatic.com
 
