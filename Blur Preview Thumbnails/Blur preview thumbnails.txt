@@ -152,8 +152,8 @@ gounlimited.to##.vjs-poster:style(filter:blur(8px) saturate(1.5))
 vev.*,vidup.*##.vjs-poster:style(filter:blur(8px) saturate(1.5)!important)
 
 ! doodstream
-dood.to,dood.watch,doodstream.com##.vjs-poster:style(filter:blur(8px) saturate(1.5))
-dood.to,dood.watch,doodstream.com##+js(ra, poster, #video_player_html5_api)
+dood.*,doodstream.com##.vjs-poster:style(filter:blur(8px) saturate(1.5))
+dood.*,doodstream.com##+js(ra, poster, #video_player_html5_api)
 
 ! streamz
 streamz.cc##.vjs-poster:style(filter:blur(8px) saturate(1.7))
