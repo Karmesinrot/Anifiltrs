@@ -52,6 +52,8 @@ dubbedanime.net##.vip-membership-banner, .p-3.bg-white.container-fluid
 ! mangakakalot, manganelo & manganato
 ! adframes
 mangakakalot.com,manganelo.com,readmanganato.com##iframe[src^="/ads/"]:not(+img):upward(1)
+! Empty ad div between img
+readmanganato.com##.container-chapter-reader>img+div
 
 ! kickassanime
 ! hide ads button
