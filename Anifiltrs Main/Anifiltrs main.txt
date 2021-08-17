@@ -311,5 +311,5 @@ streamhd.cc##+js(aost, Math.random, inlineScript)
 gogo-play.*##+js(acis, Math, break;case $.)
 
 ! StreamSB popups
-sbembed.com,sbembed1.com,sbplay.org,sbvideo.net,streamsb.com,streamsb.net##+js(nowoif)
-sbembed.com,sbembed1.com,sbplay.org,sbvideo.net,streamsb.com,streamsb.net##+js(aopr, __Y)
+sbembed.com,sbembed1.com,sbplay.*,sbvideo.net,streamsb.com,streamsb.net##+js(nowoif)
+sbembed.com,sbembed1.com,sbplay.*,sbvideo.net,streamsb.com,streamsb.net##+js(aopr, __Y)
