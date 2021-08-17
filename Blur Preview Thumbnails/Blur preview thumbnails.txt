@@ -220,9 +220,9 @@ ninjastream.to##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
 kimanime.ru##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
 
 ! streamSB
-sbembed.com,sbembed1.com,sbplay.org,sbvideo.net,streamsb.com,streamsb.net##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
-sbembed.com,sbembed1.com,sbplay.org,sbvideo.net,streamsb.com,streamsb.net###play-now
-sbembed.com,sbembed1.com,sbplay.org,sbvideo.net,streamsb.com,streamsb.net###desk:style(filter:blur(8px) saturate(1.5) !important)
+sbembed.com,sbembed1.com,sbplay.*,sbvideo.net,streamsb.com,streamsb.net##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
+sbembed.com,sbembed1.com,sbplay.*,sbvideo.net,streamsb.com,streamsb.net###play-now
+sbembed.com,sbembed1.com,sbplay.*,sbvideo.net,streamsb.com,streamsb.net###desk:style(filter:blur(8px) saturate(1.5) !important)
 
 ! StreamTape
 streamtape.*,streamta.pe,strtape.tech,strcloud.in,strcloud.link##.plyr--stopped > .plyr__video-wrapper > video:style(filter:blur(8px) saturate(1.5))
