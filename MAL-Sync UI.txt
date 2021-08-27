@@ -16,3 +16,5 @@ animesuge.io##+js(set, console.log, trueFunc)
 !#endif
 ! zoro console clearing and redirect to home page
 zoro.to##+js(aopr, console.clear)
+! console and video player
+9anime.*##+js(aopw, console.log)
