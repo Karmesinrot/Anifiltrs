@@ -225,7 +225,7 @@ sbembed.com,sbembed1.com,sbplay.*,sbvideo.net,streamsb.com,streamsb.net###play-n
 sbembed.com,sbembed1.com,sbplay.*,sbvideo.net,streamsb.com,streamsb.net###desk:style(filter:blur(8px) saturate(1.5) !important)
 
 ! StreamTape
-streamtape.*,streamta.pe,strtape.tech,strcloud.in,strcloud.link##.plyr--stopped > .plyr__video-wrapper > video:style(filter:blur(8px) saturate(1.5))
+streamtape.*,streamta.pe,strtape.tech,strcloud.in,strcloud.link,strtapeadblock.club##.plyr--stopped > .plyr__video-wrapper > video:style(filter:blur(8px) saturate(1.5))
 
 ! streamHD
 streamhd.cc##.jw-preview.jw-reset,#over:style(filter:blur(8px) saturate(1.25))
