@@ -18,3 +18,10 @@ animesuge.io##+js(set, console.log, trueFunc)
 zoro.to##+js(aopr, console.clear)
 ! console and video player
 9anime.*##+js(aopw, console.log)
+! site/CDN script affecting players on chrome
+!#if env_chromium
+vidstream.pro,vidstreamz.online##+js(set, console.log, trueFunc)
+vidstream.pro,vidstreamz.online##+js(set, console.clear, trueFunc)
+mcloud.to,mcloud2.to##+js(set, console.log, trueFunc)
+mcloud.to,mcloud2.to##+js(set, console.clear, trueFunc)
+!#endif
