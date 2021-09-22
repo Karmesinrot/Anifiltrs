@@ -45,9 +45,9 @@ animeultima.*##.has-text-centered.is-narrow.column:style(margin-top:-12px)
 ! adframes on sidebar
 voiranime.com##[id^=ai_widget]:not(:has([href="https://discord.gg/rvBeeNg"]))
 
-! dubbedanime.net
-! vip membership overlay
-dubbedanime.net##.vip-membership-banner, .p-3.bg-white.container-fluid
+! 1anime.to
+! vip membership
+1anime.to##[href="https://otaku.cafe/forums/vip-membership"]
 
 ! mangakakalot, manganelo & manganato
 ! adframes
