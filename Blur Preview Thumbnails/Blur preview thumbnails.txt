@@ -229,3 +229,6 @@ strcloud.*,streamta.pe,streamtape.*,strtape.*,strtapeadblock.*##.plyr--stopped >
 
 ! streamHD
 streamhd.cc##.jw-preview.jw-reset,#over:style(filter:blur(8px) saturate(1.25))
+
+! videovard
+videovard.sx##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
