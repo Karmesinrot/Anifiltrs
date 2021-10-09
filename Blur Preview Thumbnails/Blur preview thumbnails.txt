@@ -36,8 +36,8 @@ vidoza.net##.vjs-poster:style(filter:blur(8px)!important;)
 ! vidstreaming
 vidstreaming.io,vidstreaming.me##.jw-preview.jw-reset:style(filter:blur(8px);)
 
-! branitube
-branitube.net##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
+! aniyan formerly branitube
+aniyan.net##.jw-preview.jw-reset:style(filter:blur(8px) saturate(150%);)
 
 ! trollvid
 mp4.sh##.vjs-poster:style(filter:blur(8px) saturate(150%))
