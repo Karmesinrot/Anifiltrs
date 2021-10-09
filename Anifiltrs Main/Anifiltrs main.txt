@@ -42,6 +42,8 @@ voiranime.com##[id^=ai_widget]:not(:has([href="https://discord.gg/rvBeeNg"]))
 ! 1anime.to
 ! vip membership
 1anime.to##[href="https://otaku.cafe/forums/vip-membership"]
+! empty ad slots
+1anime.to##[data-vlitag]:upward(1)
 
 ! mangakakalot, manganelo & manganato
 ! adframes
