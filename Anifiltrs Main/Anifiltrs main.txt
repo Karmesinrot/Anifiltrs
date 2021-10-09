@@ -197,6 +197,7 @@ yourupload.com##div[button="brustcloud"],[button="esited"],[button="roms-get"]
 ||mangapark.net^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' cdnjs.cloudflare.com *.mangapark.net *.animemark.com disqus.com *.disqus.com c.disquscdn.com hcaptcha.com assets.hcaptcha.com ; frame-src disqus.com assets.hcaptcha.com *.mangapark.net ; style-src 'unsafe-inline' * ; font-src * ; img-src data: *
 
 ! bato.to
+bato.to,mangawindow.net##+js(acis, Math, break;case $.)
 *$script,redirect-rule=noopjs,domain=bato.to|mangawindow.net
 
 ! animeid
