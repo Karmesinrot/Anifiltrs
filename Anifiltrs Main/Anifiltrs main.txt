@@ -306,7 +306,6 @@ streamhd.cc##+js(aost, Math.random, inlineScript)
 
 ! gogoanime new player
 gogo-play.*##+js(acis, Math, break;case $.)
-gogoplay1.com,gogoplay2.com##+js(acis, JSON.parse, break;case $.)
 
 ! StreamSB popups
 sbembed.com,sbembed1.com,sbplay.*,sbplay1.com,sbvideo.net,streamsb.com,streamsb.net##+js(nowoif)
