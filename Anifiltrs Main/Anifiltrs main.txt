@@ -170,10 +170,6 @@ reaperscans.com###rsadstop, #rsads, a[href^="https://reaperscans.onelink.me/"]
 ! ad container
 reaperscans.com##div.w-100
 
-! tritinia.com
-! empty containers
-tritinia.com##.widget_text.row, .ad
-
 ! flamescans
 ! teasers & ad containers
 flamescans.org##.kln, .kln+br, .code-block, [id^=teaser]
