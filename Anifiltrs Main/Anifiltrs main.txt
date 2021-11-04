@@ -99,10 +99,6 @@ samehadaku.vip##.ads_area:upward(.widget_senction)
 ! ad container
 jkanime.net##.side-300
 
-! animedaisuki
-! sidebar widget
-animedaisuki.moe##.CpCnC
-
 ! mangapark
 ! ads below mangapages
 mangapark.net##[class|="ad-page"]
