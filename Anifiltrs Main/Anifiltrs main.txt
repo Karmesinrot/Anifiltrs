@@ -301,3 +301,9 @@ sbembed.com,sbplay.*##+js(aopr, __Y)
 
 ! videovard overlay
 videovard.sx##div[class]:matches-css(z-index:999999999)
+
+! streamtape new domain
+strtpe.link##+js(aopw, _pop)
+strtpe.link##+js(acis, JSON.parse, break;case $.)
+strtpe.link##+js(nowoif)
+strtpe.link##[style*="z-index: 300000;"]
