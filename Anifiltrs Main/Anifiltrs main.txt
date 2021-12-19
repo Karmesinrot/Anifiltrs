@@ -298,9 +298,3 @@ gogo-play.*##+js(acis, Math, break;case $.)
 
 ! StreamSB popups
 sbembed.com,sbplay.*##+js(aopr, __Y)
-
-! streamtape new domain
-strtpe.link##+js(aopw, _pop)
-strtpe.link##+js(acis, JSON.parse, break;case $.)
-strtpe.link##+js(nowoif)
-strtpe.link##[style*="z-index: 300000;"]
