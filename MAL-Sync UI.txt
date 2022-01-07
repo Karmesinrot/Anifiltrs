@@ -25,3 +25,5 @@ vidstream.pro,vidstreamz.online##+js(set, console.clear, trueFunc)
 mcloud.to,mcloud2.to##+js(set, console.log, trueFunc)
 mcloud.to,mcloud2.to##+js(set, console.clear, trueFunc)
 !#endif
+! StreamSB console
+sbplay2.com##+js(aopr, console.clear)
