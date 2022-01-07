@@ -298,3 +298,6 @@ gogo-play.*##+js(acis, Math, break;case $.)
 
 ! StreamSB popups
 sbembed.com,sbplay.*##+js(aopr, __Y)
+
+fembed-hd.com##+js(nowoif)
+fembed-hd.com##+js(aopr, __Y)
