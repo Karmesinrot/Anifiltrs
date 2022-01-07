@@ -46,3 +46,8 @@ myanimelist.net##+js(ra, onload|data-country-code)
 ! weather.com
 ! ad-placeholders
 weather.com##[id|="WxuAd"]
+
+! soundonsound
+! left-overs
+soundonsound.com##[id|=block]:has([id*=-ad-],.adsense)
+soundonsound.com##[class$="footer-ad"]
