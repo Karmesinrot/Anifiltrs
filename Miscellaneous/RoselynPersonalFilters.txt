@@ -46,10 +46,3 @@ myanimelist.net##+js(ra, onload|data-country-code)
 ! weather.com
 ! ad-placeholders
 weather.com##[id|="WxuAd"]
-
-! crinacle
-! empty mobile ad slots
-!#if env_mobile
-crinacle.com##[id^="AdThrive"]
-crinacle.com##+js(acis, Math, adthrive)
-!#endif
