@@ -302,3 +302,8 @@ sbembed.com,sbplay.*##+js(aopr, __Y)
 
 fembed-hd.com##+js(nowoif)
 fembed-hd.com##+js(aopr, __Y)
+
+! Mycloud
+mzcloud.life##+js(nowoif)
+mzcloud.life##+js(aopr, mm)
+mzcloud.life##+js(aopr, AaDetector)
