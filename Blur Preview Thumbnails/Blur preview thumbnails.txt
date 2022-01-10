@@ -222,7 +222,7 @@ embedsb.com,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbpla
 embedsb.com,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbplay.*,sbplay1.com,sbplay2.com,sbvideo.net,streamsb.com,streamsb.net,tubesb.com###desk:style(filter:blur(8px) saturate(1.5) !important)
 
 ! StreamTape
-strcloud.*,streamta.pe,streamtape.*,strtape.*,strtapeadblock.*,strtpe.link##.plyr--stopped > .plyr__video-wrapper > video:style(filter:blur(8px) saturate(1.5))
+scloud.online,strcloud.*,streamta.pe,streamta.site,streamtape.*,strtape.*,strtapeadblock.*,strtpe.link##.plyr--stopped > .plyr__video-wrapper > video:style(filter:blur(8px) saturate(1.5))
 
 ! streamHD
 streamhd.cc##.jw-preview.jw-reset,#over:style(filter:blur(8px) saturate(1.25))
