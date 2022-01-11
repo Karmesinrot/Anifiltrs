@@ -304,6 +304,6 @@ fembed-hd.com##+js(nowoif)
 fembed-hd.com##+js(aopr, __Y)
 
 ! Mycloud
-mzcloud.life##+js(nowoif)
-mzcloud.life##+js(aopr, mm)
-mzcloud.life##+js(aopr, AaDetector)
+mcloud.to,mcloud2.to,mzcloud.life##+js(nowoif)
+mcloud.to,mcloud2.to,mzcloud.life##+js(aopr, mm)
+mcloud.to,mcloud2.to,mzcloud.life##+js(aopr, AaDetector)
