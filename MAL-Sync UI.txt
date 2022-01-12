@@ -27,3 +27,6 @@ mcloud.to,mcloud2.to##+js(set, console.clear, trueFunc)
 !#endif
 ! StreamSB console
 sbplay2.com##+js(aopr, console.clear)
+! MAL-Sync Shark
+! blocked on at least one player; filter on easylist
+@@||api.malsync.moe/shark$ping
