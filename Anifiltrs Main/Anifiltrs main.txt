@@ -273,6 +273,8 @@ sendvid.net,vcdn.space##+js(nowoif)
 ! streamtape ad script
 ||streamtape.*/ad.js$script,important
 *$script,redirect-rule=noopjs,domain=streamta.pe|streamtape.com|streamtape.net
+! popups
+streamta.site##+js(acis, JSON.parse, break;case $.)
 
 ! easyload
 easyload.io##+js(nowoif)
