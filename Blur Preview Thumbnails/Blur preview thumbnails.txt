@@ -228,7 +228,7 @@ scloud.online,strcloud.*,streamta.pe,streamta.site,streamtape.*,strtape.*,strtap
 streamhd.cc##.jw-preview.jw-reset,#over:style(filter:blur(8px) saturate(1.25))
 
 ! videovard
-videovard.sx##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
+videovard.sx,videovard.to##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
 
 ! playdrive
 playdrive.xyz##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
