@@ -58,9 +58,10 @@ kickassanime.*###__BVID__14
 kickassanime.*###notes > div:has-text(extension)
 
 ! AnimesVision
-! widget containers
-animesvision.biz##center:has(+ .goblock.detail-anime)
-animesvision.biz##div.sb-subs.goblock:has(center > script)
+! regional shopping ads
+animes.vision###main-content>div:has([href^="https://bit.ly/"])
+! Annoying logo on video
+animes.vision##.jw-logo
 
 ! anime-odcinki
 anime-odcinki.pl##.widget_text:has(center:has(script))
