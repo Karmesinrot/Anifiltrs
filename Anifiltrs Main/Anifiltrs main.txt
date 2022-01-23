@@ -269,7 +269,7 @@ sendvid.net,vcdn.space##+js(nowoif)
 ||streamtape.*/ad.js$script,important
 *$script,redirect-rule=noopjs,domain=streamta.pe|streamtape.com|streamtape.net
 ! popups
-stape.*,streamta.*##+js(acis, JSON.parse, break;case $.)
+stape.*##+js(acis, JSON.parse, break;case $.)
 scloud.online,stape.*,strcloud.*,streamta.*,streamtape.*,strtape.*,strtapeadblock.*,strtpe.link##^script:has-text('shift')
 scloud.online,stape.*,strcloud.*,streamta.*,streamtape.*,strtape.*,strtapeadblock.*,strtpe.link##+js(acis, String.fromCharCode, 'shift')
 scloud.online,stape.*,strcloud.*,streamta.*,streamtape.*,strtape.*,strtapeadblock.*,strtpe.link##+js(aopr, document.body.appendChild)
