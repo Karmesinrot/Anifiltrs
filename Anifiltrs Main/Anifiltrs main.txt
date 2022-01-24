@@ -313,3 +313,5 @@ mp4upload.com##^script:has-text(break;case $.)
 mp4upload.com##+js(acis, JSON.parse, break;case $.)
 mp4upload.com##^script:has-text('shift')
 mp4upload.com##+js(acis, String.fromCharCode, 'shift')
+! Ads when pausing the video
+mp4upload.com##+js(acis, document.getElementById, lay)
