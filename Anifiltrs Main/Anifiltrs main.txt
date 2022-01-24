@@ -307,3 +307,9 @@ fembed-hd.com##+js(aopr, __Y)
 mcloud.to,mcloud2.to,mzcloud.life##+js(nowoif)
 mcloud.to,mcloud2.to,mzcloud.life##+js(aopr, mm)
 mcloud.to,mcloud2.to,mzcloud.life##+js(aopr, AaDetector)
+
+! Mp4Upload
+mp4upload.com##^script:has-text(break;case $.)
+mp4upload.com##+js(acis, JSON.parse, break;case $.)
+mp4upload.com##^script:has-text('shift')
+mp4upload.com##+js(acis, String.fromCharCode, 'shift')
