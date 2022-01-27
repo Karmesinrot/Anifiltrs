@@ -95,10 +95,6 @@ animehd47.com##+js(aopr, _pop)
 mtlnovel.com##[id|=mgid]
 mtlnovel.com##.m-card:has(:scope>[id|=mgid]):not(:has(.carousel))
 
-! mangapanda & mangareader.net
-*$script,redirect-rule=noopjs,domain=mangapanda.com|mangareader.net
-mangapanda.com,mangareader.net##+js(aopw, BB_ind)
-
 ! animesaturn
 *$script,redirect-rule=noopjs,domain=animesaturn.com
 ||animesaturn.com^$csp=frame-src streamtape.com
