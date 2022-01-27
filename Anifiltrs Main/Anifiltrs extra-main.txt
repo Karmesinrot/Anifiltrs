@@ -105,9 +105,6 @@ mangapanda.com,mangareader.net##+js(aopw, BB_ind)
 ! widgets
 animesaturn.com##.card-body:has(script):upward(1)
 
-! ytanime.tv
-ytanime.tv##+js(acis, document.querySelectorAll, popMagic)
-
 ! nwanime.tv
 *$script,redirect-rule=noopjs,domain=nwanime.tv
 *$image,redirect-rule=1x1.gif,domain=nwanime.tv
@@ -122,10 +119,6 @@ darkanime.stream##+js(acis, document.createElement, 'script')
 ! not currently possible with reader
 mangaowl.net##[id^=ads]
 
-! mangazuki.online
-mangazuki.online##+js(acis, Object.defineProperty, XMLHttpRequest)
-mangazuki.online##+js(aopw, _pop)
-
 ! readmanhua.net
 ! banner ads
 readmanhua.net##.ad
@@ -134,12 +127,6 @@ readmanhua.net###main-sidebar > .row:has([src="https://readmanhua.net/wp-content
 ! wuxiaworld.com
 ! Sponsored Links
 wuxiaworld.com##[id^=placement]
-
-! mangahasu
-mangahasu.com,mangahasu.se##+js(aopr, document.writeln)
-mangahasu.com,mangahasu.se##+js(acis, document.createElement, "script")
-mangahasu.com,mangahasu.se##+js(aopr, CryptoJS)
-mangahasu.com,mangahasu.se##+js(aopw, zoneNativeSett)
 
 ! superanimes
 superanimes.org##+js(acis, document.querySelector, ads)
@@ -150,9 +137,6 @@ superanimes.org###lateral > div.conteudoBox:has-text(Publicidade)
 
 ! anizm
 anizm.tv##+js(aopw, zoneNativeSett)
-
-! animetv
-animetv.moe##+js(acis, Math, XMLHttpRequest)
 
 ! loveheaven scans
 ! empty divs
