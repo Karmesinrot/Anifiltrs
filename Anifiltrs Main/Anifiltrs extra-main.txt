@@ -32,7 +32,7 @@ animebam.se##[id*="ScriptRoot"]
 
 ! kimcartoon
 ! Adframes
-kimcartoon.to##[data-ad-slot]:upward([style])
+kimcartoon.*##[data-ad-slot]:upward([style])
 
 ! animeram
 ! unnecessary widgets
