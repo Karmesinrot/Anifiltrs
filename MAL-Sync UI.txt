@@ -5,8 +5,9 @@
 ! Description: Filters for fixing broken favicons, badges, images, and other related things on MAL-Sync
 
 ! MAL-Sync ----------------------------------------------------
-! Prevent miniMAL breakage on violentmonkey when injection mode is set to default/page
-! animego.*,gogoanime.*,gogoanimes.*#@#+js(set, String.prototype.charAt, noopFunc)
+! MAL-Sync API Shark
+! blocked on at least one player; filter on easylist
+@@||api.malsync.moe/shark$ping
 ! Hide obtrusive banner on gogoanime
 gogoanime.*##div:has-text(We moved site to)
 ! animesuge DevTools detection
@@ -27,6 +28,3 @@ mcloud.to,mcloud2.to##+js(set, console.clear, trueFunc)
 !#endif
 ! StreamSB console
 sbplay2.com##+js(aopr, console.clear)
-! MAL-Sync Shark
-! blocked on at least one player; filter on easylist
-@@||api.malsync.moe/shark$ping
