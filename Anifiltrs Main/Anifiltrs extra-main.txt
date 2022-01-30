@@ -154,3 +154,7 @@ kimanime.ru,animax.to##+js(nowoif, /^/, 1)
 ! animesup
 ! popups
 animesup.net##+js(aopw, _pop)
+
+! animepiracy wiki
+! VPN IP
+piracy.moe##+js(no-fetch-if, ip-info)
