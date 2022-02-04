@@ -16,7 +16,8 @@ animesuge.to##+js(set, console.clear, trueFunc)
 animesuge.to##+js(set, console.log, trueFunc)
 !#endif
 ! zoro console clearing and redirect to home page
-! zoro.to##+js(aopr, console.clear)
+zoro.to,rapid-cloud.ru##+js(set, console.clear, noopFunc)
+zoro.to,rapid-cloud.ru##+js(set, console.log, noopFunc)
 ! console and video player
 9anime.*##+js(aopw, console.log)
 ! site/CDN script affecting players on chrome
