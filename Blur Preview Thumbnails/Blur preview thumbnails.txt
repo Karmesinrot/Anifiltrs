@@ -217,9 +217,9 @@ ninjastream.to##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
 kimanime.ru##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
 
 ! streamSB
-cloudemb.com,embedsb.com,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbflix.xyz,sbplay.*,sbplay1.com,sbplay2.com,sbvideo.net,streamsb.com,streamsb.net,tubesb.com,watchsb.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
-cloudemb.com,embedsb.com,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbflix.xyz,sbplay.*,sbplay1.com,sbplay2.com,sbvideo.net,streamsb.com,streamsb.net,tubesb.com,watchsb.com###play-now
-cloudemb.com,embedsb.com,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbflix.xyz,sbplay.*,sbplay1.com,sbplay2.com,sbvideo.net,streamsb.com,streamsb.net,tubesb.com,watchsb.com###desk:style(filter:blur(8px) saturate(1.5) !important)
+cloudemb.com,embedsb.com,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbflix.xyz,sbplay.*,sbplay1.com,sbplay2.com,sbvideo.net,streamsb.com,streamsb.net,tubesb.com,viewsb.com,watchsb.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
+cloudemb.com,embedsb.com,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbflix.xyz,sbplay.*,sbplay1.com,sbplay2.com,sbvideo.net,streamsb.com,streamsb.net,tubesb.com,viewsb.com,watchsb.com###play-now
+cloudemb.com,embedsb.com,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbflix.xyz,sbplay.*,sbplay1.com,sbplay2.com,sbvideo.net,streamsb.com,streamsb.net,tubesb.com,viewsb.com,watchsb.com###desk:style(filter:blur(8px) saturate(1.5) !important)
 
 ! StreamTape
 scloud.online,stape.*,strcloud.*,streamta.*,streamtape.*,strtape.*,strtapeadblock.*,strtpe.link##.plyr--stopped > .plyr__video-wrapper > video:style(filter:blur(8px) saturate(1.5))
