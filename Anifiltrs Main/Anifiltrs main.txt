@@ -315,3 +315,5 @@ mp4upload.com##+js(acis, document.getElementById, lay)
 
 ! vidstream
 vidstreamz.online##+js(aeld, /DOMContentLoaded|click/, 0x)
+vidstreamz.online##+js(nowoif)
+vidstreamz.online##[target="_blank"][href][style]:upward([style])
