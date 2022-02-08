@@ -299,9 +299,6 @@ gogo-play.*##+js(acis, Math, break;case $.)
 ! StreamSB popups
 sbembed.com,sbplay.*##+js(aopr, __Y)
 
-fembed-hd.com##+js(nowoif)
-fembed-hd.com##+js(aopr, __Y)
-
 ! Mycloud
 mcloud.to,mcloud2.to,mzcloud.life##+js(nowoif)
 mcloud.to,mcloud2.to,mzcloud.life##+js(aopr, mm)
