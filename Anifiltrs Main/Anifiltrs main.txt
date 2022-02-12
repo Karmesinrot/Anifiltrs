@@ -171,6 +171,10 @@ reaperscans.com##div.w-100
 ! teasers & ad containers
 flamescans.org##.kln, .kln+br, .code-block, [id^=teaser]
 
+! animeflv
+! popup ads
+animeflv.net##+js(acis, globalThis, break;case)
+
 ! ADS ---------------------------------------------------------
 ! yourupload
 yourupload.com##+js(acis, String.fromCharCode, decodeURIComponent)
