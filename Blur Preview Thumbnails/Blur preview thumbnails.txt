@@ -180,9 +180,6 @@ easyload.io##.vjs-poster:style(filter:blur(10px) saturate(1.5))
 ! clipwatching
 clipwatching.com##.vjs-poster:style(filter:blur(10px) saturate(1.5))
 
-! cloud9
-cloud9.to##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
-
 ! wstream
 wstream.*##.vjs-poster:style(filter:blur(8px) saturate(1.25))
 
