@@ -232,3 +232,6 @@ videovard.sx,videovard.to##.jw-preview.jw-reset:style(filter:blur(8px) saturate(
 
 ! playdrive
 playdrive.xyz##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
+
+! vidbam
+vidbam.org##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
