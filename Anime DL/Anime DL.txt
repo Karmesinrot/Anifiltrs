@@ -21,4 +21,3 @@ anidl.org##+js(acis, String.fromCharCode, decodeURIComponent)
 ! mtencodes.blogspot.com
 mtencodes.blogspot.com##+js(acis, String.fromCharCode, charCodeAt)
 *$script,redirect-rule=noopjs,domain=mtencodes.blogspot.com
-||cash-ads.com^$script,domain=mtencodes.blogspot.com
