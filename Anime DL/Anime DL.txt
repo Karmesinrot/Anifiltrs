@@ -3,13 +3,6 @@
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
 ! Description: Filters for Anime DL sites
 
-! horriblesubs
-! blocked background-image
-@@||horriblesubs.info^$image
-horriblesubs.info##[class~="text-center"][class*="-spons"]
-! download page add
-horriblesubs.info##div.hidden-xs.well:has(script)
-
 ! sukidesuost.info
 sukidesuost.info##+js(aopw, _pop)
 
@@ -21,10 +14,6 @@ hikarinoakariost.info##+js(acis, String.fromCharCode, decodeURIComponent)
 
 ! anidl
 anidl.org##+js(acis, String.fromCharCode, decodeURIComponent)
-
-! novelplanet.me
-! script needed for download
-@@||cdnjs.cloudflare.com/ajax/libs/jquery/*$script,domain=novelplanet.me
 
 ! erai-raws.info
 *$script,redirect-rule=noopjs,domain=erai-raws.info
