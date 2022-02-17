@@ -51,9 +51,6 @@ bitchute.com##.plyr__poster:style(filter:blur(6px)!important)
 ! cloudvideo.tv
 cloudvideo.tv##.vjs-poster:style(filter:blur(8px) saturate(2))
 
-! flix555.com
-flix555.com##.jw-preview.jw-reset:style(filter:blur(8px);)
-
 ! dailymotion.com
 dailymotion.com##.np_ViewPoster-image:style(filter:blur(8px) saturate(1.25))
 
