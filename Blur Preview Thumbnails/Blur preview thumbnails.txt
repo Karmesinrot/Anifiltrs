@@ -198,9 +198,6 @@ streamwire.net##.vjs-poster:style(filter:blur(8px))
 ! hxload.to
 hxload.*##.jw-preview.jw-reset:style(filter:blur(8px))
 
-! oogly.io
-oogly.io##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
-
 ! voe.sx
 voe.sx##.vjs-poster:style(filter:blur(8px) saturate(1.25))
 
