@@ -113,7 +113,7 @@ jetload.net##.vjs-poster:style(filter:blur(8px) saturate(1.2))
 vidfast.co##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
 
 ! vidmoly.me
-vidmoly.me##.jw-preview.jw-reset:style(filter:blur(8px))
+vidmoly.me,vidmoly.to##.jw-preview.jw-reset:style(filter:blur(8px))
 
 ! vidsat.net
 vidsat.net##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
@@ -164,9 +164,6 @@ animebam.se##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
 ! sendvid.com
 ! different from sendvid.net which is a fembed site
 sendvid.com##.vjs-poster:style(filter:blur(8px) saturate(1.25))
-
-! vidmoly
-vidmoly.to##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
 
 ! tranimeizle
 tranimeizle.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
