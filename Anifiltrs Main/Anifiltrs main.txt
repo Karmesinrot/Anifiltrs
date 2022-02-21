@@ -247,6 +247,11 @@ animedao.to##+js(acis, document.createElement, "script")
 mangahub.io##+js(acis, String.fromCharCode, break)
 *$script,redirect-rule=noopjs,domain=mangahub.io
 
+! AnimeOdcinki
+! player popups
+harajuku.pl##+js(aopw, _pop)
+harajuku.pl##+js(popads-dummy)
+
 ! HOT FIXES ---------------------------------------------------
 ! animeshouse player AA
 @@||lockharte-ah.gq/popads.js$script,domain=ganessa-ah.ga
