@@ -28,4 +28,4 @@ mcloud.to,mcloud2.to##+js(set, console.log, trueFunc)
 mcloud.to,mcloud2.to##+js(set, console.clear, trueFunc)
 !#endif
 ! StreamSB console
-sbplay2.com##+js(aopr, console.clear)
+sbplay2.com,watchsb.com##+js(aopr, console.clear)
