@@ -49,5 +49,5 @@ weather.com##[id|="WxuAd"]
 
 ! soundonsound
 ! left-overs
-soundonsound.com##[id|=block]:has([id*=-ad-],.adsense)
-soundonsound.com##[class$="footer-ad"]
+soundonsound.com##^[id|=block]:has([id*=-ad-],.adsense)
+soundonsound.com##^[class$="footer-ad"]
