@@ -319,9 +319,5 @@ mp4upload.com##+js(acis, String.fromCharCode, 'shift')
 ! Ads when pausing the video
 mp4upload.com##+js(acis, document.getElementById, lay)
 
-! vidbam popups
-vidbam.org##+js(acis, JSON.parse, break;case $.)
-*$script,redirect-rule=noopjs,domain=vidbam.org
-
 ! vidstream click-pause ads
 vidstreamz.online##+js(ra, data-ad-img|data-ad-target)
