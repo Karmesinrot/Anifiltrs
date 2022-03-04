@@ -303,7 +303,7 @@ vcdn2.space##+js(acis, document.createElement, script)
 streamhd.cc##+js(aost, Math.random, inlineScript)
 
 ! gogoanime new player
-gogo-play.*##+js(acis, Math, break;case $.)
+gogo-play.*,gogoplay4.com##+js(acis, Math, break;case $.)
 
 ! StreamSB popups
 sbembed.com,sbplay.*##+js(aopr, __Y)
