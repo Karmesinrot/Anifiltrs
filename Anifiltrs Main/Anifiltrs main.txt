@@ -214,9 +214,6 @@ gounlimited.to##+js(aopw, adcashMacros)
 ! just for some insurance
 *$csp=script-src 'self' 'unsafe-inline' 'unsafe-eval' static.fanfox.net static.mangafox.la static.mangahere.cc ; child-src 'none',domain=fanfox.net|mangafox.la|mangahere.*
 
-! animesimple
-animesimple.com##+js(acis, document.createElement, 'script')
-
 ! manga4life & mangasee
 ! amazon ad
 manga4life.com##a[href^="https://www.amazon.com/"]
