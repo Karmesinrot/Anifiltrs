@@ -305,6 +305,8 @@ sbembed.com,sbplay2.*##+js(aopr, __Y)
 mcloud.to,mcloud2.to,mzcloud.life##+js(nowoif)
 mcloud.to,mcloud2.to,mzcloud.life##+js(aopr, mm)
 mcloud.to,mcloud2.to,mzcloud.life##+js(aopr, AaDetector)
+! click-pause ads
+mcloud.to,mcloud2.to,mzcloud.life##+js(ra, data-ad-img|data-ad-target)
 
 ! Mp4Upload
 mp4upload.com##^script:has-text('shift')
