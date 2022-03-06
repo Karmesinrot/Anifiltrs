@@ -315,4 +315,4 @@ mp4upload.com##+js(acis, String.fromCharCode, 'shift')
 mp4upload.com##+js(acis, document.getElementById, lay)
 
 ! vidstream click-pause ads
-vidstreamz.online,vizcloud.*,vizcloud2.*##+js(ra, data-ad-img|data-ad-target)
+vidstreamz.online,vizcloud.*,vizcloud2.*,vizstream.ru##+js(ra, data-ad-img|data-ad-target)
