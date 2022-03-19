@@ -27,9 +27,6 @@ ok.ru##.vid-card_img:style(filter:blur(8px))
 ! Netu.tv
 !hqq.tv##.vjs-poster:style(filter:blur(8px)!important;)
 
-! crazyload.co
-crazyload.co##.jw-preview.jw-reset:style(filter:blur(8px);)
-
 ! vidoza.net
 vidoza.net##.vjs-poster:style(filter:blur(8px)!important;)
 
