@@ -174,9 +174,6 @@ easyload.io##.vjs-poster:style(filter:blur(10px) saturate(1.5))
 ! clipwatching
 clipwatching.com##.vjs-poster:style(filter:blur(10px) saturate(1.5))
 
-! wstream
-wstream.*##.vjs-poster:style(filter:blur(8px) saturate(1.25))
-
 ! streamz
 streamcrypt.net,streamz.*##.vjs-poster:style(filter:blur(8px))
 
