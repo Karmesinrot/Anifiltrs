@@ -201,9 +201,6 @@ voe.sx##.plyr__poster:style(filter:blur(8px) saturate(1.25))
 ! ninjastream
 ninjastream.to##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
 
-! kimanime
-kimanime.ru##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
-
 ! streamSB
 cloudemb.com,embedsb.com,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbflix.xyz,sbplay.*,sbplay1.com,sbplay2.*,sbvideo.net,streamas.cloud,streamsb.com,streamsb.net,tubesb.com,viewsb.com,watchsb.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
 cloudemb.com,embedsb.com,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbflix.xyz,sbplay.*,sbplay1.com,sbplay2.*,sbvideo.net,streamas.cloud,streamsb.com,streamsb.net,tubesb.com,viewsb.com,watchsb.com###play-now
