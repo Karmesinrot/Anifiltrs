@@ -4,6 +4,7 @@ A collection of filter lists for anime streaming, manga reading, and downloading
 -------------
 
 **MAL-Sync UI** [[Subscribe]](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Karmesinrot/Anifiltrs/master/MAL-Sync%20UI.txt&title=Anifiltrs%20%E2%80%94%20%F0%9F%8D%9A%20MAL-Sync%20UI)
+* Allow MAL-Sync Shark to get URLs for missing players
 * Filters for unbreaking favicons and images on [MAL-Sync](https://github.com/MALSync/MALSync) miniMal iframe[userscript verson only]
 * Prevent other things from interfering with some of MAL-Sync’s functionalities
 
