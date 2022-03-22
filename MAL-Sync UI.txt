@@ -6,7 +6,7 @@
 
 ! MAL-Sync ----------------------------------------------------
 ! MAL-Sync API Shark
-! blocked on at least one player; filter on easylist
+! blocked on at least one player; filter on easyprivacy
 @@||api.malsync.moe/shark$ping
 ! Hide obtrusive banner on gogoanime
 gogoanime.*##div:has-text(We moved site to)
