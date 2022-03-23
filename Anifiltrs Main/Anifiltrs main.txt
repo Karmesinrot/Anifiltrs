@@ -39,12 +39,6 @@ animeflv.net##[style="width:300px; height:600px"]
 ! adframes on sidebar
 voiranime.com##[id^=ai_widget]:not(:has([href="https://discord.gg/rvBeeNg"]))
 
-! 1anime.to
-! vip membership
-1anime.to##[href="https://otaku.cafe/forums/vip-membership"]
-! empty ad slots
-1anime.to##[data-vlitag]:upward(1)
-
 ! mangakakalot, manganelo & manganato
 ! adframes
 mangakakalot.com,manganelo.com,readmanganato.com##iframe[src^="/ads/"]:not(+img):upward(1)
