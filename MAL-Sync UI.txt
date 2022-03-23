@@ -13,10 +13,8 @@ gogoanime.*##div:has-text(We moved site to)
 ! gogoanime player console
 gogoplay4.com,gogoplay5.com##+js(set, console.clear, undefined)
 ! animesuge DevTools detection
-!#if env_chromium
 animesuge.to##+js(set, console.clear, trueFunc)
 animesuge.to##+js(set, console.log, trueFunc)
-!#endif
 ! zoro console clearing and redirect to home page
 zoro.to,rapid-cloud.ru##+js(set, console.clear, noopFunc)
 zoro.to,rapid-cloud.ru##+js(set, console.log, noopFunc)
