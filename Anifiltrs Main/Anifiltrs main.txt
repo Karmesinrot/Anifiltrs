@@ -239,6 +239,9 @@ mangahub.io##+js(acis, String.fromCharCode, break)
 harajuku.pl##+js(aopw, _pop)
 harajuku.pl##+js(popads-dummy)
 
+! OtakuFR video player
+parisanime.com##+js(acis, JSON.parse, break;case $.)
+
 ! HOT FIXES ---------------------------------------------------
 ! animeshouse player AA
 @@||lockharte-ah.gq/popads.js$script,domain=ganessa-ah.ga
