@@ -201,7 +201,7 @@ cloudemb.com,embedsb.com,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbemb
 cloudemb.com,embedsb.com,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbflix.xyz,sbplay.*,sbplay1.com,sbplay2.*,sbvideo.net,streamas.cloud,streamsb.com,streamsb.net,tubesb.com,viewsb.com,watchsb.com###desk:style(filter:blur(8px) saturate(1.5) !important)
 
 ! StreamTape
-adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,scloud.online,stape.*,strcloud.*,streamta.*,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.*,strtpe.link##.plyr--stopped > .plyr__video-wrapper > video:style(filter:blur(8px) saturate(1.5))
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,scloud.online,shavetape.*,stape.*,strcloud.*,streamta.*,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.*,strtpe.link##.plyr--stopped > .plyr__video-wrapper > video:style(filter:blur(8px) saturate(1.5))
 
 ! streamHD
 streamhd.cc##.jw-preview.jw-reset,#over:style(filter:blur(8px) saturate(1.25))
