@@ -252,7 +252,6 @@ dreamsub.stream##+js(aopw, _pop)
 animefire.net##+js(aopr, adcashMacros)
 
 ! animepahe
-animepahe.*##+js(acis, document.createElement, 'script')
 animepahe.*##+js(acis, Math, break;case $.)
 ! resources
 |https://$stylesheet,3p,domain=animepahe.com,badfilter
