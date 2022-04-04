@@ -28,7 +28,7 @@ animego.*,gogoanime.*,gogoanimes.*##[class^="anime_video_body"] > div[style="hei
 
 ! Turkanime Cosmetic filters
 ! sponsored adframes
-turkanime.net##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
+turkanime.*##div[class="col-xs-12"]:has-text(SPONSOR REKLAM)
 
 ! Animeflv
 ! ad widget

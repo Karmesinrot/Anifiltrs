@@ -4,16 +4,16 @@
 ! Description: Filters for removing distractive/obtrusive social items on MAL-Sync supported sites
 
 ! GLOBAL ------------------------------------------------------
-||facebook.*^$all,domain=~9anime.vip|9anime.*|animeflv.net|animeindo.moe|animesvision.biz|crunchyroll.com|jkanime.net|shinden.pl|turkanime.net
+||facebook.*^$all,domain=~9anime.vip|9anime.*|animeflv.net|animeindo.moe|animesvision.biz|crunchyroll.com|jkanime.net|shinden.pl|turkanime.*
 ||twitter.com^$third-party,domain=crunchyroll.com
 ||google.com^$script,domain=crunchyroll.com
 ! chatbox that stores passwords in plaintext
-||st.chatango.com^$script,domain=animeindo.moe|animexin.xyz|otakufr.*|readm.org|turkanime.net|voiranime.com
+||st.chatango.com^$script,domain=animeindo.moe|animexin.xyz|otakufr.*|readm.org|turkanime.*|voiranime.com
 
 ! PER-SITE HANDLING -------------------------------------------
 ! turkanime
 ! chatboxes
-turkanime.net##.col-xs-4 > .row > .col-xs-12:has-text(/TÜRK ANIME TV SOHBET|FACEBOOK'ta BEĞEN/i)
+turkanime.*##.col-xs-4 > .row > .col-xs-12:has-text(/TÜRK ANIME TV SOHBET|FACEBOOK'ta BEĞEN/i)
 
 ! animeflv.net
 animeflv.net##.ListSocial.BFixed
