@@ -40,7 +40,7 @@ animedaisuki.moe##li:has(.fa-twitter)
 
 ! kickassanime
 ! footer share social buttons
-kickassanime.rs##.custom-control.custom-switch+ul
+kickassanime.*##.custom-control.custom-switch+ul
 
 ! animeindo
 ! social media widegets
