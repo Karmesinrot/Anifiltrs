@@ -1,8 +1,0 @@
-! Title: Anifiltrs/Extra — 🍵 skeletonise
-! Expires: 3 days
-! Homepage: https://github.com/Karmesinrot/Anifiltrs
-! Description: Anifiltrs/Extra without Blur Preview Thumbnails
-
-!#include MAL-Sync%20UI.txt
-!#include Anifiltrs%20Main/Anifiltrs%20main.txt
-!#include Anifiltrs%20Main/Anifiltrs%20extra-main.txt
