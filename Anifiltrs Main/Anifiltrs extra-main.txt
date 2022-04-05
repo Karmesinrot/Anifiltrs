@@ -17,9 +17,6 @@ animehub.ac##center:has(>script[src^="//ad.animehub.ac"])
 thewatchcartoononline.tv##body:style(background-color:#1e262d!important;)
 thewatchcartoononline.tv##.anti-ad
 
-! animebam
-animebam.se##[id*="ScriptRoot"]
-
 ! 9aime.vip
 ! empty ad containers
 9anime.vip##.text-center
