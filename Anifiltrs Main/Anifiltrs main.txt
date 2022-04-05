@@ -310,7 +310,3 @@ mp4upload.com##+js(acis, document.getElementById, lay)
 
 ! vidstream click-pause ads
 vidstreamz.online,vizcloud.*,vizcloud2.*,vizstream.ru##+js(ra, data-ad-img|data-ad-target)
-
-! animepahe popus
-! https://github.com/Karmesinrot/Anifiltrs/issues/42#issuecomment-1086169274
-||juggledcample.website^
