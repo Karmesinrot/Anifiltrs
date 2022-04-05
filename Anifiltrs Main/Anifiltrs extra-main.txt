@@ -61,7 +61,7 @@ novelupdates.com##div[style]:not([class]):has(:scope>[class^="ad_"])+br
 
 ! animeflv.la
 ! address #30
-animeflv.la##+js(acis, Math, zfgloaded)
+animeflv.la##+js(acis, JSON.parse, break;case $.)
 
 ! fake sites
 gogoanime.app,gogoanime.pro##+js(aopr, document.write)
