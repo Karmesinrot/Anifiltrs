@@ -270,9 +270,6 @@ adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,scloud.online,stape.
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,scloud.online,stape.*,strcloud.*,streamta.*,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.*,strtpe.link##+js(acis, String.fromCharCode, 'shift')
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,scloud.online,stape.*,strcloud.*,streamta.*,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.*,strtpe.link##+js(aopr, document.body.appendChild)
 
-! easyload
-easyload.io##+js(nowoif)
-
 ! trollvid
 mp4.sh##+js(aopr, AaDetector)
 
