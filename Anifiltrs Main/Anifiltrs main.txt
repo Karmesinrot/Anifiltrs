@@ -253,6 +253,7 @@ animefire.net##+js(aopr, adcashMacros)
 
 ! animepahe
 animepahe.*##+js(acis, Math, break;case $.)
+*$script,3p,denyallow=kwik.cx,domain=animepahe.*
 ! resources
 |https://$stylesheet,3p,domain=animepahe.com,badfilter
 |https://$image,3p,domain=animepahe.com,badfilter
