@@ -307,3 +307,6 @@ mp4upload.com##+js(acis, document.getElementById, lay)
 
 ! vidstream click-pause ads
 vidstreamz.online,vizcloud.*,vizcloud2.*,vizstream.ru##+js(ra, data-ad-img|data-ad-target)
+
+! dood popups
+dood.*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
