@@ -290,7 +290,7 @@ streamhd.cc##+js(aost, Math.random, inlineScript)
 gogo-play.*##+js(acis, Math, break;case $.)
 
 ! StreamSB popups
-sbembed.com,sbplay2.*##+js(aopr, __Y)
+sbembed.com##+js(aopr, __Y)
 
 ! Mycloud
 mcloud.to,mcloud2.to,mzcloud.life##+js(nowoif)
