@@ -268,7 +268,6 @@ sendvid.net,vcdn.space##+js(nowoif)
 scloud.online.stape.*##+js(acis, JSON.parse, break;case $.)
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,scloud.online,stape.*,strcloud.*,streamta.*,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.*,strtpe.link##^script:has-text('shift')
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,scloud.online,stape.*,strcloud.*,streamta.*,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.*,strtpe.link##+js(acis, String.fromCharCode, 'shift')
-adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,scloud.online,stape.*,strcloud.*,streamta.*,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.*,strtpe.link##+js(aopr, document.body.appendChild)
 
 ! trollvid
 mp4.sh##+js(aopr, AaDetector)
