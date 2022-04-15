@@ -262,7 +262,7 @@ fcdn.stream,sendvid.net,vcdn.space##+js(aopr, __Y)
 sendvid.net,vcdn.space##+js(nowoif)
 
 ! streamtape ad script
-||streamtape.*/ad.js$script,important
+!||streamtape.*/ad.js$script,important
 *$script,redirect-rule=noopjs,domain=streamta.pe|streamtape.com|streamtape.net
 ! popups
 scloud.online.stape.*##+js(acis, JSON.parse, break;case $.)
