@@ -237,6 +237,7 @@ harajuku.pl##+js(popads-dummy)
 
 ! OtakuFR video player
 parisanime.com##+js(acis, JSON.parse, break;case $.)
+parisanime.com##+js(acis, Promise, JSON.parse)
 
 ! HOT FIXES ---------------------------------------------------
 ! animeshouse player AA
