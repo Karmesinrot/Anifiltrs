@@ -187,7 +187,7 @@ streamwire.net##.vjs-poster:style(filter:blur(8px))
 hxload.*##.jw-preview.jw-reset:style(filter:blur(8px))
 
 ! voe.sx
-un-block-voe.net,v-o-e-unblock.com,voe-un-block.com,voe.sx,voeun-block.net,voeunbl0ck.com,voeunblck.com,voeunblk.com,voeunblock3.com##.plyr__poster:style(filter:blur(8px) saturate(1.25))
+audaciousdefaulthouse.com,un-block-voe.net,v-o-e-unblock.com,voe-un-block.com,voe.sx,voeun-block.net,voeunbl0ck.com,voeunblck.com,voeunblk.com,voeunblock3.com##.plyr__poster:style(filter:blur(8px) saturate(1.25))
 
 ! ninjastream
 ninjastream.to##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
