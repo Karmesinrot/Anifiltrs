@@ -73,7 +73,6 @@ shinden.pl##.takie-tam:style(visibility:collapse!important;height:0px!important;
 ! adframes
 animexinax.com##.kln, .kln + br
 animexinax.com##.textwidget.custom-html-widget:not(:has(.fb-page.fb_iframe_widget, script[src="https://c6.patreon.com/becomePatronButton.bundle.js"],[src="//st.chatango.com/js/gz/emb.js"], a[href="https://www.paypal.com/paypalme/animexinfansub"]))
-animexinax.com##div.section:has-text(AnimeXin Store)
 
 ! animefire
 ! Publicidade
@@ -272,7 +271,7 @@ adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,scloud.online,stape.
 mp4.sh##+js(aopr, AaDetector)
 
 ! animexin
-animexin.xyz##+js(acis, document.createElement, 'script')
+animexinax.com##+js(acis, document.createElement, 'script')
 
 ! asurascans.com
 *$script,redirect-rule=noopjs,domain=asurascans.com
