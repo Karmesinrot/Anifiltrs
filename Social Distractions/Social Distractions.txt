@@ -8,7 +8,7 @@
 ||twitter.com^$third-party,domain=crunchyroll.com
 ||google.com^$script,domain=crunchyroll.com
 ! chatbox that stores passwords in plaintext
-||st.chatango.com^$script,domain=animeindo.moe|animexin.xyz|otakufr.*|readm.org|turkanime.*|voiranime.com
+||st.chatango.com^$script,domain=animeindo.moe|otakufr.*|readm.org|turkanime.*|voiranime.com
 
 ! PER-SITE HANDLING -------------------------------------------
 ! turkanime
@@ -17,10 +17,6 @@ turkanime.*##.col-xs-4 > .row > .col-xs-12:has-text(/TÜRK ANIME TV SOHBET|FACEB
 
 ! animeflv.net
 animeflv.net##.ListSocial.BFixed
-
-! animexin
-! chatango container
-animexin.xyz##script[src="//st.chatango.com/js/gz/emb.js"]:upward(.section)
 
 ! manganelo & mangakakalot
 ! facebook like buttons
