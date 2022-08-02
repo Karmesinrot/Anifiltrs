@@ -69,11 +69,11 @@ goyabu.com##+js(set, adBlockEnabled, false)
 ! AA detection
 shinden.pl##.takie-tam:style(visibility:collapse!important;height:0px!important;width:0px!important)
 
-! animexin.xyz
+! animexin
 ! adframes
-animexin.xyz##.kln, .kln + br
-animexin.xyz##.textwidget.custom-html-widget:not(:has(.fb-page.fb_iframe_widget, script[src="https://c6.patreon.com/becomePatronButton.bundle.js"],[src="//st.chatango.com/js/gz/emb.js"], a[href="https://www.paypal.com/paypalme/animexinfansub"]))
-animexin.xyz##div.section:has-text(AnimeXin Store)
+animexinax.com##.kln, .kln + br
+animexinax.com##.textwidget.custom-html-widget:not(:has(.fb-page.fb_iframe_widget, script[src="https://c6.patreon.com/becomePatronButton.bundle.js"],[src="//st.chatango.com/js/gz/emb.js"], a[href="https://www.paypal.com/paypalme/animexinfansub"]))
+animexinax.com##div.section:has-text(AnimeXin Store)
 
 ! animefire
 ! Publicidade
