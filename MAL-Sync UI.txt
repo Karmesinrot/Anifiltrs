@@ -33,3 +33,5 @@ sbplay2.*,sbplay2.com,watchsb.com##+js(aopr, console.clear)
 ! Anilist popup from extension
 ! https://github.com/MALSync/MALSync/issues/1095
 @@||anilist.co^$popup,domain=9anime.id
+! animexin console
+animexinax.com##+js(aopr, console.clear)
