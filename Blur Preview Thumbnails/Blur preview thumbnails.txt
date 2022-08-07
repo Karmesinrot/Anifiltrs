@@ -220,3 +220,6 @@ highload.to##.vjs-poster:style(filter:blur(8px) saturate(1.5))
 
 ! filemoon
 filemoon.sx##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
+
+! slwatch.co
+slwatch.co##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
