@@ -7,8 +7,8 @@
 ! ANNOYANCES & COSMETIC FILTERS -------------------------------
 ! 9anime Cosmetic Filters
 ! Cleans up the ui a bit, making it more compact
-9anime.*##^section.sda
-9anime.*##section.sda:remove()
+9anime.*##^section.adx
+9anime.*##section.adx:remove()
 
 ! MyAnimeList Cosmetic Filters
 ! Premium memebership «Hide Ads» button
