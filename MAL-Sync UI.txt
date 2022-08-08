@@ -29,7 +29,7 @@ mcloud.to,mcloud2.to##+js(set, console.log, trueFunc)
 mcloud.to,mcloud2.to##+js(set, console.clear, trueFunc)
 !#endif
 ! StreamSB console
-sbplay2.*,sbplay2.com,watchsb.com##+js(aopr, console.clear)
+sbplay2.*,sbplay2.com,ssbstream.net,watchsb.com##+js(aopr, console.clear)
 ! Anilist popup from extension
 ! https://github.com/MALSync/MALSync/issues/1095
 @@||anilist.co^$popup,domain=9anime.id
