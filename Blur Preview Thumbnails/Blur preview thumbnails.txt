@@ -187,7 +187,7 @@ streamwire.net##.vjs-poster:style(filter:blur(8px))
 hxload.*##.jw-preview.jw-reset:style(filter:blur(8px))
 
 ! voe.sx
-audaciousdefaulthouse.com,fittingcentermondaysunday.com,launchreliantcleaverriver.com,reputationsheriffkennethsand.com,un-block-voe.net,v-o-e-unblock.com,voe-un-block.com,voe-unblock.com,voe-unblock.net,voe.*,voeun-block.net,voeunbl0ck.com,voeunblck.com,voeunblk.com,voeunblock.com,voeunblock1.com,voeunblock2.com,voeunblock3.com##.plyr__poster:style(filter:blur(8px) saturate(1.25))
+audaciousdefaulthouse.com,fittingcentermondaysunday.com,fraudclatterflyingcar.com,launchreliantcleaverriver.com,reputationsheriffkennethsand.com,un-block-voe.net,v-o-e-unblock.com,voe-un-block.com,voe-unblock.com,voe-unblock.net,voe.*,voeun-block.net,voeunbl0ck.com,voeunblck.com,voeunblk.com,voeunblock.com,voeunblock1.com,voeunblock2.com,voeunblock3.com##.plyr__poster:style(filter:blur(8px) saturate(1.25))
 
 ! ninjastream
 ninjastream.to##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
