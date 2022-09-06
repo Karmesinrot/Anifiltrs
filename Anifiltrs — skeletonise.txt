@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: Anifiltrs — 🥡 skeletonise
 ! Expires: 1 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
