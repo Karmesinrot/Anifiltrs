@@ -308,3 +308,7 @@ vidstreamz.online,vizcloud.*,vizcloud2.*,vizstream.ru##+js(ra, data-ad-img|data-
 
 ! dood popups
 dood.*,doodstream.com##+js(acis, Object.defineProperty, break;case $.)
+
+! fembed popups
+! https://fembed9hd.com/v/qznrxiele-r4j40
+fembed9hd.com##+js(nowoif)
