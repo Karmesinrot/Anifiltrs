@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: Anifiltrs — 🍵 Anti social distractions
 ! Expires: 7 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs

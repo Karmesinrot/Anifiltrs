@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: Roselyn's[Karmesinrot] Personal Filters
 ! Expires: 14 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs

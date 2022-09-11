@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: Anifiltrs/Extra 🍮
 ! Expires: 3 days
 ! Homepage: https://github.com/Karmesinrot/Anifiltrs
