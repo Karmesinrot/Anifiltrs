@@ -11,7 +11,7 @@
 ! Hide obtrusive banner on gogoanime
 gogoanime.*##div:has-text(We moved site to)
 ! gogoanime player console
-gogoplay4.com,gogoplay5.com,goload.io##+js(set, console.clear, undefined)
+gogohd.net,gogoplay4.com,gogoplay5.com,goload.io##+js(set, console.clear, undefined)
 goload.pro##+js(aopw, console.log)
 ! animesuge DevTools detection
 animesuge.to##+js(set, console.clear, trueFunc)
