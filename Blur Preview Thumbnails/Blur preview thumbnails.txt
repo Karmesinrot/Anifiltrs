@@ -194,9 +194,9 @@ audaciousdefaulthouse.com,bigclatterhomesguideservice.com,fittingcentermondaysun
 ninjastream.to##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
 
 ! streamSB
-cloudemb.com,embedsb.com,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbflix.xyz,sbfull.com,sbplay.*,sbplay1.com,sbplay2.*,sbvideo.net,ssbstream.net,streamas.cloud,streamsb.com,streamsb.net,streamsss.net,tubesb.com,viewsb.com,watchsb.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
-cloudemb.com,embedsb.com,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbflix.xyz,sbfull.com,sbplay.*,sbplay1.com,sbplay2.*,sbvideo.net,ssbstream.net,streamas.cloud,streamsb.com,streamsb.net,streamsss.net,tubesb.com,viewsb.com,watchsb.com###play-now
-cloudemb.com,embedsb.com,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbflix.xyz,sbfull.com,sbplay.*,sbplay1.com,sbplay2.*,sbvideo.net,ssbstream.net,streamas.cloud,streamsb.com,streamsb.net,streamsss.net,tubesb.com,viewsb.com,watchsb.com###desk:style(filter:blur(8px) saturate(1.5) !important)
+cloudemb.com,embedsb.com,faurl.ga,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbflix.xyz,sbfull.com,sbplay.*,sbplay1.com,sbplay2.*,sbvideo.net,ssbstream.net,streamas.cloud,streamsb.com,streamsb.net,streamsss.net,tubesb.com,viewsb.com,watchsb.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
+cloudemb.com,embedsb.com,faurl.ga,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbflix.xyz,sbfull.com,sbplay.*,sbplay1.com,sbplay2.*,sbvideo.net,ssbstream.net,streamas.cloud,streamsb.com,streamsb.net,streamsss.net,tubesb.com,viewsb.com,watchsb.com###play-now
+cloudemb.com,embedsb.com,faurl.ga,pelistop.co,playersb.com,sbembed.com,sbembed1.com,sbembed2.com,sbembed3.com,sbembed4.com,sbflix.xyz,sbfull.com,sbplay.*,sbplay1.com,sbplay2.*,sbvideo.net,ssbstream.net,streamas.cloud,streamsb.com,streamsb.net,streamsss.net,tubesb.com,viewsb.com,watchsb.com###desk:style(filter:blur(8px) saturate(1.5) !important)
 
 ! StreamTape
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,scloud.online,shavetape.*,stape.*,strcloud.*,streamta.*,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.*,strtpe.link##.plyr--stopped > .plyr__video-wrapper > video:style(filter:blur(8px) saturate(1.5))
