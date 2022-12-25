@@ -35,3 +35,5 @@ faurl.ga,sbplay2.*,sbplay2.com,ssbstream.net,watchsb.com##+js(aopr, console.clea
 @@||anilist.co^$popup,domain=9anime.id
 ! animexin console
 animexinax.com##+js(aopr, console.clear)
+! xstreamCDN console
+fembed9hd.com##^script:has-text(devtoolIsOpening)
