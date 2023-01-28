@@ -308,7 +308,7 @@ mp4upload.com##+js(acis, document.getElementById, lay)
 vidstreamz.online,vizcloud.*,vizcloud2.*,vizstream.ru##+js(ra, data-ad-img|data-ad-target)
 
 ! dood popups
-dood.*,doodstream.com##+js(acis, Object.defineProperty, break;case $.)
+doodstream.com##+js(acis, Object.defineProperty, break;case $.)
 
 ! fembed popups
 ! https://fembed9hd.com/v/qznrxiele-r4j40
