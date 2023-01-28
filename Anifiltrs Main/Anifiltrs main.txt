@@ -278,9 +278,6 @@ animexinax.com##+js(acis, document.createElement, 'script')
 *$script,redirect-rule=noopjs,domain=asurascans.com
 asurascans.com##+js(ra, onclick)
 
-! vcdn2 popups
-vcdn2.space##+js(acis, document.createElement, script)
-
 ! streamhd
 streamhd.cc##+js(aost, Math.random, inlineScript)
 
