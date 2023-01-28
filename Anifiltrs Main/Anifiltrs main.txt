@@ -286,7 +286,6 @@ streamhd.cc##+js(aost, Math.random, inlineScript)
 
 ! gogoanime new player
 gogo-play.*##+js(acis, Math, break;case $.)
-goload.*##+js(acis, Object.defineProperty, break;case $.)
 
 ! StreamSB popups
 sbembed.com##+js(aopr, __Y)
