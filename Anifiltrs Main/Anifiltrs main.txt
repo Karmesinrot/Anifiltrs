@@ -257,8 +257,8 @@ animefire.net##+js(aopr, adcashMacros)
 |https://$image,3p,domain=animepahe.com,badfilter
 
 ! xstreamcdn|fembed
-fcdn.stream,sendvid.net,vcdn.space##+js(aopr, __Y)
-sendvid.net,vcdn.space##+js(nowoif)
+fcdn.stream,sendvid.net##+js(aopr, __Y)
+sendvid.net##+js(nowoif)
 
 ! streamtape ad script
 !||streamtape.*/ad.js$script,important
