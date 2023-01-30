@@ -154,13 +154,6 @@ asurascans.com##[id^="teaser"], #sidebar>.widget_text.section, .kln, .kln+br, #r
 ! clean up UI
 mangajar.com##.ad-container
 
-! reaperscans.com
-! immortal taoist ads
-||media.reaperscans.com/file/reaperscans/*/banner*.gif$image,1p
-reaperscans.com###rsadstop, #rsads, a[href^="https://reaperscans.onelink.me/"]
-! ad container
-reaperscans.com##div.w-100
-
 ! flamescans
 ! teasers & ad containers
 flamescans.org##.kln, .kln+br, .code-block, [id^=teaser]
