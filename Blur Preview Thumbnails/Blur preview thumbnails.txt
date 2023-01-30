@@ -148,7 +148,7 @@ dood.*,doodstream.com##.vjs-poster:style(filter:blur(8px) saturate(1.5))
 dood.*,doodstream.com##+js(ra, poster, #video_player_html5_api)
 
 ! streamz
-streamz.cc##.vjs-poster:style(filter:blur(8px) saturate(1.7))
+streamcrypt.net,streamz.*##.vjs-poster:style(filter:blur(8px))
 
 ! vidbm
 vidbm.com,vadbam.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
@@ -168,9 +168,6 @@ easyload.io##.vjs-poster:style(filter:blur(10px) saturate(1.5))
 
 ! clipwatching
 clipwatching.com##.vjs-poster:style(filter:blur(10px) saturate(1.5))
-
-! streamz
-streamcrypt.net,streamz.*##.vjs-poster:style(filter:blur(8px))
 
 ! animesonline.cz
 animesonline.cz##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.25))
