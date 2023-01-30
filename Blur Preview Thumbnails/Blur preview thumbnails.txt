@@ -14,7 +14,7 @@ mstream.*,mysembed.net,mystream.to##.vjs-poster:style(filter:blur(12px) saturate
 mp4upload.com##.vjs-poster,.plyr__poster:style(filter:blur(8px) saturate(150%) !important;)
 
 ! fembed
-doodstreams.co,embed.best,embed.media,embedsito.com,fcdn.stream,fembed-hd.com,fembed.com,fembed.net,fembed9hd.com,femoload.club,feurl.com,fhvap.com,fplayer.info,gaobook.review,gcloud.live,jplayer.net,luxubu.review,mavplay.com,mavplayer.xyz,moviepl.xyz,mrdhan.com,novelplanet.me,playfinder.xyz,playvid.host,playvideo.best,qdembed.com,rubicstreaming.com,sendvid.net,suzihaza.com,vaplayer.xyz,vcdn.space,vcdn2.space,weirdmovies.xyz,xstreamcdn.com,youtnbe.xyz,zidiplay.com###vstr > div[style*="background-size:contain;"]:style(filter:blur(8px))
+embedsito.com,fembed-hd.com,fembed.com,fembed.net,fembed9hd.com,feurl.com,fplayer.info,gaobook.review,luxubu.review,mavplay.com,mavplayer.xyz,moviepl.xyz,mrdhan.com,playfinder.xyz,playvid.host,rubicstreaming.com,sendvid.net,suzihaza.com,vcdn.space,youtnbe.xyz###vstr > div[style*="background-size:contain;"]:style(filter:blur(8px))
 
 ! yourupload
 yourupload.com##.jw-preview.jw-reset:style(filter:blur(8px))
