@@ -82,8 +82,7 @@ animefire.net##[class^="divSection"]:has(h3+[id^=ad_unit])
 ! widgets
 otakufr.*##.widget_text.widget.widget_custom_html:has(script[src^="//platform.bidgear.com/ads.php"])
 ! hentai ads
-||i.ibb.co^$image,domain=parisanime.com
-otakufr.*co##a[href="https://t.co/"], img[src^="https://i.ibb.co/"]
+otakufr.*##a[href="https://t.co/"], img[src^="https://i.ibb.co/"][src$=".gif"]
 
 ! samehadaku
 ! adframe widgets
