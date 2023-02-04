@@ -39,7 +39,7 @@ voiranime.com##[id^=ai_widget]:not(:has([href="https://discord.gg/rvBeeNg"]))
 
 ! mangakakalot, manganelo & manganato
 ! adframes
-mangakakalot.com,manganelo.com,readmanganato.com##iframe[src^="/ads/"]:not(+img):upward(1)
+mangakakalot.com,manganelo.com,chapmanganato.com##iframe[src^="/ads/"]:not(:has(+img)):upward(1)
 ! Empty ad div between img
 readmanganato.com##.container-chapter-reader>img+div
 
