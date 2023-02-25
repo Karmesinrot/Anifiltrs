@@ -17,11 +17,6 @@ collinsdictionary.com##.home.topslot_container
 ! ad scripts
 collinsdictionary.com##+js(aopr, iaw)
 
-! lexico
-lexico.com##.banbox, .banbox-mini, .mobile_banner.banbox
-lexico.com##.lex-content,.lex-category:style(padding:15px 0!important)
-lexico.com##.daywordmain:style(margin-top: 15px !important;)
-
 ! animoapps
 ! counter unable to scroll after some time
 aminoapps.com##+js(aeld, scroll, void)
