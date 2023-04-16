@@ -107,10 +107,6 @@ animezone.pl##[style="width:970px;height:250px"]
 ! unionmangas
 unionleitor.top##h2:has-text(Publicidade):upward(1)
 
-! scantrad
-! disable ablock msg on manga page
-scantrad.net##.asqx
-
 ! Fallen Angels
 manga.fascans.com##.col-xs-12:has(:scope>.ads-large)
 
@@ -182,14 +178,6 @@ bato.to,mangawindow.net##+js(acis, Math, break;case $.)
 animeid.tv##+js(aopw, adcashMacros)
 animeid.tv##+js(aopw, zoneNativeSett)
 *$script,redirect-rule=noopjs,domain=animeid.tv
-
-! scantrad
-*$script,redirect-rule=noopjs,domain=scantrad.net
-scantrad.net##+js(acis, document.getElementsByTagName, 'script')
-scantrad.net##+js(acis, document.createElement, ai)
-!scantrad.net##+js(aopw, Date)
-scantrad.net##+js(aeld, load, updatePub)
-scantrad.net##+js(nostif, updatePubImpact)
 
 ! mangakatana.com
 *$script,redirect-rule=noopjs,domain=mangakatana.com
