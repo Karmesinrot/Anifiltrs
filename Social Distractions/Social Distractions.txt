@@ -5,11 +5,11 @@
 ! Description: Filters for removing distractive/obtrusive social items on MAL-Sync supported sites
 
 ! GLOBAL ------------------------------------------------------
-||facebook.*^$all,domain=~9anime.vip|9anime.*|animeflv.net|animeindo.moe|animesvision.biz|crunchyroll.com|jkanime.net|shinden.pl|turkanime.*
+||facebook.*^$all,domain=~9anime.vip|9anime.*|animeflv.net|animesvision.biz|crunchyroll.com|jkanime.net|shinden.pl|turkanime.*
 ||twitter.com^$third-party,domain=crunchyroll.com
 ||google.com^$script,domain=crunchyroll.com
 ! chatbox that stores passwords in plaintext
-||st.chatango.com^$script,domain=animeindo.moe|otakufr.*|readm.org|turkanime.*|voiranime.com
+||st.chatango.com^$script,domain=otakufr.*|readm.org|turkanime.*|voiranime.com
 
 ! PER-SITE HANDLING -------------------------------------------
 ! turkanime
@@ -34,10 +34,6 @@ jkanime.net##[class^="share-count-"]
 ! animedaisuki
 ! twitter button
 animedaisuki.moe##li:has(.fa-twitter)
-
-! animeindo
-! social media widegets
-animeindo.moe##div.ctn_side:has(.textwidget)
 
 ! anime-odcinki.pl
 ! various social buttons
