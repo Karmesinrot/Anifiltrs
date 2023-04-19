@@ -43,12 +43,6 @@ mangakakalot.com,manganelo.com,chapmanganato.com##iframe[src^="/ads/"]:not(:has(
 ! Empty ad div between img
 chapmanganato.com##.container-chapter-reader>img+div
 
-! kickassanime
-! hide ads button
-kickassanime.*###__BVID__14
-! kaa extension
-kickassanime.*###notes > div:has-text(extension)
-
 ! AnimesVision
 ! regional shopping ads
 animes.vision###main-content>div:has([href^="https://bit.ly/"])
