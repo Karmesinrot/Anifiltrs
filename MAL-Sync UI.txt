@@ -10,6 +10,7 @@
 @@||api.malsync.moe/shark$ping
 ! Hide obtrusive banner on gogoanime
 gogoanime.*##div:has-text(We moved site to)
+gogoanime.*##.btn-notice
 ! gogoanime player console
 anihdplay.com,gembedhd.com,gogohd.*,gogoplay4.com,gogoplay5.com,goload.io,playgo1.cc##+js(set, console.clear, undefined)
 goload.pro##+js(aopw, console.log)
