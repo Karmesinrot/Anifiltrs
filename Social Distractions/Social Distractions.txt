@@ -35,10 +35,6 @@ jkanime.net##[class^="share-count-"]
 ! twitter button
 animedaisuki.moe##li:has(.fa-twitter)
 
-! kickassanime
-! footer share social buttons
-kickassanime.*##.custom-control.custom-switch+ul
-
 ! animeindo
 ! social media widegets
 animeindo.moe##div.ctn_side:has(.textwidget)
