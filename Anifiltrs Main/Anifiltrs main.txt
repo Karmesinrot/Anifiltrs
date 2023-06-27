@@ -118,14 +118,6 @@ mangakatana.com##.sonar-wrapper
 ! empty ad containers
 fanfox.*,mangahere.*##[class*="ad"][style="width:800px;height:90px;"],[style="width: 800px; height: 90px;"], [style^="width:728px;height:90px;"],[style^="width: 728px; height: 90px;"]
 
-! yayanimes
-! empty ads
-yayanimes.net###propaganda2[align="center"]
-! sidebar
-yayanimes.net##[class^="sidebar"]:has-text(Propaganda)
-! comic sans
-yayanimes.net##h1 span, #tituloSidebar span, #tituloComent span, .boxaviso:style(font-family: "Segoe UI", "Calibri",  "Verdana", "Ubuntu" !important)
-
 ! kwik logo
 kwik.cx##.plyr.plyr--paused::after:style(background:none!important)
 kwik.cx##.plyr.plyr--playing::after:style(background:none!important)
