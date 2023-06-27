@@ -43,12 +43,6 @@ mangakakalot.com,manganelo.com,chapmanganato.com##iframe[src^="/ads/"]:not(:has(
 ! Empty ad div between img
 chapmanganato.com##.container-chapter-reader>img+div
 
-! AnimesVision
-! regional shopping ads
-animes.vision###main-content>div:has([href^="https://bit.ly/"])
-! Annoying logo on video
-animes.vision##.jw-logo
-
 ! anime-odcinki
 anime-odcinki.pl##.widget_text:has(center:has(script))
 anime-odcinki.pl##center:has(script)

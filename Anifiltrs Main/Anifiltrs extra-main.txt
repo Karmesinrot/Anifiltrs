@@ -145,3 +145,10 @@ animesup.net##+js(aopw, _pop)
 ! animepiracy wiki
 ! VPN IP
 piracy.moe##+js(no-fetch-if, ip-info)
+
+! AnimesVision
+! regional shopping ads
+animes.vision###main-content>div:has([href^="https://bit.ly/"])
+! Annoying logo on video
+animes.vision##.jw-logo
+
