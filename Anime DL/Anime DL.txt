@@ -11,14 +11,14 @@ sukidesuost.info##+js(aopw, _pop)
 ! Counter copy protection
 ||hikarinoakariost.info/wp-content/plugins/secure-copy-content-protection/*
 ! ads
-hikarinoakariost.info##+js(acis, String.fromCharCode, decodeURIComponent)
+hikarinoakariost.info##+js(acs, String.fromCharCode, decodeURIComponent)
 
 ! anidl
-anidl.org##+js(acis, String.fromCharCode, decodeURIComponent)
+anidl.org##+js(acs, String.fromCharCode, decodeURIComponent)
 
 ! erai-raws.info
 *$script,redirect-rule=noopjs,domain=erai-raws.info
 
 ! mtencodes.blogspot.com
-mtencodes.blogspot.com##+js(acis, String.fromCharCode, charCodeAt)
+mtencodes.blogspot.com##+js(acs, String.fromCharCode, charCodeAt)
 *$script,redirect-rule=noopjs,domain=mtencodes.blogspot.com

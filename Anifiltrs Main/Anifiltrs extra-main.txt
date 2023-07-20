@@ -23,8 +23,8 @@ thewatchcartoononline.tv##.anti-ad
 9anime.vip##.text-center
 
 ! 9animes.io
-9animes.io##+js(acis, Math, zfgloaded)
-9animes.io##+js(acis, document.createElement, 'script')
+9animes.io##+js(acs, Math, zfgloaded)
+9animes.io##+js(acs, document.createElement, 'script')
 9animes.io##[class*="widget"][class$="text-center"]
 ||googletagmanager.com/gtag/$script,redirect=googletagmanager.com/gtm.js,domain=9animes.io
 
@@ -52,7 +52,7 @@ wcostream.com##.alert
 wcostream.com##div[style]:has(.reklam_pve)
 
 ! novelupdates
-novelupdates.com##+js(acis, document.createElement, script)
+novelupdates.com##+js(acs, document.createElement, script)
 *$script,3p,domain=novelupdates.com,denyallow=googleapis.com
 *$script,redirect-rule=noopjs,domain=novelupdates.com
 ! homepage ad containers
@@ -62,13 +62,13 @@ novelupdates.com##div[style]:not([class]):has(:scope>[class^="ad_"])+br
 
 ! animeflv.la
 ! address #30
-animeflv.la##+js(acis, JSON.parse, break;case $.)
-animeflv.la##+js(acis, Math, zfgloaded)
+animeflv.la##+js(acs, JSON.parse, break;case $.)
+animeflv.la##+js(acs, Math, zfgloaded)
 
 ! fake sites
 gogoanime.app,gogoanime.pro##+js(aopr, document.write)
-gogoanimehub.com##+js(acis, Math, zfgloaded)
-gogoanimehub.com##+js(acis, document.createElement, jsc.mgid.com)
+gogoanimehub.com##+js(acs, Math, zfgloaded)
+gogoanimehub.com##+js(acs, document.createElement, jsc.mgid.com)
 ! misleading messages
 gogoanime.app,gogoanime.pro,kissanime.pro##.txtf, .text2
 
@@ -78,7 +78,7 @@ lndb.info###mainheader,.secondarytitle,.subtitle > h2,.secondarytitle > h1:style
 
 ! jnovels
 ! Anti-Adblock
-jnovels.com##+js(acis, jQuery, ai_adb)
+jnovels.com##+js(acs, jQuery, ai_adb)
 
 ! mtlnovel
 *$script,redirect-rule=noopjs,domain=mtlnovel.com
@@ -95,12 +95,12 @@ animesaturn.com##.card-body:has(script):upward(1)
 ! nwanime.tv
 *$script,redirect-rule=noopjs,domain=nwanime.tv
 *$image,redirect-rule=1x1.gif,domain=nwanime.tv
-nwanime.tv##+js(acis, document.createElement, script)
+nwanime.tv##+js(acs, document.createElement, script)
 ! video page ad containers
 nwanime.tv##[style="padding-left: 0px; margin-bottom: 20px;"], [class="row"][style="margin-bottom: 5px; text-align: center;"]
 
 ! darkanime
-darkanime.stream##+js(acis, document.createElement, 'script')
+darkanime.stream##+js(acs, document.createElement, 'script')
 
 ! mangaowl
 ! not currently possible with reader
@@ -116,8 +116,8 @@ readmanhua.net###main-sidebar > .row:has([src="https://readmanhua.net/wp-content
 wuxiaworld.com##[id^=placement]
 
 ! superanimes
-superanimes.org##+js(acis, document.querySelector, ads)
-superanimes.org##+js(acis, String.fromCharCode, pop_ads)
+superanimes.org##+js(acs, document.querySelector, ads)
+superanimes.org##+js(acs, String.fromCharCode, pop_ads)
 ! Publicidade
 superanimes.org##[class^="ads"]
 superanimes.org###lateral > div.conteudoBox:has-text(Publicidade)

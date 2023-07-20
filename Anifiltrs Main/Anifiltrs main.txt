@@ -136,11 +136,11 @@ flamescans.org##.kln, .kln+br, .code-block, [id^=teaser]
 
 ! animeflv
 ! popup ads
-animeflv.net##+js(acis, globalThis, break;case)
+animeflv.net##+js(acs, globalThis, break;case)
 
 ! ADS ---------------------------------------------------------
 ! yourupload
-yourupload.com##+js(acis, String.fromCharCode, decodeURIComponent)
+yourupload.com##+js(acs, String.fromCharCode, decodeURIComponent)
 ! in player button ads
 yourupload.com##div[button="brustcloud"],[button="esited"],[button="roms-get"]
 
@@ -151,7 +151,7 @@ yourupload.com##div[button="brustcloud"],[button="esited"],[button="roms-get"]
 ||gogoanime.*^$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' *.malsync.moe *.gogocdn.net ajax.apimovie.xyz ajax.gogo-load.com check.gogo-play.net *.googleapis.com recaptcha.net *.gstatic.com *.google.com *.googleusercontent.com disqus.com *.disqus.com c.disquscdn.com ; frame-src data: disqus.com gogo-stream.com gogo-play.net gogo-play.tv gogoplay.io vidstreaming.io streamani.net goload.one goload.pro goload.io gogoplay1.com gogoplay2.com gogoplay4.com gogoplay5.com gogohd.net gogohd.pro gembedhd.com playgo1.cc anihdplay.com playtaku.net gotaku1.com *.jwpsrv.com *.streamhd.cc hydrax.net playhydrax.com play.hydracdn.network iamcdn.net freeplayervideo.com storage.googleapis.com gcloud.live www.fembed.com feurl.com embedsito.com fplayer.info fembed-hd.com fembed9hd.com www.google.com accounts.google.com mixdrop.co www.mp4upload.com direct.apus.tech www.yourupload.com streamsb.com streamsb.net sbvideo.net sbembed.com sbembed1.com sbembed2.com sbplay.one sbplay1.com sbplay2.com sbplay2.xyz playersb.com embedsb.com tubesb.com cloudemb.com watchsb.com viewsb.com embed.casa ssbstream.net sbfull.com streamsss.net sbone.pro sbani.pro dood.la dood.to dood.watch dood.ws doodstream.com dood.so dood.sh dood.wf ; media-src * blob: * ; font-src data: * ; img-src data: *
 
 ! bato.to
-bato.to,mangawindow.net##+js(acis, Math, break;case $.)
+bato.to,mangawindow.net##+js(acs, Math, break;case $.)
 *$script,redirect-rule=noopjs,domain=bato.to|mangawindow.net
 
 ! animeid
@@ -176,7 +176,7 @@ manga4life.com##a[href^="https://www.amazon.com/"]
 ||manga4life.com$csp=default-src 'self' 'unsafe-inline' 'unsafe-eval' stackpath.bootstrapcdn.com ajax.cloudflare.com cdn.jsdelivr.net *.googleapis.com www.google.com recaptcha.net *.gstatic.com cdnjs.cloudflare.com *.fontawesome.com; font-src data: * ; img-src data: *
 
 ! tioanime
-tioanime.com##+js(acis, document.getElementsByTagName, 'script')
+tioanime.com##+js(acs, document.getElementsByTagName, 'script')
 *$script,redirect-rule=noopjs,domain=tioanime.com
 
 ! animetribes
@@ -185,10 +185,10 @@ animetribes.ru##+js(nowoif)
 animetribes.ru##[class*="video-holder"]~div[style^="position: absolute; overflow: hidden;"]
 
 ! animedao
-animedao.to##+js(acis, document.createElement, "script")
+animedao.to##+js(acs, document.createElement, "script")
 
 ! mangahub
-mangahub.io##+js(acis, String.fromCharCode, break)
+mangahub.io##+js(acs, String.fromCharCode, break)
 *$script,redirect-rule=noopjs,domain=mangahub.io
 
 ! AnimeOdcinki
@@ -197,8 +197,8 @@ harajuku.pl##+js(aopw, _pop)
 harajuku.pl##+js(popads-dummy)
 
 ! OtakuFR video player
-parisanime.com##+js(acis, JSON.parse, break;case $.)
-parisanime.com##+js(acis, Promise, JSON.parse)
+parisanime.com##+js(acs, JSON.parse, break;case $.)
+parisanime.com##+js(acs, Promise, JSON.parse)
 
 ! HOT FIXES ---------------------------------------------------
 ! animeshouse player AA
@@ -225,15 +225,15 @@ sendvid.net##+js(nowoif)
 !||streamtape.*/ad.js$script,important
 *$script,redirect-rule=noopjs,domain=streamta.pe|streamtape.com|streamtape.net
 ! popups
-scloud.online.stape.*##+js(acis, JSON.parse, break;case $.)
+scloud.online.stape.*##+js(acs, JSON.parse, break;case $.)
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,scloud.online,stape.*,strcloud.*,streamta.*,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.*,strtpe.link##^script:has-text('shift')
-adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,scloud.online,stape.*,strcloud.*,streamta.*,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.*,strtpe.link##+js(acis, String.fromCharCode, 'shift')
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,scloud.online,stape.*,strcloud.*,streamta.*,streamtape.*,streamtapeadblock.art,strtape.*,strtapeadblock.*,strtpe.link##+js(acs, String.fromCharCode, 'shift')
 
 ! trollvid
 mp4.sh##+js(aopr, AaDetector)
 
 ! animexin
-animexinax.com##+js(acis, document.createElement, 'script')
+animexinax.com##+js(acs, document.createElement, 'script')
 
 ! asurascans.com
 *$script,redirect-rule=noopjs,domain=asurascans.com
@@ -243,7 +243,7 @@ asurascans.com##+js(ra, onclick)
 streamhd.cc##+js(aost, Math.random, inlineScript)
 
 ! gogoanime new player
-gogo-play.*##+js(acis, Math, break;case $.)
+gogo-play.*##+js(acs, Math, break;case $.)
 
 ! StreamSB popups
 sbembed.com##+js(aopr, __Y)
@@ -257,12 +257,12 @@ mcloud.to,mcloud2.to,mzcloud.life##+js(ra, data-ad-img|data-ad-target)
 
 ! Mp4Upload
 mp4upload.com##^script:has-text('shift')
-mp4upload.com##+js(acis, String.fromCharCode, 'shift')
+mp4upload.com##+js(acs, String.fromCharCode, 'shift')
 ! Ads when pausing the video
-mp4upload.com##+js(acis, document.getElementById, lay)
+mp4upload.com##+js(acs, document.getElementById, lay)
 
 ! vidstream click-pause ads
 vidstreamz.online,vizcloud.*,vizcloud2.*,vizstream.ru##+js(ra, data-ad-img|data-ad-target)
 
 ! dood popups
-doodstream.com##+js(acis, Object.defineProperty, break;case $.)
+doodstream.com##+js(acs, Object.defineProperty, break;case $.)
