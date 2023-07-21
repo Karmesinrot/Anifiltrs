@@ -12,7 +12,7 @@
 gogoanime.*##div:has-text(We moved site to)
 gogoanime.*##.btn-notice
 ! gogoanime player console
-anihdplay.com,gembedhd.com,gogohd.*,gogoplay4.com,gogoplay5.com,goload.*,gotaku1.com,playgo1.cc,playtaku.net##+js(set, console.clear, undefined)
+anihdplay.com,gembedhd.com,gogoanime3.net,gogoanimehd.to,gogohd.*,gogoplay4.com,gogoplay5.com,goload.*,gotaku1.com,playgo1.cc,playtaku.net##+js(set, console.clear, undefined)
 goload.pro##+js(aopw, console.log)
 ! animesuge DevTools detection
 animesuge.to##+js(set, console.clear, trueFunc)
