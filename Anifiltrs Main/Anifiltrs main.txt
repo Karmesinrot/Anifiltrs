@@ -20,9 +20,9 @@ myanimelist.net##.footer-mini-banner:has(a[href*="campaign"])
 
 ! Gogoanimes Cosmetic filters
 ! background colour
-~gogoanime.app,~gogoanime.pro,animego.*,gogoanime.*,gogoanimes.*##body:style(background-color: #1b1b1b !important;)
+~gogoanime.app,~gogoanime.pro,gogoanime.*,gogoanime3.net,gogoanimehd.to,gogoanimes.*##body:style(background-color: #1b1b1b !important;)
 ! ad containers
-animego.*,gogoanime.*,gogoanimes.*##[class^="anime_video_body"] > div[style="height:250px;overflow:hidden;"], [class^="headnav_center"], #load_ads_2
+gogoanime.*,gogoanime3.net,gogoanimehd.to,gogoanimes.*##[class^="anime_video_body"] > div[style="height:250px;overflow:hidden;"], [class^="headnav_center"], #load_ads_2
 
 ! Turkanime Cosmetic filters
 ! sponsored adframes
