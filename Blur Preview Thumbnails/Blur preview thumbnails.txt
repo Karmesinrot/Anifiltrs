@@ -224,3 +224,6 @@ slwatch.co##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.2))
 
 ! StreamHide
 guccihide.com,javb1.com,streamhide.*##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.25))
+
+! FileLions
+alions.pro,filelions.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
