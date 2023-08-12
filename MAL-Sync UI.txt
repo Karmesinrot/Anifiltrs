@@ -23,7 +23,7 @@ aniwatch.to,megacloud.tv,rapid-cloud.*##+js(set, console.clear, noopFunc)
 aniwatch.to,megacloud.tv,rapid-cloud.*##+js(set, console.log, noopFunc)
 !#endif
 ! console and video player
-9anime.*##+js(set, console.log, undefined)
+aniwave.*##+js(set, console.log, undefined)
 ! site/CDN script affecting players on chrome
 !#if env_chromium
 vidstream.pro,vidstreamz.online##+js(set, console.log, trueFunc)
