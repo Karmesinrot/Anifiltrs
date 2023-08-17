@@ -8,8 +8,8 @@
 ! Aniwave Cosmetic Filters
 ! Formerly 9anime
 ! Cleans up the ui a bit, making it more compact
-animwave.*##^section.adx
-animwave.*##section.adx:remove()
+aniwave.*##^section.adx
+aniwave.*##section.adx:remove()
 
 ! MyAnimeList Cosmetic Filters
 ! Premium memebership «Hide Ads» button
