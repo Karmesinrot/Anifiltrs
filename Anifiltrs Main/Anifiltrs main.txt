@@ -48,11 +48,6 @@ chapmanganato.com##.container-chapter-reader>img+div
 anime-odcinki.pl##.widget_text:has(center:has(script))
 anime-odcinki.pl##center:has(script)
 
-! goyabu
-goyabu.com###warning
-! adb check
-goyabu.com##+js(set, adBlockEnabled, false)
-
 ! shinden.pl
 ! sponsor section
 ! AA detection
