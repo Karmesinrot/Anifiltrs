@@ -5,9 +5,6 @@
 ! Description: Filters for fixing broken favicons, badges, images, and other related things on MAL-Sync
 
 ! MAL-Sync ----------------------------------------------------
-! MAL-Sync API Shark
-! blocked on at least one player; filter on easyprivacy
-@@||api.malsync.moe/shark$ping
 ! Hide obtrusive banner on gogoanime
 gogoanime.*,gogoanime3.net,gogoanimehd.to##div:has-text(We moved site to)
 gogoanime.*,gogoanime3.net,gogoanimehd.to##.btn-notice
