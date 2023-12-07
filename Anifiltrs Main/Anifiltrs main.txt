@@ -120,7 +120,7 @@ kwik.cx##.plyr.plyr--playing::after:style(background:none!important)
 
 ! asurascans
 ! ad containers & unnecessary elements
-asurascans.com##[id^="teaser"], #sidebar>.widget_text.section, .kln, .kln+br, #readerarea>.code-block
+asuratoon.com##[id^="teaser"], #sidebar>.widget_text.section, .kln, .kln+br, #readerarea>.code-block
 
 ! mangajar.com
 ! clean up UI
