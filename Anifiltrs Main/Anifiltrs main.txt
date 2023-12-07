@@ -254,8 +254,5 @@ mp4upload.com##+js(acs, String.fromCharCode, 'shift')
 ! Ads when pausing the video
 mp4upload.com##+js(acs, document.getElementById, lay)
 
-! vidstream click-pause ads
-vidstreamz.online,vizcloud.*,vizcloud2.*,vizstream.ru##+js(ra, data-ad-img|data-ad-target)
-
 ! dood popups
 doodstream.com##+js(acs, Object.defineProperty, break;case $.)
