@@ -238,9 +238,6 @@ asurascans.com##+js(ra, onclick)
 ! streamhd
 streamhd.cc##+js(aost, Math.random, inlineScript)
 
-! gogoanime new player
-gogo-play.*##+js(acs, Math, break;case $.)
-
 ! StreamSB popups
 sbembed.com##+js(aopr, __Y)
 
