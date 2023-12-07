@@ -49,9 +49,9 @@ animesvision.biz##.top-menu > li:has(a[href="https://www.facebook.com/animesvisi
 ! social icons
 dreamsub.stream##.footer-follow
 
-! gogoanime
+! anitaku|gogoanime
 ! share buttons beside title and login/register
-gogoanime.*##.link_face
+anitaku.to,gogoanime.*##.link_face
 
 ! 9anime
 ! twitter, reddit, discord, etc.

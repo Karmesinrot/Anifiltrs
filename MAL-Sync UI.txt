@@ -5,11 +5,11 @@
 ! Description: Filters for fixing broken favicons, badges, images, and other related things on MAL-Sync
 
 ! MAL-Sync ----------------------------------------------------
-! Hide obtrusive banner on gogoanime
-gogoanime.*,gogoanime3.net,gogoanimehd.to##div:has-text(We moved site to)
-gogoanime.*,gogoanime3.net,gogoanimehd.to##.btn-notice
+! Hide obtrusive banner on gogoanime|anitaku
+anitaku.to,gogoanime.*,gogoanime3.net##div:has-text(We moved site to)
+anitaku.to,gogoanime.*,gogoanime3.net##.btn-notice
 ! gogoanime player console
-anihdplay.com,gembedhd.com,gogoanime3.net,gogoanimehd.to,gogohd.*,gogoplay4.com,gogoplay5.com,goload.*,gotaku1.com,playgo1.cc,playtaku.net##+js(set, console.clear, undefined)
+anihdplay.com,anitaku.to,gembedhd.com,gogoanime3.net,gogoanimehd.to,gogohd.*,gogoplay4.com,gogoplay5.com,goload.*,playgo1.cc,playtaku.net##+js(set, console.clear, undefined)
 goload.pro##+js(aopw, console.log)
 ! animesuge DevTools detection
 animesuge.to##+js(set, console.clear, trueFunc)
