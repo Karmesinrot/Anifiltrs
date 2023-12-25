@@ -40,9 +40,9 @@ voiranime.com##[id^=ai_widget]:not(:has([href="https://discord.gg/rvBeeNg"]))
 
 ! mangakakalot, manganelo & manganato
 ! adframes
-mangakakalot.com,manganelo.com,chapmanganato.com##iframe[src^="/ads/"]:not(:has(+img)):upward(1)
+mangakakalot.com,manganelo.com,chapmanganato.*##iframe[src^="/ads/"]:not(:has(+img)):upward(1)
 ! Empty ad div between img
-chapmanganato.com##.container-chapter-reader>img+div
+chapmanganato.*##.container-chapter-reader>img+div
 
 ! anime-odcinki
 anime-odcinki.pl##.widget_text:has(center:has(script))
