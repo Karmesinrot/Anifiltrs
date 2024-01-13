@@ -23,10 +23,10 @@ aniwatch.to,megacloud.tv,rapid-cloud.*##+js(set, console.log, noopFunc)
 aniwave.*##+js(set, console.log, undefined)
 ! site/CDN script affecting players on chrome
 !#if env_chromium
-vidstream.pro,vidstreamz.online##+js(set, console.log, trueFunc)
-vidstream.pro,vidstreamz.online##+js(set, console.clear, trueFunc)
-mcloud.to,mcloud2.to##+js(set, console.log, trueFunc)
-mcloud.to,mcloud2.to##+js(set, console.clear, trueFunc)
+vidplay.*,vidstream.pro,vidstreamz.online##+js(set, console.log, trueFunc)
+vidplay.*,vidstream.pro,vidstreamz.online##+js(set, console.clear, trueFunc)
+mcloud.bz,mcloud.to,mcloud2.to##+js(set, console.log, trueFunc)
+mcloud.bz,mcloud.to,mcloud2.to##+js(set, console.clear, trueFunc)
 !#endif
 ! StreamSB console
 faurl.ga,sbone.pro,sbplay2.*,sbplay2.com,ssbstream.net,streamsss.net,watchsb.com##+js(aopr, console.clear)
