@@ -115,8 +115,8 @@ mangakatana.com##.sonar-wrapper
 fanfox.*,mangahere.*##[class*="ad"][style="width:800px;height:90px;"],[style="width: 800px; height: 90px;"], [style^="width:728px;height:90px;"],[style^="width: 728px; height: 90px;"]
 
 ! kwik logo
-kwik.cx##.plyr.plyr--paused::after:style(background:none!important)
-kwik.cx##.plyr.plyr--playing::after:style(background:none!important)
+kwik.*##.plyr.plyr--paused::after:style(background:none!important)
+kwik.*##.plyr.plyr--playing::after:style(background:none!important)
 
 ! asurascans
 ! ad containers & unnecessary elements
