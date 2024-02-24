@@ -20,7 +20,7 @@ embedsito.com,fembed-hd.com,fembed.com,fembed.net,fembed9hd.com,feurl.com,fplaye
 yourupload.com##.jw-preview.jw-reset:style(filter:blur(8px))
 
 ! kwik
-kwik.cx##.plyr__poster:style(filter:blur(8px)!important;)
+kwik.*##.plyr__poster:style(filter:blur(8px)!important;)
 
 ! ok.ru
 ok.ru##.vid-card_img:style(filter:blur(8px))
