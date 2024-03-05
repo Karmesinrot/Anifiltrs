@@ -23,7 +23,7 @@ myanimelist.net##.footer-mini-banner:has(a[href*="campaign"])
 ! background colour
 anitaku.to,gogoanime.*,gogoanime3.net,gogoanimes.*##body:style(background-color: #1b1b1b !important;)
 ! ad containers
-anitaku.to,gogoanime.*,gogoanime3.net,gogoanimes.*##[class^="anime_video_body"] > div[style="height:250px;overflow:hidden;"], [class^="headnav_center"], #load_ads_2
+anitaku.to,gogoanime.*,gogoanime3.net,gogoanimes.*##[class^="anime_video_body"] div[style*="height:250px;"][style$="overflow:hidden;"], [class^="headnav_center"], #load_ads_2
 
 ! Turkanime Cosmetic filters
 ! sponsored adframes
