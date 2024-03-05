@@ -227,3 +227,6 @@ guccihide.com,javb1.com,streamhide.*##.jw-preview.jw-reset:style(filter:blur(8px
 
 ! FileLions
 alions.pro,filelions.com##.jw-preview.jw-reset:style(filter:blur(8px) saturate(1.5))
+
+! streamwish
+awish.pro##.jw-preview.jw-reset:style(filter:blur(8px))
