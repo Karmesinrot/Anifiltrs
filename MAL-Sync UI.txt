@@ -16,8 +16,8 @@ animesuge.to##+js(set, console.clear, trueFunc)
 animesuge.to##+js(set, console.log, trueFunc)
 ! zoro console clearing and redirect to home page
 !#if !env_chromium
-aniwatch.to,megacloud.tv,rapid-cloud.*##+js(set, console.clear, noopFunc)
-aniwatch.to,megacloud.tv,rapid-cloud.*##+js(set, console.log, noopFunc)
+hianime.to,megacloud.tv,rapid-cloud.*##+js(set, console.clear, noopFunc)
+hianime.to,megacloud.tv,rapid-cloud.*##+js(set, console.log, noopFunc)
 !#endif
 ! console and video player
 aniwave.*##+js(set, console.log, undefined)
