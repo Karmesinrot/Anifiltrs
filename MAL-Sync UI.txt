@@ -6,10 +6,10 @@
 
 ! MAL-Sync ----------------------------------------------------
 ! Hide obtrusive banner on gogoanime|anitaku
-anitaku.to,gogoanime.*,gogoanime3.net##div:has-text(We moved site to)
-anitaku.to,gogoanime.*,gogoanime3.net##.btn-notice
+anitaku.*,gogoanime.*,gogoanime3.net##div:has-text(We moved site to)
+anitaku.*,gogoanime.*,gogoanime3.net##.btn-notice
 ! gogoanime player console
-anihdplay.com,anitaku.to,gembedhd.com,gogoanime3.net,gogoanimehd.to,gogohd.*,gogoplay4.com,gogoplay5.com,goload.*,playgo1.cc,playtaku.net##+js(set, console.clear, undefined)
+anihdplay.com,anitaku.*,gembedhd.com,gogoanime3.net,gogoanimehd.to,gogohd.*,gogoplay4.com,gogoplay5.com,goload.*,playgo1.cc,playtaku.net##+js(set, console.clear, undefined)
 goload.pro##+js(aopw, console.log)
 ! animesuge DevTools detection
 animesuge.to##+js(set, console.clear, trueFunc)

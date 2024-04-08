@@ -51,7 +51,7 @@ dreamsub.stream##.footer-follow
 
 ! anitaku|gogoanime
 ! share buttons beside title and login/register
-anitaku.to,gogoanime.*##.link_face
+anitaku.*,gogoanime.*##.link_face
 
 ! 9anime
 ! twitter, reddit, discord, etc.
